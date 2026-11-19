@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>State AI Policy Tracker</title>
+<meta name="description" content="AI policy activity by Indian state governments: news events for five focus states and policy instruments for every state and union territory.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="page">
+
+<header class="masthead">
+  <p class="overline">India · State AI policy tracker</p>
+  <h1>What Indian states are doing on AI</h1>
+  <p class="lead">News events for five focus states since January 2025, and AI policy instruments for every state and union territory.</p>
+  <p class="meta" id="meta"></p>
+  <p class="rule"><strong>What counts:</strong> a state government body acts on AI: a policy, money, an institution, a deployment, an agreement or a rule. Counts reflect news coverage, not the amount of policy activity.</p>
+  <nav class="jump" aria-label="Sections">
+    <a href="#focus">Focus states</a><a href="#map">All states</a><a href="#kinds">Activity</a><a href="#time">Over time</a><a href="#records">Records</a><a href="#method">Method</a>
+  </nav>
+</header>
+
+<section id="focus" aria-labelledby="h-focus">
+  <div class="section-head">
+    <h2 id="h-focus">Focus states</h2>
+    <p>News events since January 2025. Select a state to filter the records.</p>
+  </div>
+  <div class="cards" id="cards"></div>
+</section>
+
+<section id="map" aria-labelledby="h-map">
+  <div class="section-head">
+    <h2 id="h-map">All states and union territories</h2>
+    <p>Status of a state-wide AI policy, from the policy-instrument dataset. Outlined tiles are the focus states.</p>
+  </div>
+  <div class="map-wrap">
+    <div>
+      <div class="tiles" id="tiles" role="group" aria-label="Tile map of Indian states and union territories"></div>
+      <ul class="legend" id="map-legend"></ul>
+    </div>
+    <aside class="detail" id="map-detail" aria-live="polite"></aside>
+  </div>
+</section>
+
+<section id="kinds" aria-labelledby="h-kinds">
+  <div class="section-head">
+    <h2 id="h-kinds">What kind of activity</h2>
+    <p>News events by state and category. Select a cell to see its records.</p>
+  </div>
+  <div class="scroll-x"><table class="matrix" id="matrix"></table></div>
+</section>
+
+<section id="time" aria-labelledby="h-time">
+  <div class="section-head">
+    <h2 id="h-time">Over time</h2>
+    <p>News events per month, same scale for every state. Marked months had a change of Chief Minister.</p>
+  </div>
+  <div id="multiples" class="multiples"></div>
+</section>
+
+<section id="funnel-section" aria-labelledby="h-funnel">
+  <div class="section-head">
+    <h2 id="h-funnel">How the data was filtered</h2>
+    <p>From every article the searches returned to unique events. Dropped items are kept with their reason.</p>
+  </div>
+  <div id="funnel" class="funnel"></div>
+  <p class="small" id="drops"></p>
+</section>
+
+<section id="records" aria-labelledby="h-records">
+  <div class="section-head">
+    <h2 id="h-records">Records</h2>
+  </div>
+  <div class="tabs" role="tablist">
+    <button role="tab" id="tab-events" aria-selected="true">News events</button>
+    <button role="tab" id="tab-inst" aria-selected="false">Policy instruments</button>
+  </div>
+  <div class="filters" id="filters"></div>
+  <p class="small" id="count"></p>
+  <div class="scroll-x"><table class="records" id="table"></table></div>
+  <button class="more" id="more" hidden>Show more</button>
+</section>
+
+<section id="method" aria-labelledby="h-method">
+  <div class="section-head"><h2 id="h-method">Method</h2></div>
+  <div class="method">
+    <details open>
+      <summary>Sources</summary>
+      <p><strong>News events</strong> come from Google News RSS searches (6 query variants per focus state, run once per quarter so each slice gets its own ~100-item budget). No article text is fetched, so labels and summaries come from the headline.</p>
+      <p><strong>Policy instruments</strong> come from a research snapshot of Acts, policies, missions and guidelines compiled from official sources and press reports (provenance in the README). Union-level records, court instruments and AI-adjacent ones (data-centre, gig-work, general IT policy) are excluded.</p>
+    </details>
+    <details>
+      <summary>Pipeline</summary>
+      <ol>
+        <li><strong>Collect</strong> Google News RSS items for each state, query and quarter.</li>
+        <li><strong>Filter</strong>: keep a headline only if it has an AI term and a state-government signal; drop private-sector and central-government-only news. Every drop keeps its reason.</li>
+        <li><strong>Normalize</strong>: the state comes from the headline, not the query (UP, U.P., Uttar-Pradesh and उत्तर प्रदेश are one state); dates become IST calendar days.</li>
+        <li><strong>Deduplicate</strong>: same state, within 3 days, similar distinctive words; different companies or proposed-vs-done never merge.</li>
+        <li><strong>Classify</strong> category and stage by keyword rules, first match wins.</li>
+      </ol>
+    </details>
+    <details>
+      <summary>Confidence</summary>
+      <p>Confidence measures how well the coverage is corroborated, not whether it is true. <strong>High</strong>: an official source or 3+ outlets. <strong>Medium</strong>: a major outlet or 2 outlets. <strong>Low</strong>: one outlet. Every record carries a note saying why.</p>
+    </details>
+    <details>
+      <summary>Dates</summary>
+      <p>News dates are publication dates in IST, the earliest in each cluster; they approximate, but are not, event dates. Instrument dates are notification or approval dates, shown at day, month or year precision as documented.</p>
+    </details>
+    <details>
+      <summary>Known holes</summary>
+      <p>English headlines only (one Hindi query for Uttar Pradesh); about 100 results per query; no official state portals in the news layer; syndicated wire copy inflates outlet counts; stage is keyword-based. The README lists every known hole and the audited precision.</p>
+    </details>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>Download: <a href="records.csv" download>news events (CSV)</a> · <a href="instruments.csv" download>policy instruments (CSV)</a> · <a href="data.json">all data (JSON)</a></p>
+  <p id="footer-meta"></p>
+</footer>
+
+</div>
+<div class="tip" id="tip" role="tooltip" hidden></div>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
