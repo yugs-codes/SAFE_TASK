@@ -2,6 +2,7 @@
 
 usage:
   python pipeline/audit.py sample   # writes audit/sample_kept.csv, sample_dropped.csv, known_events.csv
+  python pipeline/audit.py label    # local labelling page at http://127.0.0.1:8770 (saves into audit/*.csv)
   python pipeline/audit.py score    # reads the labelled files, writes audit/results.md
 
 Label columns: is_relevant / state_correct / category_correct / same_event / found take y or n.
@@ -107,5 +108,90 @@ def score() -> None:
     log("\n".join(lines))
 
 
+# ---------------------------------------------------------------- labelling page
+LABEL_FILES = {
+    "kept": ("sample_kept.csv", ["is_relevant", "state_correct", "category_correct"]),
+    "dropped": ("sample_dropped.csv", ["is_relevant"]),
+    "pairs": ("dedupe_borderline.csv", ["same_event"]),
+    "known": ("known_events.csv", ["found"]),
+}
+PAIRS_TO_LABEL = 25
+
+
+def _read_csv(path):
+    with path.open(encoding="utf-8-sig", newline="") as f:
+        r = csv.DictReader(f)
+        return list(r.fieldnames or []), list(r)
+
+
+def _write_csv(path, fields, rows):
+    with path.open("w", encoding="utf-8-sig", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=fields, extrasaction="ignore")
+        w.writeheader()
+        w.writerows(rows)
+
+
+def label(port: int = 8770) -> None:
+    import io
+    import json
+    from contextlib import redirect_stderr
+    from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
+
+    def payload() -> dict:
+        files = {}
+        for key, (name, cols) in LABEL_FILES.items():
+            path = AUDIT / name
+            fields, rows = _read_csv(path) if path.exists() else ([], [])
+            files[key] = {"name": name, "fields": fields, "labels": cols, "rows": rows}
+        n = len(files["pairs"]["rows"])
+        files["pairs"]["show"] = sorted(random.Random(SEED).sample(range(n), min(PAIRS_TO_LABEL, n)))
+        with (DATA / "records.csv").open(encoding="utf-8-sig", newline="") as f:
+            records = [{"id": r["id"], "state": r["state"], "date": r["date"], "title": r["title"]} for r in csv.DictReader(f)]
+        return {"files": files, "records": records}
+
+    class Handler(BaseHTTPRequestHandler):
+        def _send(self, code, body, ctype="application/json; charset=utf-8"):
+            data = body if isinstance(body, bytes) else json.dumps(body, ensure_ascii=False).encode("utf-8")
+            self.send_response(code)
+            self.send_header("Content-Type", ctype)
+            self.send_header("Cache-Control", "no-store")
+            self.send_header("Content-Length", str(len(data)))
+            self.end_headers()
+            self.wfile.write(data)
+
+        def do_GET(self):
+            if self.path in ("/", "/index.html"):
+                self._send(200, (AUDIT / "label.html").read_bytes(), "text/html; charset=utf-8")
+            elif self.path == "/api/data":
+                self._send(200, payload())
+            else:
+                self._send(404, {"error": "not found"})
+
+        def do_POST(self):
+            body = json.loads(self.rfile.read(int(self.headers.get("Content-Length", 0))) or b"{}")
+            if self.path == "/api/save":
+                key = body.get("key")
+                if key not in LABEL_FILES:
+                    return self._send(400, {"error": "unknown file"})
+                name, _cols = LABEL_FILES[key]
+                fields = body.get("fields") or []
+                rows = [{k: str(v) for k, v in r.items() if k in fields} for r in body.get("rows", [])]
+                _write_csv(AUDIT / name, fields, rows)
+                return self._send(200, {"saved": name, "rows": len(rows)})
+            if self.path == "/api/score":
+                buf = io.StringIO()
+                with redirect_stderr(buf):
+                    score()
+                return self._send(200, {"text": (AUDIT / "results.md").read_text(encoding="utf-8")})
+            self._send(404, {"error": "not found"})
+
+        def log_message(self, *args):  # keep the console quiet
+            pass
+
+    srv = ThreadingHTTPServer(("127.0.0.1", port), Handler)
+    log(f"labelling page: http://127.0.0.1:{port}  (Ctrl+C to stop)")
+    srv.serve_forever()
+
+
 if __name__ == "__main__":
-    {"sample": sample, "score": score}.get(sys.argv[1] if len(sys.argv) > 1 else "", lambda: log(__doc__))()
+    {"sample": sample, "score": score, "label": label}.get(sys.argv[1] if len(sys.argv) > 1 else "", lambda: log(__doc__))()

@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Audit Labelling</title>
+<style>
+  :root { color-scheme: light; --bg:#fcfcfb; --plane:#f4f3ef; --ink:#0b0b0b; --ink-2:#52514e; --muted:#898781; --grid:#e1e0d9; --axis:#c3c2b7; --accent:#2a78d6; --wash:rgba(42,120,214,.08); --yes:#006300; --no:#d03b3b; }
+  @media (prefers-color-scheme: dark) { :root:where(:not([data-theme="light"])) { color-scheme: dark; --bg:#1a1a19; --plane:#232321; --ink:#f0efec; --ink-2:#c3c2b7; --muted:#898781; --grid:#2c2c2a; --axis:#383835; --accent:#6da7ec; --wash:rgba(57,135,229,.14); --yes:#0ca30c; --no:#e66767; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:14.5px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif; }
+  .page { max-width: 980px; margin: 0 auto; padding: 28px 20px 80px; }
+  h1 { font-size: 24px; margin: 0 0 4px; }
+  .sub { color: var(--muted); margin: 0 0 14px; }
+  a { color: var(--accent); }
+  details.guide { background: var(--plane); border-radius: 8px; padding: 10px 14px; margin-bottom: 16px; }
+  details.guide summary { cursor: pointer; font-weight: 600; }
+  details.guide li { margin: 3px 0; color: var(--ink-2); }
+  kbd { font: 12px ui-monospace, monospace; border: 1px solid var(--axis); border-bottom-width: 2px; border-radius: 4px; padding: 0 4px; }
+  .bar { position: sticky; top: 0; z-index: 2; background: var(--bg); padding: 8px 0; border-bottom: 1px solid var(--grid); display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+  .tab { font: inherit; background: none; border: 1px solid var(--grid); border-radius: 999px; padding: 4px 12px; cursor: pointer; color: var(--ink-2); }
+  .tab[aria-selected="true"] { border-color: var(--ink); color: var(--ink); font-weight: 600; }
+  .spacer { flex: 1; }
+  .status { color: var(--muted); font-size: 12.5px; }
+  .btn { font: inherit; border: 1px solid var(--axis); background: var(--bg); color: var(--ink); border-radius: 8px; padding: 5px 12px; cursor: pointer; }
+  .btn.primary { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+  .row { border: 1px solid var(--grid); border-radius: 10px; padding: 12px 14px; margin-top: 10px; }
+  .row.active { border-color: var(--accent); background: var(--wash); }
+  .row.done { opacity: .72; }
+  .row .num { color: var(--muted); font-size: 12px; font-variant-numeric: tabular-nums; }
+  .row .t { font-weight: 600; }
+  .row .m { color: var(--muted); font-size: 12.5px; }
+  .pair { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 4px; }
+  .labels { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 8px; align-items: center; }
+  .lab { display: flex; gap: 4px; align-items: center; font-size: 13px; color: var(--ink-2); }
+  .yn { font: 600 12.5px system-ui, sans-serif; width: 32px; height: 26px; border-radius: 6px; border: 1px solid var(--axis); background: var(--bg); color: var(--ink-2); cursor: pointer; }
+  .yn.on.y { background: var(--yes); border-color: var(--yes); color: #fff; }
+  .yn.on.n { background: var(--no); border-color: var(--no); color: #fff; }
+  input.note, input.cell, select.cell { font: inherit; font-size: 13px; color: var(--ink); background: var(--bg); border: 1px solid var(--axis); border-radius: 6px; padding: 3px 8px; }
+  input.note { flex: 1 1 220px; min-width: 160px; }
+  .results { white-space: pre-wrap; background: var(--plane); border-radius: 8px; padding: 12px 14px; font: 13px/1.5 ui-monospace, monospace; margin-top: 14px; }
+  table.known { width: 100%; border-collapse: collapse; margin-top: 10px; }
+  table.known td, table.known th { border-bottom: 1px solid var(--grid); padding: 6px 4px; text-align: left; font-size: 13px; vertical-align: top; }
+  .hits li { margin: 4px 0; font-size: 13px; }
+</style>
+</head>
+<body>
+<div class="page">
+  <h1>Audit labelling</h1>
+  <p class="sub">Labels save straight into <code>audit/*.csv</code> as you go. Press Score when done; results go to <code>audit/results.md</code>.</p>
+
+  <details class="guide" open>
+    <summary>How to label (decide the edge cases once, then apply them the same way every time)</summary>
+    <ul>
+      <li><strong>Relevant (y)</strong> = a <em>state government body</em> (department, minister, CM, cabinet, police, state agency/PSU, state-run hospital or university, district administration) <em>acts on AI</em> with a commitment: a policy, money, an institution, a deployment, an agreement or a rule, in that state.</li>
+      <li><strong>Not relevant (n)</strong>: private company news, central schemes with no state partner, speeches or opinions with no commitment, AI mentioned in passing, an individual deepfake crime case.</li>
+      <li><strong>Your calls, pick once:</strong> municipal corporations · AI summits hosted by a state · High Court AI guidelines. Write your choice in the first row's note.</li>
+      <li><strong>State correct</strong>: the state shown is the government that acts. <strong>Category correct</strong>: the label is a reasonable fit (the first rule that matched).</li>
+      <li><strong>Dropped items</strong>: <em>y</em> means it should have been kept (a miss). <strong>Duplicate pairs</strong>: <em>y</em> means both headlines report the same announcement.</li>
+      <li><strong>Known events</strong>: list events you know happened (2 per state, from your own reading or official sites), then search the records and mark found y/n.</li>
+      <li>Keys: <kbd>Y</kbd> / <kbd>N</kbd> fill the next empty label in the highlighted row, <kbd>↓</kbd><kbd>↑</kbd> or <kbd>J</kbd><kbd>K</kbd> move, <kbd>U</kbd> clears the row, <kbd>O</kbd> opens the article.</li>
+    </ul>
+  </details>
+
+  <div class="bar" role="tablist" id="bar"></div>
+  <div id="list"></div>
+  <div class="results" id="results" hidden></div>
+</div>
+<script>
+(() => {
+  const $ = (s) => document.querySelector(s);
+  function el(tag, attrs = {}, ...kids) {
+    const n = document.createElement(tag);
+    for (const [k, v] of Object.entries(attrs)) {
+      if (v == null || v === false) continue;
+      if (k === "class") n.className = v;
+      else if (k.startsWith("on")) n.addEventListener(k.slice(2), v);
+      else n.setAttribute(k, v === true ? "" : v);
+    }
+    for (const k of kids.flat()) if (k != null && k !== false) n.append(k instanceof Node ? k : String(k));
+    return n;
+  }
+  const TABS = [["kept", "Kept events"], ["dropped", "Dropped items"], ["pairs", "Duplicate pairs"], ["known", "Known events"]];
+  const LABEL_NAMES = { is_relevant: "Relevant?", state_correct: "State right?", category_correct: "Category right?", same_event: "Same event?", found: "Found?" };
+  const FOCUS = ["Karnataka", "Telangana", "Tamil Nadu", "Uttar Pradesh", "Odisha"];
+  let D, tab = "kept", active = 0, saveTimer = null;
+  const status = el("span", { class: "status" }, "");
+
+  const visible = (key) => key === "pairs" ? D.files.pairs.show.map((i) => D.files.pairs.rows[i]) : D.files[key].rows;
+  const val = (r, c) => (r[c] || "").trim().toLowerCase();
+  const rowDone = (key, r) => D.files[key].labels.every((c) => ["y", "n"].includes(val(r, c)));
+  const progress = (key) => { const rs = visible(key); return `${rs.filter((r) => rowDone(key, r)).length}/${rs.length}`; };
+
+  function save(key) {
+    clearTimeout(saveTimer);
+    status.textContent = "Saving…";
+    saveTimer = setTimeout(async () => {
+      const f = D.files[key];
+      const res = await fetch("/api/save", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ key, fields: f.fields, rows: f.rows }) });
+      status.textContent = res.ok ? `Saved ${f.name} · ${new Date().toLocaleTimeString()}` : "Save failed";
+      renderBar();
+    }, 250);
+  }
+  function setLabel(key, r, col, v) { r[col] = r[col] === v ? "" : v; save(key); renderList(false); }
+
+  function renderBar() {
+    $("#bar").replaceChildren(
+      ...TABS.map(([k, name]) => el("button", { class: "tab", role: "tab", "aria-selected": String(tab === k), onclick: () => { tab = k; active = 0; renderAll(); } }, `${name} ${progress(k)}`)),
+      el("span", { class: "spacer" }), status,
+      el("button", { class: "btn primary", onclick: scoreNow }, "Score"),
+    );
+  }
+
+  function labelButtons(key, r) {
+    return D.files[key].labels.map((c) => el("span", { class: "lab" }, LABEL_NAMES[c] || c,
+      ...["y", "n"].map((v) => el("button", { class: `yn ${v}${val(r, c) === v ? " on" : ""}`, title: `${c} = ${v}`, onclick: (e) => { e.stopPropagation(); setLabel(key, r, c, v); } }, v.toUpperCase()))));
+  }
+  function noteInput(key, r) {
+    if (!D.files[key].fields.includes("note")) return null;
+    return el("input", { class: "note", placeholder: "note (optional)", value: r.note || "", onclick: (e) => e.stopPropagation(), oninput: (e) => { r.note = e.target.value; save(key); } });
+  }
+
+  function card(key, r, i) {
+    const body = [];
+    if (key === "kept") {
+      body.push(el("div", { class: "t" }, el("a", { href: r.url, target: "_blank", rel: "noopener" }, r.title)),
+        el("div", { class: "m" }, `${r.state} · ${r.date} · category: ${r.category} · stage: ${r.stage} · id ${r.id}`));
+    } else if (key === "dropped") {
+      body.push(el("div", { class: "t" }, el("a", { href: r.url, target: "_blank", rel: "noopener" }, r.title)),
+        el("div", { class: "m" }, `dropped as: ${r.reason} · found by the ${r.query_state} queries`));
+    } else {
+      body.push(el("div", { class: "m" }, `${r.state} · similarity ${r.score} · ${r.note}`),
+        el("div", { class: "pair" }, el("div", {}, el("div", { class: "m" }, r.date_a), r.title_a), el("div", {}, el("div", { class: "m" }, r.date_b), r.title_b)));
+    }
+    return el("div", { class: `row${i === active ? " active" : ""}${rowDone(key, r) ? " done" : ""}`, onclick: () => { active = i; renderList(false); } },
+      el("div", { class: "num" }, `#${i + 1}`), ...body, el("div", { class: "labels" }, ...labelButtons(key, r), noteInput(key, r)));
+  }
+
+  function knownView() {
+    const f = D.files.known;
+    if (!f.fields.length) f.fields = ["state", "event", "date", "found", "record_id"];
+    let pick = 0;
+    const hits = el("ul", { class: "hits" });
+    const search = el("input", { class: "cell", placeholder: "Search news records to check an event…", style: "width:100%;margin-top:14px" });
+    search.addEventListener("input", () => {
+      const q = search.value.trim().toLowerCase();
+      const res = q.length < 3 ? [] : D.records.filter((r) => r.title.toLowerCase().includes(q)).slice(0, 10);
+      hits.replaceChildren(...res.map((r) => el("li", {}, `${r.date} · ${r.state} · ${r.title} `,
+        el("button", { class: "btn", onclick: () => { const row = f.rows[pick]; if (!row) return; row.record_id = r.id; row.found = "y"; save("known"); draw(); } }, "Mark found for selected row"))));
+    });
+    const table = el("table", { class: "known" });
+    function draw() {
+      table.replaceChildren(el("tr", {}, ...["", "State", "Event", "Date", "Found?", "Record id"].map((h) => el("th", {}, h))),
+        ...f.rows.map((r, i) => el("tr", {},
+          el("td", {}, el("input", { type: "radio", name: "pick", checked: i === pick, onchange: () => { pick = i; } })),
+          el("td", {}, el("select", { class: "cell", onchange: (e) => { r.state = e.target.value; save("known"); } }, el("option", { value: "" }, "—"), ...FOCUS.map((s) => el("option", { value: s, selected: r.state === s }, s)))),
+          el("td", {}, el("input", { class: "cell", value: r.event || "", style: "width:100%", oninput: (e) => { r.event = e.target.value; save("known"); } })),
+          el("td", {}, el("input", { class: "cell", value: r.date || "", placeholder: "YYYY-MM-DD", size: 10, oninput: (e) => { r.date = e.target.value; save("known"); } })),
+          el("td", {}, ...["y", "n"].map((v) => el("button", { class: `yn ${v}${val(r, "found") === v ? " on" : ""}`, onclick: () => { r.found = r.found === v ? "" : v; save("known"); draw(); } }, v.toUpperCase()))),
+          el("td", { class: "m" }, r.record_id || ""))));
+    }
+    draw();
+    return el("div", {},
+      el("p", { class: "m" }, "Aim for 2 events per state that you know happened, found without looking at this dataset first."),
+      table,
+      el("button", { class: "btn", style: "margin-top:8px", onclick: () => { f.rows.push({ state: "", event: "", date: "", found: "", record_id: "" }); pick = f.rows.length - 1; save("known"); draw(); } }, "Add event"),
+      search, hits);
+  }
+
+  function renderList(scroll = true) {
+    const list = $("#list");
+    if (tab === "known") { list.replaceChildren(knownView()); return; }
+    const rows = visible(tab);
+    list.replaceChildren(...rows.map((r, i) => card(tab, r, i)));
+    const a = list.children[active];
+    if (scroll && a) a.scrollIntoView({ block: "nearest" });
+  }
+  function renderAll() { renderBar(); renderList(); }
+
+  async function scoreNow() {
+    const res = await fetch("/api/score", { method: "POST", body: "{}" });
+    const out = await res.json();
+    const box = $("#results");
+    box.hidden = false;
+    box.textContent = out.text;
+    box.scrollIntoView({ behavior: "smooth" });
+  }
+
+  document.addEventListener("keydown", (e) => {
+    if (tab === "known" || ["INPUT", "SELECT", "TEXTAREA"].includes(document.activeElement.tagName)) return;
+    const rows = visible(tab);
+    const r = rows[active];
+    const k = e.key.toLowerCase();
+    if (k === "j" || e.key === "ArrowDown") { active = Math.min(rows.length - 1, active + 1); renderList(); e.preventDefault(); }
+    else if (k === "k" || e.key === "ArrowUp") { active = Math.max(0, active - 1); renderList(); e.preventDefault(); }
+    else if (r && (k === "y" || k === "n")) {
+      const col = D.files[tab].labels.find((c) => !["y", "n"].includes(val(r, c)));
+      if (!col) return;
+      r[col] = k;
+      save(tab);
+      if (rowDone(tab, r) && active < rows.length - 1) active += 1;
+      renderList();
+    } else if (r && k === "u") { D.files[tab].labels.forEach((c) => (r[c] = "")); save(tab); renderList(); }
+    else if (r && k === "o" && r.url) { window.open(r.url, "_blank", "noopener"); }
+  });
+
+  history.scrollRestoration = "manual";
+  fetch("/api/data").then((r) => r.json()).then((d) => { D = d; renderAll(); window.scrollTo(0, 0); });
+})();
+</script>
+</body>
+</html>

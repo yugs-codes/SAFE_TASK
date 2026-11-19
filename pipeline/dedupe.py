@@ -160,6 +160,13 @@ def run() -> None:
     lines.append("")
     seen = set()
     AUDIT.mkdir(exist_ok=True)
+    # Keep hand labels from the previous file, keyed by the pair of titles.
+    old_labels = {}
+    if (AUDIT / "dedupe_borderline.csv").exists():
+        with (AUDIT / "dedupe_borderline.csv").open(encoding="utf-8-sig", newline="") as f:
+            for r in csv.DictReader(f):
+                if (r.get("same_event") or "").strip():
+                    old_labels[frozenset((r["title_a"], r["title_b"]))] = r["same_event"].strip()
     with (AUDIT / "dedupe_borderline.csv").open("w", encoding="utf-8-sig", newline="") as f:
         w = csv.writer(f)
         w.writerow(["score", "note", "state", "date_a", "title_a", "date_b", "title_b", "same_event"])
@@ -169,7 +176,8 @@ def run() -> None:
                 continue
             seen.add(key)
             lines.append(f'REVIEW ({score:.0f}, {note}): "{a["title"]}"  ~  "{m["title"]}"')
-            w.writerow([f"{score:.0f}", note, a["state"], a["date"], a["title"], m["date"], m["title"], ""])
+            w.writerow([f"{score:.0f}", note, a["state"], a["date"], a["title"], m["date"], m["title"],
+                        old_labels.get(frozenset((a["title"], m["title"])), "")])
     (DATA / "dedupe_report.txt").write_text("\n".join(lines) + "\n", encoding="utf-8", newline="\n")
 
     update_stats("dedupe", {
