@@ -1,0 +1,3 @@
+{
+  "_how": "Hand corrections keyed by record id, applied after classification. Each needs a reason. Example: {\"a1b2c3d4e5\": {\"reason\": \"Private hospital, not a state body (audit)\", \"drop\": true}} or {\"reason\": \"...\", \"set\": {\"category\": \"skilling\"}}"
+}

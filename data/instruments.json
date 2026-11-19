@@ -1,0 +1,4116 @@
+{
+  "provenance": "Research snapshot v2026.11.19 (data/instruments/source)",
+  "levels": {
+    "3": "AI policy adopted",
+    "2": "AI policy drafted or announced",
+    "1": "Other AI measures only",
+    "0": "Nothing found"
+  },
+  "states": [
+    {
+      "code": "AP",
+      "name": "Andhra Pradesh",
+      "type": "state",
+      "tile": [
+        3,
+        6
+      ],
+      "level": 3,
+      "level_label": "AI policy adopted",
+      "headline_instrument": "Andhra Pradesh Robotics and Physical AI Policy 2026-36",
+      "instruments": 6,
+      "focus": false
+    },
+    {
+      "code": "AR",
+      "name": "Arunachal Pradesh",
+      "type": "state",
+      "tile": [
+        6,
+        3
+      ],
+      "level": 1,
+      "level_label": "Other AI measures only",
+      "headline_instrument": "Arunachal Pradesh AI Centre of Excellence at NIT Arunachal Pradesh (SCITeG-NIT MoU)",
+      "instruments": 3,
+      "focus": false
+    },
+    {
+      "code": "AS",
+      "name": "Assam",
+      "type": "state",
+      "tile": [
+        5,
+        4
+      ],
+      "level": 2,
+      "level_label": "AI policy drafted or announced",
+      "headline_instrument": "Assam AI-IT Policy 2025 (proposed)",
+      "instruments": 3,
+      "focus": false
+    },
+    {
+      "code": "BR",
+      "name": "Bihar",
+      "type": "state",
+      "tile": [
+        4,
+        3
+      ],
+      "level": 3,
+      "level_label": "AI policy adopted",
+      "headline_instrument": "Bihar Artificial Intelligence Policy 2026",
+      "instruments": 2,
+      "focus": false
+    },
+    {
+      "code": "CG",
+      "name": "Chhattisgarh",
+      "type": "state",
+      "tile": [
+        2,
+        4
+      ],
+      "level": 3,
+      "level_label": "AI policy adopted",
+      "headline_instrument": "Chhattisgarh AI Mission",
+      "instruments": 3,
+      "focus": false
+    },
+    {
+      "code": "GA",
+      "name": "Goa",
+      "type": "state",
+      "tile": [
+        1,
+        6
+      ],
+      "level": 3,
+      "level_label": "AI policy adopted",
+      "headline_instrument": "Goa Artificial Intelligence Policy 2026 (2026-29)",
+      "instruments": 2,
+      "focus": false
+    },
+    {
+      "code": "GJ",
+      "name": "Gujarat",
+      "type": "state",
+      "tile": [
+        0,
+        4
+      ],
+      "level": 3,
+      "level_label": "AI policy adopted",
+      "headline_instrument": "Action Plan for Implementation of Artificial Intelligence 2025-2030",
+      "instruments": 6,
+      "focus": false
+    },
+    {
+      "code": "HR",
+      "name": "Haryana",
+      "type": "state",
+      "tile": [
+        3,
+        2
+      ],
+      "level": 3,
+      "level_label": "AI policy adopted",
+      "headline_instrument": "Haryana IT/ITeS, AI and Emerging Technologies Policy 2026",
+      "instruments": 4,
+      "focus": false
+    },
+    {
+      "code": "HP",
+      "name": "Himachal Pradesh",
+      "type": "state",
+      "tile": [
+        3,
+        1
+      ],
+      "level": 1,
+      "level_label": "Other AI measures only",
+      "headline_instrument": "Himachal Pradesh State Innovation Policy",
+      "instruments": 2,
+      "focus": false
+    },
+    {
+      "code": "JH",
+      "name": "Jharkhand",
+      "type": "state",
+      "tile": [
+        3,
+        4
+      ],
+      "level": 2,
+      "level_label": "AI policy drafted or announced",
+      "headline_instrument": "Jharkhand Artificial Intelligence Policy, 2026 (Draft)",
+      "instruments": 2,
+      "focus": false
+    },
+    {
+      "code": "KA",
+      "name": "Karnataka",
+      "type": "state",
+      "tile": [
+        2,
+        6
+      ],
+      "level": 2,
+      "level_label": "AI policy drafted or announced",
+      "headline_instrument": "Karnataka AI Policy, AI University and Class VI AI curriculum (announcement)",
+      "instruments": 8,
+      "focus": true
+    },
+    {
+      "code": "KL",
+      "name": "Kerala",
+      "type": "state",
+      "tile": [
+        2,
+        7
+      ],
+      "level": 2,
+      "level_label": "AI policy drafted or announced",
+      "headline_instrument": "Kerala AI Mission (under IT Policy 2026)",
+      "instruments": 8,
+      "focus": false
+    },
+    {
+      "code": "MP",
+      "name": "Madhya Pradesh",
+      "type": "state",
+      "tile": [
+        1,
+        4
+      ],
+      "level": 2,
+      "level_label": "AI policy drafted or announced",
+      "headline_instrument": "Madhya Pradesh State AI Mission",
+      "instruments": 3,
+      "focus": false
+    },
+    {
+      "code": "MH",
+      "name": "Maharashtra",
+      "type": "state",
+      "tile": [
+        1,
+        5
+      ],
+      "level": 3,
+      "level_label": "AI policy adopted",
+      "headline_instrument": "Maharashtra Artificial Intelligence Policy 2026 and implementation committees",
+      "instruments": 4,
+      "focus": false
+    },
+    {
+      "code": "MN",
+      "name": "Manipur",
+      "type": "state",
+      "tile": [
+        6,
+        5
+      ],
+      "level": 1,
+      "level_label": "Other AI measures only",
+      "headline_instrument": "MoU between Digital India BHASHINI Division and Government of Manipur on multilingual AI",
+      "instruments": 3,
+      "focus": false
+    },
+    {
+      "code": "ML",
+      "name": "Meghalaya",
+      "type": "state",
+      "tile": [
+        5,
+        5
+      ],
+      "level": 2,
+      "level_label": "AI policy drafted or announced",
+      "headline_instrument": "Meghalaya IT & ITeS Policy 2.0 (under drafting; AI and GCC focus)",
+      "instruments": 3,
+      "focus": false
+    },
+    {
+      "code": "MZ",
+      "name": "Mizoram",
+      "type": "state",
+      "tile": [
+        6,
+        6
+      ],
+      "level": 1,
+      "level_label": "Other AI measures only",
+      "headline_instrument": "Precautionary Guidelines regarding the use of AI Tools and Engagement with AI Service Providers by Government Departments",
+      "instruments": 1,
+      "focus": false
+    },
+    {
+      "code": "NL",
+      "name": "Nagaland",
+      "type": "state",
+      "tile": [
+        6,
+        4
+      ],
+      "level": 2,
+      "level_label": "AI policy drafted or announced",
+      "headline_instrument": "Nagaland AI readiness assessment and 24-month AI-in-governance roadmap (Nagaland Science Mission with AIMA)",
+      "instruments": 2,
+      "focus": false
+    },
+    {
+      "code": "OD",
+      "name": "Odisha",
+      "type": "state",
+      "tile": [
+        3,
+        5
+      ],
+      "level": 3,
+      "level_label": "AI policy adopted",
+      "headline_instrument": "Odisha Artificial Intelligence Policy-2025",
+      "instruments": 7,
+      "focus": true
+    },
+    {
+      "code": "PB",
+      "name": "Punjab",
+      "type": "state",
+      "tile": [
+        2,
+        1
+      ],
+      "level": 1,
+      "level_label": "Other AI measures only",
+      "headline_instrument": "Punjab plan to integrate AI across departments and develop Mohali as AI hub",
+      "instruments": 1,
+      "focus": false
+    },
+    {
+      "code": "RJ",
+      "name": "Rajasthan",
+      "type": "state",
+      "tile": [
+        1,
+        3
+      ],
+      "level": 3,
+      "level_label": "AI policy adopted",
+      "headline_instrument": "Rajasthan Artificial Intelligence and Machine Learning (AI-ML) Policy 2026",
+      "instruments": 3,
+      "focus": false
+    },
+    {
+      "code": "SK",
+      "name": "Sikkim",
+      "type": "state",
+      "tile": [
+        5,
+        3
+      ],
+      "level": 2,
+      "level_label": "AI policy drafted or announced",
+      "headline_instrument": "Sikkim AI Policy 2025 (Draft) - A Framework for Responsible and Sustainable Digital Transformation",
+      "instruments": 4,
+      "focus": false
+    },
+    {
+      "code": "TN",
+      "name": "Tamil Nadu",
+      "type": "state",
+      "tile": [
+        3,
+        7
+      ],
+      "level": 3,
+      "level_label": "AI policy adopted",
+      "headline_instrument": "Tamil Nadu Artificial Intelligence Mission (TNAIM)",
+      "instruments": 12,
+      "focus": true
+    },
+    {
+      "code": "TG",
+      "name": "Telangana",
+      "type": "state",
+      "tile": [
+        2,
+        5
+      ],
+      "level": 3,
+      "level_label": "AI policy adopted",
+      "headline_instrument": "AI-Powered Telangana: Strategy Document and Implementation Roadmap",
+      "instruments": 7,
+      "focus": true
+    },
+    {
+      "code": "TR",
+      "name": "Tripura",
+      "type": "state",
+      "tile": [
+        5,
+        6
+      ],
+      "level": 2,
+      "level_label": "AI policy drafted or announced",
+      "headline_instrument": "Tripura State AI Policy (announced; under preparation)",
+      "instruments": 2,
+      "focus": false
+    },
+    {
+      "code": "UP",
+      "name": "Uttar Pradesh",
+      "type": "state",
+      "tile": [
+        3,
+        3
+      ],
+      "level": 3,
+      "level_label": "AI policy adopted",
+      "headline_instrument": "Uttar Pradesh Artificial Intelligence Mission (UP-AIM)",
+      "instruments": 7,
+      "focus": true
+    },
+    {
+      "code": "UK",
+      "name": "Uttarakhand",
+      "type": "state",
+      "tile": [
+        4,
+        2
+      ],
+      "level": 2,
+      "level_label": "AI policy drafted or announced",
+      "headline_instrument": "Uttarakhand AI Mission",
+      "instruments": 1,
+      "focus": false
+    },
+    {
+      "code": "WB",
+      "name": "West Bengal",
+      "type": "state",
+      "tile": [
+        4,
+        4
+      ],
+      "level": 2,
+      "level_label": "AI policy drafted or announced",
+      "headline_instrument": "West Bengal 'AI Impact Mission' and GCC policy (Budget 2026-27 announcement)",
+      "instruments": 4,
+      "focus": false
+    },
+    {
+      "code": "AN",
+      "name": "Andaman & Nicobar Islands",
+      "type": "ut",
+      "tile": [
+        6,
+        7
+      ],
+      "level": 0,
+      "level_label": "Nothing found",
+      "headline_instrument": "",
+      "instruments": 0,
+      "focus": false
+    },
+    {
+      "code": "CH",
+      "name": "Chandigarh",
+      "type": "ut",
+      "tile": [
+        2,
+        2
+      ],
+      "level": 1,
+      "level_label": "Other AI measures only",
+      "headline_instrument": "Chandigarh hub for AI innovation and governance (planned)",
+      "instruments": 1,
+      "focus": false
+    },
+    {
+      "code": "DH",
+      "name": "Dadra & Nagar Haveli and Daman & Diu",
+      "type": "ut",
+      "tile": [
+        0,
+        5
+      ],
+      "level": 1,
+      "level_label": "Other AI measures only",
+      "headline_instrument": "IndiaAI Data Lab / AI Centre of Excellence, Government Polytechnic College, Daman",
+      "instruments": 2,
+      "focus": false
+    },
+    {
+      "code": "DL",
+      "name": "Delhi",
+      "type": "ut",
+      "tile": [
+        2,
+        3
+      ],
+      "level": 1,
+      "level_label": "Other AI measures only",
+      "headline_instrument": "Delhi government AI and emerging-technology training programme for officials",
+      "instruments": 3,
+      "focus": false
+    },
+    {
+      "code": "JK",
+      "name": "Jammu & Kashmir",
+      "type": "ut",
+      "tile": [
+        3,
+        0
+      ],
+      "level": 2,
+      "level_label": "AI policy drafted or announced",
+      "headline_instrument": "Jammu & Kashmir Artificial Intelligence Mission (JK-AIM)",
+      "instruments": 3,
+      "focus": false
+    },
+    {
+      "code": "LA",
+      "name": "Ladakh",
+      "type": "ut",
+      "tile": [
+        4,
+        0
+      ],
+      "level": 2,
+      "level_label": "AI policy drafted or announced",
+      "headline_instrument": "Ladakh AI Roadmap",
+      "instruments": 1,
+      "focus": false
+    },
+    {
+      "code": "LD",
+      "name": "Lakshadweep",
+      "type": "ut",
+      "tile": [
+        0,
+        7
+      ],
+      "level": 0,
+      "level_label": "Nothing found",
+      "headline_instrument": "",
+      "instruments": 0,
+      "focus": false
+    },
+    {
+      "code": "PY",
+      "name": "Puducherry",
+      "type": "ut",
+      "tile": [
+        4,
+        7
+      ],
+      "level": 0,
+      "level_label": "Nothing found",
+      "headline_instrument": "",
+      "instruments": 0,
+      "focus": false
+    }
+  ],
+  "instruments": [
+    {
+      "id": "ap-data-centre-policy-4-0-2024-29",
+      "state_code": "AP",
+      "state": "Andhra Pradesh",
+      "title": "Andhra Pradesh Data Center Policy 4.0 (2024-29)",
+      "type": "policy",
+      "status": "in-force",
+      "status_group": "adopted",
+      "is_ai_policy": false,
+      "binding": "non-binding",
+      "issuing_body": "ITE&C Department, Government of Andhra Pradesh (G.O. Ms. No. 6)",
+      "date": "2024-11-14",
+      "date_precision": "day",
+      "summary": "Incentive policy for data centres up to 1 GW, now the vehicle for a pipeline of AI data centres on the Visakhapatnam coast anchored by Google's hub.",
+      "timeline": [
+        {
+          "date": "2024-11-14",
+          "event": "G.O. Ms. No. 6 issued"
+        },
+        {
+          "date": "2026-11-10",
+          "event": "Cabinet approves AI data centre projects (AM Intelligence ₹31,387 crore/512 MW; Reliance Bhogapuram; Epack ₹570.20 crore)"
+        }
+      ],
+      "source_url": "https://www.investindia.gov.in/state/andhra-pradesh",
+      "source_type": "official",
+      "confidence": "medium",
+      "confidence_note": "GO reference from Invest India; incentives from a secondary guide; PDF not readable (403)."
+    },
+    {
+      "id": "ap-it-gcc-policy-4-0-2024-29",
+      "state_code": "AP",
+      "state": "Andhra Pradesh",
+      "title": "Andhra Pradesh Information Technology & Global Capability Centres Policy 4.0 (2024-29)",
+      "type": "policy",
+      "status": "in-force",
+      "status_group": "adopted",
+      "is_ai_policy": false,
+      "binding": "non-binding",
+      "issuing_body": "Information Technology, Electronics and Communications Department, Government of Andhra Pradesh (G.O. Ms. No. 9)",
+      "date": "2024-12-12",
+      "date_precision": "day",
+      "summary": "Five-year IT and GCC incentive policy for Andhra Pradesh; the state's principal IT instrument and the closest thing to an AI policy before the 2026 robotics/physical-AI policy. AI provisions not verified from the text.",
+      "timeline": [
+        {
+          "date": "2024-12-12",
+          "event": "G.O. Ms. No. 9 issued"
+        }
+      ],
+      "source_url": "https://www.investindia.gov.in/state/andhra-pradesh",
+      "source_type": "official",
+      "confidence": "medium",
+      "confidence_note": "GO number and date from Invest India (Government of India portal) listing; policy text not read."
+    },
+    {
+      "id": "ap-amaravati-quantum-valley-2025",
+      "state_code": "AP",
+      "state": "Andhra Pradesh",
+      "title": "Amaravati Quantum Valley",
+      "type": "institution",
+      "status": "adopted",
+      "status_group": "adopted",
+      "is_ai_policy": false,
+      "binding": "non-binding",
+      "issuing_body": "Government of Andhra Pradesh (ITE&C / Real Time Governance) with IBM, TCS and L&T",
+      "date": "2025-05-04",
+      "date_precision": "day",
+      "summary": "State-backed quantum computing park in Amaravati hosting a 156-qubit IBM system, positioned as compute infrastructure for AI and quantum research.",
+      "timeline": [
+        {
+          "date": "2025-03-01",
+          "event": "Plan announced"
+        },
+        {
+          "date": "2025-05-04",
+          "event": "MoU signed with IBM, TCS and L&T"
+        },
+        {
+          "date": "2026-02-07",
+          "event": "Foundation stone laid by Union Minister Jitendra Singh and CM Naidu (reported)"
+        },
+        {
+          "date": "2026-06-18",
+          "event": "Quantum Incubator (CUBI) with Chandigarh University announced"
+        },
+        {
+          "date": "2027-01-01",
+          "event": "Targeted operational date"
+        }
+      ],
+      "source_url": "https://www.newsonair.gov.in/?s=Amaravati+quantum",
+      "source_type": "press-release",
+      "confidence": "medium",
+      "confidence_note": "Dates from Wikipedia and public broadcaster reports; no GO text retrieved."
+    },
+    {
+      "id": "ap-ai-impact-summit-mous-2026",
+      "state_code": "AP",
+      "state": "Andhra Pradesh",
+      "title": "Andhra Pradesh AI and Quantum ecosystem agreements (India AI Impact Summit)",
+      "type": "other",
+      "status": "announced",
+      "status_group": "in_progress",
+      "is_ai_policy": false,
+      "binding": "non-binding",
+      "issuing_body": "Government of Andhra Pradesh (ITE&C Department)",
+      "date": "2026-02-20",
+      "date_precision": "day",
+      "summary": "Set of seven agreements that create public programmes: a UN-linked AI/quantum centre of excellence, a state AI tech hub and AI academies in 50 public higher-education institutions, plus AI skilling and a proposed AI University.",
+      "timeline": [
+        {
+          "date": "2026-02-20",
+          "event": "Seven MoUs signed in New Delhi in the presence of CM Naidu"
+        }
+      ],
+      "source_url": "https://www.newsonair.gov.in/andhra-pradesh-signs-seven-mous-to-boost-ai-and-quantum-ecosystem-development",
+      "source_type": "press-release",
+      "confidence": "medium",
+      "confidence_note": "Included because the agreements establish programmes in public institutions; AI University remains an announcement without instrument."
+    },
+    {
+      "id": "ap-ai-skilling-50-lakh-curriculum-2026",
+      "state_code": "AP",
+      "state": "Andhra Pradesh",
+      "title": "Andhra Pradesh AI skills plan for 50 lakh students and youth; AI in Class 6 syllabus",
+      "type": "curriculum",
+      "status": "announced",
+      "status_group": "in_progress",
+      "is_ai_policy": false,
+      "binding": "non-binding",
+      "issuing_body": "School Education, Higher Education and Skill Development Departments, Government of Andhra Pradesh",
+      "date": "2026-10-01",
+      "date_precision": "month",
+      "summary": "Plan to give AI skills to 50 lakh learners across school, intermediate, polytechnic, degree and unemployed-youth cohorts, with AI entering the Class 6 syllabus and eight AI credits in degree programmes.",
+      "timeline": [
+        {
+          "date": "2026-10-01",
+          "event": "CM announces 50-lakh AI skilling target as AP's share of a national one-crore goal"
+        },
+        {
+          "date": "2026-11-07",
+          "event": "Education Department details cohorts, Class 6 syllabus revision and teacher training"
+        }
+      ],
+      "source_url": "https://digitallearning.eletsonline.com/2026/11/andhra-pradesh-ai-skills/",
+      "source_type": "news",
+      "confidence": "medium",
+      "confidence_note": "Two Elets reports; no GO or syllabus notification located."
+    },
+    {
+      "id": "ap-robotics-physical-ai-policy-2026-36",
+      "state_code": "AP",
+      "state": "Andhra Pradesh",
+      "title": "Andhra Pradesh Robotics and Physical AI Policy 2026-36",
+      "type": "policy",
+      "status": "adopted",
+      "status_group": "adopted",
+      "is_ai_policy": true,
+      "binding": "non-binding",
+      "issuing_body": "Government of Andhra Pradesh (Cabinet; Industries / ITE&C Departments)",
+      "date": "2026-11-10",
+      "date_precision": "day",
+      "summary": "A ten-year Andhra Pradesh policy to build a manufacturing-led robotics and physical-AI ecosystem, anchored by a 300-acre Robotics and Advanced Technology Park at Gudipalli, with incentives for components, platforms, R&D and talent.",
+      "timeline": [
+        {
+          "date": "2026-11-10",
+          "event": "Cabinet clears policy frameworks for AI, electronics and renewable energy, including AVGC-XR Policy 2026-31"
+        },
+        {
+          "date": "2026-11-10",
+          "event": "Cabinet chaired by CM N. Chandrababu Naidu approves the policy with the AVGC-XR Policy 2026-31 and semiconductor policy amendments"
+        },
+        {
+          "date": "2026-11-16",
+          "event": "Government approval of Robotics and Physical AI Policy 2026-36 reported"
+        },
+        {
+          "date": "2026-11-16",
+          "event": "G.O. Ms. No. 86 issued (per one secondary source)"
+        },
+        {
+          "date": "2026-11-18",
+          "event": "Policy released together with Semiconductor and Display Fab Policy 4.0 and AVGC-XR Policy"
+        }
+      ],
+      "source_url": "https://www.thehansindia.com/news/cities/amaravati/ap-takes-aim-at-global-race-for-chips-robots-ai-1143082",
+      "source_type": "news",
+      "confidence": "medium",
+      "confidence_note": "Hans India article read in full; The Hindu pieces seen as headlines only. GO number not captured."
+    },
+    {
+      "id": "ar-arunachal-genai-monthly-development-reports-2025",
+      "state_code": "AR",
+      "state": "Arunachal Pradesh",
+      "title": "Generative-AI analysis of Monthly Development Reports (AI in governance)",
+      "type": "other",
+      "status": "in-force",
+      "status_group": "adopted",
+      "is_ai_policy": false,
+      "binding": "non-binding",
+      "issuing_body": "Chief Minister's Office / Planning, Government of Arunachal Pradesh",
+      "date": "2025-02-26",
+      "date_precision": "day",
+      "summary": "Public-sector AI use case in which a generative AI system analyses monthly development reports from 67 departments to flag delays and trends for the Chief Minister; the closest thing to an AI-in-governance instrument in the state.",
+      "timeline": [
+        {
+          "date": "2025-02-26",
+          "event": "State reports integration of a generative-AI system to analyse 67 departments' Monthly Development Reports"
+        }
+      ],
+      "source_url": "https://arunachal24.in/arunachal-pradesh-becomes-first-state-in-ne-to-integrate-ai-into-governance/",
+      "source_type": "news",
+      "confidence": "low",
+      "confidence_note": "Single regional source; no official document."
+    },
+    {
+      "id": "ar-arunachal-ai-ml-skilling-programme-2026",
+      "state_code": "AR",
+      "state": "Arunachal Pradesh",
+      "title": "Arunachal Pradesh AI and Machine Learning Skilling Programme",
+      "type": "scheme",
+      "status": "in-force",
+      "status_group": "adopted",
+      "is_ai_policy": false,
+      "binding": "non-binding",
+      "issuing_body": "Department of Information Technology & Communication, Government of Arunachal Pradesh",
+      "date": "2025-12-09",
+      "date_precision": "day",
+      "summary": "Fully state-funded AI/ML skilling programme for college students and recent graduates, delivered with an IIT Delhi-backed partner, plus an AI Explorer bootcamp for school students in classes 6-12.",
+      "timeline": [
+        {
+          "date": "2025-12-09",
+          "event": "Programme announced; MoU with Ranchovation Labs (IIT Delhi Technology Innovation Hub)"
+        },
+        {
+          "date": "2026-01-12",
+          "event": "First cohort begins in Itanagar"
+        },
+        {
+          "date": "2026-09-01",
+          "event": "First AI boot camp and hackathon at IIT Guwahati (month approx.)"
+        }
+      ],
+      "source_url": "https://www.freepressjournal.in/education/arunachal-pradesh-introduces-ai-skill-programme-to-boost-youth-employability",
+      "source_type": "news",
+      "confidence": "medium",
+      "confidence_note": "Two outlets agree; no government order located."
+    },
+    {
+      "id": "ar-arunachal-ai-centre-of-excellence-nit-2026",
+      "state_code": "AR",
+      "state": "Arunachal Pradesh",
+      "title": "Arunachal Pradesh AI Centre of Excellence at NIT Arunachal Pradesh (SCITeG-NIT MoU)",
+      "type": "institution",
+      "status": "adopted",
+      "status_group": "adopted",
+      "is_ai_policy": false,
+      "binding": "non-binding",
+      "issuing_body": "State Council for IT and e-Governance (SCITeG), Department of IT & Communication, Government of Arunachal Pradesh",
+      "date": "2026-06-08",
+      "date_precision": "day",
+      "summary": "State-backed AI Centre of Excellence to be hosted at NIT Arunachal Pradesh with financial and technical support from the IndiaAI Mission; Arunachal has no dedicated AI policy.",
+      "timeline": [
+        {
+          "date": "2026-06-08",
+          "event": "MoU signed between SCITeG and NIT Arunachal Pradesh"
+        }
+      ],
+      "source_url": "https://arunachal24.in/arunachal-pradesh-signs-mou-with-nit-for-ai-centre-of-excellence/",
+      "source_type": "news",
+      "confidence": "low",
+      "confidence_note": "Single regional outlet; official SCITeG/IT department notice not located."
+    },
+    {
+      "id": "as-assam-ai-it-policy-2025-proposed",
+      "state_code": "AS",
+      "state": "Assam",
+      "title": "Assam AI-IT Policy 2025 (proposed)",
+      "type": "policy",
+      "status": "proposed",
+      "status_group": "in_progress",
+      "is_ai_policy": true,
+      "binding": "non-binding",
+      "issuing_body": "Department of Information Technology, Government of Assam",
+      "date": "2025-06-09",
+      "date_precision": "day",
+      "summary": "Proposed combined AI and IT policy announced in 2025 as being finalised; no approval or notification could be found through November 2026. Assam therefore has no dedicated AI policy; its closest instruments are the State Data Policy 2026 and the Steering Committee on AI Adoption.",
+      "timeline": [
+        {
+          "date": "2025-06-09",
+          "event": "Principal Secretary IT says the AI-IT Policy 2025 is being finalised"
+        },
+        {
+          "date": "2026-11-19",
+          "event": "No cabinet approval or notification found"
+        }
+      ],
+      "source_url": "https://egov.eletsonline.com/2025/06/ai-powered-assam-transforming-governance-workforce-and-business-ecosystem-2/",
+      "source_type": "news",
+      "confidence": "low",
+      "confidence_note": "Only an interview with the Principal Secretary (June 2025) and MoU coverage; no official draft or approval found."
+    },
+    {
+      "id": "as-assam-state-data-policy-2026",
+      "state_code": "AS",
+      "state": "Assam",
+      "title": "Assam State Data Policy (ASDP) 2026",
+      "type": "policy",
+      "status": "adopted",
+      "status_group": "adopted",
+      "is_ai_policy": false,
+      "binding": "mixed",
+      "issuing_body": "Department of Information Technology, Electronics & Communication, Government of Assam (Centre for Data Management nodal)",
+      "date": "2026-05-20",
+      "date_precision": "day",
+      "summary": "Cabinet-approved state data policy that replaces the 2022 policy, creates a Centre for Data Management as nodal agency and mandates inter-departmental data sharing to build a unified repository for analytics and AI.",
+      "timeline": [
+        {
+          "date": "2026-03-24",
+          "event": "Chief Secretary says ASDP 2026 nearing finalisation, aligned to DPDP Act 2023"
+        },
+        {
+          "date": "2026-05-20",
+          "event": "Cabinet approves notification and implementation of ASDP 2026, superseding ASDP 2022"
+        }
+      ],
+      "source_url": "https://assamtribune.com/assam/assam-cabinet-clears-state-data-policy-2026-ahead-of-assembly-session-1611853",
+      "source_type": "news",
+      "confidence": "medium",
+      "confidence_note": "Two regional dailies agree on content; cabinet date reported as Wednesday 20 May 2026 (one summary gave 21 May). Notified text not located; the state IT portal domain did not resolve."
+    },
+    {
+      "id": "as-assam-steering-committee-ai-adoption",
+      "state_code": "AS",
+      "state": "Assam",
+      "title": "Assam Steering Committee on AI Adoption",
+      "type": "institution",
+      "status": "adopted",
+      "status_group": "adopted",
+      "is_ai_policy": false,
+      "binding": "non-binding",
+      "issuing_body": "Government of Assam (Chief Secretary-level)",
+      "date": "2026-05-20",
+      "date_precision": "day",
+      "summary": "Government steering committee that has catalogued AI use-cases across departments to drive adoption, operating alongside the 2026 data policy.",
+      "timeline": [
+        {
+          "date": "2026-05-20",
+          "event": "Committee's identification of 343 AI project ideas reported alongside ASDP 2026 approval"
+        }
+      ],
+      "source_url": "https://assamtribune.com/assam/assam-cabinet-clears-state-data-policy-2026-ahead-of-assembly-session-1611853",
+      "source_type": "news",
+      "confidence": "low",
+      "confidence_note": "Single news mention of the committee and its numbers; constitution order not located."
+    },
+    {
+      "id": "br-bihar-it-policy-2024",
+      "state_code": "BR",
+      "state": "Bihar",
+      "title": "Bihar Information Technology Policy 2024",
+      "type": "policy",
+      "status": "in-force",
+      "status_group": "adopted",
+      "is_ai_policy": false,
+      "binding": "non-binding",
+      "issuing_body": "Department of Information Technology, Government of Bihar",
+      "date": "2024-01-01",
+      "date_precision": "year",
+      "summary": "Five-year IT investment policy that lists data centres as a focus sector and was the operative instrument before the 2026 AI policy; it contains no explicit AI chapter in available descriptions.",
+      "timeline": [
+        {
+          "date": "2024-01-01",
+          "event": "Policy in force (year only; launched about 11 months before Dec 2024)"
+        },
+        {
+          "date": "2024-12-20",
+          "event": "Airtel, Holoware and others commit investments under the policy; Rs 4,000 crore proposals reported"
+        }
+      ],
+      "source_url": "https://cio.eletsonline.com/news/airtel-and-holoware-commit-to-investments-in-bihar-under-it-policy-2024/73665/",
+      "source_type": "news",
+      "confidence": "low",
+      "confidence_note": "Official text not accessed (state portal unreachable); incentive figures from two secondary sources that broadly agree."
+    },
+    {
+      "id": "br-bihar-ai-policy-2026",
+      "state_code": "BR",
+      "state": "Bihar",
+      "title": "Bihar Artificial Intelligence Policy 2026",
+      "type": "policy",
+      "status": "adopted",
+      "status_group": "adopted",
+      "is_ai_policy": true,
+      "binding": "non-binding",
+      "issuing_body": "Department of Information Technology, Government of Bihar",
+      "date": "2026-10-28",
+      "date_precision": "day",
+      "summary": "Cabinet-approved state AI policy offering fiscal incentives to AI companies, GCCs and startups and setting a five-year AI skilling target; detailed rates are left to operational guidelines.",
+      "timeline": [
+        {
+          "date": "2026-02-17",
+          "event": "State signs Rs 468 crore technology MoUs at India AI Impact Summit; research park and AI centre planned"
+        },
+        {
+          "date": "2026-05-06",
+          "event": "Cabinet approves AI training for MLAs, MLCs and officials"
+        },
+        {
+          "date": "2026-05-23",
+          "event": "CM Samrat Choudhary says AI policy launch is imminent"
+        },
+        {
+          "date": "2026-05-24",
+          "event": "Bihar AI Summit 2026 held"
+        },
+        {
+          "date": "2026-05-25",
+          "event": "Government announces it will bring a dedicated AI policy"
+        },
+        {
+          "date": "2026-06-24",
+          "event": "Non-financial MoUs with Google, Microsoft, CoRover (BharatGPT) and Sarvam AI for capacity building"
+        },
+        {
+          "date": "2026-07-03",
+          "event": "Bihar GCC Policy 2026 unveiled at Bengaluru IT industry meet"
+        },
+        {
+          "date": "2026-10-22",
+          "event": "CM Samrat Choudhary announces target of AI training for 5 lakh youth in five years"
+        },
+        {
+          "date": "2026-10-28",
+          "event": "Cabinet approves Bihar AI Policy 2026; briefed by ACS Arvind Chaudhary"
+        },
+        {
+          "date": "2026-10-28",
+          "event": "Cabinet approves AI Policy 2026 with incentives for AI companies, GCCs and startups"
+        },
+        {
+          "date": "2026-11-10",
+          "event": "Cabinet launches startup and AI schemes"
+        }
+      ],
+      "source_url": "https://www.uniindia.com/east-india/cabinet-bihar-ai-policy/228832",
+      "source_type": "news",
+      "confidence": "medium",
+      "confidence_note": "Cabinet approval confirmed by UNI, Elets and Patna Press (28 Oct 2026; one outlet dated 29 Oct). Policy text and outlay not published; the state IT portal could not be reached (TLS error)."
+    },
+    {
+      "id": "ch-ai-innovation-governance-hub-2026",
+      "state_code": "CH",
+      "state": "Chandigarh",
+      "title": "Chandigarh hub for AI innovation and governance (planned)",
+      "type": "other",
+      "status": "proposed",
+      "status_group": "in_progress",
+      "is_ai_policy": false,
+      "binding": "non-binding",
+      "issuing_body": "Chandigarh Administration (IT Department)",
+      "date": "2026-06-13",
+      "date_precision": "day",
+      "summary": "Placeholder entry: Chandigarh has no AI policy; the Administration was reported in June 2026 to be planning an AI innovation and governance hub.",
+      "timeline": [
+        {
+          "date": "2025-09-09",
+          "event": "Administration uses AI and GIS for road development planning"
+        },
+        {
+          "date": "2026-06-13",
+          "event": "Plan for an AI innovation and governance hub reported"
+        }
+      ],
+      "source_url": "https://news.google.com/rss/search?q=Chandigarh+Administration+%22artificial+intelligence%22&hl=en-IN&gl=IN&ceid=IN:en",
+      "source_type": "news",
+      "confidence": "low",
+      "confidence_note": "Times of India and Tribune headlines only; no document or order."
+    },
+    {
+      "id": "ct-ai-data-centre-park-2025",
+      "state_code": "CG",
+      "state": "Chhattisgarh",
+      "title": "AI-Aided Data Centre Park, Nava Raipur",
+      "type": "other",
+      "status": "in-force",
+      "status_group": "adopted",
+      "is_ai_policy": false,
+      "binding": "non-binding",
+      "issuing_body": "Government of Chhattisgarh (with RackBank DataCenters Pvt Ltd)",
+      "date": "2025-05-03",
+      "date_precision": "day",
+      "summary": "State-facilitated AI data-centre park in Nava Raipur, described as India's first AI-dedicated data park, with an SEZ for AI services and GPU-based compute.",
+      "timeline": [
+        {
+          "date": "2025-05-03",
+          "event": "CM Vishnu Deo Sai lays foundation stone of the AI data centre park"
+        }
+      ],
+      "source_url": "https://inc42.com/buzz/chhattisgarh-cm-unveils-countrys-first-ai-based-data-centre-park/",
+      "source_type": "news",
+      "confidence": "medium",
+      "confidence_note": "Figures differ across outlets (Rs 1,000 vs 2,000 crore; 2.5 vs 2.7 ha SEZ). Included as infrastructure facilitated by the state rather than a policy."
+    },
+    {
+      "id": "ct-ai-digital-governance-roadmap-2026",
+      "state_code": "CG",
+      "state": "Chhattisgarh",
+      "title": "Chhattisgarh AI and Digital Governance Roadmap",
+      "type": "strategy",
+      "status": "announced",
+      "status_group": "in_progress",
+      "is_ai_policy": true,
+      "binding": "non-binding",
+      "issuing_body": "Electronics and Information Technology Department, Government of Chhattisgarh",
+      "date": "2026-07-03",
+      "date_precision": "day",
+      "summary": "Five-pillar roadmap for AI adoption and digital governance that proposes a dedicated state AI policy with data-security, privacy and DPDP-compliance safeguards.",
+      "timeline": [
+        {
+          "date": "2026-07-03",
+          "event": "Roadmap presented; officials propose a dedicated state AI policy"
+        }
+      ],
+      "source_url": "https://egov.eletsonline.com/2026/07/chhattisgarh-unveils-ai-and-digital-governance-roadmap-to-drive-innovation-and-public-services/",
+      "source_type": "news",
+      "confidence": "medium",
+      "confidence_note": "Two outlets describe the roadmap; no official document located; AI policy remains proposed."
+    },
+    {
+      "id": "ct-ai-mission-2026",
+      "state_code": "CG",
+      "state": "Chhattisgarh",
+      "title": "Chhattisgarh AI Mission",
+      "type": "mission",
+      "status": "adopted",
+      "status_group": "adopted",
+      "is_ai_policy": true,
+      "binding": "non-binding",
+      "issuing_body": "Electronics and Information Technology Department / CHiPS, Government of Chhattisgarh",
+      "date": "2026-08-05",
+      "date_precision": "day",
+      "summary": "Cabinet-approved five-year, Rs 500 crore mission to build AI skills, data labs and a startup pipeline in Chhattisgarh.",
+      "timeline": [
+        {
+          "date": "2026-07-03",
+          "event": "AI and digital governance roadmap unveiled"
+        },
+        {
+          "date": "2026-08-05",
+          "event": "Cabinet approves Rs 500 crore AI Mission over five years"
+        }
+      ],
+      "source_url": "https://egov.eletsonline.com/2026/07/chhattisgarh-unveils-ai-and-digital-governance-roadmap-to-drive-innovation-and-public-services/",
+      "source_type": "news",
+      "confidence": "low",
+      "confidence_note": "Six outlets (TNIE, ET Government, Hindustan Times, ETV Bharat, GK Today, Rediff) agree on date and figures; article bodies and the cabinet note were not retrievable, so the implementing department is inferred from the July 2026 roadmap."
+    },
+    {
+      "id": "dh-it-policy-2019-24",
+      "state_code": "DH",
+      "state": "Dadra & Nagar Haveli and Daman & Diu",
+      "title": "IT Policy 2019-2024, UT of Dadra and Nagar Haveli and Daman and Diu",
+      "type": "policy",
+      "status": "lapsed",
+      "status_group": "inactive",
+      "is_ai_policy": false,
+      "binding": "non-binding",
+      "issuing_body": "Department of Information Technology, UT Administration of DNH and DD",
+      "date": "2020-10-22",
+      "date_precision": "day",
+      "summary": "The UT's only IT policy, covering 2019-24; no AI chapter identified and no successor or AI policy listed on the UT's policies page.",
+      "timeline": [
+        {
+          "date": "2020-10-22",
+          "event": "Policy document published on UT portal"
+        },
+        {
+          "date": "2024-12-31",
+          "event": "Policy period ends; no successor listed"
+        }
+      ],
+      "source_url": "https://ddd.gov.in/document-category/policies-guidelines/",
+      "source_type": "official",
+      "confidence": "high",
+      "confidence_note": "Official listing read; policy text not reviewed for AI content."
+    },
+    {
+      "id": "dh-indiaai-data-lab-daman",
+      "state_code": "DH",
+      "state": "Dadra & Nagar Haveli and Daman & Diu",
+      "title": "IndiaAI Data Lab / AI Centre of Excellence, Government Polytechnic College, Daman",
+      "type": "institution",
+      "status": "in-force",
+      "status_group": "adopted",
+      "is_ai_policy": false,
+      "binding": "non-binding",
+      "issuing_body": "Daman & Diu e-Governance Society (DDeGS), Department of IT, UT Administration (under IndiaAI Mission)",
+      "date": "2026-07-16",
+      "date_precision": "day",
+      "summary": "AI research and training lab under the central IndiaAI Data Labs scheme, with DDeGS as UT nodal agency; the UT's only AI-specific institution.",
+      "timeline": [
+        {
+          "date": "2026-07-16",
+          "event": "UT portal page last updated describing the lab (establishment date not stated)"
+        }
+      ],
+      "source_url": "https://ddd.gov.in/indiaai-data-lab/",
+      "source_type": "official",
+      "confidence": "medium",
+      "confidence_note": "Official page read; establishment date and funding not stated, so the page's update date is used."
+    },
+    {
+      "id": "dl-ai-grievance-platform-2025",
+      "state_code": "DL",
+      "state": "Delhi",
+      "title": "AI-enabled grievance redressal platform (Delhi government with IIT Kanpur)",
+      "type": "other",
+      "status": "announced",
+      "status_group": "in_progress",
+      "is_ai_policy": false,
+      "binding": "non-binding",
+      "issuing_body": "Government of NCT of Delhi",
+      "date": "2025-12-30",
+      "date_precision": "day",
+      "summary": "Public-sector AI deployment to triage citizen grievances and provide data-driven insights to officials, developed with IIT Kanpur.",
+      "timeline": [
+        {
+          "date": "2025-12-30",
+          "event": "Delhi government and IIT Kanpur announce AI-based grievance redressal system"
+        }
+      ],
+      "source_url": "https://news.google.com/rss/search?q=Delhi+government+AI+training+officials+Pankaj+Singh+IT+department&hl=en-IN&gl=IN&ceid=IN:en",
+      "source_type": "news",
+      "confidence": "low",
+      "confidence_note": "DD News and Indian Express headlines of 30 Dec 2025; details and launch status not verified."
+    },
+    {
+      "id": "dl-ai-centres-of-excellence-2026",
+      "state_code": "DL",
+      "state": "Delhi",
+      "title": "Delhi AI Centres of Excellence (two centres)",
+      "type": "institution",
+      "status": "announced",
+      "status_group": "in_progress",
+      "is_ai_policy": false,
+      "binding": "non-binding",
+      "issuing_body": "Government of NCT of Delhi",
+      "date": "2026-04-23",
+      "date_precision": "day",
+      "summary": "Announced plan for two AI centres of excellence focused on governance and innovation and catering to about 100 startups.",
+      "timeline": [
+        {
+          "date": "2026-04-23",
+          "event": "Government announces plan for two AI centres of excellence"
+        }
+      ],
+      "source_url": "https://news.google.com/rss/search?q=Delhi+two+AI+centres+of+excellence+startups+OR+%22AI+centre%22+Delhi+officers+training&hl=en-IN&gl=IN&ceid=IN:en",
+      "source_type": "news",
+      "confidence": "low",
+      "confidence_note": "Indian Express, TNIE and Elets headlines of 23-24 Apr 2026; article bodies blocked; no follow-up found by Nov 2026."
+    },
+    {
+      "id": "dl-ai-training-government-officials-2026",
+      "state_code": "DL",
+      "state": "Delhi",
+      "title": "Delhi government AI and emerging-technology training programme for officials",
+      "type": "scheme",
+      "status": "in-force",
+      "status_group": "adopted",
+      "is_ai_policy": false,
+      "binding": "non-binding",
+      "issuing_body": "Information Technology Department, Government of NCT of Delhi",
+      "date": "2026-10-15",
+      "date_precision": "day",
+      "summary": "Executive training programme teaching Delhi officials AI-assisted drafting, analysis and prompt engineering, with modules on cybersecurity and the risks of sharing sensitive government data with AI platforms.",
+      "timeline": [
+        {
+          "date": "2026-09-30",
+          "event": "AI training centre for officers announced (ThePrint)"
+        },
+        {
+          "date": "2026-10-15",
+          "event": "Training programme for government officials begins"
+        }
+      ],
+      "source_url": "https://www.thestatesman.com/cities/delhi/delhi-govt-officials-to-get-ai-training-from-oct-15-govt-1503645238.html",
+      "source_type": "news",
+      "confidence": "low",
+      "confidence_note": "Closest thing to an AI-use guideline for Delhi officials; no circular located. Delhi has no AI policy; the Start-Up and Incubation Policy 2026 (cabinet 16 Jul 2026) dropped the AI priority sectors of its 2025 draft (MediaNama)."
+    },
+    {
+      "id": "ga-ai-mission-2027",
+      "state_code": "GA",
+      "state": "Goa",
+      "title": "Goa AI Mission 2027",
+      "type": "mission",
+      "status": "adopted",
+      "status_group": "adopted",
+      "is_ai_policy": true,
+      "binding": "non-binding",
+      "issuing_body": "Department of Information Technology, Electronics and Communications, Government of Goa",
+      "date": "2025-07-01",
+      "date_precision": "month",
+      "summary": "State mission built on four pillars (skilling, startups and companies, capital, government policy and infrastructure) and a Goa AI Mission Council charged with drafting an AI policy.",
+      "timeline": [
+        {
+          "date": "2025-07-01",
+          "event": "Mission launched by CM Pramod Sawant"
+        },
+        {
+          "date": "2025-08-01",
+          "event": "MoU with Digital India Bhashini for Konkani language AI"
+        },
+        {
+          "date": "2025-09-01",
+          "event": "Partnership with Sarvam AI"
+        }
+      ],
+      "source_url": "https://www.business-standard.com/india-news/goa-govt-rolls-out-ai-mission-2027-to-boost-governance-and-innovation-125072100135_1.html",
+      "source_type": "news",
+      "confidence": "medium",
+      "confidence_note": "Launch in July 2025 reported by several outlets; exact launch date and any cabinet/GO not confirmed."
+    },
+    {
+      "id": "ga-ai-policy-2026",
+      "state_code": "GA",
+      "state": "Goa",
+      "title": "Goa Artificial Intelligence Policy 2026 (2026-29)",
+      "type": "policy",
+      "status": "adopted",
+      "status_group": "adopted",
+      "is_ai_policy": true,
+      "binding": "non-binding",
+      "issuing_body": "Government of Goa (Department of Information Technology, Electronics and Communications)",
+      "date": "2026-11-18",
+      "date_precision": "day",
+      "summary": "A three-year state AI policy approved by the Goa cabinet with five schemes covering AI training, Konkani-language AI research, a language-technology research centre, startups and MSME adoption, with 60 percent of resources directed to skilling.",
+      "timeline": [
+        {
+          "date": "2026-03-08",
+          "event": "Draft AI policy shared with stakeholders for inputs"
+        },
+        {
+          "date": "2026-03-13",
+          "event": "IT Minister Khaunte says policy to be notified within 100 days"
+        },
+        {
+          "date": "2026-04-29",
+          "event": "Draft AI policy released publicly"
+        },
+        {
+          "date": "2026-08-06",
+          "event": "Minister says policy is in final stage, under review"
+        },
+        {
+          "date": "2026-10-22",
+          "event": "Policy launched at Goa AI Tech Conclave 2026; state hackathon announced"
+        },
+        {
+          "date": "2026-11-18",
+          "event": "Cabinet approves the policy and five schemes, sanctioning Rs 10 crore for 2026-27"
+        },
+        {
+          "date": "2026-11-18",
+          "event": "Cabinet approves AI Policy 2026; Rs 50 crore earmarked for skilling; five schemes sanctioned at Rs 10 crore"
+        }
+      ],
+      "source_url": "https://digitalgoa.com/goa-cabinet-approves-ai-policy-2026-focus-on-skilling-konkani-ai-startups-and-research/",
+      "source_type": "news",
+      "confidence": "medium",
+      "confidence_note": "Launch and approval dates and scheme list from Digital Goa, The Goan and TOI; the Rs 50 crore and 50,000-professional figures appear in single outlets each. Policy PDF on goa.gov.in not retrieved."
+    },
+    {
+      "id": "gj-it-ites-policy-2022-27",
+      "state_code": "GJ",
+      "state": "Gujarat",
+      "title": "Gujarat IT/ITeS Policy (2022-27)",
+      "type": "policy",
+      "status": "in-force",
+      "status_group": "adopted",
+      "is_ai_policy": false,
+      "binding": "non-binding",
+      "issuing_body": "Department of Science and Technology, Government of Gujarat",
+      "date": "2022-02-07",
+      "date_precision": "day",
+      "summary": "Five-year IT/ITeS incentive policy that includes capex support for data centres and a provision to set up a Gujarat AI School / AI Centre of Excellence.",
+      "timeline": [
+        {
+          "date": "2022-02-07",
+          "event": "Policy GR dated 07.02.2022; announced 8 Feb 2022"
+        },
+        {
+          "date": "2024-10-11",
+          "event": "Modification and addendum issued"
+        }
+      ],
+      "source_url": "https://dstpolicy.gujarat.gov.in/public/assets/itpolicy/document/IT-POLICY-2022-27-Print-Version-With-All-Amedments.pdf",
+      "source_type": "official",
+      "confidence": "medium",
+      "confidence_note": "Official PDF listed on DST portal (dates cross-checked in the 2026 data-centre GR); provisions summarised from secondary source, PDF not read in full."
+    },
+    {
+      "id": "gj-gcc-policy-2025-30",
+      "state_code": "GJ",
+      "state": "Gujarat",
+      "title": "Gujarat Global Capability Center (GCC) Policy (2025-30)",
+      "type": "policy",
+      "status": "in-force",
+      "status_group": "adopted",
+      "is_ai_policy": false,
+      "binding": "non-binding",
+      "issuing_body": "Department of Science and Technology, Government of Gujarat",
+      "date": "2025-02-11",
+      "date_precision": "day",
+      "summary": "Incentive policy to attract global capability centres, naming AI-driven digital transformation, data centres and cybersecurity as focus areas.",
+      "timeline": [
+        {
+          "date": "2025-02-11",
+          "event": "Resolution DST/ITM/e-file/24/2025/0173/IT issued; CM announces policy"
+        },
+        {
+          "date": "2026-10-03",
+          "event": "Operational Guidelines 1.0 issued (further guidelines 8 Oct 2026)"
+        }
+      ],
+      "source_url": "https://dstpolicy.gujarat.gov.in/public/assets/gccpolicy/GCC_POLICY.pdf",
+      "source_type": "official",
+      "confidence": "high",
+      "confidence_note": "GR PDF read (preamble and policy sections); incentive schedule not fully extracted. Guidelines dates from news headlines."
+    },
+    {
+      "id": "gj-ai-action-plan-2025-2030",
+      "state_code": "GJ",
+      "state": "Gujarat",
+      "title": "Action Plan for Implementation of Artificial Intelligence 2025-2030",
+      "type": "strategy",
+      "status": "adopted",
+      "status_group": "adopted",
+      "is_ai_policy": true,
+      "binding": "non-binding",
+      "issuing_body": "Department of Science and Technology, Government of Gujarat",
+      "date": "2025-07-27",
+      "date_precision": "day",
+      "summary": "Executive five-year plan to embed AI in Gujarat governance and services through six pillars, a 10-member AI taskforce and a proposed AI and Deep Tech Mission.",
+      "timeline": [
+        {
+          "date": "2025-07-27",
+          "event": "Chief Minister approves the five-year AI Action Plan"
+        }
+      ],
+      "source_url": "https://www.outlookindia.com/announcements/gujarat-cm-bhupendra-patel-unveils-5-year-ai-action-plan-2025-2030-to-lead-ai-driven-governance-digital-innovation",
+      "source_type": "press-release",
+      "confidence": "medium",
+      "confidence_note": "CM approval on 27 July 2025 consistently reported (government release syndicated). No cabinet resolution of Sept 2025 or 'Gujarat State AI Policy 2025-2030' document could be found; the action plan is not on the DST policy portal."
+    },
+    {
+      "id": "gj-ai-deep-tech-mission",
+      "state_code": "GJ",
+      "state": "Gujarat",
+      "title": "Gujarat AI and Deep Tech Mission",
+      "type": "institution",
+      "status": "announced",
+      "status_group": "in_progress",
+      "is_ai_policy": true,
+      "binding": "non-binding",
+      "issuing_body": "Department of Science and Technology, Government of Gujarat",
+      "date": "2025-07-27",
+      "date_precision": "day",
+      "summary": "Dedicated mission announced under the AI Action Plan 2025-30 to drive AI and deep-tech strategy; no constitution order or budget located.",
+      "timeline": [
+        {
+          "date": "2025-07-27",
+          "event": "Mission announced as implementing body of the AI Action Plan"
+        }
+      ],
+      "source_url": "https://www.outlookindia.com/announcements/gujarat-cm-bhupendra-patel-unveils-5-year-ai-action-plan-2025-2030-to-lead-ai-driven-governance-digital-innovation",
+      "source_type": "press-release",
+      "confidence": "low",
+      "confidence_note": "Named in the action-plan announcement and later coverage; no GR, head or budget found."
+    },
+    {
+      "id": "gj-iairo-2025",
+      "state_code": "GJ",
+      "state": "Gujarat",
+      "title": "Indian AI Research Organisation (IAIRO), GIFT City",
+      "type": "institution",
+      "status": "in-force",
+      "status_group": "adopted",
+      "is_ai_policy": false,
+      "binding": "non-binding",
+      "issuing_body": "Government of Gujarat (Chief Minister's Office / DST)",
+      "date": "2025-12-30",
+      "date_precision": "day",
+      "summary": "State-backed AI research organisation on a public-private model at GIFT City with a Rs 300 crore five-year budget.",
+      "timeline": [
+        {
+          "date": "2025-12-30",
+          "event": "Rs 300 crore five-year outlay approved for IAIRO"
+        },
+        {
+          "date": "2026-01-01",
+          "event": "IAIRO becomes operational at GIFT City"
+        }
+      ],
+      "source_url": "https://egov.eletsonline.com/2026/11/why-gujarat-is-emerging-as-a-destination-for-ai-technology-and-innovation/",
+      "source_type": "news",
+      "confidence": "medium",
+      "confidence_note": "CMO Gujarat announcement of 30 Dec 2025 and The Hindu/TOI coverage seen as headlines; details taken from Elets (Nov 2026). Official order not read."
+    },
+    {
+      "id": "gj-viksit-data-center-policy-2026-29",
+      "state_code": "GJ",
+      "state": "Gujarat",
+      "title": "Viksit Gujarat Data Center Policy (2026-29)",
+      "type": "policy",
+      "status": "in-force",
+      "status_group": "adopted",
+      "is_ai_policy": false,
+      "binding": "non-binding",
+      "issuing_body": "Department of Science and Technology, Government of Gujarat",
+      "date": "2026-08-06",
+      "date_precision": "day",
+      "summary": "Three-year incentive policy whose stated vision is to make Gujarat India's leading hyperscale AI data-centre destination, with capital, interest, power-tariff, stamp-duty, electricity-duty and SGST reimbursements scaled to 1 GW projects.",
+      "timeline": [
+        {
+          "date": "2026-08-06",
+          "event": "GR No. DST/MIT/e-file/24/2026/0624/IT approved (e-sign)"
+        },
+        {
+          "date": "2029-08-05",
+          "event": "Last date for in-principle approvals under the policy"
+        }
+      ],
+      "source_url": "https://dstpolicy.gujarat.gov.in/public/assets/dcpolicy/Viksit_Gujarat_Data_Center_Policy_GR_(2026-29).pdf",
+      "source_type": "official",
+      "confidence": "high",
+      "confidence_note": "GR PDF read directly from the DST incentive portal. The 7.5 GW target reported by Elets was not seen in the pages read."
+    },
+    {
+      "id": "hr-ai-mission-2025",
+      "state_code": "HR",
+      "state": "Haryana",
+      "title": "Haryana AI Mission (Haryana AI and Development Project)",
+      "type": "mission",
+      "status": "adopted",
+      "status_group": "adopted",
+      "is_ai_policy": true,
+      "binding": "non-binding",
+      "issuing_body": "Government of Haryana (Department of Future / CRID / HARTRON)",
+      "date": "2025-03-17",
+      "date_precision": "day",
+      "summary": "Budget-announced state AI mission financed with World Bank assistance to build AI governance capacity, two AI hubs and a skilling pipeline.",
+      "timeline": [
+        {
+          "date": "2025-03-17",
+          "event": "AI Mission proposed in Budget 2025-26 with World Bank support"
+        },
+        {
+          "date": "2026-03-19",
+          "event": "1,037 candidates reported trained in AI roles"
+        },
+        {
+          "date": "2026-08-05",
+          "event": "State and World Bank announce strengthening of AI-based governance"
+        }
+      ],
+      "source_url": "https://cdnbbsr.s3waas.gov.in/s386e78499eeb33fb9cac16b7555b50767/uploads/2025/03/202503221525770346.pdf",
+      "source_type": "official",
+      "confidence": "medium",
+      "confidence_note": "Budget speech is official; World Bank loan approval document and any cabinet order were not located."
+    },
+    {
+      "id": "hr-gcc-policy-2026",
+      "state_code": "HR",
+      "state": "Haryana",
+      "title": "Haryana Global Capability Centres Policy 2026",
+      "type": "policy",
+      "status": "adopted",
+      "status_group": "adopted",
+      "is_ai_policy": false,
+      "binding": "non-binding",
+      "issuing_body": "Government of Haryana",
+      "date": "2026-05-18",
+      "date_precision": "day",
+      "summary": "Cabinet-approved policy to attract global capability centres, part of the May 2026 ten-policy package alongside the AI and data-centre policies.",
+      "timeline": [
+        {
+          "date": "2026-05-18",
+          "event": "Cabinet approves GCC Policy 2026"
+        }
+      ],
+      "source_url": "https://www.tribuneindia.com/news/haryana/haryana-cabinet-clears-10-new-industrial-policies-targets-rs-5-lakh-crore-investment-10-lakh-jobs/",
+      "source_type": "news",
+      "confidence": "low",
+      "confidence_note": "Existence and date confirmed; provisions not reported."
+    },
+    {
+      "id": "hr-it-ites-ai-emerging-tech-policy-2026",
+      "state_code": "HR",
+      "state": "Haryana",
+      "title": "Haryana IT/ITeS, AI and Emerging Technologies Policy 2026",
+      "type": "policy",
+      "status": "adopted",
+      "status_group": "adopted",
+      "is_ai_policy": true,
+      "binding": "non-binding",
+      "issuing_body": "Government of Haryana (Industries and Commerce / DITECH)",
+      "date": "2026-05-18",
+      "date_precision": "day",
+      "summary": "Cabinet-approved sector policy combining IT/ITeS incentives with AI institutions and skilling targets; the closest Haryana has to a dedicated AI policy.",
+      "timeline": [
+        {
+          "date": "2026-05-18",
+          "event": "Cabinet approves the policy as one of ten new industrial policies"
+        }
+      ],
+      "source_url": "https://www.tribuneindia.com/news/haryana/haryana-cabinet-clears-10-new-industrial-policies-targets-rs-5-lakh-crore-investment-10-lakh-jobs/",
+      "source_type": "news",
+      "confidence": "medium",
+      "confidence_note": "Cabinet approval and headline provisions from The Tribune; DITECH portal still lists only the 2017 IT & ESDM policy, so the notified text was not found."
+    },
+    {
+      "id": "hr-draft-data-exchange-governance-policy-2026",
+      "state_code": "HR",
+      "state": "Haryana",
+      "title": "Haryana State Data Exchange and Governance Policy, 2026 (Draft v1.0)",
+      "type": "policy",
+      "status": "draft",
+      "status_group": "in_progress",
+      "is_ai_policy": false,
+      "binding": "binding",
+      "issuing_body": "Secretariat for Information Technology, Citizen Resources Information Department (CRID), Government of Haryana",
+      "date": "2026-06-01",
+      "date_precision": "month",
+      "summary": "Draft binding policy for all Haryana state entities on data classification, exchange, consent, retention and protection, which positions a state data exchange as the foundation for AI/ML adoption.",
+      "timeline": [
+        {
+          "date": "2026-06-01",
+          "event": "Draft v1.0 prepared by CRID"
+        },
+        {
+          "date": "2026-07-14",
+          "event": "Draft uploaded to DITECH portal"
+        }
+      ],
+      "source_url": "https://cdnbbsr.s3waas.gov.in/s35352696a9ca3397beb79f116f3a33991/uploads/2026/07/202607141993485699.pdf",
+      "source_type": "official",
+      "confidence": "high",
+      "confidence_note": "Draft PDF read directly from the DITECH portal; marked 'Draft' and 'Confidential - For Official Use Only'; no notification date yet."
+    },
+    {
+      "id": "hp-padhai-with-ai-2026",
+      "state_code": "HP",
+      "state": "Himachal Pradesh",
+      "title": "Padhai with AI learning initiative",
+      "type": "scheme",
+      "status": "in-force",
+      "status_group": "adopted",
+      "is_ai_policy": false,
+      "binding": "non-binding",
+      "issuing_body": "Education Department, Government of Himachal Pradesh",
+      "date": "2026-02-09",
+      "date_precision": "day",
+      "summary": "State AI-powered learning app/programme for students, piloted in Bilaspur district; the state's only AI-specific public programme found.",
+      "timeline": [
+        {
+          "date": "2026-02-09",
+          "event": "CM Sukhu launches 'Padhai with AI' at Barthin, Bilaspur (some outlets report 5-6 Feb)"
+        }
+      ],
+      "source_url": "https://currentaffairs.adda247.com/this-hill-state-initiates-padhai-with-ai-to-modernize-for-learning/",
+      "source_type": "secondary",
+      "confidence": "low",
+      "confidence_note": "Launch covered by ANI, TOI and GK Today (headlines) with inconsistent dates; no AI policy or AI chapter in an HP IT policy was found."
+    },
+    {
+      "id": "hp-state-innovation-policy-2026",
+      "state_code": "HP",
+      "state": "Himachal Pradesh",
+      "title": "Himachal Pradesh State Innovation Policy",
+      "type": "policy",
+      "status": "adopted",
+      "status_group": "adopted",
+      "is_ai_policy": false,
+      "binding": "non-binding",
+      "issuing_body": "Technical Education Department, Government of Himachal Pradesh",
+      "date": "2026-07-05",
+      "date_precision": "day",
+      "summary": "Innovation policy approved by the Chief Minister in July 2026; the closest Himachal instrument to an AI/emerging-technology policy, though its AI content is unconfirmed.",
+      "timeline": [
+        {
+          "date": "2026-07-05",
+          "event": "CM approves State Innovation Policy with Rs 2 crore fund for technical education"
+        }
+      ],
+      "source_url": "https://news.google.com/rss/search?q=Himachal+%22State+Innovation+Policy%22+OR+%22Padhai+with+AI%22+Sukhu&hl=en-IN&gl=IN&ceid=IN:en",
+      "source_type": "news",
+      "confidence": "low",
+      "confidence_note": "ET Education/ANI headline of 5-6 Jul 2026; text not read; included to show Himachal's closest instrument."
+    },
+    {
+      "id": "jk-ai-mission-jk-aim-2026",
+      "state_code": "JK",
+      "state": "Jammu & Kashmir",
+      "title": "Jammu & Kashmir Artificial Intelligence Mission (JK-AIM)",
+      "type": "mission",
+      "status": "proposed",
+      "status_group": "in_progress",
+      "is_ai_policy": true,
+      "binding": "non-binding",
+      "issuing_body": "Information Technology Department, Government of Jammu and Kashmir",
+      "date": "2026-03-06",
+      "date_precision": "day",
+      "summary": "Proposed mission-mode initiative under the IT Department to adopt AI in governance and services, with a Mission Steering Committee and Technical Wing; no sanction order found.",
+      "timeline": [
+        {
+          "date": "2026-03-06",
+          "event": "Secretary IT directs preparation of concept note and implementation framework for JK-AIM"
+        }
+      ],
+      "source_url": "https://kashmirvision.in/2026/03/06/govt-initiates-steps-for-establishment-of-ai-mission/",
+      "source_type": "news",
+      "confidence": "medium",
+      "confidence_note": "Multiple local outlets report the March 2026 meeting; no government order establishing the mission located by Nov 2026."
+    },
+    {
+      "id": "jk-ai-implementation-committees-2026",
+      "state_code": "JK",
+      "state": "Jammu & Kashmir",
+      "title": "J&K Apex and Core Committees for AI implementation across departments",
+      "type": "executive-order",
+      "status": "in-force",
+      "status_group": "adopted",
+      "is_ai_policy": false,
+      "binding": "binding",
+      "issuing_body": "General Administration Department, Government of Jammu and Kashmir",
+      "date": "2026-09-22",
+      "date_precision": "day",
+      "summary": "Government order constituting a Chief Secretary-led Apex Committee and an IT Department-led Core Committee, with department groups, for time-bound AI project implementation across ten major departments.",
+      "timeline": [
+        {
+          "date": "2026-09-22",
+          "event": "GAD order constitutes Apex Committee and Core Committee; department-specific officer groups for 10 departments"
+        }
+      ],
+      "source_url": "https://www.etvbharat.com/en/state/jammu-kashmir-government-forms-ai-committees-for-better-governance-and-citizen-services-enn26092201444",
+      "source_type": "news",
+      "confidence": "medium",
+      "confidence_note": "Order number not reported; composition and mandate consistent across two outlets. Date taken from ETV Bharat publication date."
+    },
+    {
+      "id": "jk-ai-centre-of-excellence-2026",
+      "state_code": "JK",
+      "state": "Jammu & Kashmir",
+      "title": "J&K AI Centre of Excellence (proposed) and MeitY CoE at IIT Jammu",
+      "type": "institution",
+      "status": "proposed",
+      "status_group": "in_progress",
+      "is_ai_policy": false,
+      "binding": "non-binding",
+      "issuing_body": "Information Technology Department, Government of Jammu and Kashmir",
+      "date": "2026-09-24",
+      "date_precision": "day",
+      "summary": "Assembly reply confirming a state AI Centre of Excellence is being set up with MeitY, IIT Jammu and BISAG, alongside IT park proposals; no J&K AI or IT policy document cited.",
+      "timeline": [
+        {
+          "date": "2026-08-01",
+          "event": "MeitY-supported CoE in AI at IIT Jammu expected to be fully operational"
+        },
+        {
+          "date": "2026-09-24",
+          "event": "Government tells Assembly it has initiated an AI CoE with lab, compute and incubation facilities"
+        }
+      ],
+      "source_url": "https://kashmirobserver.net/2026/09/24/jk-working-on-establishing-ai-centre-of-excellence-govt/",
+      "source_type": "news",
+      "confidence": "medium",
+      "confidence_note": "Based on a written reply in the J&K Legislative Assembly as reported; no order located."
+    },
+    {
+      "id": "jh-jharkhand-it-data-centre-bpo-policy-2023",
+      "state_code": "JH",
+      "state": "Jharkhand",
+      "title": "Jharkhand IT, Data Centre and BPO Investment Promotion Policy 2023",
+      "type": "policy",
+      "status": "in-force",
+      "status_group": "adopted",
+      "is_ai_policy": false,
+      "binding": "non-binding",
+      "issuing_body": "Department of Information Technology & e-Governance, Government of Jharkhand",
+      "date": "2023-01-01",
+      "date_precision": "year",
+      "summary": "Five-year IT and data-centre incentive policy that the 2026 draft AI policy cites as part of the state's digital framework; it does not contain AI provisions.",
+      "timeline": [
+        {
+          "date": "2023-01-01",
+          "event": "Policy notified (year only)"
+        }
+      ],
+      "source_url": "https://technodigital.in/data-center-policies-india-state-by-state-guide/",
+      "source_type": "secondary",
+      "confidence": "low",
+      "confidence_note": "Official text not accessed; existence confirmed by the draft AI policy's bibliography, incentives from a secondary guide."
+    },
+    {
+      "id": "jh-jharkhand-ai-policy-2026-draft",
+      "state_code": "JH",
+      "state": "Jharkhand",
+      "title": "Jharkhand Artificial Intelligence Policy, 2026 (Draft)",
+      "type": "consultation",
+      "status": "draft",
+      "status_group": "in_progress",
+      "is_ai_policy": true,
+      "binding": "non-binding",
+      "issuing_body": "Department of Information Technology & e-Governance, Government of Jharkhand",
+      "date": "2026-07-08",
+      "date_precision": "day",
+      "summary": "Draft five-year state AI policy (2026-31) released for stakeholder consultation. It proposes a State AI Mission, a Jharkhand AI Cloud, a responsible-AI framework and an AI investment incentive package with a Rs 1,150 crore outlay.",
+      "timeline": [
+        {
+          "date": "2026-07-04",
+          "event": "Government announces draft AI policy to be unveiled in Delhi"
+        },
+        {
+          "date": "2026-07-08",
+          "event": "Draft released at two-day National Stakeholders' Consultation 2026, New Delhi; posted on jharkhand.gov.in"
+        },
+        {
+          "date": "2026-07-10",
+          "event": "MoUs worth about Rs 87,000 crore reported at the consultation"
+        }
+      ],
+      "source_url": "https://jharkhand.gov.in/PDepartment/ViewDoc?id=D016DO002SD00205072026052600249",
+      "source_type": "official",
+      "confidence": "high",
+      "confidence_note": "Official draft PDF read in full. No consultation deadline is stated in the draft or press; no evidence of cabinet approval or notification as of 19 Nov 2026."
+    },
+    {
+      "id": "ka-gcc-policy-2024-29",
+      "state_code": "KA",
+      "state": "Karnataka",
+      "title": "Karnataka Global Capability Centres (GCC) Policy 2024-2029",
+      "type": "policy",
+      "status": "in-force",
+      "status_group": "adopted",
+      "is_ai_policy": false,
+      "binding": "non-binding",
+      "issuing_body": "Department of Electronics, IT, BT and S&T, Government of Karnataka",
+      "date": "2024-01-01",
+      "date_precision": "year",
+      "summary": "Policy to attract and expand GCCs in Karnataka, including outside Bengaluru, with operational guidelines; AI-related provisions not verified in this session.",
+      "timeline": [
+        {
+          "date": "2024-01-01",
+          "event": "Policy released (reported at Bengaluru Tech Summit, November 2024; month unverified)"
+        }
+      ],
+      "source_url": "https://karnatakadigital.in/policies/",
+      "source_type": "official",
+      "confidence": "low",
+      "confidence_note": "Existence confirmed via KDEM listing; policy text not read; release date and AI provisions unverified."
+    },
+    {
+      "id": "ka-it-policy-2025-30",
+      "state_code": "KA",
+      "state": "Karnataka",
+      "title": "Karnataka IT Policy 2025-2030",
+      "type": "policy",
+      "status": "in-force",
+      "status_group": "adopted",
+      "is_ai_policy": false,
+      "binding": "non-binding",
+      "issuing_body": "Department of Electronics, IT, BT and S&T, Government of Karnataka",
+      "date": "2025-01-01",
+      "date_precision": "year",
+      "summary": "Successor to the IT Policy 2020-25 with incentive guidelines; the KDEM library lists it as current. AI chapter content could not be verified.",
+      "timeline": [
+        {
+          "date": "2025-01-01",
+          "event": "Policy and operational guidelines for incentives published (date unverified)"
+        }
+      ],
+      "source_url": "https://karnatakadigital.in/policies/",
+      "source_type": "official",
+      "confidence": "low",
+      "confidence_note": "Only the listing was accessible; department site unreachable; cabinet date and AI provisions unverified."
+    },
+    {
+      "id": "ka-gig-workers-ordinance-2025",
+      "state_code": "KA",
+      "state": "Karnataka",
+      "title": "Karnataka Platform Based Gig Workers (Social Security and Welfare) Ordinance, 2025",
+      "type": "ordinance",
+      "status": "superseded",
+      "status_group": "inactive",
+      "is_ai_policy": false,
+      "binding": "binding",
+      "issuing_body": "Labour Department, Government of Karnataka (Karnataka Ordinance No. 04 of 2025)",
+      "date": "2025-05-30",
+      "date_precision": "day",
+      "summary": "Ordinance that first brought into force Karnataka's gig-worker welfare and algorithmic-transparency regime, later replaced by the 2025 Act with no material change.",
+      "timeline": [
+        {
+          "date": "2025-05-30",
+          "event": "Ordinance deemed to come into force"
+        },
+        {
+          "date": "2025-09-12",
+          "event": "Repealed and replaced by the Act (actions saved)"
+        }
+      ],
+      "source_url": "https://prsindia.org/files/bills_acts/bills_states/karnataka/2025/Bill31of2025KA.pdf",
+      "source_type": "legislature",
+      "confidence": "high",
+      "confidence_note": "Ordinance number and commencement date read from the Bill's repeal clause."
+    },
+    {
+      "id": "ka-misinformation-fake-news-bill-2025",
+      "state_code": "KA",
+      "state": "Karnataka",
+      "title": "Karnataka Misinformation and Fake News (Prohibition) Bill, 2025 (draft; later 'Misinformation Regulation Bill')",
+      "type": "bill",
+      "status": "consultation",
+      "status_group": "in_progress",
+      "is_ai_policy": false,
+      "binding": "binding",
+      "issuing_body": "Department of Information and Public Relations / Law Department, Government of Karnataka",
+      "date": "2025-06-13",
+      "date_precision": "day",
+      "summary": "Proposed state law to penalise misinformation on social media through a regulatory authority and special courts; relevant to synthetic media but contains no explicit deepfake or AI clause in the leaked draft.",
+      "timeline": [
+        {
+          "date": "2025-06-13",
+          "event": "Draft Bill dated; leaked and published by IFF on 25 June 2025"
+        },
+        {
+          "date": "2025-07-26",
+          "event": "Revised draft drops 'fake news' clause and lowers penalties"
+        },
+        {
+          "date": "2025-11-10",
+          "event": "IT Minister says 'name and shame' Bill still under consultation, likely for winter session"
+        }
+      ],
+      "source_url": "https://internetfreedom.in/revealed-the-karnataka-misinformation-and-fake-news-prohibition-bill-2025/",
+      "source_type": "secondary",
+      "confidence": "medium",
+      "confidence_note": "Draft never officially published; status after November 2025 unverified (no evidence of passage found through November 2026)."
+    },
+    {
+      "id": "ka-gig-workers-rules-2025",
+      "state_code": "KA",
+      "state": "Karnataka",
+      "title": "Karnataka Platform Based Gig Workers (Social Security and Welfare) Rules, 2025 (draft)",
+      "type": "rules",
+      "status": "draft",
+      "status_group": "in_progress",
+      "is_ai_policy": false,
+      "binding": "binding",
+      "issuing_body": "Labour Department, Government of Karnataka",
+      "date": "2025-07-02",
+      "date_precision": "day",
+      "summary": "Draft rules operationalising registration, welfare-fee remittance and the procedure for workers to seek information about automated decision systems.",
+      "timeline": [
+        {
+          "date": "2025-07-02",
+          "event": "Draft Rules published under section 28 of the Ordinance"
+        }
+      ],
+      "source_url": "https://www.argus-p.com/updates/updates/karnataka-platform-based-gig-workers-social-security-and-welfare-rules-2025/",
+      "source_type": "secondary",
+      "confidence": "medium",
+      "confidence_note": "Law-firm summary of the draft notification; final notification of Rules under the Act not confirmed."
+    },
+    {
+      "id": "ka-ai-policy-announcement-2026",
+      "state_code": "KA",
+      "state": "Karnataka",
+      "title": "Karnataka AI Policy, AI University and Class VI AI curriculum (announcement)",
+      "type": "other",
+      "status": "announced",
+      "status_group": "in_progress",
+      "is_ai_policy": true,
+      "binding": "non-binding",
+      "issuing_body": "Chief Minister D.K. Shivakumar, Government of Karnataka",
+      "date": "2026-07-14",
+      "date_precision": "day",
+      "summary": "Karnataka has no AI policy text; the Chief Minister announced one in July 2026 along with an AI university and school curriculum. As of 19 November 2026 no draft has been published.",
+      "timeline": [
+        {
+          "date": "2026-06-03",
+          "event": "D.K. Shivakumar sworn in as Chief Minister"
+        },
+        {
+          "date": "2026-07-14",
+          "event": "At Google I/O Connect India, CM announces a Karnataka AI Policy, India's first government-led AI University, an AI Hub, two hyperscale green data centres and AI in schools from Class VI"
+        },
+        {
+          "date": "2026-11-17",
+          "event": "Karnataka AI Hub at IIIT-B launched as 'early step' to the AI University; no policy text released"
+        }
+      ],
+      "source_url": "https://newsonair.gov.in/karnataka-cm-announces-indias-first-government-driven-ai-university/",
+      "source_type": "press-release",
+      "confidence": "medium",
+      "confidence_note": "Announcement confirmed by the public broadcaster; no policy document exists to verify."
+    },
+    {
+      "id": "ka-sustainable-data-centre-policy-2026-31",
+      "state_code": "KA",
+      "state": "Karnataka",
+      "title": "Karnataka Sustainable Data Centre Policy 2026-2031",
+      "type": "policy",
+      "status": "adopted",
+      "status_group": "adopted",
+      "is_ai_policy": false,
+      "binding": "non-binding",
+      "issuing_body": "Department of Electronics, IT, BT and Science & Technology, Government of Karnataka",
+      "date": "2026-09-01",
+      "date_precision": "month",
+      "summary": "Successor to the 2022-27 data centre policy, explicitly justified by AI compute demand; targets 1 GW of IT capacity by 2031 with sustainability metrics and incentives for zones outside Bengaluru.",
+      "timeline": [
+        {
+          "date": "2026-07-15",
+          "event": "Minister announces forthcoming data centre policy for AI infrastructure at a GCC summit"
+        },
+        {
+          "date": "2026-09-01",
+          "event": "Cabinet (chaired by CM D.K. Shivakumar, Mangaluru) approves the policy; reported 21 September 2026"
+        },
+        {
+          "date": "2026-09-19",
+          "event": "Cabinet approves Rs 1,300 crore data centre policy (ThePrint)"
+        },
+        {
+          "date": "2026-09-21",
+          "event": "MediaNama explainer on the policy"
+        }
+      ],
+      "source_url": "https://www.medianama.com/2026/09/223-karnataka-sustainable-data-centre-policy/",
+      "source_type": "news",
+      "confidence": "medium",
+      "confidence_note": "Cabinet approval reported by two outlets; policy document not yet published on a government site at time of check."
+    },
+    {
+      "id": "ka-ai-hub-iiit-b-2026",
+      "state_code": "KA",
+      "state": "Karnataka",
+      "title": "Karnataka AI Hub at IIIT-Bangalore",
+      "type": "institution",
+      "status": "adopted",
+      "status_group": "adopted",
+      "is_ai_policy": false,
+      "binding": "non-binding",
+      "issuing_body": "Department of Electronics, IT, BT and S&T, Government of Karnataka",
+      "date": "2026-11-17",
+      "date_precision": "day",
+      "summary": "State-funded AI research, skilling and incubation hub at IIIT-Bangalore, positioned as the precursor to the proposed government AI University.",
+      "timeline": [
+        {
+          "date": "2026-07-14",
+          "event": "AI Hub announced by the CM"
+        },
+        {
+          "date": "2026-11-17",
+          "event": "Launched at Bengaluru Tech Summit 2026"
+        }
+      ],
+      "source_url": "https://analyticsindiamag.com/ai-news/karnataka-unveils-six-initiatives-to-strengthen-its-ai-and-semiconductor-ecosystem",
+      "source_type": "news",
+      "confidence": "medium",
+      "confidence_note": "Three outlets report the launch; ₹35 crore figure from one source; no GO retrieved."
+    },
+    {
+      "id": "kl-school-ai-curriculum-kite-2024",
+      "state_code": "KL",
+      "state": "Kerala",
+      "title": "AI learning in Kerala school ICT textbooks (KITE)",
+      "type": "curriculum",
+      "status": "in-force",
+      "status_group": "adopted",
+      "is_ai_policy": false,
+      "binding": "binding",
+      "issuing_body": "Kerala Infrastructure and Technology for Education (KITE), General Education Department",
+      "date": "2024-06-01",
+      "date_precision": "month",
+      "summary": "State-mandated AI content in the ICT textbooks used in Kerala government and aided schools, delivered by KITE with teacher training.",
+      "timeline": [
+        {
+          "date": "2024-06-01",
+          "event": "AI chapter introduced in the Class 7 ICT textbook for 2024-25 (reported as first state to do so)"
+        },
+        {
+          "date": "2025-06-01",
+          "event": "Reported extension to other classes in 2025-26"
+        }
+      ],
+      "source_url": "https://kite.kerala.gov.in/",
+      "source_type": "official",
+      "confidence": "low",
+      "confidence_note": "Carried from prior knowledge of widely reported 2024 coverage; KITE site returned no text and no news source could be fetched in this session, so dates and numbers are unverified here."
+    },
+    {
+      "id": "kl-k-ai-platform-2025",
+      "state_code": "KL",
+      "state": "Kerala",
+      "title": "K-AI (Kerala – Artificial Intelligence) governance platform",
+      "type": "institution",
+      "status": "in-force",
+      "status_group": "adopted",
+      "is_ai_policy": false,
+      "binding": "non-binding",
+      "issuing_body": "Kerala State IT Mission, Electronics and IT Department",
+      "date": "2025-06-12",
+      "date_precision": "day",
+      "summary": "Government of Kerala's programme to accelerate AI adoption across departments by collecting use cases and proposals for governance AI.",
+      "timeline": [
+        {
+          "date": "2025-06-12",
+          "event": "K-AI formally inaugurated"
+        }
+      ],
+      "source_url": "https://itmission.kerala.gov.in/",
+      "source_type": "official",
+      "confidence": "medium",
+      "confidence_note": "Inauguration date from the State IT Mission site; metrics from a blog."
+    },
+    {
+      "id": "kl-kerala-ai-mission-2026",
+      "state_code": "KL",
+      "state": "Kerala",
+      "title": "Kerala AI Mission (under IT Policy 2026)",
+      "type": "mission",
+      "status": "announced",
+      "status_group": "in_progress",
+      "is_ai_policy": true,
+      "binding": "non-binding",
+      "issuing_body": "Electronics and Information Technology Department, Government of Kerala",
+      "date": "2026-02-20",
+      "date_precision": "day",
+      "summary": "Ten-year mission announced in the IT Policy 2026 to drive ethical and inclusive AI adoption in governance and public enterprises; no separate GO, budget or governing body found.",
+      "timeline": [
+        {
+          "date": "2026-02-20",
+          "event": "Mission created on paper by the IT Policy 2026"
+        }
+      ],
+      "source_url": "https://inside.blackboxlearning.in/blog/kerala-ai-mission-2026-can-kerala-become-indias-next-major-ai-hub/",
+      "source_type": "secondary",
+      "confidence": "low",
+      "confidence_note": "Single secondary source for the mission's parameters; official policy text not retrieved."
+    },
+    {
+      "id": "kl-it-policy-2026",
+      "state_code": "KL",
+      "state": "Kerala",
+      "title": "Kerala Information Technology Policy 2026",
+      "type": "policy",
+      "status": "adopted",
+      "status_group": "adopted",
+      "is_ai_policy": false,
+      "binding": "non-binding",
+      "issuing_body": "Electronics and Information Technology Department, Government of Kerala",
+      "date": "2026-02-20",
+      "date_precision": "day",
+      "summary": "State IT policy replacing the 2023 policy, with job, start-up and export targets and a chapter establishing a 10-year Kerala AI Mission; the state's closest instrument to an AI policy.",
+      "timeline": [
+        {
+          "date": "2026-02-20",
+          "event": "Cabinet (LDF government) clears the IT Policy 2026"
+        },
+        {
+          "date": "2026-05-01",
+          "event": "UDF government takes office; policy not repealed as of November 2026"
+        }
+      ],
+      "source_url": "https://www.onmanorama.com/news/kerala/2026/02/20/kerala-it-policy-2026-overview.html",
+      "source_type": "news",
+      "confidence": "medium",
+      "confidence_note": "Cabinet clearance from Onmanorama; AI Mission details only from a blog citing the policy; official text not located on itmission.kerala.gov.in."
+    },
+    {
+      "id": "kl-ai-portfolio-minister-2026",
+      "state_code": "KL",
+      "state": "Kerala",
+      "title": "Cabinet portfolio for Artificial Intelligence (Minister P.K. Kunhalikutty)",
+      "type": "institution",
+      "status": "in-force",
+      "status_group": "adopted",
+      "is_ai_policy": false,
+      "binding": "non-binding",
+      "issuing_body": "Government of Kerala (allocation of business by the Governor on the Chief Minister's advice)",
+      "date": "2026-05-01",
+      "date_precision": "month",
+      "summary": "First dedicated state cabinet portfolio for AI in India, consolidating AI policy, start-up promotion, research and ethical oversight under one minister.",
+      "timeline": [
+        {
+          "date": "2026-05-01",
+          "event": "UDF government under CM V.D. Satheesan sworn in; gazette allocates an AI portfolio to P.K. Kunhalikutty (IUML) with IT, Industries, Commerce, Start-ups, Mining and Handlooms"
+        }
+      ],
+      "source_url": "https://www.gulftoday.ae/news/2026/05/21/kerala-first-state-in-india-to-appoints-artificial-intelligence-minister",
+      "source_type": "news",
+      "confidence": "medium",
+      "confidence_note": "Portfolio confirmed by two sources; gazette not retrieved; budget figures from a single secondary source."
+    },
+    {
+      "id": "kl-draft-gcc-policy-2025",
+      "state_code": "KL",
+      "state": "Kerala",
+      "title": "Draft Kerala Global Capability Centre (GCC) Policy, 2025",
+      "type": "consultation",
+      "status": "consultation",
+      "status_group": "in_progress",
+      "is_ai_policy": false,
+      "binding": "non-binding",
+      "issuing_body": "Electronics and IT Department, Government of Kerala (via Infopark)",
+      "date": "2026-05-02",
+      "date_precision": "day",
+      "summary": "Draft policy to position Kerala as a GCC destination, released for public comment in Malayalam and English; AI-specific provisions not verified.",
+      "timeline": [
+        {
+          "date": "2026-05-02",
+          "event": "Draft listed for public feedback on the State IT Mission site"
+        },
+        {
+          "date": "2026-05-10",
+          "event": "Feedback deadline"
+        }
+      ],
+      "source_url": "https://infopark.in/gcc-policy",
+      "source_type": "official",
+      "confidence": "medium",
+      "confidence_note": "Official consultation page read; draft PDF content not reviewed."
+    },
+    {
+      "id": "kl-malayalam-ai-budget-2026",
+      "state_code": "KL",
+      "state": "Kerala",
+      "title": "Malayalam AI datasets and models allocation (Revised Budget 2026-27)",
+      "type": "scheme",
+      "status": "announced",
+      "status_group": "in_progress",
+      "is_ai_policy": false,
+      "binding": "non-binding",
+      "issuing_body": "Finance Department, Government of Kerala (CM V.D. Satheesan holding Finance)",
+      "date": "2026-06-19",
+      "date_precision": "day",
+      "summary": "Budget allocation to build indigenous Malayalam language datasets and AI models, with companion start-up and geospatial-AI lines.",
+      "timeline": [
+        {
+          "date": "2026-06-19",
+          "event": "Revised Budget presented with Malayalam AI and GenZ allocations"
+        }
+      ],
+      "source_url": "https://lapaasvoice.com/keralam-bets-big-genz-startups-geospatial-intelligence/",
+      "source_type": "secondary",
+      "confidence": "low",
+      "confidence_note": "Single secondary source; budget speech not retrieved."
+    },
+    {
+      "id": "kl-department-of-it-ai-future-tech-2026",
+      "state_code": "KL",
+      "state": "Kerala",
+      "title": "Kerala IT Department renamed Department of IT, AI and Future Tech",
+      "type": "institution",
+      "status": "adopted",
+      "status_group": "adopted",
+      "is_ai_policy": false,
+      "binding": "non-binding",
+      "issuing_body": "Government of Kerala",
+      "date": "2026-10-03",
+      "date_precision": "day",
+      "summary": "Kerala renamed its IT Department as the Department of IT, AI and Future Tech and, two weeks later, approved a Data Policy 2026 allowing paid access to government data, alongside school AI-learning commitments.",
+      "timeline": [
+        {
+          "date": "2026-10-03",
+          "event": "IT Department renamed to signal AI and future-technology focus"
+        },
+        {
+          "date": "2026-10-16",
+          "event": "Cabinet approves Kerala Data Policy 2026"
+        },
+        {
+          "date": "2026-11-15",
+          "event": "Digital Square project: computers in all lower primary schools and AI learning for high school students under 100-day plan"
+        }
+      ],
+      "source_url": "https://www.newindianexpress.com/states/kerala/2026/Oct/04/keralam-it-dept-now-dept-of-it-ai-future-tech",
+      "source_type": "news",
+      "confidence": "low",
+      "confidence_note": "Headlines and snippets only (NIE, Mathrubhumi, Education Times); the Mathrubhumi Data Policy page returned 404 and no government order was retrieved."
+    },
+    {
+      "id": "la-ai-roadmap-2026",
+      "state_code": "LA",
+      "state": "Ladakh",
+      "title": "Ladakh AI Roadmap",
+      "type": "strategy",
+      "status": "announced",
+      "status_group": "in_progress",
+      "is_ai_policy": true,
+      "binding": "non-binding",
+      "issuing_body": "Information Technology Department, UT Administration of Ladakh",
+      "date": "2026-02-11",
+      "date_precision": "day",
+      "summary": "UT-level AI roadmap with three pillars presented in February 2026, proposing an AI Centre of Excellence and positioning Ladakh for low-cooling 'green' data centres; no policy or budget order.",
+      "timeline": [
+        {
+          "date": "2026-02-11",
+          "event": "Roadmap presented by Secretary IT at Pre-AI Impact Summit, Leh; e-Seva portal launched"
+        },
+        {
+          "date": "2026-02-18",
+          "event": "LG presents green-data and 'first AI-enabled city' vision at India AI Impact Summit"
+        }
+      ],
+      "source_url": "https://ladakh.gov.in/pre-ai-impact-summit-organised-by-the-it-department-ut-ladakh/",
+      "source_type": "official",
+      "confidence": "medium",
+      "confidence_note": "Official UT website describes the roadmap; no document, order or budget published."
+    },
+    {
+      "id": "mp-ai-roadmap-2026",
+      "state_code": "MP",
+      "state": "Madhya Pradesh",
+      "title": "AI for People, Planet and Progress: Madhya Pradesh Roadmap to Impact",
+      "type": "strategy",
+      "status": "announced",
+      "status_group": "in_progress",
+      "is_ai_policy": true,
+      "binding": "non-binding",
+      "issuing_body": "Department of Science and Technology, Government of Madhya Pradesh",
+      "date": "2026-01-15",
+      "date_precision": "day",
+      "summary": "State AI vision document released ahead of the India AI Impact Summit, accompanied by the Chief Minister's announcement that a dedicated AI policy focused on public welfare will be introduced.",
+      "timeline": [
+        {
+          "date": "2026-01-15",
+          "event": "Vision document presented at MP Regional AI Impact Conference, Bhopal; CM announces a dedicated AI policy will follow"
+        }
+      ],
+      "source_url": "https://www.newkerala.com/news/a/mp-govt-introduce-ai-policy-peoples-welfare-cm-202.htm",
+      "source_type": "news",
+      "confidence": "medium",
+      "confidence_note": "Two syndicated reports agree; the vision document itself was not located online."
+    },
+    {
+      "id": "mp-ai-policy-proposed-2026",
+      "state_code": "MP",
+      "state": "Madhya Pradesh",
+      "title": "Madhya Pradesh Artificial Intelligence Policy (proposed)",
+      "type": "policy",
+      "status": "proposed",
+      "status_group": "in_progress",
+      "is_ai_policy": true,
+      "binding": "non-binding",
+      "issuing_body": "Government of Madhya Pradesh",
+      "date": "2026-01-15",
+      "date_precision": "day",
+      "summary": "Placeholder entry: Madhya Pradesh has no dedicated AI policy as of 19 Nov 2026; the Chief Minister announced one in January 2026 and no draft has been published.",
+      "timeline": [
+        {
+          "date": "2026-01-15",
+          "event": "CM announces the state will introduce a dedicated AI policy for public welfare"
+        }
+      ],
+      "source_url": "https://www.prokerala.com/news/articles/a1718518.html",
+      "source_type": "news",
+      "confidence": "low",
+      "confidence_note": "Entry records absence of a policy; the MP IT/ITeS/ESDM Investment Promotion Policy 2023 is the closest existing instrument but could not be verified from a readable source in this sweep."
+    },
+    {
+      "id": "mp-state-ai-mission-2026",
+      "state_code": "MP",
+      "state": "Madhya Pradesh",
+      "title": "Madhya Pradesh State AI Mission",
+      "type": "mission",
+      "status": "announced",
+      "status_group": "in_progress",
+      "is_ai_policy": true,
+      "binding": "non-binding",
+      "issuing_body": "Government of Madhya Pradesh (Science and Technology / MPSEDC)",
+      "date": "2026-02-20",
+      "date_precision": "day",
+      "summary": "Announced state mission to use AI for governance efficiency, risk identification in agriculture, health, nutrition and disaster management, with five-year startup and jobs targets; no cabinet order found.",
+      "timeline": [
+        {
+          "date": "2026-02-20",
+          "event": "CM Mohan Yadav announces State AI Mission at India AI Impact Summit"
+        },
+        {
+          "date": "2026-03-23",
+          "event": "CM reiterates mission before cabinet meeting; phased 2026-29 roadmap outlined"
+        }
+      ],
+      "source_url": "https://www.newkerala.com/news/a/madhya-pradesh-launch-state-ai-mission-cm-mohan-907.htm",
+      "source_type": "news",
+      "confidence": "low",
+      "confidence_note": "Announcement-stage only; Google News sweep to Nov 2026 found no cabinet approval, budget or order."
+    },
+    {
+      "id": "mh-mahaagri-ai-policy-2025",
+      "state_code": "MH",
+      "state": "Maharashtra",
+      "title": "Maharashtra Agriculture-Artificial Intelligence (MahaAgri-AI) Policy 2025-2029",
+      "type": "policy",
+      "status": "adopted",
+      "status_group": "adopted",
+      "is_ai_policy": true,
+      "binding": "non-binding",
+      "issuing_body": "Agriculture Department, Government of Maharashtra",
+      "date": "2025-06-17",
+      "date_precision": "day",
+      "summary": "Sectoral AI policy for agriculture funding AI, generative AI, IoT, drone, computer-vision and predictive-analytics applications for farmers, with a three-tier governance structure and university-based research centres.",
+      "timeline": [
+        {
+          "date": "2025-06-17",
+          "event": "Cabinet approves MahaAgri-AI Policy 2025-29 with Rs 500 crore for first three years"
+        }
+      ],
+      "source_url": "https://www.newsonair.gov.in/maharashtra-cabinet-approves-mahaagri-ai-2025-29-to-transform-agri-sector/",
+      "source_type": "press-release",
+      "confidence": "medium",
+      "confidence_note": "Cabinet decision and outlay confirmed by state broadcaster and PTI/ThePrint; GR text not read."
+    },
+    {
+      "id": "mh-maharashtra-ai-mission-2026",
+      "state_code": "MH",
+      "state": "Maharashtra",
+      "title": "Maharashtra AI Mission",
+      "type": "institution",
+      "status": "announced",
+      "status_group": "in_progress",
+      "is_ai_policy": true,
+      "binding": "non-binding",
+      "issuing_body": "Government of Maharashtra",
+      "date": "2026-04-29",
+      "date_precision": "day",
+      "summary": "State mission announced under the AI Policy 2026 to implement the policy on the lines of the IndiaAI Mission; no separate constitution order located.",
+      "timeline": [
+        {
+          "date": "2026-04-29",
+          "event": "Mission announced as implementing body under the AI Policy 2026"
+        }
+      ],
+      "source_url": "https://psuwatch.com/newsupdates/maharashtra-cabinet-approves-ai-policy-2026",
+      "source_type": "news",
+      "confidence": "low",
+      "confidence_note": "Mission named in cabinet coverage; no GR constituting it, no CEO or budget located as of Nov 2026."
+    },
+    {
+      "id": "mh-data-centre-policy-draft-2026",
+      "state_code": "MH",
+      "state": "Maharashtra",
+      "title": "Maharashtra Data Centre Policy (new, under preparation)",
+      "type": "policy",
+      "status": "proposed",
+      "status_group": "in_progress",
+      "is_ai_policy": false,
+      "binding": "non-binding",
+      "issuing_body": "Government of Maharashtra (Industries/Urban Development)",
+      "date": "2026-09-07",
+      "date_precision": "day",
+      "summary": "A new state data-centre policy reported in September 2026 as being prepared to regulate siting, water consumption, noise and heat emissions of data centres amid AI-driven growth.",
+      "timeline": [
+        {
+          "date": "2026-09-07",
+          "event": "Press reports state will soon issue a data centre policy regulating sites, water, noise and heat"
+        }
+      ],
+      "source_url": "https://news.google.com/rss/search?q=Maharashtra+%22data+centre+policy%22+2026&hl=en-IN&gl=IN&ceid=IN:en",
+      "source_type": "news",
+      "confidence": "low",
+      "confidence_note": "Based on a Free Press Journal headline of 7 Sept 2026 found via Google News; article body could not be retrieved. An earlier 'Maharashtra Data Centre Policy 2023' is referenced by an IMPRI headline but not verified."
+    },
+    {
+      "id": "mh-ai-policy-2026",
+      "state_code": "MH",
+      "state": "Maharashtra",
+      "title": "Maharashtra Artificial Intelligence Policy 2026 and implementation committees",
+      "type": "policy",
+      "status": "in-force",
+      "status_group": "adopted",
+      "is_ai_policy": true,
+      "binding": "non-binding",
+      "issuing_body": "Government of Maharashtra (Information Technology Department)",
+      "date": "2026-10-27",
+      "date_precision": "day",
+      "summary": "Maharashtra's AI Policy 2026, approved by cabinet in April 2026, creates a State AI Mission and targets Rs 10,000 crore of investment and 1.5 lakh jobs by 2031. In October 2026 the state constituted a three-tier committee structure to implement it and sanction incentives.",
+      "timeline": [
+        {
+          "date": "2026-04-29",
+          "event": "State cabinet approves AI Policy 2026 targeting Rs 10,000 crore investment and 1.5 lakh jobs by 2031"
+        },
+        {
+          "date": "2026-04-29",
+          "event": "Cabinet chaired by CM Fadnavis approves AI Policy 2026"
+        },
+        {
+          "date": "2026-05-27",
+          "event": "Policy announced publicly (News on AIR)"
+        },
+        {
+          "date": "2026-05-27",
+          "event": "News On AIR carries state announcement of policy details"
+        },
+        {
+          "date": "2026-10-27",
+          "event": "Government sets up three tiers of committees to oversee the policy and approve incentives"
+        }
+      ],
+      "source_url": "https://www.deccanchronicle.com/artificial-intelligence/maharashtra-govt-sets-up-3-tier-panels-to-oversee-ai-policy-approve-incentives-1999640",
+      "source_type": "news",
+      "confidence": "medium",
+      "confidence_note": "Cabinet approval and targets widely reported; the October Government Resolution and committee composition are from Deccan Chronicle and Rediff and the GR itself was not retrieved. Policy outlay figure not confirmed."
+    },
+    {
+      "id": "mn-manipur-mind-project-ai-data-centre",
+      "state_code": "MN",
+      "state": "Manipur",
+      "title": "Manipur Infotech eNabled Development (MIND) Project: AI-enabled Tier-III State Data Centre and cyber security units",
+      "type": "scheme",
+      "status": "adopted",
+      "status_group": "adopted",
+      "is_ai_policy": false,
+      "binding": "non-binding",
+      "issuing_body": "Department of Information Technology, Government of Manipur (World Bank-supported)",
+      "date": "2026-03-15",
+      "date_precision": "month",
+      "summary": "World Bank-supported state IT programme whose components include an AI-enabled Tier-III State Data Centre, a Cyber Security Operations Centre, a state CIRT and a cyber security lab.",
+      "timeline": [
+        {
+          "date": "2026-03-15",
+          "event": "Press describes MIND project components including AI-enabled Tier-III SDC"
+        },
+        {
+          "date": "2026-09-25",
+          "event": "DIT reiterates components"
+        }
+      ],
+      "source_url": "https://www.imphaltimes.com/news/digital-push-manipur-rolls-out-ai-e-governance-and-cybersecurity-initiatives/",
+      "source_type": "news",
+      "confidence": "low",
+      "confidence_note": "Two regional outlets; project appraisal document and budget not accessed."
+    },
+    {
+      "id": "mn-manipur-ai-centre-of-excellence",
+      "state_code": "MN",
+      "state": "Manipur",
+      "title": "Manipur AI Centre of Excellence (Department of IT)",
+      "type": "institution",
+      "status": "adopted",
+      "status_group": "adopted",
+      "is_ai_policy": false,
+      "binding": "non-binding",
+      "issuing_body": "Department of Information Technology, Government of Manipur",
+      "date": "2026-09-25",
+      "date_precision": "day",
+      "summary": "State AI Centre of Excellence with startup and prototype targets, reported by the Department of IT alongside the World Bank-funded MIND project; Manipur has no dedicated AI policy.",
+      "timeline": [
+        {
+          "date": "2026-09-25",
+          "event": "DIT lists AI CoE targets among its initiatives"
+        }
+      ],
+      "source_url": "https://www.imphaltimes.com/news/digital-push-manipur-rolls-out-ai-e-governance-and-cybersecurity-initiatives/",
+      "source_type": "news",
+      "confidence": "low",
+      "confidence_note": "Single news report of a DIT briefing; sanction order, funding and location not located."
+    },
+    {
+      "id": "mn-manipur-bhashini-mou-2026",
+      "state_code": "MN",
+      "state": "Manipur",
+      "title": "MoU between Digital India BHASHINI Division and Government of Manipur on multilingual AI",
+      "type": "other",
+      "status": "adopted",
+      "status_group": "adopted",
+      "is_ai_policy": false,
+      "binding": "non-binding",
+      "issuing_body": "Department of Information Technology, Government of Manipur, with Digital India BHASHINI Division (MeitY)",
+      "date": "2026-10-14",
+      "date_precision": "day",
+      "summary": "Government-to-government MoU to deploy BHASHINI multilingual AI for Manipuri-language digital services.",
+      "timeline": [
+        {
+          "date": "2026-10-14",
+          "event": "MoU signed at BHASHINI Rajyam Workshop, Imphal, in the presence of CM Y. Khemchand Singh"
+        },
+        {
+          "date": "2026-10-15",
+          "event": "PIB release"
+        }
+      ],
+      "source_url": "https://apacnewsnetwork.com/2026/10/manipur-govt-signs-mou-with-bhashini-to-boost-multilingual-ai-and-digital-services/",
+      "source_type": "news",
+      "confidence": "medium",
+      "confidence_note": "PIB release exists (15 Oct 2026) but PIB pages returned 403; content from APAC News Network."
+    },
+    {
+      "id": "ml-meghalaya-ai-centre-of-excellence-shillong",
+      "state_code": "ML",
+      "state": "Meghalaya",
+      "title": "Meghalaya AI Centre of Excellence, Shillong Technology Park-II (Umsawli)",
+      "type": "institution",
+      "status": "announced",
+      "status_group": "in_progress",
+      "is_ai_policy": false,
+      "binding": "non-binding",
+      "issuing_body": "Information Technology & Communication Department, Government of Meghalaya, with MeitY/IndiaAI funding",
+      "date": "2026-09-30",
+      "date_precision": "day",
+      "summary": "Centrally funded AI Centre of Excellence of about 10,000 sq ft at Shillong Tech Park-II, focused on healthcare, education and governance use-cases.",
+      "timeline": [
+        {
+          "date": "2026-08-26",
+          "event": "State proposes Rs 20 crore AI centre, awaiting IndiaAI Mission approval (India Today NE)"
+        },
+        {
+          "date": "2026-09-30",
+          "event": "IT Secretary says Rs 18 crore sanctioned by Union ministry; centre to open within two months"
+        }
+      ],
+      "source_url": "https://theprint.in/economy/meghalaya-drafting-new-it-policy-with-focus-on-ai-gccs-state-it-secy/3058336/",
+      "source_type": "news",
+      "confidence": "low",
+      "confidence_note": "Funding figure conflicts between reports (Rs 18 crore sanctioned vs Rs 20 crore proposed); sanction letter not located."
+    },
+    {
+      "id": "ml-meghalaya-it-policy-2-draft",
+      "state_code": "ML",
+      "state": "Meghalaya",
+      "title": "Meghalaya IT & ITeS Policy 2.0 (under drafting; AI and GCC focus)",
+      "type": "policy",
+      "status": "proposed",
+      "status_group": "in_progress",
+      "is_ai_policy": true,
+      "binding": "non-binding",
+      "issuing_body": "Information Technology & Communication Department, Government of Meghalaya",
+      "date": "2026-09-30",
+      "date_precision": "day",
+      "summary": "Second-generation IT policy being drafted with artificial intelligence and global capability centres as priority areas; no draft published and no dedicated AI policy exists.",
+      "timeline": [
+        {
+          "date": "2025-12-03",
+          "event": "Regional AI Impact Conference, Shillong (IndiaAI + Meghalaya); MoUs for Data & AI Lab and with MATH T-Hub; MeghDEE launch"
+        },
+        {
+          "date": "2026-09-30",
+          "event": "IT Secretary Pravin Bakshi says a second IT/ITeS policy with AI and GCC focus is being drafted"
+        },
+        {
+          "date": "2026-11-17",
+          "event": "CM announces 'AI Valley' vision and 125 AI jobs at first AI Job Fair"
+        }
+      ],
+      "source_url": "https://theprint.in/economy/meghalaya-drafting-new-it-policy-with-focus-on-ai-gccs-state-it-secy/3058336/",
+      "source_type": "news",
+      "confidence": "medium",
+      "confidence_note": "Status from an on-record statement by the IT Secretary (PTI via ThePrint); no document exists yet."
+    },
+    {
+      "id": "ml-ai-valley-initiative-2026",
+      "state_code": "ML",
+      "state": "Meghalaya",
+      "title": "Meghalaya 'AI Valley' initiative and AI Job Fair",
+      "type": "other",
+      "status": "announced",
+      "status_group": "in_progress",
+      "is_ai_policy": false,
+      "binding": "non-binding",
+      "issuing_body": "Government of Meghalaya",
+      "date": "2026-11-17",
+      "date_precision": "day",
+      "summary": "Meghalaya's Chief Minister announced an aim to position Shillong as India's next AI hub, launching an initial 125 AI job opportunities at the state's first AI Job Fair. No policy document or budget was announced.",
+      "timeline": [
+        {
+          "date": "2026-11-17",
+          "event": "CM Conrad Sangma announces AI Valley ambition and 125 AI jobs at state's first AI Job Fair in Shillong"
+        }
+      ],
+      "source_url": "https://www.bing.com/news/search?q=Meghalaya+AI+Valley+Conrad+Sangma+November+2026&format=rss",
+      "source_type": "news",
+      "confidence": "low",
+      "confidence_note": "Three regional outlets (The Hawk, Northeast Live, Meghalayan Express) report the announcement; it is an initiative, not an instrument, and is recorded so the map reflects Meghalaya's status."
+    },
+    {
+      "id": "mz-mizoram-ai-tools-precautionary-guidelines-2026",
+      "state_code": "MZ",
+      "state": "Mizoram",
+      "title": "Precautionary Guidelines regarding the use of AI Tools and Engagement with AI Service Providers by Government Departments",
+      "type": "guidelines",
+      "status": "in-force",
+      "status_group": "adopted",
+      "is_ai_policy": false,
+      "binding": "binding",
+      "issuing_body": "Department of Information & Communication Technology, Government of Mizoram",
+      "date": "2026-09-17",
+      "date_precision": "day",
+      "summary": "Administrative guidelines to all Mizoram government departments on safe use of AI tools and on engaging AI vendors, covering confidential data, procurement, vendor vetting, training and audit; Mizoram's only AI-specific instrument.",
+      "timeline": [
+        {
+          "date": "2026-09-17",
+          "event": "Guidelines issued to all government departments and posted on the DICT website"
+        }
+      ],
+      "source_url": "https://dict.mizoram.gov.in/post/precautionary-guidelines-regarding-the-use-of-ai-tools-and-engagement-with-ai-service-providers-by-government-departments",
+      "source_type": "official",
+      "confidence": "medium",
+      "confidence_note": "Official DICT page and PDF located; the PDF is a scanned image that could not be machine-read, so provisions are taken from the DICT page summary and the memo number is unverified."
+    },
+    {
+      "id": "nl-nagaland-budget-2026-27-ai-schemes",
+      "state_code": "NL",
+      "state": "Nagaland",
+      "title": "Nagaland Budget 2026-27 AI schemes: Innovation Hub & State Data Centre AI platforms; AI and ML Lab Development",
+      "type": "scheme",
+      "status": "adopted",
+      "status_group": "adopted",
+      "is_ai_policy": false,
+      "binding": "non-binding",
+      "issuing_body": "Information Technology & Communication Department and Technical Education Department, Government of Nagaland",
+      "date": "2026-01-01",
+      "date_precision": "year",
+      "summary": "Two budget lines for 2026-27 that fund AI-enabled governance platforms at the Chumoukedima innovation hub/state data centre and AI/ML laboratories in state polytechnics.",
+      "timeline": [
+        {
+          "date": "2026-01-01",
+          "event": "Schemes introduced in Budget 2026-27 (year precision)"
+        }
+      ],
+      "source_url": "https://impriinsights.in/nagaland-department-wise-schemes-update-2026/",
+      "source_type": "secondary",
+      "confidence": "low",
+      "confidence_note": "Single secondary compilation; budget documents not accessed (state IT&C domain did not resolve)."
+    },
+    {
+      "id": "nl-nagaland-ai-governance-readiness-roadmap-2026",
+      "state_code": "NL",
+      "state": "Nagaland",
+      "title": "Nagaland AI readiness assessment and 24-month AI-in-governance roadmap (Nagaland Science Mission with AIMA)",
+      "type": "other",
+      "status": "proposed",
+      "status_group": "in_progress",
+      "is_ai_policy": true,
+      "binding": "non-binding",
+      "issuing_body": "Nagaland Science Mission, Department of Science & Technology, Government of Nagaland",
+      "date": "2026-03-11",
+      "date_precision": "day",
+      "summary": "Government exercise, run with the All India Management Association, to assess Nagaland's readiness for AI in public administration and chart a 24-month implementation roadmap; no AI policy or roadmap document has been published.",
+      "timeline": [
+        {
+          "date": "2026-03-11",
+          "event": "Workshop in Kohima with officers of 40+ departments launches readiness assessment and roadmap exercise"
+        },
+        {
+          "date": "2026-04-30",
+          "event": "DP&AR/ATI hold first AI-based Capacity Building Plan workshop (65 officers, 35 departments)"
+        }
+      ],
+      "source_url": "https://www.easternmirrornagaland.com/workshop-explores-artificial-intelligence-roadmap-for-governance-in-nagaland",
+      "source_type": "news",
+      "confidence": "medium",
+      "confidence_note": "Two regional dailies plus a state DIPR page confirm activity; no roadmap document published as of Nov 2026."
+    },
+    {
+      "id": "or-odisha-data-centre-policy-2022",
+      "state_code": "OD",
+      "state": "Odisha",
+      "title": "Odisha State Data Centre Policy 2022",
+      "type": "policy",
+      "status": "in-force",
+      "status_group": "adopted",
+      "is_ai_policy": false,
+      "binding": "non-binding",
+      "issuing_body": "Electronics & Information Technology Department, Government of Odisha",
+      "date": "2022-01-01",
+      "date_precision": "year",
+      "summary": "Data-centre investment policy predating the AI policy; not justified by AI in available descriptions but is the instrument under which AI data-centre investments announced in 2026 would be incentivised.",
+      "timeline": [
+        {
+          "date": "2022-01-01",
+          "event": "Policy notified (year only)"
+        }
+      ],
+      "source_url": "https://technodigital.in/data-center-policies-india-state-by-state-guide/",
+      "source_type": "secondary",
+      "confidence": "low",
+      "confidence_note": "Secondary compilation only; official notification not accessed. Included as context for 2026 AI data-centre investment announcements (HCLTech, July 2026)."
+    },
+    {
+      "id": "or-odisha-ai-mission",
+      "state_code": "OD",
+      "state": "Odisha",
+      "title": "Odisha AI Mission (AI Taskforce and AI Cell at OCAC)",
+      "type": "institution",
+      "status": "adopted",
+      "status_group": "adopted",
+      "is_ai_policy": true,
+      "binding": "non-binding",
+      "issuing_body": "Electronics & Information Technology Department / Odisha Computer Application Centre (OCAC)",
+      "date": "2025-06-18",
+      "date_precision": "day",
+      "summary": "Apex state mechanism for implementing the AI policy, comprising an AI Taskforce chaired by the Principal Secretary E&IT and an AI Cell housed at OCAC.",
+      "timeline": [
+        {
+          "date": "2025-06-18",
+          "event": "Created by Odisha AI Policy-2025 resolution"
+        },
+        {
+          "date": "2026-03-01",
+          "event": "Operational guidelines detail mission structure"
+        }
+      ],
+      "source_url": "https://dowr.odisha.gov.in/sites/default/files/2025-07/Odisha%20AI%20Policy-2025.pdf",
+      "source_type": "official",
+      "confidence": "high",
+      "confidence_note": "Structure read from the official policy PDF; budget line from IMPRI."
+    },
+    {
+      "id": "or-odisha-ai-policy-2025",
+      "state_code": "OD",
+      "state": "Odisha",
+      "title": "Odisha Artificial Intelligence Policy-2025",
+      "type": "policy",
+      "status": "in-force",
+      "status_group": "adopted",
+      "is_ai_policy": true,
+      "binding": "non-binding",
+      "issuing_body": "Electronics & Information Technology (E&IT) Department, Government of Odisha",
+      "date": "2025-06-18",
+      "date_precision": "day",
+      "summary": "State AI policy adopted by Cabinet and issued as an E&IT Department resolution. It sets five-year and 2036 targets on compute, skilling, schooling, energy and ethics, and creates an Odisha AI Mission with an AI Taskforce and an AI Cell at OCAC.",
+      "timeline": [
+        {
+          "date": "2024-10-08",
+          "event": "Initial AI strategy presentation to Chief Secretary"
+        },
+        {
+          "date": "2024-10-19",
+          "event": "Brainstorming workshop with MeitY, industry and academia on state AI strategy"
+        },
+        {
+          "date": "2025-05-28",
+          "event": "State Cabinet (20th meeting) approves the policy; Parliamentary Affairs Dept memo 3971 dated 29.05.2025"
+        },
+        {
+          "date": "2025-06-18",
+          "event": "E&IT Department Resolution No. 3227/E&IT issued; gazette publication ordered"
+        },
+        {
+          "date": "2026-03-30",
+          "event": "Operational Guidelines for the policy issued (per IMPRI; press reported roadmap 19-20 March 2026)"
+        }
+      ],
+      "source_url": "https://dowr.odisha.gov.in/sites/default/files/2025-07/Odisha%20AI%20Policy-2025.pdf",
+      "source_type": "official",
+      "confidence": "high",
+      "confidence_note": "Official resolution PDF (scanned, OCR noisy) read; resolution number 3227/E&IT and memos dated 18.06.2025 visible; cabinet date 28.05.2025 from press and the resolution's reference to Parliamentary Affairs memo of 29.05.2025. The brief's 'Sept 2025' approval date is not supported. Rs 20 crore budget figure is from IMPRI, not the PDF."
+    },
+    {
+      "id": "or-odisha-it-policy-2025",
+      "state_code": "OD",
+      "state": "Odisha",
+      "title": "Odisha IT Policy 2025",
+      "type": "policy",
+      "status": "adopted",
+      "status_group": "adopted",
+      "is_ai_policy": false,
+      "binding": "non-binding",
+      "issuing_body": "Electronics & Information Technology Department, Government of Odisha",
+      "date": "2025-08-26",
+      "date_precision": "day",
+      "summary": "Sector policy for IT/ITeS investment approved alongside an electronics component policy in August 2025; the GCC Policy 2025 is described as complementary to it. Its AI-specific content could not be verified.",
+      "timeline": [
+        {
+          "date": "2025-02-13",
+          "event": "Press reports planned incentives to attract IT projects"
+        },
+        {
+          "date": "2025-08-26",
+          "event": "Cabinet approves new IT policy and an electronics component manufacturing policy"
+        }
+      ],
+      "source_url": "https://sambadenglish.com/latest-news/odisha-govt-approves-gcc-policy-2025-to-attract-global-investments-and-create-50000-jobs-10799601/amp",
+      "source_type": "news",
+      "confidence": "low",
+      "confidence_note": "Only headlines (New Indian Express, Deccan Chronicle, 26 Aug 2025) confirm approval; policy text not accessed. Listed because the brief names it and the GCC policy references it."
+    },
+    {
+      "id": "or-odisha-gcc-policy-2025",
+      "state_code": "OD",
+      "state": "Odisha",
+      "title": "Odisha Global Capability Centre (GCC) Policy 2025",
+      "type": "policy",
+      "status": "adopted",
+      "status_group": "adopted",
+      "is_ai_policy": false,
+      "binding": "non-binding",
+      "issuing_body": "Electronics & Information Technology Department, Government of Odisha (OCAC nodal agency)",
+      "date": "2025-11-21",
+      "date_precision": "day",
+      "summary": "Investment-promotion policy for global capability centres, framed as complementary to the Odisha IT Policy 2025; relevant to AI through GCC/AI engineering centres but contains no AI-specific chapter in press accounts.",
+      "timeline": [
+        {
+          "date": "2025-11-21",
+          "event": "State Cabinet approves GCC Policy 2025"
+        }
+      ],
+      "source_url": "https://sambadenglish.com/latest-news/odisha-govt-approves-gcc-policy-2025-to-attract-global-investments-and-create-50000-jobs-10799601/amp",
+      "source_type": "news",
+      "confidence": "medium",
+      "confidence_note": "Cabinet approval reported by several outlets on 21-22 Nov 2025; official policy text and incentive percentages not located."
+    },
+    {
+      "id": "or-odisha-ai-policy-operational-guidelines-2026",
+      "state_code": "OD",
+      "state": "Odisha",
+      "title": "Operational Guidelines for Odisha Artificial Intelligence Policy-2025",
+      "type": "guidelines",
+      "status": "adopted",
+      "status_group": "adopted",
+      "is_ai_policy": true,
+      "binding": "non-binding",
+      "issuing_body": "Electronics & Information Technology Department, Government of Odisha / OCAC",
+      "date": "2026-03-01",
+      "date_precision": "month",
+      "summary": "Implementation guidelines for the 2025 AI policy that specify the AI Mission structure, an AI Cell at OCAC, AI labs in four institutes, a hub-and-spoke Centre of Excellence and a State Open AI Hub.",
+      "timeline": [
+        {
+          "date": "2026-03-19",
+          "event": "Business Standard reports operational roadmap: AI Mission, labs across institutes"
+        },
+        {
+          "date": "2026-03-30",
+          "event": "Guidelines dated 30 March 2026 per IMPRI policy update"
+        }
+      ],
+      "source_url": "https://www.communicationstoday.co.in/odisha-issues-operational-guidelines-to-roll-out-ai-policy/",
+      "source_type": "news",
+      "confidence": "medium",
+      "confidence_note": "Official guidelines document not located online; contents from two trade/press reports and IMPRI. Date conflict: press coverage on 19-20 March 2026 versus IMPRI's '30 March 2026' date, so month precision used."
+    },
+    {
+      "id": "or-odisha-dhe-ai-curriculum-2026",
+      "state_code": "OD",
+      "state": "Odisha",
+      "title": "Odisha Higher Education AI course integration (apprenticeship-degree curriculum)",
+      "type": "curriculum",
+      "status": "announced",
+      "status_group": "in_progress",
+      "is_ai_policy": false,
+      "binding": "non-binding",
+      "issuing_body": "Department of Higher Education, Government of Odisha",
+      "date": "2026-08-23",
+      "date_precision": "day",
+      "summary": "Higher Education Department moves to introduce AI courses in state universities and to replace an existing course with an AI module for apprenticeship-embedded degree students, operationalising the AI policy's education targets.",
+      "timeline": [
+        {
+          "date": "2026-08-23",
+          "event": "DHE plans AI courses across universities (New Indian Express)"
+        },
+        {
+          "date": "2026-10-30",
+          "event": "AI curriculum to replace Good Citizenship course for apprenticeship-degree students (EdexLive)"
+        }
+      ],
+      "source_url": "https://news.google.com/rss/search?q=Odisha+%22AI%22+schools+curriculum+OR+%22AI+lab%22+OR+deepfake+government+2026&hl=en-IN&gl=IN&ceid=IN:en",
+      "source_type": "news",
+      "confidence": "low",
+      "confidence_note": "Headlines only (NIE 23 Aug 2026; EdexLive 30 Oct 2026); no government order located."
+    },
+    {
+      "id": "pb-ai-integration-mohali-hub-2026",
+      "state_code": "PB",
+      "state": "Punjab",
+      "title": "Punjab plan to integrate AI across departments and develop Mohali as AI hub",
+      "type": "other",
+      "status": "announced",
+      "status_group": "in_progress",
+      "is_ai_policy": false,
+      "binding": "non-binding",
+      "issuing_body": "Government of Punjab (Governance Reforms / Industries)",
+      "date": "2026-03-15",
+      "date_precision": "day",
+      "summary": "Placeholder entry: Punjab has no AI policy or mission order; the state has announced department-wide AI integration, a Mohali AI hub and an STPI-backed incubation centre.",
+      "timeline": [
+        {
+          "date": "2026-03-15",
+          "event": "State announces AI integration across departments with Mohali as AI hub"
+        },
+        {
+          "date": "2026-08-19",
+          "event": "MoU with STPI for Rs 29 crore 'Neuron 2.0' incubation centre in Mohali"
+        },
+        {
+          "date": "2026-08-24",
+          "event": "CM Mann pitches Mohali as north India's AI hub"
+        }
+      ],
+      "source_url": "https://news.google.com/rss/search?q=Punjab+government+artificial+intelligence+policy+Mann+Mohali&hl=en-IN&gl=IN&ceid=IN:en",
+      "source_type": "news",
+      "confidence": "low",
+      "confidence_note": "Headlines only (TOI, Indian Express, AAP site); no cabinet decision, notification or policy document found. Most web results for 'Punjab AI policy' concern Pakistan's Punjab and were excluded."
+    },
+    {
+      "id": "rj-gig-workers-act-2023",
+      "state_code": "RJ",
+      "state": "Rajasthan",
+      "title": "Rajasthan Platform Based Gig Workers (Registration and Welfare) Act, 2023",
+      "type": "act",
+      "status": "adopted",
+      "status_group": "adopted",
+      "is_ai_policy": false,
+      "binding": "binding",
+      "issuing_body": "Rajasthan Legislative Assembly / Labour Department",
+      "date": "2023-07-24",
+      "date_precision": "day",
+      "summary": "First Indian state law on platform gig work, creating a welfare board, worker registration, a welfare fee on transactions and transparency obligations on aggregators' automated monitoring and decision systems.",
+      "timeline": [
+        {
+          "date": "2023-07-24",
+          "event": "Bill passed by Rajasthan Legislative Assembly"
+        }
+      ],
+      "source_url": "https://prsindia.org/billtrack/the-rajasthan-platform-based-gig-workers-registration-and-welfare-bill-2023",
+      "source_type": "secondary",
+      "confidence": "low",
+      "confidence_note": "PRS page returned 404 at check time; assent/gazette date, rules notification and welfare-board status could not be verified in this sweep. Included because the brief flags its algorithm-transparency provisions."
+    },
+    {
+      "id": "rj-data-centre-policy-2025",
+      "state_code": "RJ",
+      "state": "Rajasthan",
+      "title": "Rajasthan Data Centre Policy 2025",
+      "type": "policy",
+      "status": "in-force",
+      "status_group": "adopted",
+      "is_ai_policy": false,
+      "binding": "non-binding",
+      "issuing_body": "Department of Information Technology and Communication, Government of Rajasthan",
+      "date": "2025-04-12",
+      "date_precision": "day",
+      "summary": "Incentive policy to make Rajasthan a hub for hyperscale, edge and AI compute data centres, later used as the base layer for the AI-ML Policy 2026.",
+      "timeline": [
+        {
+          "date": "2025-04-12",
+          "event": "CM Bhajanlal Sharma announces the policy aiming at Rs 20,000 crore investment over five years"
+        }
+      ],
+      "source_url": "https://psuwatch.com/newsupdates/rajasthan-data-centre-policy-to-attract-rs-20000-crore-investment-in-five-years-cm-bhajanlal-sharma",
+      "source_type": "news",
+      "confidence": "medium",
+      "confidence_note": "Two outlets (PSU Watch, ET Government) agree on provisions; official notification/GR not read; exact cabinet date not confirmed."
+    },
+    {
+      "id": "rj-ai-ml-policy-2026",
+      "state_code": "RJ",
+      "state": "Rajasthan",
+      "title": "Rajasthan Artificial Intelligence and Machine Learning (AI-ML) Policy 2026",
+      "type": "policy",
+      "status": "adopted",
+      "status_group": "adopted",
+      "is_ai_policy": true,
+      "binding": "non-binding",
+      "issuing_body": "Department of Information Technology and Communication (DoIT&C), Government of Rajasthan",
+      "date": "2025-12-31",
+      "date_precision": "day",
+      "summary": "Cabinet-approved state AI policy that tops up existing investment, MSME, startup and data-centre incentives for AI, mandates departmental AI nodal officers, and sets transparency, fairness and auditability requirements for AI systems.",
+      "timeline": [
+        {
+          "date": "2025-08-01",
+          "event": "Draft 'Rajasthan AI Policy 2025' uploaded for public suggestions"
+        },
+        {
+          "date": "2025-12-31",
+          "event": "Cabinet approves AI-ML Policy 2026"
+        },
+        {
+          "date": "2026-01-06",
+          "event": "Policy launched at Rajasthan Regional AI Impact Conference, Jaipur"
+        },
+        {
+          "date": "2026-03-24",
+          "event": "RFP for GPU servers at Rajasthan State Data Centre"
+        }
+      ],
+      "source_url": "https://ai.rajasthan.gov.in/",
+      "source_type": "official",
+      "confidence": "high",
+      "confidence_note": "Official portal confirms the final policy PDF; DD News (government broadcaster) confirms cabinet date and provisions. The PDF itself was not opened, so budget figures are not recorded."
+    },
+    {
+      "id": "sk-sikkim-state-data-policy-2025",
+      "state_code": "SK",
+      "state": "Sikkim",
+      "title": "Sikkim State Data Policy 2025",
+      "type": "policy",
+      "status": "adopted",
+      "status_group": "adopted",
+      "is_ai_policy": false,
+      "binding": "mixed",
+      "issuing_body": "Department of Information Technology, Government of Sikkim",
+      "date": "2025-01-01",
+      "date_precision": "year",
+      "summary": "State data policy with an implementation compliance plan, listed by the IT Department alongside the draft AI, blockchain and cyber-security policies; the AI draft relies on it for open data and data-sharing.",
+      "timeline": [
+        {
+          "date": "2025-01-01",
+          "event": "Policy and implementation compliance plan published (year precision)"
+        }
+      ],
+      "source_url": "https://sikkim.gov.in/departments/information-technology-department",
+      "source_type": "official",
+      "confidence": "low",
+      "confidence_note": "Listed on the official department page; document not read, date not shown."
+    },
+    {
+      "id": "sk-sikkim-ai-policy-2025-draft",
+      "state_code": "SK",
+      "state": "Sikkim",
+      "title": "Sikkim AI Policy 2025 (Draft) - A Framework for Responsible and Sustainable Digital Transformation",
+      "type": "policy",
+      "status": "draft",
+      "status_group": "in_progress",
+      "is_ai_policy": true,
+      "binding": "non-binding",
+      "issuing_body": "Department of Information Technology, Government of Sikkim",
+      "date": "2026-03-13",
+      "date_precision": "day",
+      "summary": "Draft state AI policy framed as a governance framework for responsible AI use across departments, with an AI Centre of Excellence, an AI Ethics Committee, a shared high-performance AI computing facility and data-sovereignty rules for the Himalayan context.",
+      "timeline": [
+        {
+          "date": "2026-03-13",
+          "event": "Draft PDF published on sikkim.gov.in (file timestamp)"
+        },
+        {
+          "date": "2026-05-08",
+          "event": "IT Department and NIELIT Gangtok sign MoU for an AI Centre of Excellence"
+        },
+        {
+          "date": "2026-11-19",
+          "event": "Still listed as 'Draft Sikkim Artificial Intelligence Policy 2025' on the department page"
+        }
+      ],
+      "source_url": "https://www.sikkim.gov.in/uploads/DeptUploads/Draft_AI_Policy_2025_20260313.pdf",
+      "source_type": "official",
+      "confidence": "high",
+      "confidence_note": "Official draft PDF read. Status conflict: the preamble says the Government 'hereby adopts' the policy, but the department page lists it as a draft and no cabinet approval or notification was found; treated as draft. No consultation deadline, budget or validity period stated."
+    },
+    {
+      "id": "sk-sikkim-ai-centre-of-excellence-nielit-2026",
+      "state_code": "SK",
+      "state": "Sikkim",
+      "title": "Sikkim AI Centre of Excellence (IT Department-NIELIT Gangtok MoU)",
+      "type": "institution",
+      "status": "adopted",
+      "status_group": "adopted",
+      "is_ai_policy": false,
+      "binding": "non-binding",
+      "issuing_body": "Department of Information Technology, Government of Sikkim, with NIELIT Gangtok (MeitY)",
+      "date": "2026-05-08",
+      "date_precision": "day",
+      "summary": "MoU establishing an AI Centre of Excellence in Sikkim with NIELIT Gangtok, implementing the CoE proposed in the draft AI policy.",
+      "timeline": [
+        {
+          "date": "2026-05-08",
+          "event": "MoU signed; PIB release issued"
+        },
+        {
+          "date": "2026-05-27",
+          "event": "IndiaAI-Digital India workshop on AI held in Gangtok"
+        }
+      ],
+      "source_url": "https://news.google.com/rss/search?q=Sikkim+NIELIT+%22Centre+of+Excellence%22+AI+MoU&hl=en-IN&gl=IN&ceid=IN:en",
+      "source_type": "press-release",
+      "confidence": "low",
+      "confidence_note": "PIB release of 8 May 2026 confirmed by title only (PIB pages returned 403); funding, location and objectives not verified."
+    },
+    {
+      "id": "sk-sikkim-ai-funzone-schools-2026",
+      "state_code": "SK",
+      "state": "Sikkim",
+      "title": "AI-FunZone personalised learning programme in 71 government schools",
+      "type": "curriculum",
+      "status": "in-force",
+      "status_group": "adopted",
+      "is_ai_policy": false,
+      "binding": "non-binding",
+      "issuing_body": "Education Department, Government of Sikkim",
+      "date": "2026-09-21",
+      "date_precision": "day",
+      "summary": "AI-powered personalised learning programme deployed in 71 government schools.",
+      "timeline": [
+        {
+          "date": "2026-09-21",
+          "event": "Launch reported in 71 government schools"
+        }
+      ],
+      "source_url": "https://news.google.com/rss/search?q=Sikkim+%22AI+policy%22+OR+%22artificial+intelligence%22+government&hl=en-IN&gl=IN&ceid=IN:en",
+      "source_type": "news",
+      "confidence": "low",
+      "confidence_note": "Headlines only; implementing partner, cost and order not verified."
+    },
+    {
+      "id": "tn-safe-ethical-ai-policy-2020",
+      "state_code": "TN",
+      "state": "Tamil Nadu",
+      "title": "Tamil Nadu Safe and Ethical Artificial Intelligence Policy 2020",
+      "type": "policy",
+      "status": "in-force",
+      "status_group": "adopted",
+      "is_ai_policy": true,
+      "binding": "mixed",
+      "issuing_body": "Information Technology Department, Government of Tamil Nadu (prepared by Commissionerate of e-Governance and TNeGA)",
+      "date": "2020-01-01",
+      "date_precision": "year",
+      "summary": "First Indian state AI policy. Sets an evaluation framework (TAM-DEF) and scorecard (DEEP-MAX) that state agencies must apply before procuring or deploying AI systems, with a Chief Secretary-led monitoring committee.",
+      "timeline": [
+        {
+          "date": "2020-01-01",
+          "event": "Policy issued by the IT Department (press reports place release in September 2020; exact date unverified)"
+        },
+        {
+          "date": "2026-08-26",
+          "event": "Policy Note 2026-27 of the renamed AI, IT and Digital Services department reaffirms TAM-DEF/DEEP-MAX assessment of government AI systems"
+        }
+      ],
+      "source_url": "https://spc.tn.gov.in/policy/tamil-nadu-safe-and-ethical-artificial-intelligence-policy-2020/",
+      "source_type": "official",
+      "confidence": "high",
+      "confidence_note": "Full policy text read (mirrored PDF); official State Planning Commission page confirms department and year. GO number and exact release date not located; official tn.gov.in PDF link not retrieved."
+    },
+    {
+      "id": "tn-data-centre-policy-2021",
+      "state_code": "TN",
+      "state": "Tamil Nadu",
+      "title": "Tamil Nadu Data Centre Policy 2021",
+      "type": "policy",
+      "status": "lapsed",
+      "status_group": "inactive",
+      "is_ai_policy": false,
+      "binding": "non-binding",
+      "issuing_body": "Information Technology Department, Government of Tamil Nadu",
+      "date": "2021-04-01",
+      "date_precision": "day",
+      "summary": "Incentive policy for greenfield data centres in Tamil Nadu covering 2021-2026; no AI-specific justification but the compute base referenced by later AI programmes.",
+      "timeline": [
+        {
+          "date": "2021-04-01",
+          "event": "Policy effective for units incorporated from this date"
+        },
+        {
+          "date": "2026-03-31",
+          "event": "Eligibility window closed; no successor policy located"
+        }
+      ],
+      "source_url": "https://spc.tn.gov.in/policy/tamil-nadu-data-centre-policy-2021",
+      "source_type": "official",
+      "confidence": "medium",
+      "confidence_note": "Official SPC page confirms policy; incentive details and expiry from a secondary state-by-state guide."
+    },
+    {
+      "id": "tn-data-policy-2022",
+      "state_code": "TN",
+      "state": "Tamil Nadu",
+      "title": "Tamil Nadu Data Policy 2022",
+      "type": "policy",
+      "status": "in-force",
+      "status_group": "adopted",
+      "is_ai_policy": false,
+      "binding": "mixed",
+      "issuing_body": "Information Technology Department, Government of Tamil Nadu",
+      "date": "2022-01-01",
+      "date_precision": "year",
+      "summary": "Sets a common framework for government databases, classification of sensitive data, data quality and sharing across departments, forming the data layer used by state AI programmes.",
+      "timeline": [
+        {
+          "date": "2022-01-01",
+          "event": "Policy issued (month not verified)"
+        }
+      ],
+      "source_url": "https://spc.tn.gov.in/policy/tamil-nadu-data-policy-2022/",
+      "source_type": "official",
+      "confidence": "medium",
+      "confidence_note": "Official SPC summary page read; policy PDF and GO number not retrieved in this session."
+    },
+    {
+      "id": "tn-ai-mission-2024",
+      "state_code": "TN",
+      "state": "Tamil Nadu",
+      "title": "Tamil Nadu Artificial Intelligence Mission (TNAIM)",
+      "type": "mission",
+      "status": "in-force",
+      "status_group": "adopted",
+      "is_ai_policy": true,
+      "binding": "non-binding",
+      "issuing_body": "Information Technology and Digital Services Department (implemented by TNeGA with iTNT Foundation, ICT Academy and ELCOT)",
+      "date": "2024-11-05",
+      "date_precision": "day",
+      "summary": "State AI mission chaired by the Chief Minister to drive AI adoption in government, skilling, start-up engagement and compute infrastructure; expanded in 2026 to quantum, AVGC-XR and deep tech and slated to become a Section 8 company.",
+      "timeline": [
+        {
+          "date": "2024-11-05",
+          "event": "Government Order for the Mission reported; ₹13 crore allocated"
+        },
+        {
+          "date": "2026-08-06",
+          "event": "Revised Budget 2026-27 expands the Mission to quantum, AVGC-XR and deep tech"
+        },
+        {
+          "date": "2026-08-12",
+          "event": "TNeGA publishes TN AI Mission announcement"
+        },
+        {
+          "date": "2026-08-26",
+          "event": "Policy Note 2026-27 states TNAIM will be restructured as a Section 8 not-for-profit company and ELCOT will set up a TN AI Centre of Excellence"
+        }
+      ],
+      "source_url": "https://tnega.tn.gov.in/notifications/announcements/tamil-nadu-launches-ai-mission-tn-ai-mission",
+      "source_type": "official",
+      "confidence": "medium",
+      "confidence_note": "Official TNeGA announcement page and multiple news reports agree; GO number and text of the 2024 order not retrieved; ₹13 crore figure from DT Next."
+    },
+    {
+      "id": "tn-sovereign-ai-park-2026",
+      "state_code": "TN",
+      "state": "Tamil Nadu",
+      "title": "Sovereign AI Park, Chennai (Government of Tamil Nadu – Sarvam AI MoU)",
+      "type": "other",
+      "status": "announced",
+      "status_group": "in_progress",
+      "is_ai_policy": false,
+      "binding": "non-binding",
+      "issuing_body": "Government of Tamil Nadu (IT and Digital Services Department / TNeGA)",
+      "date": "2026-01-13",
+      "date_precision": "day",
+      "summary": "MoU to build a full-stack sovereign AI park in Chennai with GPU data centres and Indic/Tamil language models, coordinated with TNeGA so that models are used in public service delivery.",
+      "timeline": [
+        {
+          "date": "2026-01-13",
+          "event": "MoU signed between Government of Tamil Nadu and Sarvam AI in the presence of CM M.K. Stalin"
+        }
+      ],
+      "source_url": "https://www.drishtiias.com/state-pcs-current-affairs/tamil-nadu-to-establish-indias-first-sovereign-ai-park",
+      "source_type": "secondary",
+      "confidence": "low",
+      "confidence_note": "Included because it creates a public programme via TNeGA; only secondary sources; no GO or official press release located; investment figure unverified."
+    },
+    {
+      "id": "tn-ai-generated-content-review-directive-2026",
+      "state_code": "TN",
+      "state": "Tamil Nadu",
+      "title": "Directive requiring Tamil Development Department review of AI-generated government content",
+      "type": "advisory",
+      "status": "announced",
+      "status_group": "in_progress",
+      "is_ai_policy": false,
+      "binding": "mixed",
+      "issuing_body": "School Education Minister / Tamil Development Department, Government of Tamil Nadu",
+      "date": "2026-06-12",
+      "date_precision": "day",
+      "summary": "Ministerial direction that all AI-generated government videos, graphics and audio in Tamil be reviewed by the Tamil Development Department before release.",
+      "timeline": [
+        {
+          "date": "2026-06-12",
+          "event": "Minister Rajmohan directs mandatory pre-release review after errors in AI-made Singappenne scheme videos"
+        }
+      ],
+      "source_url": "https://www.newkerala.com/news/a/tamil-development-department-approval-mandatory-ai-generated-content-tamil-403.htm",
+      "source_type": "news",
+      "confidence": "low",
+      "confidence_note": "Single secondary report; unclear whether formalised as a GO."
+    },
+    {
+      "id": "tn-ai-industry-development-programme-2026",
+      "state_code": "TN",
+      "state": "Tamil Nadu",
+      "title": "AI Industry Development Programme (5 lakh youth by 2031)",
+      "type": "scheme",
+      "status": "announced",
+      "status_group": "in_progress",
+      "is_ai_policy": false,
+      "binding": "non-binding",
+      "issuing_body": "Government of Tamil Nadu (Revised Budget 2026-27; Labour & Skill Development / Higher Education)",
+      "date": "2026-08-06",
+      "date_precision": "day",
+      "summary": "Skilling programme to train 5 lakh young people in AI by 2031 through engineering colleges, polytechnics and ITIs with IIT Madras, under a budget that also expands AI education in government schools.",
+      "timeline": [
+        {
+          "date": "2026-08-06",
+          "event": "Announced in Revised Budget 2026-27"
+        }
+      ],
+      "source_url": "https://www.deccanchronicle.com/southern-states/tamil-nadu/artificial-intelligence-rules-government-thought-process-1976971",
+      "source_type": "news",
+      "confidence": "medium",
+      "confidence_note": "Budget speech coverage from two outlets; scheme guidelines not yet published."
+    },
+    {
+      "id": "tn-arivagam-ai-innovation-city-2026",
+      "state_code": "TN",
+      "state": "Tamil Nadu",
+      "title": "Arivagam AI and Innovation City",
+      "type": "scheme",
+      "status": "announced",
+      "status_group": "in_progress",
+      "is_ai_policy": false,
+      "binding": "non-binding",
+      "issuing_body": "Finance Department, Government of Tamil Nadu (Revised Budget 2026-27)",
+      "date": "2026-08-06",
+      "date_precision": "day",
+      "summary": "Budget announcement of a dedicated AI and innovation city with an AI university, skill centre, semiconductor test lab and incubators; only a feasibility study is funded so far.",
+      "timeline": [
+        {
+          "date": "2026-01-15",
+          "event": "Previous government signs Rs 10,000 crore MoU with Sarvam AI for a sovereign AI park"
+        },
+        {
+          "date": "2026-08-05",
+          "event": "TVK-led government's revised Budget 2026-27 announces Arivagam, billed as India's first AI and innovation city"
+        },
+        {
+          "date": "2026-08-06",
+          "event": "Announced in Revised Budget 2026-27 by Finance Minister N. Marie Wilson (outlets variously date the speech 5-7 August)"
+        },
+        {
+          "date": "2026-08-25",
+          "event": "BusinessLine reports plan to reorganise key state AI agencies"
+        }
+      ],
+      "source_url": "https://www.deccanchronicle.com/southern-states/tamil-nadu/artificial-intelligence-rules-government-thought-process-1976971",
+      "source_type": "news",
+      "confidence": "medium",
+      "confidence_note": "Two reports of the budget speech agree on ₹5 crore and components; budget document not retrieved."
+    },
+    {
+      "id": "tn-tamil-llm-2026",
+      "state_code": "TN",
+      "state": "Tamil Nadu",
+      "title": "Tamil Large Language Model programme",
+      "type": "scheme",
+      "status": "announced",
+      "status_group": "in_progress",
+      "is_ai_policy": false,
+      "binding": "non-binding",
+      "issuing_body": "Tamil Development Department / Tamil Virtual Academy with TNAIM",
+      "date": "2026-08-06",
+      "date_precision": "day",
+      "summary": "State programme to build a Tamil large language model and Tamil-first datasets for government and public use.",
+      "timeline": [
+        {
+          "date": "2026-01-13",
+          "event": "Sarvam AI MoU includes Tamil language models"
+        },
+        {
+          "date": "2026-08-06",
+          "event": "Revised Budget 2026-27 announces a Tamil LLM led by Tamil Virtual Academy"
+        },
+        {
+          "date": "2026-08-26",
+          "event": "Policy Note assigns Tamil LLMs and Tamil-first datasets to the restructured TNAIM"
+        }
+      ],
+      "source_url": "https://www.dtnext.in/news/tamilnadu/tn-budget-2026-new-large-language-model-in-the-making-to-push-tamil-into-artificial-intelligence-era",
+      "source_type": "news",
+      "confidence": "medium",
+      "confidence_note": "Two DT Next reports; no official document or budget line retrieved."
+    },
+    {
+      "id": "tn-spark-ai-schools-2026",
+      "state_code": "TN",
+      "state": "Tamil Nadu",
+      "title": "TN SPARK AI education in government schools (classes VI-XII)",
+      "type": "curriculum",
+      "status": "announced",
+      "status_group": "in_progress",
+      "is_ai_policy": false,
+      "binding": "non-binding",
+      "issuing_body": "School Education Department, Government of Tamil Nadu",
+      "date": "2026-08-06",
+      "date_precision": "day",
+      "summary": "Expansion of the TN SPARK programme that introduces AI and emerging-technology learning in government schools with a tiered curriculum from class VI to XII.",
+      "timeline": [
+        {
+          "date": "2026-08-06",
+          "event": "Revised Budget 2026-27 announces expansion from 5,000 to 7,600 schools"
+        }
+      ],
+      "source_url": "https://www.deccanchronicle.com/southern-states/tamil-nadu/artificial-intelligence-rules-government-thought-process-1976971",
+      "source_type": "news",
+      "confidence": "low",
+      "confidence_note": "Budget-speech coverage only; programme GO and curriculum documents not located."
+    },
+    {
+      "id": "tn-ai-it-policy-note-2026-27",
+      "state_code": "TN",
+      "state": "Tamil Nadu",
+      "title": "Policy Note 2026-27, Artificial Intelligence, Information Technology and Digital Services Department",
+      "type": "other",
+      "status": "adopted",
+      "status_group": "adopted",
+      "is_ai_policy": true,
+      "binding": "non-binding",
+      "issuing_body": "Ministry of Artificial Intelligence, Information Technology and Digital Services, Government of Tamil Nadu (Minister Dr. Kumar R.)",
+      "date": "2026-08-26",
+      "date_precision": "day",
+      "summary": "Annual departmental policy note of the renamed AI, IT and Digital Services department under the TVK government; it sets out the AI governance commitments for 2026-27, including explanation and human-review rights for citizens affected by AI-assisted decisions.",
+      "timeline": [
+        {
+          "date": "2026-05-10",
+          "event": "TVK government sworn in; department later renamed to include Artificial Intelligence"
+        },
+        {
+          "date": "2026-08-26",
+          "event": "Policy Note 2026-27 tabled"
+        }
+      ],
+      "source_url": "https://www.deccanchronicle.com/southern-states/tamil-nadu/tn-pushes-ai-digital-governance-and-high-speed-connectivity-1982311",
+      "source_type": "news",
+      "confidence": "medium",
+      "confidence_note": "Two news reports of the Policy Note agree; the Policy Note PDF on tn.gov.in was not retrieved."
+    },
+    {
+      "id": "tn-ai-vision-company-2026",
+      "state_code": "TN",
+      "state": "Tamil Nadu",
+      "title": "Tamil Nadu AI Vision (TNAIV) company",
+      "type": "institution",
+      "status": "proposed",
+      "status_group": "in_progress",
+      "is_ai_policy": false,
+      "binding": "non-binding",
+      "issuing_body": "Artificial Intelligence, Information Technology and Digital Services Department, Government of Tamil Nadu",
+      "date": "2026-08-26",
+      "date_precision": "day",
+      "summary": "Proposed state-owned taxable company to commercially operate Tamil Nadu's AI infrastructure, sell compute on a fee basis and take equity in AI project companies, separate from the not-for-profit TNAIM.",
+      "timeline": [
+        {
+          "date": "2026-08-26",
+          "event": "Proposed in Policy Note 2026-27"
+        }
+      ],
+      "source_url": "https://www.dtnext.in/news/tamilnadu/ai-vision-company-to-commercialise-tamil-nadus-ai-assets",
+      "source_type": "news",
+      "confidence": "low",
+      "confidence_note": "Single news report of the Policy Note; no GO or incorporation record found."
+    },
+    {
+      "id": "tg-t-aim-2020",
+      "state_code": "TG",
+      "state": "Telangana",
+      "title": "Telangana AI Mission (T-AIM)",
+      "type": "institution",
+      "status": "in-force",
+      "status_group": "adopted",
+      "is_ai_policy": true,
+      "binding": "non-binding",
+      "issuing_body": "ITE&C Department, Government of Telangana with NASSCOM",
+      "date": "2020-01-01",
+      "date_precision": "year",
+      "summary": "State AI mission run with NASSCOM that executes Telangana's AI framework and strategy, including start-up acceleration and data exchange work.",
+      "timeline": [
+        {
+          "date": "2020-01-01",
+          "event": "T-AIM set up under the Year of AI with NASSCOM"
+        },
+        {
+          "date": "2024-09-06",
+          "event": "Named executive arm of the AI-Powered Telangana strategy"
+        }
+      ],
+      "source_url": "https://it.telangana.gov.in/initiatives/artificial-intelligence/",
+      "source_type": "official",
+      "confidence": "medium",
+      "confidence_note": "Official ITE&C page confirms T-AIM; exact constitution date/GO not found."
+    },
+    {
+      "id": "tg-ai-framework-2020",
+      "state_code": "TG",
+      "state": "Telangana",
+      "title": "Telangana Artificial Intelligence Framework 2020",
+      "type": "framework",
+      "status": "in-force",
+      "status_group": "adopted",
+      "is_ai_policy": true,
+      "binding": "non-binding",
+      "issuing_body": "Information Technology, Electronics and Communications (ITE&C) Department, Government of Telangana",
+      "date": "2020-06-01",
+      "date_precision": "month",
+      "summary": "Six-pillar framework for AI adoption in Telangana, executed through T-AIM with NASSCOM; includes an AI Ethics Group and government AI procurement guidelines.",
+      "timeline": [
+        {
+          "date": "2020-01-01",
+          "event": "2020 declared Telangana's 'Year of AI'"
+        },
+        {
+          "date": "2020-06-01",
+          "event": "AI Framework 2020 published"
+        }
+      ],
+      "source_url": "https://it.telangana.gov.in/wp-content/uploads/2025/05/Artificial-Intelligence-Framework-2020-pages-.pdf",
+      "source_type": "official",
+      "confidence": "high",
+      "confidence_note": "Official PDF retrieved and text extracted; dated June 2020 on cover."
+    },
+    {
+      "id": "tg-ai-powered-telangana-strategy-2024",
+      "state_code": "TG",
+      "state": "Telangana",
+      "title": "AI-Powered Telangana: Strategy Document and Implementation Roadmap",
+      "type": "strategy",
+      "status": "in-force",
+      "status_group": "adopted",
+      "is_ai_policy": true,
+      "binding": "non-binding",
+      "issuing_body": "ITE&C Department, Government of Telangana",
+      "date": "2024-09-06",
+      "date_precision": "day",
+      "summary": "Four-year (2024-2027) state AI strategy with citizen-service, productivity and skilling targets, an AI Advisory Council, a 200-acre AI City and a data exchange platform.",
+      "timeline": [
+        {
+          "date": "2024-09-06",
+          "event": "Launched by CM A. Revanth Reddy at the Global AI Summit, Hyderabad"
+        },
+        {
+          "date": "2024-11-19",
+          "event": "IT Minister states AI Advisory Council established and AI policy framework under study"
+        },
+        {
+          "date": "2025-07-02",
+          "event": "TGDeX launched as a strategy deliverable"
+        }
+      ],
+      "source_url": "https://it.telangana.gov.in/wp-content/uploads/2024/09/AI-Powered-Telangana-Strategy-Document-and-Implementation-Roadmap.pdf",
+      "source_type": "official",
+      "confidence": "high",
+      "confidence_note": "Official PDF retrieved and key sections extracted. Note: Telangana has no separately approved 'AI Policy'; this strategy is the closest instrument."
+    },
+    {
+      "id": "tg-ai-city-2024",
+      "state_code": "TG",
+      "state": "Telangana",
+      "title": "Telangana AI City, Hyderabad (200 acres)",
+      "type": "other",
+      "status": "announced",
+      "status_group": "in_progress",
+      "is_ai_policy": false,
+      "binding": "non-binding",
+      "issuing_body": "ITE&C Department, Government of Telangana",
+      "date": "2024-09-06",
+      "date_precision": "day",
+      "summary": "Planned 200-acre AI research, education and industry campus in Hyderabad, to host the AI Research & Collaboration Network and corporate/start-up facilities.",
+      "timeline": [
+        {
+          "date": "2024-09-06",
+          "event": "200-acre AI City announced in the state AI strategy"
+        },
+        {
+          "date": "2025-01-01",
+          "event": "Minister says groundbreaking to be held 'in December' (year not stated in source)"
+        }
+      ],
+      "source_url": "https://it.telangana.gov.in/wp-content/uploads/2024/09/AI-Powered-Telangana-Strategy-Document-and-Implementation-Roadmap.pdf",
+      "source_type": "official",
+      "confidence": "medium",
+      "confidence_note": "Acreage from official strategy; construction status unverified."
+    },
+    {
+      "id": "tg-ai-advisory-council-2024",
+      "state_code": "TG",
+      "state": "Telangana",
+      "title": "Telangana AI Advisory Council",
+      "type": "institution",
+      "status": "adopted",
+      "status_group": "adopted",
+      "is_ai_policy": false,
+      "binding": "non-binding",
+      "issuing_body": "ITE&C Department, Government of Telangana",
+      "date": "2024-11-19",
+      "date_precision": "day",
+      "summary": "Apex multi-disciplinary advisory body on AI policy, responsible AI and the AI City, created under the 2024 strategy.",
+      "timeline": [
+        {
+          "date": "2024-09-06",
+          "event": "Council proposed in the AI-Powered Telangana strategy"
+        },
+        {
+          "date": "2024-11-19",
+          "event": "IT Minister D. Sridhar Babu states the Council has been established"
+        }
+      ],
+      "source_url": "https://www.newsonair.gov.in/telangana-govt-establishes-telangana-ai-advisory-council",
+      "source_type": "press-release",
+      "confidence": "medium",
+      "confidence_note": "Government broadcaster report plus strategy document; constituting GO and membership not found."
+    },
+    {
+      "id": "tg-tgdex-2025",
+      "state_code": "TG",
+      "state": "Telangana",
+      "title": "Telangana Data Exchange (TGDeX)",
+      "type": "institution",
+      "status": "in-force",
+      "status_group": "adopted",
+      "is_ai_policy": false,
+      "binding": "non-binding",
+      "issuing_body": "Emerging Technologies Wing, ITE&C Department, Government of Telangana (with IISc and JICA DXLab)",
+      "date": "2025-07-02",
+      "date_precision": "day",
+      "summary": "State digital public infrastructure offering AI-ready public datasets, reusable models, open-source tools and GPU compute to start-ups, researchers and departments.",
+      "timeline": [
+        {
+          "date": "2025-04-01",
+          "event": "Model piloted through the Telangana AI Rising Grand Challenge"
+        },
+        {
+          "date": "2025-07-02",
+          "event": "TGDeX formally launched"
+        }
+      ],
+      "source_url": "https://it.telangana.gov.in/wp-content/uploads/2025/07/TGDeX-Democratizing-AI-Innovation-Through-Digital-Public-Infrastructure-2nd-July-2025.pdf",
+      "source_type": "official",
+      "confidence": "high",
+      "confidence_note": "Official launch document retrieved and read."
+    },
+    {
+      "id": "tg-school-ai-education-directive-2026",
+      "state_code": "TG",
+      "state": "Telangana",
+      "title": "Chief Minister's directive on AI education from school level",
+      "type": "curriculum",
+      "status": "announced",
+      "status_group": "in_progress",
+      "is_ai_policy": false,
+      "binding": "non-binding",
+      "issuing_body": "Chief Minister's Office / School and Technical Education Departments, Government of Telangana",
+      "date": "2026-02-27",
+      "date_precision": "day",
+      "summary": "Executive direction to introduce AI in school education, train teachers in AI, and start AI courses in polytechnics and Advanced Technology Centres with placement linkage.",
+      "timeline": [
+        {
+          "date": "2026-02-27",
+          "event": "CM A. Revanth Reddy directs officials to introduce AI education from school level and AI courses in polytechnics/ATCs"
+        }
+      ],
+      "source_url": "https://news.careers360.com/telangana-cm-a-revanth-reddy-directs-introduction-of-ai-education-from-school-level",
+      "source_type": "news",
+      "confidence": "low",
+      "confidence_note": "Single report of a review-meeting direction; no order located."
+    },
+    {
+      "id": "tr-tripura-ai-policy-announced-2026",
+      "state_code": "TR",
+      "state": "Tripura",
+      "title": "Tripura State AI Policy (announced; under preparation)",
+      "type": "policy",
+      "status": "announced",
+      "status_group": "in_progress",
+      "is_ai_policy": true,
+      "binding": "non-binding",
+      "issuing_body": "Directorate of Information Technology / Tripura Institution for Transformation, Government of Tripura",
+      "date": "2026-02-26",
+      "date_precision": "day",
+      "summary": "Chief Minister's announcement that Tripura will adopt a state AI policy with Atal Innovation Mission/NITI Aayog assistance, alongside an AI Centre of Excellence and AI-based city management for Agartala; no draft had been published by 19 November 2026.",
+      "timeline": [
+        {
+          "date": "2026-02-26",
+          "event": "CM Manik Saha announces forthcoming AI policy at launch of India's first State Innovation Mission (AIM/NITI Aayog) and TNEST"
+        },
+        {
+          "date": "2026-11-19",
+          "event": "DIT policies page lists no AI policy"
+        }
+      ],
+      "source_url": "https://eastmojo.com/tripura/2026/02/26/tripura-to-roll-out-ai-policy-establish-centre-of-excellence-cm/",
+      "source_type": "news",
+      "confidence": "medium",
+      "confidence_note": "Announcement confirmed by multiple outlets and a PIB release on the SIM launch; no draft, cabinet decision or notification found through Nov 2026. The 'India's first' claim is inaccurate (Tamil Nadu 2020, Odisha 2025)."
+    },
+    {
+      "id": "tr-school-ai-courses-2026",
+      "state_code": "TR",
+      "state": "Tripura",
+      "title": "Tripura free AI courses for Classes VI-XII with national certification",
+      "type": "curriculum",
+      "status": "adopted",
+      "status_group": "adopted",
+      "is_ai_policy": false,
+      "binding": "non-binding",
+      "issuing_body": "Government of Tripura (Education Department)",
+      "date": "2026-09-19",
+      "date_precision": "day",
+      "summary": "Tripura launched free AI courses for school students in Classes VI to XII leading to national certification, following a March 2026 announcement that the state would adopt an AI policy.",
+      "timeline": [
+        {
+          "date": "2026-03-02",
+          "event": "Tripura announces plan for a state AI policy (Construction World)"
+        },
+        {
+          "date": "2026-09-19",
+          "event": "Free AI courses launched for Classes VI-XII with national certification (Telegraph)"
+        },
+        {
+          "date": "2026-10-01",
+          "event": "CM launches Seva First Innovation Challenge 2026 and Mukhyamantri Yuva Jogajog Yojana"
+        }
+      ],
+      "source_url": "https://news.google.com/rss/search?q=Meghalaya+OR+Manipur+OR+Mizoram+OR+Nagaland+OR+Tripura+OR+Sikkim+OR+%22Arunachal%22+OR+Jammu+OR+Ladakh+OR+Puducherry+OR+Chandigarh+OR+Andaman+%22artificial+intelligence%22+policy+2026",
+      "source_type": "news",
+      "confidence": "low",
+      "confidence_note": "Telegraph India headline only; course order and whether the March 2026 state AI policy was adopted not verified."
+    },
+    {
+      "id": "up-digital-media-policy-2024",
+      "state_code": "UP",
+      "state": "Uttar Pradesh",
+      "title": "Uttar Pradesh Digital Media Policy 2024",
+      "type": "policy",
+      "status": "in-force",
+      "status_group": "adopted",
+      "is_ai_policy": false,
+      "binding": "mixed",
+      "issuing_body": "Information and Public Relations Department, Government of Uttar Pradesh",
+      "date": "2024-08-28",
+      "date_precision": "day",
+      "summary": "Policy paying influencers to promote state schemes and providing for action against objectionable or 'anti-national' online content; relevant to AI-generated content enforcement though no explicit AI clause was confirmed.",
+      "timeline": [
+        {
+          "date": "2024-08-28",
+          "event": "Cabinet approves Digital Media Policy 2024"
+        }
+      ],
+      "source_url": "https://news.google.com/rss/search?q=%22Uttar+Pradesh+Digital+Media+Policy+2024%22+AI&hl=en-IN&gl=IN&ceid=IN:en",
+      "source_type": "news",
+      "confidence": "low",
+      "confidence_note": "Indian Express, ThePrint and ET coverage of 29 Aug 2024 seen as headlines; policy text not read; no explicit AI/deepfake provision confirmed."
+    },
+    {
+      "id": "up-ai-pragya-2025",
+      "state_code": "UP",
+      "state": "Uttar Pradesh",
+      "title": "AI Pragya skilling programme",
+      "type": "scheme",
+      "status": "in-force",
+      "status_group": "adopted",
+      "is_ai_policy": false,
+      "binding": "non-binding",
+      "issuing_body": "IT and Electronics Department, Government of Uttar Pradesh",
+      "date": "2025-05-10",
+      "date_precision": "day",
+      "summary": "State AI literacy and skilling programme targeting one million citizens and government officers.",
+      "timeline": [
+        {
+          "date": "2025-05-10",
+          "event": "Programme announced to train 10 lakh citizens"
+        },
+        {
+          "date": "2025-05-21",
+          "event": "Training for joint secretaries begins"
+        }
+      ],
+      "source_url": "https://news.google.com/rss/search?q=%22AI+Pragya%22+OR+%22AI+City%22+Lucknow+OR+%22Digital+Media+Policy%22+Uttar+Pradesh&hl=en-IN&gl=IN&ceid=IN:en",
+      "source_type": "news",
+      "confidence": "low",
+      "confidence_note": "Based on Times of India and Drishti IAS headlines via Google News; scheme order not located."
+    },
+    {
+      "id": "up-ai-city-lucknow",
+      "state_code": "UP",
+      "state": "Uttar Pradesh",
+      "title": "AI City, Lucknow",
+      "type": "other",
+      "status": "announced",
+      "status_group": "in_progress",
+      "is_ai_policy": false,
+      "binding": "non-binding",
+      "issuing_body": "IT and Electronics Department / UPEIDA, Government of Uttar Pradesh",
+      "date": "2025-07-27",
+      "date_precision": "day",
+      "summary": "Government-led project to build an AI-focused city/park in Lucknow on about 70 acres with hyperscale data-centre partners.",
+      "timeline": [
+        {
+          "date": "2025-07-27",
+          "event": "Rs 10,732 crore push for AI City reported"
+        },
+        {
+          "date": "2025-11-05",
+          "event": "State charts roadmap for Lucknow AI City"
+        },
+        {
+          "date": "2026-04-30",
+          "event": "Phase-1 project cost of Rs 368 crore reported"
+        },
+        {
+          "date": "2026-10-07",
+          "event": "CM says work underway on India's first AI city"
+        }
+      ],
+      "source_url": "https://news.google.com/rss/search?q=%22AI+Pragya%22+OR+%22AI+City%22+Lucknow+OR+%22Digital+Media+Policy%22+Uttar+Pradesh&hl=en-IN&gl=IN&ceid=IN:en",
+      "source_type": "news",
+      "confidence": "low",
+      "confidence_note": "Figures come from Hindustan Times, Organiser and ET Government headlines/snippets via Google News; no government order or land-allotment document retrieved."
+    },
+    {
+      "id": "up-data-centre-policy-2026",
+      "state_code": "UP",
+      "state": "Uttar Pradesh",
+      "title": "Uttar Pradesh Data Centre Policy 2026",
+      "type": "policy",
+      "status": "adopted",
+      "status_group": "adopted",
+      "is_ai_policy": false,
+      "binding": "non-binding",
+      "issuing_body": "IT and Electronics Department, Government of Uttar Pradesh",
+      "date": "2026-07-07",
+      "date_precision": "day",
+      "summary": "A state data-centre policy framed as AI-ready, targeting Rs 2 lakh crore of investment and 2 GW of new capacity, approved alongside a Startup Policy 2026 that raises seed funding to Rs 15 lakh.",
+      "timeline": [
+        {
+          "date": "2026-01-01",
+          "event": "Data Centre Policy 2021 lapses (month approximate)"
+        },
+        {
+          "date": "2026-07-06",
+          "event": "Cabinet approves Data Centre Policy 2026 and Startup Policy 2026"
+        },
+        {
+          "date": "2026-07-07",
+          "event": "Cabinet approves Data Centre Policy 2026 (one outlet reports 11 July)"
+        },
+        {
+          "date": "2026-10-15",
+          "event": "Startup Policy 2026 rolled out with AI, quantum and deep-tech focus"
+        }
+      ],
+      "source_url": "https://www.convergence-now.com/policy-regulation/cm-yogi-approves-startup-data-centre-policy-to-boost-innovation-%E2%82%B92-lakh-cr-investment/",
+      "source_type": "news",
+      "confidence": "medium",
+      "confidence_note": "ET Government, TOI and DQ India date the cabinet 7 July 2026; Convergence Now says 11 July. Incentive schedule not published in retrievable sources."
+    },
+    {
+      "id": "up-startup-policy-2026",
+      "state_code": "UP",
+      "state": "Uttar Pradesh",
+      "title": "Uttar Pradesh Startup Policy 2026",
+      "type": "policy",
+      "status": "adopted",
+      "status_group": "adopted",
+      "is_ai_policy": false,
+      "binding": "non-binding",
+      "issuing_body": "IT and Electronics Department (Startup Mission Directorate), Government of Uttar Pradesh",
+      "date": "2026-07-07",
+      "date_precision": "day",
+      "summary": "Revised startup policy with a dedicated AI/deep-tech track offering higher prototype, seed, patient-capital and R&D support, and a new Startup Mission Directorate.",
+      "timeline": [
+        {
+          "date": "2026-07-07",
+          "event": "Cabinet approves Startup Policy 2026 with Rs 1,000 crore fund"
+        }
+      ],
+      "source_url": "https://www.convergence-now.com/policy-regulation/cm-yogi-approves-startup-data-centre-policy-to-boost-innovation-%E2%82%B92-lakh-cr-investment/",
+      "source_type": "news",
+      "confidence": "medium",
+      "confidence_note": "Provisions from one detailed outlet; cabinet date corroborated by ET Government (7 July 2026). Policy text not located."
+    },
+    {
+      "id": "up-ai-mission-2026",
+      "state_code": "UP",
+      "state": "Uttar Pradesh",
+      "title": "Uttar Pradesh Artificial Intelligence Mission (UP-AIM)",
+      "type": "mission",
+      "status": "adopted",
+      "status_group": "adopted",
+      "is_ai_policy": true,
+      "binding": "non-binding",
+      "issuing_body": "Government of Uttar Pradesh (IT and Electronics Department)",
+      "date": "2026-10-09",
+      "date_precision": "day",
+      "summary": "UP-AIM is a state society under the IT and Electronics Department with a seven-pillar programme covering a shared UP AI Stack, talent, research, startups, compute and trust mechanisms, targeting 100 AI startups and five lakh trained youth across all 75 districts.",
+      "timeline": [
+        {
+          "date": "2026-07-23",
+          "event": "State Data Governance Committee constituted"
+        },
+        {
+          "date": "2026-10-09",
+          "event": "Cabinet approves UP AI Mission and Startup Procurement Scheme 2026"
+        },
+        {
+          "date": "2026-10-09",
+          "event": "Cabinet approves establishment of UP-AIM as a society under the IT and Electronics Department"
+        },
+        {
+          "date": "2026-10-21",
+          "event": "Government Order issued for the Mission"
+        },
+        {
+          "date": "2026-10-29",
+          "event": "UP AI Stack RFP for Master System Integrator published"
+        },
+        {
+          "date": "2026-11-19",
+          "event": "Cabinet clears Rs 281 crore Deep Tech U-Hub"
+        }
+      ],
+      "source_url": "https://www.freepressjournal.in/uttar-pradesh/uttar-pradesh-yogi-adityanath-cabinet-approves-ai-mission-to-support-100-startups-and-train-5-lakh-youth",
+      "source_type": "news",
+      "confidence": "medium",
+      "confidence_note": "Cabinet decision from Free Press Journal and ET Government; GO date from IFF. Budget not disclosed in sources."
+    },
+    {
+      "id": "up-ai-stack-msi-rfp-2026",
+      "state_code": "UP",
+      "state": "Uttar Pradesh",
+      "title": "UP AI Stack: Request for Proposal for Master System Integrator (Centre for e-Governance, UP)",
+      "type": "procurement",
+      "status": "adopted",
+      "status_group": "adopted",
+      "is_ai_policy": false,
+      "binding": "binding",
+      "issuing_body": "Centre for e-Governance, Government of Uttar Pradesh",
+      "date": "2026-10-29",
+      "date_precision": "day",
+      "summary": "A state procurement for a single shared AI platform to be used by every UP department, with the Family ID as the linking key across departmental records, including police, education, health, revenue and a citizen-facing 'AI Mitra'.",
+      "timeline": [
+        {
+          "date": "2022-07-21",
+          "event": "UP Family ID scheme established by government order"
+        },
+        {
+          "date": "2026-10-29",
+          "event": "RFP for Master System Integrator published"
+        },
+        {
+          "date": "2026-11-18",
+          "event": "IFF analysis raises data-protection concerns"
+        },
+        {
+          "date": "2026-12-07",
+          "event": "Bid deadline"
+        }
+      ],
+      "source_url": "https://internetfreedom.in/uttar-pradesh-is-buying-one-ai-platform-for-every-department-keyed-to-the-family-id/",
+      "source_type": "secondary",
+      "confidence": "medium",
+      "confidence_note": "RFP details from IFF's reading of the tender; RFP document on the UP e-procurement portal not retrieved; contract value not stated."
+    },
+    {
+      "id": "ut-ai-mission",
+      "state_code": "UK",
+      "state": "Uttarakhand",
+      "title": "Uttarakhand AI Mission",
+      "type": "mission",
+      "status": "announced",
+      "status_group": "in_progress",
+      "is_ai_policy": true,
+      "binding": "non-binding",
+      "issuing_body": "Information Technology Department / ITDA, Government of Uttarakhand",
+      "date": "2026-01-07",
+      "date_precision": "day",
+      "summary": "Departmental AI mission for phased adoption of AI across departments; no cabinet order, budget or policy text found, and the ITDA portal lists no mission page.",
+      "timeline": [
+        {
+          "date": "2026-01-07",
+          "event": "Governor reviews progress of the Uttarakhand AI Mission with IT Department and ITDA"
+        },
+        {
+          "date": "2026-10-09",
+          "event": "Devbhoomi AI Summit held in Dehradun by IT Department and ITDA"
+        }
+      ],
+      "source_url": "https://governoruk.gov.in/07-01-2026-it-department-meets-governor-progress-of-uttarakhand-ai-mission-reviewed/",
+      "source_type": "official",
+      "confidence": "low",
+      "confidence_note": "Mission named on Raj Bhavan website; no creation order, budget or targets located. No Uttarakhand AI policy exists as of Nov 2026."
+    },
+    {
+      "id": "wb-west-bengal-state-ai-data-centre-siliguri",
+      "state_code": "WB",
+      "state": "West Bengal",
+      "title": "State AI Data Centre at Siliguri (GPU access programme)",
+      "type": "institution",
+      "status": "in-force",
+      "status_group": "adopted",
+      "is_ai_policy": false,
+      "binding": "non-binding",
+      "issuing_body": "Department of Information Technology & Electronics, Government of West Bengal",
+      "date": "2026-01-01",
+      "date_precision": "year",
+      "summary": "State-owned GPU facility at Siliguri that allocates compute to government departments, start-ups/corporates and researchers through an application portal.",
+      "timeline": [
+        {
+          "date": "2026-11-19",
+          "event": "GPU-access application portal live (llmproject.wb.gov.in)"
+        }
+      ],
+      "source_url": "https://llmproject.wb.gov.in",
+      "source_type": "official",
+      "confidence": "medium",
+      "confidence_note": "Official portal read; launch date, capacity and governing scheme document not published on the portal."
+    },
+    {
+      "id": "wb-west-bengal-ai-impact-mission-2026",
+      "state_code": "WB",
+      "state": "West Bengal",
+      "title": "West Bengal 'AI Impact Mission' and GCC policy (Budget 2026-27 announcement)",
+      "type": "mission",
+      "status": "announced",
+      "status_group": "in_progress",
+      "is_ai_policy": true,
+      "binding": "non-binding",
+      "issuing_body": "Finance Department / Department of Information Technology & Electronics, Government of West Bengal",
+      "date": "2026-06-22",
+      "date_precision": "day",
+      "summary": "Budget announcement by the new government of an AI mission, a GCC policy and an AI data centre, with policy documents promised within three months; no AI mission or GCC policy document had been published by 19 November 2026.",
+      "timeline": [
+        {
+          "date": "2026-05-04",
+          "event": "BJP wins assembly election; Suvendu Adhikari becomes Chief Minister"
+        },
+        {
+          "date": "2026-06-22",
+          "event": "Budget 2026-27: FM Swapan Dasgupta outlines an 'AI impact mission', GCC policy and Rs 5,000 crore investment-promotion framework"
+        },
+        {
+          "date": "2026-06-26",
+          "event": "FM says AI mission, GCC, startup and investment policies to be unveiled before Durga Puja"
+        }
+      ],
+      "source_url": "https://www.dailypioneer.com/news/slug-lite/west-bengal-govt-to-unveil-new-policies-before-durga-puja-says-finance-minister?year=2026",
+      "source_type": "news",
+      "confidence": "low",
+      "confidence_note": "Budget speech text not accessed; details from Daily Pioneer and headlines (Moneycontrol, TOI, Telegraph). No mission document or allocation figure for the AI mission verified."
+    },
+    {
+      "id": "wb-west-bengal-industrial-policy-2026",
+      "state_code": "WB",
+      "state": "West Bengal",
+      "title": "West Bengal Industrial Policy (2026)",
+      "type": "policy",
+      "status": "adopted",
+      "status_group": "adopted",
+      "is_ai_policy": false,
+      "binding": "non-binding",
+      "issuing_body": "Department of Industry, Commerce & Enterprises, Government of West Bengal",
+      "date": "2026-10-29",
+      "date_precision": "day",
+      "summary": "New state industrial policy of the BJP government elected in May 2026, naming artificial intelligence, semiconductors and data centres as emerging focus sectors alongside MSMEs.",
+      "timeline": [
+        {
+          "date": "2026-10-01",
+          "event": "Group of Ministers chaired by Industry Minister Tapas Roy approves draft"
+        },
+        {
+          "date": "2026-10-29",
+          "event": "Cabinet approves new industrial policy (BusinessLine headline)"
+        },
+        {
+          "date": "2026-11-18",
+          "event": "Industry minister says policy will drive industrial momentum (ET Government)"
+        }
+      ],
+      "source_url": "https://knnindia.co.in/news/newsdetails/msme/west-bengal-gom-approves-draft-industrial-policy-msmes-and-ai-among-key-focus-areas",
+      "source_type": "news",
+      "confidence": "low",
+      "confidence_note": "GoM approval verified from KNN India; Cabinet approval on 29 Oct 2026 seen only as a BusinessLine headline via Google News; policy text and official name not accessed."
+    },
+    {
+      "id": "wb-west-bengal-school-ai-attendance-pilot-2026",
+      "state_code": "WB",
+      "state": "West Bengal",
+      "title": "Facial-recognition AI attendance app pilot in government schools",
+      "type": "other",
+      "status": "announced",
+      "status_group": "in_progress",
+      "is_ai_policy": false,
+      "binding": "non-binding",
+      "issuing_body": "School Education Department, Government of West Bengal",
+      "date": "2026-11-10",
+      "date_precision": "day",
+      "summary": "Public-sector AI deployment: a facial-recognition attendance app to be piloted in 100 government and aided schools with statewide rollout targeted for January 2027.",
+      "timeline": [
+        {
+          "date": "2026-11-10",
+          "event": "Department announces pilot in 100 schools after Puja vacation"
+        },
+        {
+          "date": "2027-01-01",
+          "event": "Statewide rollout targeted (subject to pilot)"
+        }
+      ],
+      "source_url": "https://digitallearning.eletsonline.com/2026/11/west-bengal-ai-attendance-app/",
+      "source_type": "news",
+      "confidence": "low",
+      "confidence_note": "Single trade-press source; no government order located."
+    }
+  ]
+}

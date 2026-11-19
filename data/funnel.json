@@ -1,0 +1,83 @@
+{
+  "stages": [
+    {
+      "key": "raw",
+      "label": "Collected",
+      "count": 3434
+    },
+    {
+      "key": "unique_articles",
+      "label": "Unique articles",
+      "count": 2361
+    },
+    {
+      "key": "relevant",
+      "label": "Relevant",
+      "count": 818
+    },
+    {
+      "key": "in_scope",
+      "label": "In scope",
+      "count": 772
+    },
+    {
+      "key": "events",
+      "label": "Events",
+      "count": 657
+    }
+  ],
+  "per_state": {
+    "KA": {
+      "raw": 772,
+      "unique_articles": 555,
+      "relevant": 244,
+      "in_scope": 240,
+      "events": 187
+    },
+    "TG": {
+      "raw": 650,
+      "unique_articles": 449,
+      "relevant": 139,
+      "in_scope": 130,
+      "events": 117
+    },
+    "TN": {
+      "raw": 674,
+      "unique_articles": 487,
+      "relevant": 163,
+      "in_scope": 133,
+      "events": 121
+    },
+    "UP": {
+      "raw": 677,
+      "unique_articles": 432,
+      "relevant": 178,
+      "in_scope": 177,
+      "events": 155
+    },
+    "OD": {
+      "raw": 661,
+      "unique_articles": 438,
+      "relevant": 94,
+      "in_scope": 92,
+      "events": 77
+    }
+  },
+  "dropped": {
+    "no_ai_term": 853,
+    "no_gov_term": 667,
+    "excluded": 1,
+    "central_only": 22,
+    "out_of_scope_state": 46
+  },
+  "note": "Raw, unique and relevant are counted by the state whose query found the article; in scope and events by the state named in the headline.",
+  "merges": 115,
+  "largest_cluster": 14,
+  "flags": {
+    "state_from_query": 84,
+    "multi_state": 4
+  },
+  "missing_dates": 0,
+  "last_updated": "2026-11-19T17:52+05:30",
+  "version": "v2026.11.19"
+}
