@@ -81,3 +81,27 @@ def test_central_only_is_dropped():
 def test_future_marker_beats_launch():
     assert stage_of("TN to launch AI mission next month") == "proposed"
     assert stage_of("Telangana launches AI mission") == "implemented"
+
+
+def test_first_stage_verb_wins():
+    assert stage_of("Karnataka signs MoU with ElevenLabs to develop voice AI") == "announced"
+    assert stage_of("Karnataka to set up AI university, announces CM") == "proposed"
+
+
+def test_state_named_as_actor_counts_as_government():
+    keep, reason, _ = decide("Karnataka signs agreement with five tech companies to skill 63,200 students in AI", "2026-03-01")
+    assert keep, reason
+
+
+def test_partial_state_name_is_out_of_scope():
+    assert states.assign("Bengal Education Department deploys AI security", query_state="KA")[2] == "out_of_scope_state"
+
+
+def test_dedupe_guards():
+    import dedupe
+
+    def art(t):
+        return {"title": t, "_orgs": dedupe.orgs(t), "_stage": stage_of(t)}
+    assert dedupe.guard(art("UP signs Rs 25,000 crore AI MoU with Puch AI"), art("UP cancels Rs 25,000 crore MoU with Puch AI"))
+    assert dedupe.guard(art("Karnataka to set up AI university"), art("Karnataka announces AI university")) is None
+    assert dedupe.guard(art("Odisha to frame AI policy"), art("Odisha cabinet approves AI policy"))

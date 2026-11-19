@@ -17,15 +17,18 @@ TIER = {"official": 3, "major_outlet": 2, "other": 1}
 
 
 def stage_of(title: str) -> str:
+    """The stage whose verb appears first in the headline."""
+    best = None
     for name, rx in _STAGES:
-        if rx.search(title):
-            return name
-    return "unknown"
+        m = rx.search(title)
+        if m and (best is None or m.start() < best[0]):
+            best = (m.start(), name)
+    return best[1] if best else "unknown"
 
 
 def category_of(title: str) -> str:
     for name, rx in _CATS:
-        if rx.search(title):
+        if rx.search(title) or any(h in title for h in config.CATEGORIES_HINDI.get(name, [])):
             return name
     return "other"
 

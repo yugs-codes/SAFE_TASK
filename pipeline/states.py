@@ -122,6 +122,20 @@ def assign(text: str, query_state: str) -> tuple[str | None, list[str], str | No
     return code, flags, None
 
 
+_ACTOR_NAMES = re.compile(
+    r"\b(" + "|".join(re.escape(n) for s in config.FOCUS_STATES.values() for n in s["names"]) + r")('s)?\s+" + config.STATE_ACTOR_VERBS + r"\b",
+    re.I,
+)
+_ACTOR_ABBR = re.compile(
+    r"(?<![A-Za-z.])(" + "|".join(re.escape(a) for s in config.FOCUS_STATES.values() for a in s["abbr"]) + r")('s)?\s+(?i:" + config.STATE_ACTOR_VERBS + r")\b"
+)
+
+
+def state_as_actor(text: str) -> bool:
+    """'Karnataka signs ...', 'UP to back ...': the state's name stands for its government."""
+    return bool(_ACTOR_NAMES.search(text or "") or _ACTOR_ABBR.search(text or ""))
+
+
 def cm_mentioned(text: str, date_iso: str | None) -> bool:
     """A sitting Chief Minister of a focus state is named (date-bounded)."""
     for name, _code, start, end in config.CHIEF_MINISTERS:

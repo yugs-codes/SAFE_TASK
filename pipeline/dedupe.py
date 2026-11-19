@@ -42,14 +42,24 @@ def similarity(a: dict, b: dict) -> tuple[float, float]:
     return fuzz.ratio(da, db), config.RATIO_MIN
 
 
+_DECISION = re.compile(config.DECISION_VERBS, re.I)
+_REVERSAL = re.compile(config.REVERSAL, re.I)
+
+
 def guard(a: dict, b: dict) -> str | None:
     """Reason two similar titles must not merge, or None."""
     oa, ob = a["_orgs"], b["_orgs"]
     if oa and ob and not (oa & ob):
         return "different organisations"
+    if bool(_REVERSAL.search(a["title"])) != bool(_REVERSAL.search(b["title"])):
+        return "reversal vs original"
     sa, sb = a["_stage"], b["_stage"]
-    if "unknown" not in (sa, sb) and sa != sb and "proposed" in (sa, sb):
-        return "proposed vs done"
+    if {sa, sb} == {"proposed", "implemented"}:
+        return "plan vs delivery"
+    if {sa, sb} == {"proposed", "announced"}:
+        decided = a if sa == "announced" else b
+        if _DECISION.search(decided["title"]):
+            return "plan vs decision"
     return None
 
 
@@ -109,7 +119,11 @@ def run() -> None:
         cid = next((o for o, _ in old.most_common() if o not in used), None)
         if not cid:
             first = min(cl, key=lambda m: (m["date"] or "9999", m["aid"]))
-            cid = short_hash(canonical_url(first["url"]))
+            base, salt = canonical_url(first["url"]), 0
+            cid = short_hash(base)
+            while cid in used:  # an old cluster split in two: the second half gets a fresh id
+                salt += 1
+                cid = short_hash(f"{base}#{salt}")
         used.add(cid)
         rep = max(cl, key=lambda m: (m["_tier"], -int((m["date"] or "9999-12-31").replace("-", "")), m["aid"]))
         dated_members = [m["date"] for m in cl if m["date"]]

@@ -74,7 +74,10 @@ OTHER_STATE_CITIES: dict[str, list[str]] = {
     "JK": ["Srinagar"],
     "HP": ["Shimla"],
 }
-OTHER_STATE_EXTRA_NAMES: dict[str, list[str]] = {"JK": ["Jammu and Kashmir", "J&K"], "AN": ["Andaman"]}
+OTHER_STATE_EXTRA_NAMES: dict[str, list[str]] = {
+    "JK": ["Jammu and Kashmir", "J&K", "Kashmir"], "AN": ["Andaman"], "WB": ["Bengal"], "AP": ["Andhra"],
+    "HP": ["Himachal"], "AR": ["Arunachal"],
+}
 
 # Chief Ministers, date-bounded: two focus states changed CM in 2026.
 # Used only as a "state government" signal in the filter.
@@ -122,6 +125,14 @@ GOV_STRONG = re.compile(
 )
 GOV_CM = re.compile(r"(?<![A-Za-z])CM(?![A-Za-z])")  # case-sensitive
 GOV_HINDI = ["सरकार", "मुख्यमंत्री", "मंत्री", "विभाग", "पुलिस", "कैबिनेट"]
+# A focus state named as the actor ("Karnataka signs ...", "UP to back ...") is a government signal:
+# Indian headlines often use the state's name for its government.
+STATE_ACTOR_VERBS = (
+    r"(govt|government|to|signs?|inks?|launch\w*|unveil\w*|approv\w*|announc\w*|introduc\w*|deploy\w*|sets? up|ties up|"
+    r"partners?|plans?|rolls? out|bets?|eyes|wants|seeks|mulls|proposes?|clears?|notif\w*|allocat\w*|earmarks?|begins?|"
+    r"starts?|opens?|inaugurat\w*|adopts?|frames?|drafts?|issues?|forms?|constitutes?|creates?|establish\w*|builds?|"
+    r"develops?|backs?|invests?|teams up|collaborat\w*|cancels?|scraps?|terminates?|activates?|installs?|taps|uses)"
+)
 # Weak signals count only when a state is also named in the text.
 GOV_WEAK = re.compile(r"\b(policy|policies|mission|MoU|budget|scheme|programme|initiative)\b", re.I)
 GOV_WEAK_NOT = re.compile(r"\b(privacy policy|monetary policy|insurance policy|space mission)\b", re.I)
@@ -164,16 +175,31 @@ CATEGORIES = [
     ("regulation_ethics", r"\b(ethic\w*|guidelines?|framework|regulat\w*|responsible ai|deep ?fakes?|data protection|code of conduct|advisory|governance policy)\b"),
     ("budget_funding", r"\b(budget|allocation|allocates?|allocated|outlay|earmark\w*)\b"),
     ("policy_mission", r"\b(polic(y|ies)|mission|strategy|roadmap|vision document|action plan)\b"),
-    ("institution", r"\b(centres? of excellence|centers? of excellence|CoE|task ?force|committee|ai city|labs?|hub|institute|university|cell|council)\b"),
-    ("partnership_mou", r"\b(MoUs?|memorandum|partnership|partners with|ties up|tie-up|collaborat\w*|signs? (a )?(pact|agreement|deal)|join(s)? hands)\b"),
-    ("skilling", r"\b(training|trains?|trained|upskill\w*|reskill\w*|skilling|skills?|course|curriculum|certification|literacy|students|teachers)\b"),
-    ("governance_deployment", r"\b(health\w*|hospitals?|agri\w*|farmers?|crops?|police|policing|traffic|education|schools?|revenue|land records|welfare|grievances?|citizen services|e-governance|surveillance|cctv|crowd|chatbots?|deploy\w*|courts?)\b"),
+    ("institution", r"\b(centres? of excellence|centers? of excellence|CoE|task ?force|committee|ai city|labs?|hub|institute|university|cell|council|"
+                    r"data cent(re|er)s?|infrastructure|compute|GPUs?|AI park|township|ministry|cabinet berth|portfolio)\b"),
+    ("partnership_mou", r"\b(MoUs?|memorandum|partnership|partners with|ties up|tie-up|collaborat\w*|agreements?|pacts?|deals?|contracts?|tenders?|join(s)? hands)\b"),
+    ("skilling", r"\b(training|trains?|trained|upskill\w*|reskill\w*|skilling|skills?|course|curriculum|certification|literacy|students|teachers|hackathon|"
+                 r"classes|coding|capacity[- ]building)\b"),
+    ("governance_deployment", r"\b(health\w*|hospitals?|agri\w*|farmers?|crops?|paddy|police|policing|traffic|e-challans?|education|schools?|revenue|"
+                              r"land records|welfare|grievances?|citizen services|e-governance|surveillance|cctv|cameras?|crowd|chatbots?|deploy\w*|"
+                              r"courts?|wildlife|poaching|forests?|attendance|service delivery|governance|beneficiar\w*|emergency|dial 112|"
+                              r"buses|transport|documents|feedback|public services|verif\w*|devices?)\b"),
 ]
+# Hindi keywords per category, matched as substrings (regex word boundaries fail on Devanagari).
+CATEGORIES_HINDI = {
+    "regulation_ethics": ["दिशानिर्देश", "नियम", "डीपफेक"],
+    "budget_funding": ["बजट"],
+    "policy_mission": ["नीति", "मिशन", "रोडमैप"],
+    "institution": ["सिटी", "सेंटर", "डेटा सेंटर", "लैब"],
+    "partnership_mou": ["एमओयू", "समझौता", "करार"],
+    "skilling": ["प्रशिक्षण", "ट्रेनिंग", "प्रज्ञा", "कौशल", "छात्र"],
+    "governance_deployment": ["स्वास्थ्य", "किसान", "पुलिस", "शिक्षा"],
+}
 CATEGORY_LABELS = {
     "regulation_ethics": "Regulation & ethics",
     "budget_funding": "Budget & funding",
     "policy_mission": "Policy & mission",
-    "institution": "Institution",
+    "institution": "Institutions & infrastructure",
     "partnership_mou": "Partnership / MoU",
     "skilling": "Skilling",
     "governance_deployment": "AI in governance",
@@ -181,18 +207,25 @@ CATEGORY_LABELS = {
 }
 SECTORS = [
     ("health", r"\b(health\w*|hospitals?|medical|patients?)\b"),
-    ("agriculture", r"\b(agri\w*|farmers?|crops?)\b"),
-    ("policing", r"\b(police|policing|crime|surveillance|cctv|traffic)\b"),
+    ("agriculture", r"\b(agri\w*|farmers?|crops?|paddy)\b"),
+    ("policing", r"\b(police|policing|crime|surveillance|cctv|cameras?|traffic|e-challans?)\b"),
+    ("environment", r"\b(wildlife|poaching|forests?|sanctuar\w*)\b"),
+    ("transport", r"\b(buses|transport|traffic|highways?)\b"),
+    ("welfare", r"\b(beneficiar\w*|welfare|pension|ration)\b"),
     ("education", r"\b(education|schools?|students|teachers|universit\w*)\b"),
     ("revenue & welfare", r"\b(revenue|land records|welfare|grievances?|citizen services|e-governance)\b"),
     ("courts", r"\b(courts?|judiciary)\b"),
 ]
-# Checked in this order; future markers first so "to launch" is not "implemented".
+# The stage whose verb appears FIRST in the headline wins, so "signs MoU ... to develop" is
+# announced, while "to set up ..., announces CM" is proposed.
 STAGES = [
-    ("proposed", r"\b(to (launch|set up|setup|roll out|introduce|establish|build|develop|unveil|start|create|host|bring|get)|will|plans?|planning|proposes?|proposed|mulls?|draft|in talks|considering|set to|likely to|aims? to|soon)\b"),
-    ("announced", r"\b(announces?|announced|unveils?|unveiled|approves?|approved|nod|clears?|cleared|signs?|signed|inks?|inked|releases?|released|notif(y|ies|ied))\b"),
-    ("implemented", r"\b(launches|launched|inaugurates?|inaugurated|deploys?|deployed|rolls? out|rolled out|operational|begins?|began|goes live|went live|opens?|opened|introduces|introduced|starts|started|implements?|implemented)\b"),
+    ("proposed", r"\b(to (launch|set up|setup|roll out|introduce|establish|build|develop|unveil|start|create|host|bring|get|back|install|deploy|frame|draft|formulate|come up with)|will|plans?|planning|proposes?|proposed|mulls?|draft|in talks|considering|set to|likely to|aims? to|soon|urges?|keen to|seeks?|explores?|wants)\b"),
+    ("announced", r"\b(announces?|announced|unveils?|unveiled|approves?|approved|nod|clears?|cleared|signs?|signed|inks?|inked|releases?|released|notif(y|ies|ied)|bags|wins|awards?|awarded|forms|formed|constitutes?|appoints?|adopts?|adopted|passes|passed|cancels?|cancelled|scraps?|scrapped|terminates?|terminated)\b"),
+    ("implemented", r"\b(launches|launched|inaugurates?|inaugurated|deploys?|deployed|rolls? out|rolled out|operational|begins?|began|goes live|went live|opens?|opened|introduces|introduced|starts|started|implements?|implemented|activates?|activated|installs?|installed|taps|uses|using)\b"),
 ]
+# Dedupe guards: a plan never merges with a decision or delivery; a reversal never merges with the original.
+DECISION_VERBS = r"\b(approves?|approved|nod|clears?|cleared|signs?|signed|inks?|inked|notif(y|ies|ied)|passes|passed|adopts?|adopted)\b"
+REVERSAL = r"\b(cancel\w*|scrap\w*|terminat\w*|withdraw\w*|revok\w*|backtrack\w*|halt\w*|shelv\w*|puts? on hold)\b"
 OFFICIAL_SUFFIXES = (".gov.in", ".nic.in")
 MAJOR_OUTLETS = {
     "thehindu.com", "indianexpress.com", "newindianexpress.com", "timesofindia.indiatimes.com",
@@ -204,6 +237,9 @@ MAJOR_OUTLETS = {
     "dtnext.in", "thehindubusinessline.com", "businesstoday.in", "zeenews.india.com", "indiatvnews.com",
     "amarujala.com", "jagran.com", "bhaskar.com", "livehindustan.com", "navbharattimes.indiatimes.com",
 }
+
+# Courts are not the state executive. Flip to include High Court AI guidelines and rulings.
+INCLUDE_JUDICIARY = False
 
 # Public repository, used for "report a correction" links on the dashboard. Leave empty to hide them.
 REPO_URL = ""

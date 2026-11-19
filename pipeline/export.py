@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import csv
 import json
+import shutil
 
 import config
 from common import DATA, DOCS, log, now_ist, read_json, read_jsonl, write_json
@@ -88,6 +89,10 @@ def run() -> None:
         "instrument_provenance": inst.get("provenance", ""),
     }
     DOCS.mkdir(exist_ok=True)
+    # GitHub Pages serves docs/ only, so the CSV downloads live there too.
+    for name in ("records.csv", "instruments.csv"):
+        if (DATA / name).exists():
+            shutil.copyfile(DATA / name, DOCS / name)
     write_json(DOCS / "data.json", site)
     (DOCS / "data.js").write_text("window.DATA = " + json.dumps(site, ensure_ascii=False, separators=(",", ":")) + ";\n",
                                   encoding="utf-8", newline="\n")

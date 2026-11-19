@@ -34,13 +34,32 @@ LEVELS = {
 PROVENANCE = "Research snapshot v2026.11.19 (data/instruments/source)"
 
 
+PLACEHOLDER = re.compile(r"closest instrument|no AI policy", re.I)
+POLICY_WORDS = re.compile(r"\b(polic(y|ies)|mission|strategy|roadmap|action plan)\b", re.I)
+COURT = re.compile(r"\b(high court|supreme court|court|judiciary|judicial)\b", re.I)
+
+
 def is_ai(p: dict) -> bool:
     text = " ".join([p.get("title", ""), p.get("summary", ""), " ".join(p.get("key_provisions", []))])
     return bool(AI_TEXT.search(text))
 
 
 def is_ai_policy(p: dict) -> bool:
-    return p["instrument_type"] in POLICY_TYPES and bool(AI_TEXT.search(p["title"]))
+    """A state-wide AI policy, mission or strategy (by type or by title)."""
+    t = p["title"]
+    return bool(AI_TEXT.search(t)) and (p["instrument_type"] in POLICY_TYPES or bool(POLICY_WORDS.search(t)))
+
+
+def drop_reason(p: dict) -> str | None:
+    if p["jurisdiction"] == "IN":
+        return "union_level"
+    if PLACEHOLDER.search(p["title"]):
+        return "placeholder_no_ai_instrument"
+    if not config.INCLUDE_JUDICIARY and (p["instrument_type"] == "court-ruling" or COURT.search(p.get("issuing_body", ""))):
+        return "judiciary_not_state_executive"
+    if not is_ai(p):
+        return "not_ai_specific"
+    return None
 
 
 def run() -> None:
@@ -48,11 +67,9 @@ def run() -> None:
     jur = read_json(SOURCE / "jurisdictions.json", [])
     kept, dropped = [], []
     for p in src:
-        if p["jurisdiction"] == "IN":
-            dropped.append({"id": p["id"], "title": p["title"], "jurisdiction": "IN", "reason": "union_level"})
-            continue
-        if not is_ai(p):
-            dropped.append({"id": p["id"], "title": p["title"], "jurisdiction": p["jurisdiction"], "reason": "not_ai_specific"})
+        reason = drop_reason(p)
+        if reason:
+            dropped.append({"id": p["id"], "title": p["title"], "jurisdiction": p["jurisdiction"], "reason": reason})
             continue
         if "news.google.com" in p.get("source_url", ""):
             p = {**p, "confidence": "low"}
@@ -82,12 +99,13 @@ def run() -> None:
     for code in {j["code"] for j in jur if j["code"] != "IN"}:
         items = [k for k in kept if k["state_code"] == code]
         pol = [k for k in items if k["is_ai_policy"]]
+        rank = lambda k: (k["type"] in POLICY_TYPES, k["date"])  # noqa: E731  prefer a real policy/mission over guidelines
         if any(k["status_group"] == "adopted" for k in pol):
             level[code] = 3
-            best[code] = max((k for k in pol if k["status_group"] == "adopted"), key=lambda k: k["date"])["title"]
+            best[code] = max((k for k in pol if k["status_group"] == "adopted"), key=rank)["title"]
         elif pol:
             level[code] = 2
-            best[code] = max(pol, key=lambda k: k["date"])["title"]
+            best[code] = max(pol, key=rank)["title"]
         elif items:
             level[code] = 1
             best[code] = max(items, key=lambda k: k["date"])["title"]

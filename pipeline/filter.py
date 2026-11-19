@@ -22,7 +22,7 @@ def gov_signal(text: str, date_iso: str | None) -> str | None:
     """'strong', 'weak' or None. Central-government phrases are removed first,
     so "Union Minister" does not count as a state actor."""
     t = config.CENTRAL.sub(" ", text)
-    if (config.GOV_STRONG.search(t) or config.GOV_CM.search(t)
+    if (config.GOV_STRONG.search(t) or config.GOV_CM.search(t) or states.state_as_actor(t)
             or any(h in t for h in config.GOV_HINDI) or states.cm_mentioned(t, date_iso)):
         return "strong"
     if config.GOV_WEAK.search(config.GOV_WEAK_NOT.sub(" ", t)) and states.mentions_any_state(t):
