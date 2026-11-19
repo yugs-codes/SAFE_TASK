@@ -20,7 +20,7 @@
     <p><strong>One caution:</strong> more headlines doesn't mean more work. Some states simply get more press.</p>
   </div>
   <nav class="jump" aria-label="Sections">
-    <a href="#map">The map</a><a href="#focus">Five states</a><a href="#kinds">What they're doing</a><a href="#time">Over time</a><a href="#funnel-section">How we filtered</a><a href="#records">All records</a><a href="#method">How this works</a>
+    <a href="#map">The map</a><a href="#focus">Five states</a><a href="#kinds">What they're doing</a><a href="#time">Over time</a><a href="#funnel-section">How we filtered</a><a href="#checked">Did we get it right?</a><a href="#records">All records</a><a href="#method">How this works</a>
   </nav>
 </header>
 
@@ -81,6 +81,16 @@
   <p class="take" id="funnel-take"></p>
   <div id="funnel" class="funnel"></div>
   <p class="small" id="drops"></p>
+</section>
+
+<section id="checked" aria-labelledby="h-checked">
+  <div class="section-head">
+    <h2 id="h-checked">Did we get it right?</h2>
+    <p>A machine sorted every story. Then a person read a random sample, one by one, and marked what it got wrong.</p>
+  </div>
+  <p class="take" id="check-take"></p>
+  <div class="checks" id="checks"></div>
+  <p class="small">The range under each figure is how far the true rate could plausibly be from what a sample this size shows (a 95% interval). Records a person checked carry a <span class="badge ok">✓ Checked by hand</span> badge below; use the filter to see only those.</p>
 </section>
 
 <section id="records" aria-labelledby="h-records">
@@ -166,7 +176,7 @@
       </ul>
 
       <h3 id="m-fresh">Keeping it fresh</h3>
-      <p>A daily job reruns the searches and opens a pull request, so a person reads the new rows before they go live. Mistakes a rule can't fix go into <code>data/overrides.json</code>, each with a written reason. We also hand-check a random sample; the numbers are in <code>audit/results.md</code>.</p>
+      <p>A daily job reruns the searches and opens a pull request, so a person reads the new rows before they go live. Mistakes a rule can't fix go into <code>data/overrides.json</code>, each with a written reason, and show up here as "Fixed by hand". A random sample is also checked by a person; see <a href="#checked">Did we get it right?</a> above, or <code>audit/results.md</code>.</p>
 
       <h3 id="m-data">Get the data</h3>
       <p><a href="records.csv" download>News events (CSV)</a> · <a href="instruments.csv" download>Policy documents (CSV)</a> · <a href="data.json">Everything (JSON)</a>. Dataset <b data-bind="version"></b>, built <b data-bind="built"></b>.</p>

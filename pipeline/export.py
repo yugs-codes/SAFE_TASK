@@ -6,10 +6,56 @@ import json
 import shutil
 
 import config
-from common import DATA, DOCS, log, now_ist, read_json, read_jsonl, write_json
+from audit import wilson
+from common import AUDIT, DATA, DOCS, log, now_ist, read_json, read_jsonl, write_json
 
 COLUMNS = ["date", "state", "title", "category", "stage", "confidence", "confidence_note", "num_sources",
-           "source_name", "source_url", "summary", "id", "date_precision", "source_type", "flags"]
+           "source_name", "source_url", "summary", "id", "date_precision", "source_type", "flags", "hand_check"]
+
+
+def _labelled(name: str, col: str) -> list[dict]:
+    path = AUDIT / name
+    if not path.exists():
+        return []
+    with path.open(encoding="utf-8-sig", newline="") as f:
+        return [r for r in csv.DictReader(f) if (r.get(col) or "").strip().lower() in ("y", "n")]
+
+
+def hand_checks() -> tuple[dict, dict]:
+    """Per-record results of the manual audit, and the sample-level summary for the site."""
+    yes = lambda r, c: (r.get(c) or "").strip().lower() == "y"  # noqa: E731
+    no = lambda r, c: (r.get(c) or "").strip().lower() == "n"  # noqa: E731
+
+    def rate(rows, ok):
+        k, n = sum(1 for r in rows if ok(r)), len(rows)
+        lo, hi = wilson(k, n)
+        return {"k": k, "n": n, "lo": round(lo, 3), "hi": round(hi, 3)}
+
+    kept = _labelled("sample_kept.csv", "is_relevant")
+    per = {}
+    for r in kept:
+        if no(r, "is_relevant"):
+            status = "wrong"
+        elif no(r, "state_correct") or no(r, "category_correct"):
+            status = "partly"
+        else:
+            status = "ok"
+        per[r["id"]] = {"s": status, "note": (r.get("note") or "").strip()}
+    st = [r for r in kept if (r.get("state_correct") or "").strip().lower() in ("y", "n")]
+    ca = [r for r in kept if (r.get("category_correct") or "").strip().lower() in ("y", "n")]
+    dropped = _labelled("sample_dropped.csv", "is_relevant")
+    pairs = _labelled("dedupe_borderline.csv", "same_event")
+    known = _labelled("known_events.csv", "found")
+    summary = {
+        "sample_size": 40,
+        "relevant": rate(kept, lambda r: yes(r, "is_relevant")),
+        "state": rate(st, lambda r: yes(r, "state_correct")),
+        "category": rate(ca, lambda r: yes(r, "category_correct")),
+        "dropped_ok": rate(dropped, lambda r: no(r, "is_relevant")),
+        "pairs_split_ok": rate(pairs, lambda r: no(r, "same_event")),
+        "known_found": rate(known, lambda r: yes(r, "found")),
+    }
+    return per, summary
 
 
 def funnel(stats: dict) -> dict:
@@ -52,13 +98,24 @@ def run() -> None:
     now = now_ist()
     version = "v" + now.strftime("%Y.%m.%d")
 
+    # Human verification: audit labels per record, and corrections made by hand.
+    checks, check_summary = hand_checks()
+    for e in events:
+        if e.get("override_reason"):
+            e["check"] = {"s": "fixed", "note": e["override_reason"]}
+        elif e["id"] in checks:
+            e["check"] = checks[e["id"]]
+        else:
+            e["check"] = None
+    check_word = {"ok": "checked_ok", "partly": "checked_label_wrong", "wrong": "checked_not_relevant", "fixed": "corrected_by_hand"}
+
     with (DATA / "records.csv").open("w", encoding="utf-8-sig", newline="") as f:
         w = csv.writer(f)
         w.writerow(COLUMNS)
         for e in events:
             w.writerow([e["date"], e["state"], e["title"], e["category"], e["stage"], e["confidence"], e["confidence_note"],
                         e["num_sources"], e["source_name"], e["url"], e["summary"], e["id"], e["date_precision"],
-                        e["source_type"], ";".join(e["flags"])])
+                        e["source_type"], ";".join(e["flags"]), check_word[e["check"]["s"]] if e["check"] else ""])
 
     fun = funnel(stats)
     write_json(DATA / "funnel.json", {**fun, "last_updated": now.isoformat(timespec="minutes"), "version": version})
@@ -77,7 +134,7 @@ def run() -> None:
             "id": e["id"], "date": e["date"], "state": e["state"], "code": e["state_code"], "title": e["title"],
             "category": e["category"], "stage": e["stage"], "confidence": e["confidence"],
             "confidence_note": e["confidence_note"], "n": e["num_sources"], "source": e["source_name"],
-            "url": e["url"], "summary": e["summary"], "flags": e["flags"], "st": e["source_type"],
+            "url": e["url"], "summary": e["summary"], "flags": e["flags"], "st": e["source_type"], "chk": e["check"],
             "members": [{"t": m["title"], "s": m["source"], "u": m["url"], "d": m["date"]} for m in e["members"]],
         } for e in events],
         "instruments": [{
@@ -88,6 +145,7 @@ def run() -> None:
         } for i in inst.get("instruments", [])],
         "instrument_provenance": inst.get("provenance", ""),
         "instrument_drops": stats.get("instruments", {}).get("dropped", {}),
+        "hand_check": check_summary,
         "collect": {k: v for k, v in (read_json(DATA / "collect_log.json", {}) or {}).items() if k != "slices"},
     }
     DOCS.mkdir(exist_ok=True)

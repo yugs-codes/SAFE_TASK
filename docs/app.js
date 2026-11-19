@@ -81,9 +81,9 @@
   const hideTip = () => (tip.hidden = true);
 
   // ---------- shared filter state for cards, matrix, map and table
-  const F = { tab: "events", state: "", category: "", stage: "", confidence: "", group: "", q: "", limit: 50 };
+  const F = { tab: "events", state: "", category: "", stage: "", confidence: "", group: "", check: "", q: "", limit: 50 };
   function go(patch) {
-    Object.assign(F, { state: "", category: "", stage: "", confidence: "", group: "", q: "", limit: 50 }, patch);
+    Object.assign(F, { state: "", category: "", stage: "", confidence: "", group: "", check: "", q: "", limit: 50 }, patch);
     renderTable();
     renderCards();
     $("#records").scrollIntoView({ behavior: "smooth", block: "start" });
@@ -438,13 +438,14 @@
     if (isEv) {
       parts.push(select("category", "All categories", Object.entries(D.categories)));
       parts.push(select("stage", "All stages", Object.entries(STAGE)));
+      parts.push(select("check", "Checked or not", [["checked", "Checked by a person"], ["unchecked", "Not checked yet"]]));
     } else {
       parts.push(select("group", "Any status", Object.entries(GROUP)));
     }
     parts.push(select("confidence", "Any confidence", Object.entries(CONF)));
     const q = el("input", { type: "search", placeholder: "Search headlines", value: F.q, "aria-label": "Search headlines" });
     q.addEventListener("input", (e) => { F.q = e.target.value; F.limit = 50; renderRows(); });
-    parts.push(q, el("button", { type: "button", onclick: () => { Object.assign(F, { state: "", category: "", stage: "", confidence: "", group: "", q: "", limit: 50 }); renderTable(); renderCards(); } }, "Clear"));
+    parts.push(q, el("button", { type: "button", onclick: () => { Object.assign(F, { state: "", category: "", stage: "", confidence: "", group: "", check: "", q: "", limit: 50 }); renderTable(); renderCards(); } }, "Clear"));
     box.replaceChildren(...parts);
   }
   function rowsFor() {
@@ -452,6 +453,7 @@
     if (F.tab === "events") {
       return events.filter((e) => (!F.state || e.state === F.state) && (!F.category || e.category === F.category)
         && (!F.stage || e.stage === F.stage) && (!F.confidence || e.confidence === F.confidence)
+        && (!F.check || (F.check === "checked") === !!e.chk)
         && (!q || e.title.toLowerCase().includes(q)));
     }
     return insts.filter((i) => (!F.state || i.state === F.state) && (!F.group || i.group === F.group)
@@ -459,6 +461,17 @@
       .sort((a, b) => (a.date < b.date ? 1 : -1));
   }
   const conf = (level, note) => el("span", { class: "conf", title: note }, el("span", { class: "dots", "aria-hidden": "true" }, DOTS[level]), " ", CONF[level]);
+  const CHECK = {
+    ok: ["ok", "✓ Checked by hand", "A person read this one and agreed with how it was sorted."],
+    partly: ["warn", "Checked: label off", "A person confirmed it belongs here but found the state or category wrong."],
+    wrong: ["warn", "Flagged on review", "A person judged that this one shouldn't count."],
+    fixed: ["ok", "Fixed by hand", "A person corrected this record."],
+  };
+  function badgeFor(chk) {
+    if (!chk) return null;
+    const [cls, label, why] = CHECK[chk.s];
+    return el("div", {}, el("span", { class: `badge ${cls}`, title: chk.note ? `${why} Note: ${chk.note}` : why }, label));
+  }
   function fixLink(title, id) {
     if (!D.repo_url) return null;
     const u = `${D.repo_url}/issues/new?title=${encodeURIComponent(`Correction: ${title}`)}&body=${encodeURIComponent(`Record id: ${id}\n\nWhat is wrong:\n\nSource:\n`)}`;
@@ -478,6 +491,7 @@
           el("div", { class: "summary" }, `${r.source}${r.flags.includes("state_from_query") ? " · state taken from the search" : ""}${r.flags.includes("multi_state") ? " · mentions more than one state" : ""}`),
           r.members.length > 1 ? el("details", {}, el("summary", {}, `Covered by ${r.n} outlets`),
             el("ul", {}, ...r.members.map((m) => el("li", {}, el("a", { href: m.u, target: "_blank", rel: "noopener" }, m.t), ` · ${m.s} · ${fmtDate(m.d)}`)))) : null,
+          badgeFor(r.chk),
           fixLink(r.title, r.id)),
         el("td", {}, D.categories[r.category]),
         el("td", {}, STAGE[r.stage]),
@@ -509,6 +523,36 @@
   $("#tab-events").addEventListener("click", () => { Object.assign(F, { tab: "events", group: "", limit: 50 }); if (F.state && !focus.some((f) => f.name === F.state)) F.state = ""; renderTable(); renderCards(); });
   $("#tab-inst").addEventListener("click", () => { Object.assign(F, { tab: "instruments", category: "", stage: "", limit: 50 }); renderTable(); renderCards(); });
 
+  // ---------- human checks
+  function renderChecks() {
+    const H = D.hand_check || {};
+    const pct = (x) => `${Math.round(x * 100)}%`;
+    const tiles = [
+      ["relevant", "Belong here", "of the sampled events really are a state government acting on AI"],
+      ["state", "Right state", "have the correct state attached"],
+      ["category", "Right category", "landed in a sensible bucket"],
+      ["dropped_ok", "Rightly thrown out", "of the sampled rejects deserved to go"],
+      ["pairs_split_ok", "Near-twins kept apart", "of the close-but-separate pairs really are different events"],
+      ["known_found", "Known events found", "of the events we knew about turned up in the data"],
+    ];
+    $("#checks").replaceChildren(...tiles.map(([key, title, line]) => {
+      const r = H[key] || { k: 0, n: 0 };
+      if (!r.n) return el("div", { class: "check empty" }, el("p", { class: "over" }, title), el("div", { class: "big" }, "Not checked yet"));
+      const p = r.k / r.n;
+      return el("div", { class: "check" },
+        el("p", { class: "over" }, title),
+        el("div", { class: "big" }, pct(p)),
+        el("div", { class: "sub" }, `${N(r.k)} of ${N(r.n)} ${line}`),
+        el("div", { class: "bar", "aria-hidden": "true" }, el("i", { style: { left: pct(r.lo), width: pct(r.hi - r.lo) } }), el("b", { style: { left: `calc(${pct(p)} - 1px)` } })),
+        el("div", { class: "range" }, `Likely between ${pct(r.lo)} and ${pct(r.hi)}`));
+    }));
+    const rel = H.relevant || { n: 0 };
+    const checked = events.filter((e) => e.chk).length;
+    $("#check-take").textContent = rel.n
+      ? `${Math.round((rel.k / rel.n) * 100)}% of the hand-checked sample really belonged here (${N(rel.k)} of ${N(rel.n)}). ${N(checked)} records now carry a person's check.`
+      : "The hand-check hasn't been done yet. Once it is, the results land here and on every record a person looked at.";
+  }
+
   // ---------- method numbers
   function bindMethod() {
     const c = count(events, "confidence");
@@ -532,6 +576,7 @@
   renderMatrix();
   renderMultiples();
   renderFunnel();
+  renderChecks();
   renderTable();
   bindMethod();
   let t;

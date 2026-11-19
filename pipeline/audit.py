@@ -179,10 +179,14 @@ def label(port: int = 8770) -> None:
                 _write_csv(AUDIT / name, fields, rows)
                 return self._send(200, {"saved": name, "rows": len(rows)})
             if self.path == "/api/score":
+                import export  # refresh the dashboard so checked records get their badge
+
                 buf = io.StringIO()
                 with redirect_stderr(buf):
                     score()
-                return self._send(200, {"text": (AUDIT / "results.md").read_text(encoding="utf-8")})
+                    export.run()
+                text = (AUDIT / "results.md").read_text(encoding="utf-8")
+                return self._send(200, {"text": text + "\nDashboard data refreshed (docs/data.js). Reload the dashboard to see the checks.\n"})
             self._send(404, {"error": "not found"})
 
         def log_message(self, *args):  # keep the console quiet

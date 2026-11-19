@@ -1,6 +1,6 @@
 {
   "version": "v2026.11.19",
-  "last_updated": "2026-11-19T18:14+05:30",
+  "last_updated": "2026-11-19T18:19+05:30",
   "start_date": "2025-01-01",
   "repo_url": "",
   "focus": [
@@ -645,6 +645,7 @@
       "summary": "Institutions & infrastructure; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Odisha Govt Rolls Out Big Welfare Package for Teachers; Pay Hikes, Regularisation, and AI Labs",
@@ -670,6 +671,7 @@
       "summary": "Other; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "उत्तर प्रदेश में बनेगा दुनिया का बड़ा AI हब, जानिए क्या है योगी सरकार का पूरा प्लान",
@@ -695,6 +697,7 @@
       "summary": "Other; stage unclear; reported by 2 outlets.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Dubai CommerCity signs MoU with Government of Karnataka to advance AI innovation and drive startup growth",
@@ -726,6 +729,7 @@
       "summary": "Partnership / MoU; announced; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Odisha, DIL-India Ink Two-Year MoU to Boost AI Farming and Village Water Systems",
@@ -753,6 +757,7 @@
         "state_from_query"
       ],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Minister Priyank Kharge calls for greater AI adoption in public services, governance",
@@ -778,6 +783,7 @@
       "summary": "Partnership / MoU; announced; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Odisha Signs MoU with DIL-India for AI Farming & Rural Water",
@@ -803,6 +809,7 @@
       "summary": "Institutions & infrastructure; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "The Karnataka government has launched six major initiatives spanning AI, robotics, healthcare and semiconductors at the Bengaluru Tech Summit 2026. The initiatives include BRAINZ, INFIfab, K-HEAL, Innoverse, Karnataka AI Hub and 2D Innovation Hub. B",
@@ -828,6 +835,7 @@
       "summary": "Skilling; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka Partners Five Tech Firms To Train 63,200 In AI",
@@ -853,6 +861,7 @@
       "summary": "Partnership / MoU; announced; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Bengaluru Tech Summit 2026: Karnataka inks MoUs with five firms to strengthen AI skill training ecosystem",
@@ -884,6 +893,7 @@
       "summary": "Partnership / MoU; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "UP's AI platform tender allows private AI models, sets rules on government data use",
@@ -915,6 +925,7 @@
       "summary": "Partnership / MoU; announced; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka Announces Major AI Skilling Initiative, Signs MoUs with Google and 4 Tech Companies",
@@ -946,6 +957,7 @@
       "summary": "Skilling; announced; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "​Karnataka Announces AI Training Programme for 63,200 Students and Professionals",
@@ -971,6 +983,7 @@
       "summary": "Other; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Uttar Pradesh is buying one AI platform for every department, keyed to the Family ID.",
@@ -996,6 +1009,7 @@
       "summary": "Other; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka bets on AI, robotics and semiconductors with 6 new technology initiatives at BTS 2026",
@@ -1021,6 +1035,7 @@
       "summary": "Institutions & infrastructure; stage unclear; reported by 2 outlets.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka unveils AI Hub, robotics zone as CM Shivakumar pitches state's next tech leap",
@@ -1058,6 +1073,7 @@
       "summary": "Other; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka wants to lead in AI, chips and deep tech: CM D K Shivakumar",
@@ -1083,6 +1099,7 @@
       "summary": "Other; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "AI Content Scam: TN Govt Plans to Put Seized Books on Display",
@@ -1108,6 +1125,7 @@
       "summary": "Partnership / MoU; announced; reported by 2 outlets.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka signs agreement with five tech companies to skill 63,200 students in AI",
@@ -1139,6 +1157,7 @@
       "summary": "Other; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Bengaluru Tech Summit 2026: Karnataka charting next tech leap to push AI, deep-tech, says CM D.K. Shivakumar",
@@ -1164,6 +1183,7 @@
       "summary": "Skilling; announced; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka Announces Major AI Skilling Push;Targets 63,200 Students and Engineers Through Industry Partnerships",
@@ -1189,6 +1209,7 @@
       "summary": "Institutions & infrastructure; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Bengaluru Tech Summit inaugurated; Karnataka aims to emerge as global hub for AI, deep tech, semiconductors: CM Shivakumar",
@@ -1214,6 +1235,7 @@
       "summary": "Other; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka Positioning Itself As A Global Centre For AI, Deep Tech And Semiconductor Manufacturing, Says CM Shivakumar",
@@ -1239,6 +1261,7 @@
       "summary": "Other; announced; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka Unveils 6 Initiatives to Strengthen AI and Semiconductor Ecosystem",
@@ -1264,6 +1287,7 @@
       "summary": "Other; announced; reported by 2 outlets.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Bengaluru Tech Summit: Karnataka unveils 6 deeptech, AI and semiconductor initiatives",
@@ -1295,6 +1319,7 @@
       "summary": "Other; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Tamil Nadu To Overhaul Library Book Purchases After AI-Generated Content, Fake Authors And Corruption Allegations",
@@ -1322,6 +1347,7 @@
         "state_from_query"
       ],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "K'taka Aims To Emerge As Global Hub For AI, Deep Tech, Semiconductor Manufacturing: CM Shivakumar",
@@ -1359,6 +1385,7 @@
       "summary": "Partnership / MoU; announced; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Gnani AI, Karnataka Govt Sign MoU to Skill 1,000 Students in Voice AI and Agentic AI Engineering",
@@ -1384,6 +1411,7 @@
       "summary": "Partnership / MoU; announced; reported by 7 outlets.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka government teams with Gnani AI to train 1,000 students",
@@ -1445,6 +1473,7 @@
       "summary": "Policy & mission; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Lucknow News: योगी सरकार का एआई मिशन युवाओं को बनाएग सशक्तः डॉ. राजेश्वर सिंह",
@@ -1470,6 +1499,7 @@
       "summary": "Institutions & infrastructure; proposed; reported by 3 outlets.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka aims to become global hub for AI, deep tech, semiconductors: CM D K Shivakumar",
@@ -1507,6 +1537,7 @@
       "summary": "Skilling; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka Launches AI Curriculum Covering Python & Generative AI Across 1,800 Govt High Schools",
@@ -1534,6 +1565,7 @@
         "state_from_query"
       ],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "A.P. govt. approves Robotics and Physical AI Policy 2026–36 aimed at total ecosystem for State",
@@ -1559,6 +1591,7 @@
       "summary": "Institutions & infrastructure; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Odisha Launches Robotics Labs in 807 Schools to Expand AI and Coding Education",
@@ -1584,6 +1617,7 @@
       "summary": "Other; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "TN govt suspends five library officials over AI book scam",
@@ -1609,6 +1643,7 @@
       "summary": "Skilling; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka introduces AI curriculum for Class 9 in 1,800 government schools under NSQF",
@@ -1634,6 +1669,7 @@
       "summary": "Skilling; implemented; reported by 2 outlets.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka Introduces AI Education for Class 9 Students in 1,800 Government Schools; Details Here",
@@ -1667,6 +1703,7 @@
         "state_from_query"
       ],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Vision Digital India, A.P. govt. sign MoU to set up AI training centres",
@@ -1692,6 +1729,7 @@
       "summary": "Institutions & infrastructure; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Odisha Introduces Robotics Labs In 807 Schools To Promote AI And Coding Education",
@@ -1717,6 +1755,7 @@
       "summary": "Institutions & infrastructure; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Odisha Govt Launches Robotics Lab in 807 Govt Schools; Classes 6 to 10 Students to Learn AI, Machine Learning",
@@ -1742,6 +1781,7 @@
       "summary": "Partnership / MoU; announced; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "State, centre sign deal to bring AI benefits to farmers: Telangana transport minister",
@@ -1767,6 +1807,7 @@
       "summary": "Skilling; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "InMobi and Uttar Pradesh Government Launch AI Kaushal Hackathon 2026 to Accelerate Real-World AI Innovation",
@@ -1792,6 +1833,7 @@
       "summary": "Regulation & ethics; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Telangana ties up with NISG to bring AI agri-advisory Bharat-Vistaar in Telugu",
@@ -1817,6 +1859,7 @@
       "summary": "Skilling; implemented; reported by 2 outlets.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "InMobi, Uttar Pradesh government launch AI Kaushal Hackathon 2026; registrations open until November 20",
@@ -1850,6 +1893,7 @@
         "state_from_query"
       ],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "BJP's Nainar Nagendran alleges 'AI book scam', questions Vijay government over law and order",
@@ -1875,6 +1919,7 @@
       "summary": "Other; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "'India's first AI scam': Tamil Nadu minister targets DMK over library book purchases",
@@ -1900,6 +1945,7 @@
       "summary": "Other; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Tamil Nadu Minister Alleges Artificial Intelligence Corruption in Libraries",
@@ -1925,6 +1971,7 @@
       "summary": "Other; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "AI book 'scam' has unfolded in more libraries across Tamil Nadu: Minister Rajmohan",
@@ -1950,6 +1997,7 @@
       "summary": "AI in governance; announced; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka approves AI and IVRS feedback service for Sakala and iPGRS",
@@ -1977,6 +2025,7 @@
         "state_from_query"
       ],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "'India's first AI scam': Tamil Nadu minister alleges library fraud under DMK",
@@ -2010,6 +2059,7 @@
         "state_from_query"
       ],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "DMK govt orchestrated country's first AI scam: Minister A Rajmohan",
@@ -2037,6 +2087,7 @@
         "state_from_query"
       ],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "AI में आत्मनिर्भर बनाएगी IIT: केंद्र सरकार दे रही प्रोत्साहन, देश को आत्मनिर्भर बनाने की ऐसी है तैयारी",
@@ -2064,6 +2115,7 @@
         "state_from_query"
       ],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "'India's First AI Scam? CM Vijay's Govt Accuses DMK Of Using Artificial Intelligence To Generate Low-Quality Books",
@@ -2089,6 +2141,7 @@
       "summary": "Other; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "'Books By Trisha Vijay, AI Misuse': Tamil Nadu Minister Alleges Corruption During DMK Regime In Purchase Of Library Books",
@@ -2114,6 +2167,7 @@
       "summary": "Other; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "AI errors, inflated prices: Tamil Nadu govt orders probe into Periyar library books",
@@ -2139,6 +2193,7 @@
       "summary": "Skilling; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka to train 5,000 government school teachers in AI literacy under JanAI initiative",
@@ -2164,6 +2219,7 @@
       "summary": "Institutions & infrastructure; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "TN govt joins hands with IIT Madras to create AI Data Centre for the state",
@@ -2189,6 +2245,7 @@
       "summary": "Skilling; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka: 5,000 government school teachers to be trained in AI",
@@ -2214,6 +2271,7 @@
       "summary": "Other; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Telangana HC questions Jangaon Collector over AI-generated orders",
@@ -2239,6 +2297,7 @@
       "summary": "AI in courts; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Telangana High Court Pulls Up Jangaon Collector Over Use of AI to Decide Land Disputes",
@@ -2264,6 +2323,7 @@
       "summary": "Other; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Telangana to Offer Learner's Licence Test From Home via AI",
@@ -2289,6 +2349,7 @@
       "summary": "Skilling; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Telangana govt, AWS partner to train one lakh students in AI, cloud computing",
@@ -2316,6 +2377,7 @@
         "state_from_query"
       ],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "1 lakh students to receive free AI and cloud computing training under Telangana initiative",
@@ -2347,6 +2409,7 @@
       "summary": "AI in agriculture; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Telangana plans AI-enabled transactions in agri. market yards",
@@ -2372,6 +2435,7 @@
       "summary": "Skilling; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Telangana AI Training for 1 Lakh Students: AWS Programme",
@@ -2397,6 +2461,7 @@
       "summary": "Policy & mission; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Uttar Pradesh Launches ₹1,725 Crore Sardar Patel Skill Mission, with AI, Robotics and Data Science Training Across Nine Zones Covering All 75 Districts",
@@ -2422,6 +2487,7 @@
       "summary": "AI in health; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "TN govt mulls medical college at Tambaram hospital; Nalam AI to ease medicine collection at government hospitals",
@@ -2447,6 +2513,7 @@
       "summary": "Policy & mission; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "UP Plans Quantum Mission After ₹225 Cr AI Push [2026]",
@@ -2472,6 +2539,7 @@
       "summary": "Policy & mission; proposed; reported by 2 outlets.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Uttar Pradesh to launch state Quantum Mission, steps up push for AI and robotics",
@@ -2503,6 +2571,7 @@
       "summary": "Institutions & infrastructure; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Odisha plans over $4 billion semiconductor, AI data centre projects",
@@ -2528,6 +2597,7 @@
       "summary": "Skilling; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Odisha to Introduce 'AI for All' Course for Apprenticeship Degree Students",
@@ -2553,6 +2623,7 @@
       "summary": "Other; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "ETGovernment Vision Conclave 5.0: Uttar Pradesh bets on AI to power its $1 trillion economy ambition",
@@ -2578,6 +2649,7 @@
       "summary": "Other; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "ET Government conclave to focus on AI-led path to UP's $1tn goal",
@@ -2603,6 +2675,7 @@
       "summary": "Skilling; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Odisha to replace Good Citizenship course with AI curriculum for apprenticeship degree students",
@@ -2628,6 +2701,7 @@
       "summary": "Institutions & infrastructure; stage unclear; reported by 3 outlets.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "IIHMR University Partners with Odisha NHM to Strengthen TB Programme Management Through AI-Enabled Training",
@@ -2665,6 +2739,7 @@
       "summary": "AI in policing; proposed; reported by 2 outlets.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Odisha govt to install 300 more AI-powered cameras in Similipal to curb wildlife poaching",
@@ -2696,6 +2771,7 @@
       "summary": "AI in governance; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "T.N. government to roll out scheme for AI assistive devices for persons with disability",
@@ -2721,6 +2797,7 @@
       "summary": "Skilling; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Tamil Nadu trains government school teachers to create AI-based lessons, classroom rollout from November",
@@ -2746,6 +2823,7 @@
       "summary": "Skilling; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Tamil Nadu Trains Government School Teachers To Use AI Tools In Classrooms",
@@ -2771,6 +2849,7 @@
       "summary": "Other; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "UP to open Jan AI cafés in 25 districts: Govt will set them up over the next 12 months to help people acces...",
@@ -2796,6 +2875,7 @@
       "summary": "Institutions & infrastructure; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Human Rights Forum urges Telangana govt to pause new AI data centres",
@@ -2821,6 +2901,7 @@
       "summary": "Other; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "यूपी के 25 जिलों में खुलेंगे जन एआई कैफे, सरकारी योजनाओं और स्वरोजगार के अवसरों से जोड़ने का होगा प्रयास!",
@@ -2848,6 +2929,7 @@
         "state_from_query"
       ],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Bhatti urges govt. staff to adopt AI for better public service delivery",
@@ -2873,6 +2955,7 @@
       "summary": "Skilling; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Telangana launches 'AI Saksham' to train govt employees in AI",
@@ -2898,6 +2981,7 @@
       "summary": "Institutions & infrastructure; announced; reported by 2 outlets.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "UP Cabinet approves robotics, AI park in Greater Noida",
@@ -2929,6 +3013,7 @@
       "summary": "Institutions & infrastructure; announced; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Bengaluru-based co Sarvam signs 5-year MoU with defence ministry to build AI capabilities for Army, Navy,",
@@ -2956,6 +3041,7 @@
         "state_from_query"
       ],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Govt picks Sarvam to build and deploy AI applications for the Indian military",
@@ -2981,6 +3067,7 @@
       "summary": "Institutions & infrastructure; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Amid warnings about El Nino, HRF demands Telangana government to suspend further implementation of AI Data Centres",
@@ -3006,6 +3093,7 @@
       "summary": "Institutions & infrastructure; announced; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "U.P. approves robotics park and AI hub in Greater Noida",
@@ -3031,6 +3119,7 @@
       "summary": "AI in policing; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Odisha Police Plan Advanced Cybercrime Centre With AI and Digital Forensics",
@@ -3056,6 +3145,7 @@
       "summary": "Institutions & infrastructure; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "HRF Urges Telangana to Halt AI Data Centre Commitments Amid Looming Water and Power Crisis",
@@ -3083,6 +3173,7 @@
         "state_from_query"
       ],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Yogi Adityanath warns AI deepfake criminals will be tracked through forensic technology",
@@ -3110,6 +3201,7 @@
         "state_from_query"
       ],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "AI should assist human intelligence, not replace human judgement: Yogi | Hindustan Times",
@@ -3135,6 +3227,7 @@
       "summary": "AI in governance; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Telangana's AI Minister Tests a New Model of Digital Governance",
@@ -3160,6 +3253,7 @@
       "summary": "Institutions & infrastructure; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Srikant Jena Writes To CM Majhi, Seeks Clarity On Proposed Adani AI Data Centre At Odisha's Naraj",
@@ -3185,6 +3279,7 @@
       "summary": "Institutions & infrastructure; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Telangana Launches AI, Green Skills Hub",
@@ -3210,6 +3305,7 @@
       "summary": "Other; announced; reported by 2 outlets.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Telangana unveils AI avatar of IT minister D Sridhar Babu at Hyderabad DevFest 2026",
@@ -3243,6 +3339,7 @@
         "state_from_query"
       ],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "योगी सरकार में हाईटेक होगा समाज कल्याण विभाग, AI से आसान होंगे सरकारी काम",
@@ -3270,6 +3367,7 @@
         "state_from_query"
       ],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Gen Z will drive the next wave of AI, green innovation, says T''gana IT Minister Sridhar Babu",
@@ -3295,6 +3393,7 @@
       "summary": "Institutions & infrastructure; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Telangana govt, Microsoft, 1M1B & MeitY Startup Hub launch green skills & AI CoE in Hyderabad",
@@ -3320,6 +3419,7 @@
       "summary": "Other; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka plans next phase of AI, robotics and deep-tech expansion",
@@ -3345,6 +3445,7 @@
       "summary": "Skilling; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Tamil Nadu introduces AI training for higher secondary teachers in govt, aided schools",
@@ -3370,6 +3471,7 @@
       "summary": "AI in agriculture; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka Seeks AI Crop Monitoring System to Assess Drought and Estimate Yields",
@@ -3395,6 +3497,7 @@
       "summary": "AI in agriculture; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka to turn to AI, satellite imagery to monitor crops in drought-hit regions",
@@ -3420,6 +3523,7 @@
       "summary": "Institutions & infrastructure; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "लखनऊ में बनेगी AI सिटी, योगी सरकार की योजना को मिले 25 से ज्यादा प्रस्ताव",
@@ -3445,6 +3549,7 @@
       "summary": "Other; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Canada keen to deepen partnerships with Karnataka quantum computing, AI, aerospace and defence: Trade Minister Maninder Sidhu",
@@ -3470,6 +3575,7 @@
       "summary": "AI in education; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "PM to CM, everyone wants Karnataka kids to learn AI. But state's tech push skips govt schools",
@@ -3495,6 +3601,7 @@
       "summary": "Policy & mission; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Uttar Pradesh: Yogi Govt Rolls Out UP Startup Policy 2026 With 6 Key Pillars, Focus On AI, Quantum Computing",
@@ -3520,6 +3627,7 @@
       "summary": "Partnership / MoU; announced; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "BIM signs MoU with IMTI Trichy on AI-powered water management",
@@ -3545,6 +3653,7 @@
       "summary": "Other; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "'Karnataka can lead in green AI with responsible energy use': KDEM CEO",
@@ -3570,6 +3679,7 @@
       "summary": "AI in governance; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka govt cautious on use of AI in governance: Priyank Kharge",
@@ -3595,6 +3705,7 @@
       "summary": "Institutions & infrastructure; announced; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Ministry of Science signs MoU with Peptris for collab in AI-based drug discovery and development | Bengaluru",
@@ -3620,6 +3731,7 @@
       "summary": "Policy & mission; announced; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "UP Approves AI Mission to Train 5 Lakh Youth and Support Startups",
@@ -3645,6 +3757,7 @@
       "summary": "Policy & mission; announced; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "UP cabinet approves AI Mission; 5 lakh youths to be trained",
@@ -3670,6 +3783,7 @@
       "summary": "Policy & mission; announced; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "UP Cabinet Clears AI Mission, ₹1,725-Crore Skill Scheme and Green Fuel Policy",
@@ -3695,6 +3809,7 @@
       "summary": "Policy & mission; announced; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "UP Cabinet clears AI mission, targets 100 startups and skilling of 5 lakh youth",
@@ -3722,6 +3837,7 @@
         "state_from_query"
       ],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Anthropic reports unintended Claude AI actions on US government websites",
@@ -3747,6 +3863,7 @@
       "summary": "Policy & mission; announced; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "UP clears AI Mission, SAF policy to promote tech and green fuel | Hindustan Times",
@@ -3772,6 +3889,7 @@
       "summary": "Policy & mission; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Artificial Intelligence Mission to be established in UP",
@@ -3797,6 +3915,7 @@
       "summary": "Other; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "CM Mohan Majhi Asks Odisha Information Officers To Master Social Media & AI",
@@ -3822,6 +3941,7 @@
       "summary": "Other; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka plans Sovereign AI Innovation Centre: Priyank Kharge",
@@ -3847,6 +3967,7 @@
       "summary": "AI in revenue & welfare; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka govt plans Bhashini AI push for multilingual citizen services",
@@ -3872,6 +3993,7 @@
       "summary": "Other; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka govt plans AI use to deliver services in your language",
@@ -3897,6 +4019,7 @@
       "summary": "Skilling; announced; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka announces Bengaluru Skill Summit 2026; AI, Industry 4.0 and global skills in focus",
@@ -3922,6 +4045,7 @@
       "summary": "Institutions & infrastructure; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka AI Education Push: Government Plans University, Student Training from Class 6",
@@ -3947,6 +4071,7 @@
       "summary": "Other; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "UP Government Backs 50 AI Startups; HCLTech Begins IT City Phase 2",
@@ -3972,6 +4097,7 @@
       "summary": "Other; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "UP to back 50 AI startups in Lucknow, HCL Tech invests ₹500 crore",
@@ -3997,6 +4123,7 @@
       "summary": "Other; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "लखनऊ को एआई-डीप टेक का केंद्र बनाएंगे: मुख्यमंत्री योगी",
@@ -4022,6 +4149,7 @@
       "summary": "Other; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "UP Government to support 50 AI startups in Lucknow; HCLTech launches IT City Phase 2",
@@ -4047,6 +4175,7 @@
       "summary": "Skilling; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "AI training likely from Class nine in Karnataka government schools",
@@ -4072,6 +4201,7 @@
       "summary": "Skilling; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka to introduce AI course for government school students from Class 6",
@@ -4097,6 +4227,7 @@
       "summary": "Partnership / MoU; announced; reported by 2 outlets.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka Govt signs MoU with ElevenLabs to advance responsible voice AI",
@@ -4128,6 +4259,7 @@
       "summary": "Partnership / MoU; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "ElevenLabs partners with Karnataka government to help people regain their voices with AI",
@@ -4153,6 +4285,7 @@
       "summary": "Partnership / MoU; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "NY firm ElevenLabs partners with Karnataka govt. to boost Voice AI adoption",
@@ -4178,6 +4311,7 @@
       "summary": "Partnership / MoU; proposed; reported by 3 outlets.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka govt partners with ElevenLabs to explore voice AI for citizen services",
@@ -4215,6 +4349,7 @@
       "summary": "Other; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "UP govt aims to establish Lucknow among Indias leading AI innovation cities: Yogi Adityanath",
@@ -4240,6 +4375,7 @@
       "summary": "AI in education; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka is bringing AI into government schools from Class 6",
@@ -4265,6 +4401,7 @@
       "summary": "Partnership / MoU; announced; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka signs MoU with global Voice AI company for voice restoration, safety and easier Govt services",
@@ -4290,6 +4427,7 @@
       "summary": "Partnership / MoU; announced; reported by 2 outlets.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka signs MoU with ElevenLabs to develop Voice AI for public services and voice restoration",
@@ -4321,6 +4459,7 @@
       "summary": "AI in education; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "AI education in schools: Karnataka plans to rope in Google",
@@ -4346,6 +4485,7 @@
       "summary": "Skilling; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka to partner with Google for AI training in govt schools",
@@ -4371,6 +4511,7 @@
       "summary": "Skilling; proposed; reported by 8 outlets.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka plans AI training in government schools from Class 6",
@@ -4440,6 +4581,7 @@
         "state_from_query"
       ],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "City govt colleges seek new courses such as data science, AI and defence studies to attract toppers",
@@ -4467,6 +4609,7 @@
         "state_from_query"
       ],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "From education to pensions: Yogi government gives social welfare a smart touch with AI",
@@ -4492,6 +4635,7 @@
       "summary": "Other; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Rs 22,634 crore is the investment behind SentraForge AI's answer to a practical question: what will it take to power India's AI ambitions? The company is developing a proposed 120 MW sovereign AI campus in Odisha to help meet that need. Its focus is on the",
@@ -4517,6 +4661,7 @@
       "summary": "Institutions & infrastructure; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "CII Madurai Zone submits proposal to State government for establishing Centre of Excellence for Artificial Intelligence",
@@ -4542,6 +4687,7 @@
       "summary": "Institutions & infrastructure; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Madurai to become 'Madur.AI' soon?: CII submits proposal to TN Govt for 'AI Centre of Excellence' in Madurai to make Madurai city a tech-hub (Part-1)",
@@ -4567,6 +4713,7 @@
       "summary": "Institutions & infrastructure; announced; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Odisha clears Rs 2.47L crore projects as data centres & AI investors make a rush",
@@ -4592,6 +4739,7 @@
       "summary": "Policy & mission; announced; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka Approves Rs. 14.2 bn Twin Policies for Blue Economy and AI",
@@ -4617,6 +4765,7 @@
       "summary": "Institutions & infrastructure; announced; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Odisha clears mega data centre, AI and semiconductor projects worth Rs 1.45 lakh crore",
@@ -4642,6 +4791,7 @@
       "summary": "Regulation & ethics; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "AI Education in Schools: Karnataka Introduces Artificial Intelligence Course Under NSQF Framework",
@@ -4667,6 +4817,7 @@
       "summary": "Skilling; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka Introduces AI as Vocational Subject for Classes 9, 10; Third-language Option Replaced",
@@ -4692,6 +4843,7 @@
       "summary": "Skilling; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka introduces AI as vocational subject for Classes 9, 10: 1,642 government schools to offer course",
@@ -4719,6 +4871,7 @@
         "state_from_query"
       ],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "1,200 girls to get AI coaching across 17 govt degree colleges",
@@ -4744,6 +4897,7 @@
       "summary": "Policy & mission; announced; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka Clears ₹1,300 Crore Data Centre Policy as AI Infrastructure Race Intensifies",
@@ -4769,6 +4923,7 @@
       "summary": "Partnership / MoU; announced; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "India-Taiwan Tech ties: Karnataka inks cooperation pact on AI, digital economy",
@@ -4794,6 +4949,7 @@
       "summary": "Regulation & ethics; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Odisha Artificial Intelligence Policy 2025: Building an Inclusive and Responsible AI Ecosystem",
@@ -4819,6 +4975,7 @@
       "summary": "Institutions & infrastructure; announced; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka govt. approves sustainable data centre to address AI's environmental footprint",
@@ -4844,6 +5001,7 @@
       "summary": "Skilling; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Samsung launches Samsung Innovation Campus 2026 in Karnataka to Build an AI-ready Future, to Train 2000 Students",
@@ -4869,6 +5027,7 @@
       "summary": "Policy & mission; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "New Telangana GCC policy to focus on AI, space, semiconductors",
@@ -4894,6 +5053,7 @@
       "summary": "Institutions & infrastructure; announced; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "SECI, HyperVault AI Data Center Ink MoU for Clean Energy Supply to Data Centres in Telangana",
@@ -4919,6 +5079,7 @@
       "summary": "Institutions & infrastructure; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka to set up ₹35 crore AI Hub at IIIT-Bangalore",
@@ -4944,6 +5105,7 @@
       "summary": "Policy & mission; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Uttar Pradesh Data Centre Policy 2026: Powering India's AI-Ready Digital Backbone",
@@ -4969,6 +5131,7 @@
       "summary": "Institutions & infrastructure; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka CM D K Shivakumar's 100-day report: 7.5% quota, AI from Class 6, AI university and 72,000 governme..",
@@ -4994,6 +5157,7 @@
       "summary": "Institutions & infrastructure; announced; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka Approves ₹35 Cr AI Hub at IIIT Bangalore",
@@ -5019,6 +5183,7 @@
       "summary": "Other; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Uttar Pradesh Plans AI Use in Government Schemes",
@@ -5044,6 +5209,7 @@
       "summary": "Other; stage unclear; reported by 2 outlets.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "पेंशन सत्यापन से लेकर स्मार्ट क्लास तक, यूपी में सरकारी योजनाओं को 'AI' से रफ्तार दे रही योगी सरकार",
@@ -5075,6 +5241,7 @@
       "summary": "Partnership / MoU; announced; reported by 2 outlets.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "TCS wins ₹122.6-crore deal to deploy AI-enabled OSWAS 3.0 for Odisha government",
@@ -5106,6 +5273,7 @@
       "summary": "Partnership / MoU; announced; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "TCS Wins ₹122 Crore Odisha Government Contract For AI-Based Digital Governance System",
@@ -5131,6 +5299,7 @@
       "summary": "Partnership / MoU; announced; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "TCS bags ₹122.6 crore Odisha govt deal: AI, automation, analytics, security- what will OSWAS 3.0 change? What we know",
@@ -5156,6 +5325,7 @@
       "summary": "Partnership / MoU; announced; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "TCS bags ₹122.6 crore contract to build AI-enabled governance platform for Odisha govt",
@@ -5181,6 +5351,7 @@
       "summary": "AI in governance; proposed; reported by 4 outlets.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "TCS wins over ₹122 crore bid from Odisha govt for AI-enabled digital governance platform; here's how the stock is faring",
@@ -5224,6 +5395,7 @@
       "summary": "Institutions & infrastructure; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka plans immediate AI skilling ahead of proposed AI University",
@@ -5249,6 +5421,7 @@
       "summary": "Skilling; announced; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka to release rules for Rs 200-crore startup fund, launch Nipuna Edge AI skilling programme: IT...",
@@ -5274,6 +5447,7 @@
       "summary": "Partnership / MoU; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Odisha to train 1.25 lakh students in AI, digital skills under new skill development pact",
@@ -5299,6 +5473,7 @@
       "summary": "Institutions & infrastructure; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Telangana CM urges TCS' HyperVault to launch its Hyderabad AI data centre by June 2028",
@@ -5324,6 +5499,7 @@
       "summary": "Institutions & infrastructure; announced; reported by 2 outlets.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "TCS-HyperVault signs MoU with Telangana for Rs 70,000 crore AI data centre project",
@@ -5355,6 +5531,7 @@
       "summary": "Partnership / MoU; announced; reported by 2 outlets.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Odisha Higher Education Dept Signs MoUs to Boost Skill Development, AI Education",
@@ -5386,6 +5563,7 @@
       "summary": "Other; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "योगी सरकार का 'Digital अवतार': जानिए कैसे AI और आधुनिक तकनीक से बदल रही UP की व्यवस्था",
@@ -5411,6 +5589,7 @@
       "summary": "Institutions & infrastructure; announced; reported by 2 outlets.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Telangana CM Revanth and TCS announce ₹70,000 crore AI Data Centre in Future City",
@@ -5442,6 +5621,7 @@
       "summary": "Regulation & ethics; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Telangana Commercial Taxes Department Issues Comprehensive Guidelines on Responsible Use of Artificial Intelligence by Officers",
@@ -5467,6 +5647,7 @@
       "summary": "Skilling; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka government-school teachers turn to AI, but training and data privacy gaps persist",
@@ -5492,6 +5673,7 @@
       "summary": "Skilling; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "72 per cent of Karnataka government school teachers positive about AI in education",
@@ -5517,6 +5699,7 @@
       "summary": "Other; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "TN to introduce AI, machine learning courses in 50 govt ITIs",
@@ -5542,6 +5725,7 @@
       "summary": "Other; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Tamil Nadu plans to introduce AI, ML trades in 50 government ITIs",
@@ -5567,6 +5751,7 @@
       "summary": "AI in governance; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "यूपी में आयुष्मान कार्ड होल्डर मरीजों का हाल जानेगा AI, योगी सरकार का स्वास्थ्य सेवाओं में बड़ा तकनीकी कदम",
@@ -5592,6 +5777,7 @@
       "summary": "AI in governance; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka eyes voice AI pilots with ElevenLabs across public services",
@@ -5619,6 +5805,7 @@
         "multi_state"
       ],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "US-based Adobe has partnered with the governments of Delhi, Uttar Pradesh, Uttarakhand, Goa, Assam, Bihar and Tamil Nadu to advance digital creativity and AI skills in government schools. Thousands of schools will receive free access to Adobe Express fo",
@@ -5644,6 +5831,7 @@
       "summary": "Partnership / MoU; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka Government Partners With ElevenLabs For AI-Powered Citizen Services",
@@ -5669,6 +5857,7 @@
       "summary": "Other; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "TN plans AI centres, computing cluster and a Super App",
@@ -5694,6 +5883,7 @@
       "summary": "Institutions & infrastructure; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Tamil Nadu to set up two AI CoEs and state-owned GPU cluster",
@@ -5721,6 +5911,7 @@
         "state_from_query"
       ],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Govt expands state AI mission, proposes commercial arm",
@@ -5746,6 +5937,7 @@
       "summary": "Other; implemented; reported by 2 outlets.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "TN Launches AI, Deep-Tech Initiatives; Rs 50 Cr Fund",
@@ -5777,6 +5969,7 @@
       "summary": "Other; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Tamil Nadu Government to rejig key AI agencies",
@@ -5802,6 +5995,7 @@
       "summary": "AI in education; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka launches KEO AI computers, plans rollout across government schools statewide",
@@ -5827,6 +6021,7 @@
       "summary": "AI in education; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "KEO to take AI computing to every government school in Karnataka: Shivakumar",
@@ -5854,6 +6049,7 @@
         "state_from_query"
       ],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Govt to Unveil AI-Powered Legal Portal, LL.M at Four Law Colleges",
@@ -5879,6 +6075,7 @@
       "summary": "AI in governance; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka govt launches low cost AI computing device KEO",
@@ -5904,6 +6101,7 @@
       "summary": "AI in agriculture; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Tamil Nadu Plans 100 New Paddy Procurement Centres With AI, QR",
@@ -5929,6 +6127,7 @@
       "summary": "Skilling; announced; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka Government Announces Artificial Intelligence And Coding Programme For Schools From Class 6",
@@ -5954,6 +6153,7 @@
       "summary": "Policy & mission; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "AI in schools, 72,000 jobs: DK Shivakumar lays out Karnataka's roadmap on I-Day",
@@ -5979,6 +6179,7 @@
       "summary": "Policy & mission; announced; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka CM DK Shivakumar unveils 'Jobs Mission', AI varsity and tech hubs in 80th I-Day address",
@@ -6004,6 +6205,7 @@
       "summary": "Policy & mission; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Jobs Mission, AI University, tech hubs in Mangaluru and other cities..: Karnataka CM's I-Day address",
@@ -6029,6 +6231,7 @@
       "summary": "Partnership / MoU; announced; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "GWC Data.AI Signs MoU with Government of Tamil Nadu to Create 1,000+ AI Jobs in the State",
@@ -6054,6 +6257,7 @@
       "summary": "Institutions & infrastructure; announced; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Odisha Unveils AI, Robotics and Japan Centre of Excellence to Boost Tech Innovation",
@@ -6079,6 +6283,7 @@
       "summary": "Other; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Tamil Nadu government to set up integrated AI Cities: State IT Minister",
@@ -6104,6 +6309,7 @@
       "summary": "Budget & funding; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "TN Agri Budget: Govt bets on AI, Machine Learning to deliver real-time assistance to farmers",
@@ -6131,6 +6337,7 @@
         "state_from_query"
       ],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Govt asks Meta to act against deepfakes, harmful AI content",
@@ -6156,6 +6363,7 @@
       "summary": "Budget & funding; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "TN Budget 2026: AI takes centre stage in education, governance & industry",
@@ -6181,6 +6389,7 @@
       "summary": "Budget & funding; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "TN Budget: Government bets big on AI for education, governance and industrial growth",
@@ -6206,6 +6415,7 @@
       "summary": "Institutions & infrastructure; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka leads AI revolution: $153 billion startup ecosystem in focus, Shivakumar govt plans India's first AI university",
@@ -6231,6 +6441,7 @@
       "summary": "AI in revenue & welfare; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "AI to power GST reforms, boost revenue: Telangana CM Revanth Reddy",
@@ -6256,6 +6467,7 @@
       "summary": "AI in governance; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka Plans AI Alliance With Anthropic to Strengthen Governance and Cyber Defences",
@@ -6283,6 +6495,7 @@
         "state_from_query"
       ],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "युवाओं के लिए नई युवा नीति बनाएगी योगी सरकार, AI और स्टार्टअप पर फोकस",
@@ -6310,6 +6523,7 @@
         "state_from_query"
       ],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Govt holds technical talks with Meta over deepfakes, harmful AI content",
@@ -6335,6 +6549,7 @@
       "summary": "AI in revenue & welfare; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Telangana to use AI to plug GST leakages, boost revenue",
@@ -6360,6 +6575,7 @@
       "summary": "Skilling; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka seeks Anthropic's help to train 2 lakh people in AI",
@@ -6385,6 +6601,7 @@
       "summary": "Institutions & infrastructure; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka govt to table AI University Bill in winter session",
@@ -6410,6 +6627,7 @@
       "summary": "Other; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Anthropic delegation meets Karnataka CM; state proposes opening govt datasets to develop AI-powered public...",
@@ -6435,6 +6653,7 @@
       "summary": "Institutions & infrastructure; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka explores AI collaboration with Anthropic on governance, skilling and AI University initiative",
@@ -6460,6 +6679,7 @@
       "summary": "Budget & funding; announced; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Tamil Nadu Budget 2026: Government announces AI planning approvals, new housing scheme",
@@ -6485,6 +6705,7 @@
       "summary": "Partnership / MoU; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka To Build Robust AI Ecosystem With Anthropic Partnership",
@@ -6512,6 +6733,7 @@
         "state_from_query"
       ],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Parliament question: Government says weather forecasting strengthened with AI, supercomputing and panchayat-level predictions",
@@ -6537,6 +6759,7 @@
       "summary": "Budget & funding; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Tamil Nadu Budget 2026: Vijay Thalapathy Govt's Big Welfare & AI Roadmap",
@@ -6562,6 +6785,7 @@
       "summary": "Partnership / MoU; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka Eyes Anthropic Partnership to Bring AI Into Public Services",
@@ -6587,6 +6811,7 @@
       "summary": "AI in agriculture; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Tamil Nadu's ₹2-crore Uzhavar AI scheme for farmers: Voice assistance, weather alerts and more",
@@ -6614,6 +6839,7 @@
         "state_from_query"
       ],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "TVK government's Rs 398-crore smart shift to prepare industries for the AI era",
@@ -6639,6 +6865,7 @@
       "summary": "Budget & funding; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Tamil Nadu budget eyes $1.5 trillion economy by 2036, focuses on AI and education | India News",
@@ -6664,6 +6891,7 @@
       "summary": "Budget & funding; announced; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Tamil Nadu unveils first Agriculture Budget with focus on AI, soil and farm growth",
@@ -6689,6 +6917,7 @@
       "summary": "Budget & funding; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Soil restoration, AI advisories, crop diversification among key initiatives in TN's first agriculture budget",
@@ -6716,6 +6945,7 @@
         "state_from_query"
       ],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Artificial Intelligence Rules Government Thought Process",
@@ -6741,6 +6971,7 @@
       "summary": "Partnership / MoU; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka eyes Anthropic tie-up to expand AI across public service",
@@ -6766,6 +6997,7 @@
       "summary": "Budget & funding; announced; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "TN Budget 2026: Space technology district, AI city announced in Tamil Nadu Budget",
@@ -6791,6 +7023,7 @@
       "summary": "Budget & funding; announced; reported by 2 outlets.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Tamil Nadu Budget: TVK-led government announces India's first AI and innovation city 'Arivagam'",
@@ -6822,6 +7055,7 @@
       "summary": "AI in governance; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Telangana Launches AI-Powered Dial 112 Emergency Service, Integrates 18 Essential Services",
@@ -6847,6 +7081,7 @@
       "summary": "Budget & funding; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "AI, Industrial Investment & Skilling Get Big Push in Tamil Nadu Budget 2026-27",
@@ -6872,6 +7107,7 @@
       "summary": "Budget & funding; announced; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Free laptops, AI training, internships: Vijay government unveils youth-centric Tamil Nadu budget",
@@ -6897,6 +7133,7 @@
       "summary": "AI in policing; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Odisha Govt Activate AI Cameras on Four National Highway Corridors",
@@ -6922,6 +7159,7 @@
       "summary": "Regulation & ethics; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka government to soon release draft of policy on responsible AI",
@@ -6947,6 +7185,7 @@
       "summary": "Budget & funding; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Tamil Nadu Budget 2026: AI skilling, laptops, Gen Z-focused schemes take centrestage",
@@ -6972,6 +7211,7 @@
       "summary": "Budget & funding; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "From AI city to laptops for students: Tamil Nadu's Budget focuses on future-ready youth",
@@ -6997,6 +7237,7 @@
       "summary": "Skilling; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "TN govt woos 'Gen-Z,' 'Gen Alpha' with branded bicycles, AI skilling",
@@ -7022,6 +7263,7 @@
       "summary": "Budget & funding; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Tamil Nadu to set up AI and innovation city 'Arivagam' under Revised Budget 2026-27",
@@ -7047,6 +7289,7 @@
       "summary": "Institutions & infrastructure; announced; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Tamil Nadu unveils Rs 4,414 crore industrial push, bets on AI city and space investment zone",
@@ -7072,6 +7315,7 @@
       "summary": "Institutions & infrastructure; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "TN eyes Rs 50K-crore investment fund, AI City, automated welfare in vision plan",
@@ -7097,6 +7341,7 @@
       "summary": "AI in policing; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Odisha Government to Deploy AI Cameras for Automatic E-Challans on Highways",
@@ -7122,6 +7367,7 @@
       "summary": "Institutions & infrastructure; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Tamil Nadu plans AI city, AI curriculum from schools to universities: Minister R Kumar",
@@ -7147,6 +7393,7 @@
       "summary": "Other; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka open to partnering with Sarvam and other AI firms, not just Anthropic, says Priyank Kharge",
@@ -7172,6 +7419,7 @@
       "summary": "Other; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Telangana To Roll Out AI-Powered TG-iPASS 2.0",
@@ -7197,6 +7445,7 @@
       "summary": "Institutions & infrastructure; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "The Tamil Nadu government is identifying a site, likely around Chennai, to establish an AI City, IT and AI Minister R. Kumar said. The project aims to create a world-class ecosystem with AI research centres, global capability centres, educational institutions and",
@@ -7222,6 +7471,7 @@
       "summary": "Institutions & infrastructure; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "T.N. in the process of identifying site to build AI City: IT Minister",
@@ -7247,6 +7497,7 @@
       "summary": "Budget & funding; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Tamil Nadu govt to build AI city; announcement likely in budget",
@@ -7272,6 +7523,7 @@
       "summary": "Institutions & infrastructure; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Uttar Pradesh plans deep tech hubs, AI City in Lucknow to drive AI ecosystem",
@@ -7297,6 +7549,7 @@
       "summary": "Partnership / MoU; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "IIT Madras partners with FaMe TN to accelerate AI-led Digital Transformation for MSMEs in Tamil Nadu",
@@ -7322,6 +7575,7 @@
       "summary": "Other; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "We aim to make Uttar Pradesh India's AI, electronics and startup capital: IT Minister Sunil Sharma",
@@ -7347,6 +7601,7 @@
       "summary": "Partnership / MoU; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Tamil Nadu will soon sign an MoU with the Union Government to adopt Anna Sahayata, an AI-powered grievance redressal platform for Public Distribution System (PDS) beneficiaries. Before joining the national platform, the State wants District Revenue Office",
@@ -7372,6 +7627,7 @@
       "summary": "Partnership / MoU; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka partners with Anthropic to boost AI in governance, mulls Claude certifications",
@@ -7397,6 +7653,7 @@
       "summary": "Institutions & infrastructure; announced; reported by 2 outlets.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Odisha signs MoUs with HCLTech, Sarvam AI for state's first AI data centre",
@@ -7428,6 +7685,7 @@
       "summary": "Institutions & infrastructure; announced; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Odisha signs MoUs with HCL, Sarvam AI for Rs 15,000 crore AI data centre, delivery hub",
@@ -7453,6 +7711,7 @@
       "summary": "Partnership / MoU; announced; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "T.N. govt. to ink pact with Centre for AI-enabled grievance redressal system for PDS beneficiaries",
@@ -7478,6 +7737,7 @@
       "summary": "Partnership / MoU; announced; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "CM Mohan Majhi Hails 'Tech Revolution' As Odisha Signs MoUs With HCLTech & Sarvam AI",
@@ -7503,6 +7763,7 @@
       "summary": "Institutions & infrastructure; announced; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "HCLTech Inks Partnership With Sarvam & Odisha Govt To Build Rs 14,257-Cr AI Data Centre",
@@ -7528,6 +7789,7 @@
       "summary": "Institutions & infrastructure; announced; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "HCLTech AI Data Center in Odisha Unveiled — ₹14,257 Cr India's Sovereign Push",
@@ -7553,6 +7815,7 @@
       "summary": "Partnership / MoU; announced; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Odisha Signs MoUs with HCLTech and Sarvam AI; Investment to Reach Rs 15,000 Crore",
@@ -7578,6 +7841,7 @@
       "summary": "Partnership / MoU; announced; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Odisha Govt Inks MoU With HCLTech, Sarvam AI For Setting Up AI Excellence Centres In State",
@@ -7603,6 +7867,7 @@
       "summary": "Institutions & infrastructure; announced; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "HCLTech inks MoU for Global Technology Center on Odisha; plans Rs 14,257 crore AI Data Center",
@@ -7628,6 +7893,7 @@
       "summary": "Institutions & infrastructure; proposed; reported by 6 outlets.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "HCLTech Partners With Sarvam AI And Odisha Government For Rs 14,257 Crore AI Data Centre In Bhubaneswar",
@@ -7683,6 +7949,7 @@
       "summary": "Policy & mission; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka to set up AI University, to roll out tech expansion policy in 100 days",
@@ -7708,6 +7975,7 @@
       "summary": "Skilling; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka: AI now vocational subject in classes 9-10 at govt schools",
@@ -7733,6 +8001,7 @@
       "summary": "Skilling; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "TN plans AI, emerging technologies curriculum for all govt schools",
@@ -7758,6 +8027,7 @@
       "summary": "Policy & mission; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Tamil Nadu charts AI roadmap for government school students",
@@ -7783,6 +8053,7 @@
       "summary": "AI in policing; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Odisha to Expand AI Surveillance in Prisons to Curb Escapes, Violence",
@@ -7808,6 +8079,7 @@
       "summary": "Policy & mission; announced; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka Cabinet approves Agritech Mission 2026, 15,000 teacher recruitment, AI centre and major development projects | Education",
@@ -7833,6 +8105,7 @@
       "summary": "Institutions & infrastructure; announced; reported by 2 outlets.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka Cabinet approves ₹12-crore AI Centre of Excellence at IIIT Raichur",
@@ -7864,6 +8137,7 @@
       "summary": "Skilling; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "AI education to begin in Karnataka government high schools; Guest teachers to be appointed",
@@ -7889,6 +8163,7 @@
       "summary": "Institutions & infrastructure; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Telangana to establish India's first Green Pharma focused Applied AI Centre of Excellence",
@@ -7914,6 +8189,7 @@
       "summary": "Policy & mission; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "UP plans 75-acre robotics, AI hub in Noida as CM unveils deep-tech roadmap",
@@ -7939,6 +8215,7 @@
       "summary": "Institutions & infrastructure; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Uttar Pradesh Plans Deep-Tech Hubs with AI Data Centres in Noida, Lucknow",
@@ -7964,6 +8241,7 @@
       "summary": "Institutions & infrastructure; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "UP Govt Plans India's Largest Robotics, AI Manufacturing Hub In Noida",
@@ -7991,6 +8269,7 @@
         "state_from_query"
       ],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Govt signs MoUs with two AI firms to expand digital services",
@@ -8016,6 +8295,7 @@
       "summary": "Institutions & infrastructure; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "UP to get its first green skills & applied AI centre of excellence at LU",
@@ -8041,6 +8321,7 @@
       "summary": "Policy & mission; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka finalising comprehensive Data Centre Policy to support AI infrastructure",
@@ -8066,6 +8347,7 @@
       "summary": "Institutions & infrastructure; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "India's first govt-led AI university: How Karnataka plans to become an AI-native state",
@@ -8091,6 +8373,7 @@
       "summary": "Policy & mission; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka to roll out comprehensive data centre policy to support infra requirements of AI",
@@ -8116,6 +8399,7 @@
       "summary": "Policy & mission; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka plans govt-led AI university as state unveils broader artificial intelligence roadmap",
@@ -8141,6 +8425,7 @@
       "summary": "Institutions & infrastructure; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Google I/O Connect India 2026 | Karnataka government to set up first-of-its-kind AI University: CM D K Shivakumar",
@@ -8166,6 +8451,7 @@
       "summary": "Institutions & infrastructure; announced; reported by 14 outlets.",
       "flags": [],
       "st": "official",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka Announces India's First Government-Driven AI University",
@@ -8269,6 +8555,7 @@
       "summary": "Skilling; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Telangana to train 80,000 minority students in AI and digital safety free of cost",
@@ -8294,6 +8581,7 @@
       "summary": "Partnership / MoU; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka government, Anthropic discuss AI partnership",
@@ -8319,6 +8607,7 @@
       "summary": "Institutions & infrastructure; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka considering setting up AI university, seeks industry suggestions: CM Shivakumar",
@@ -8344,6 +8633,7 @@
       "summary": "Policy & mission; announced; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "UP Cabinet approves Data Center Policy 2026 to build green, AI-ready infra",
@@ -8369,6 +8659,7 @@
       "summary": "AI in health; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Tamil Nadu Launches 'Nalam AI' WhatsApp Chatbot for Government Hospital OP Booking",
@@ -8394,6 +8685,7 @@
       "summary": "Policy & mission; announced; reported by 3 outlets.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Uttar Pradesh approves AI-ready Data Center Policy 2026, eyes ₹2 lakh crore investment",
@@ -8431,6 +8723,7 @@
       "summary": "Policy & mission; announced; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "UP Approves Data Centre Policy 2026 to Expand AI Infrastructure",
@@ -8456,6 +8749,7 @@
       "summary": "AI in policing; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Telangana plans AI-powered traffic signal integration to ease congestion in Hyderabad",
@@ -8481,6 +8775,7 @@
       "summary": "AI in policing; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Telangana police use AI-powered drones with facial recognition for Hyderabad street patrolling",
@@ -8506,6 +8801,7 @@
       "summary": "AI in education; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Amazon Brings AI Learning to Telangana Government Schools",
@@ -8531,6 +8827,7 @@
       "summary": "AI in policing; stage unclear; reported by 2 outlets.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Gridlock-free Hyderabad: Telangana plans to implement AI-based traffic signal management system",
@@ -8562,6 +8859,7 @@
       "summary": "AI in education; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Amazon, Telangana team up to introduce AI education in state-run schools",
@@ -8587,6 +8885,7 @@
       "summary": "Other; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Telangana eyes big AI campus as Airtel chief meets Revanth Reddy",
@@ -8612,6 +8911,7 @@
       "summary": "Policy & mission; proposed; reported by 2 outlets.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "MeitY, UP to set up three AI Centres of Excellence under IndiaAI Mission",
@@ -8643,6 +8943,7 @@
       "summary": "Policy & mission; announced; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Telangana unveils roadmap for AI in primary school learning",
@@ -8668,6 +8969,7 @@
       "summary": "Policy & mission; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "CM Yogi Adityanath Engages Google Cloud on AI-Led Roadmap for Viksit Uttar Pradesh",
@@ -8693,6 +8995,7 @@
       "summary": "Institutions & infrastructure; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Bidadi AI Township Plan: What is Karnataka govt's GBIT project and why is it under fire",
@@ -8718,6 +9021,7 @@
       "summary": "Other; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka govt's AI-powered portal to host private sector jobs",
@@ -8743,6 +9047,7 @@
       "summary": "Other; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "UP Govt Scales 'Blue Dots AI' Platform Across 18 divisions To Boost Local Employment & MSMEs",
@@ -8770,6 +9075,7 @@
         "state_from_query"
       ],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "CheatGPT? Engineer uses AI to knock out competitors for government job, nabbed",
@@ -8795,6 +9101,7 @@
       "summary": "AI in health; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Telangana plans AI-based diagnostics expansion in district hospitals to boost healthcare access",
@@ -8820,6 +9127,7 @@
       "summary": "AI in governance; stage unclear; reported by 2 outlets.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "New AI system 'Kartavya' to monitor attendance of Karnataka govt employees",
@@ -8851,6 +9159,7 @@
       "summary": "AI in governance; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka's AI-powered attendance system boosts government staff presence",
@@ -8876,6 +9185,7 @@
       "summary": "Institutions & infrastructure; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka to map water and energy for AI data centres; to create Rs 1000 crore corpus for startups:...",
@@ -8901,6 +9211,7 @@
       "summary": "Policy & mission; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Hyderabad-Based Super AI Academy Launches 'AI Mission Million' to Empower 1 Million People by 2030",
@@ -8926,6 +9237,7 @@
       "summary": "Skilling; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Government school students in Tamil Nadu may soon learn artificial intelligence, cognitive AI, augmented and virtual reality, HTML and coding, with the School Education Department planning a pilot programme in 5,000 schools. School Education Minister Raj",
@@ -8951,6 +9263,7 @@
       "summary": "Other; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Tamil development department approval mandatory for AI-generated content: Tamil Nadu Minister Rajmohan",
@@ -8976,6 +9289,7 @@
       "summary": "Institutions & infrastructure; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka to establish 50 AI labs in government colleges in tier-2 and 3 cities",
@@ -9001,6 +9315,7 @@
       "summary": "Institutions & infrastructure; announced; reported by 2 outlets.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka approves 50 AI labs in govt colleges to boost tech skills, employability",
@@ -9034,6 +9349,7 @@
         "state_from_query"
       ],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "AP launches AI-based pilot to detect diabetic retinopathy in government hospitals",
@@ -9061,6 +9377,7 @@
         "state_from_query"
       ],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Rs 3,350-cr MoU, 70,000 jobs: A Yogi govt AI investment deal is now under fraud cloud",
@@ -9086,6 +9403,7 @@
       "summary": "Other; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "AI to detect fraud, Geographic Information System to map land as TN government readies STAR 3.0",
@@ -9111,6 +9429,7 @@
       "summary": "AI in welfare; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Telangana plans 'Unified Card': An AI-based 360-degree beneficiary profiling system",
@@ -9138,6 +9457,7 @@
         "state_from_query"
       ],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Yogi pushes for Startup Mission, focus on AI, deep-tech | Hindustan Times",
@@ -9163,6 +9483,7 @@
       "summary": "Skilling; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Odisha launches AI skills initiative to build future-ready women workforce",
@@ -9188,6 +9509,7 @@
       "summary": "Partnership / MoU; announced; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Odisha Govt To Train 1000 Girls In AI & Emerging Tech Every Year, Signs MoU",
@@ -9213,6 +9535,7 @@
       "summary": "Partnership / MoU; announced; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Odisha Govt Signs MoU To Train Women Students In AI, Emerging Tech",
@@ -9238,6 +9561,7 @@
       "summary": "AI in education; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "'Ghost of state emblem': Youtuber roasts Odisha Higher Education Department over AI-generated logo",
@@ -9263,6 +9587,7 @@
       "summary": "AI in governance; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "AI, GPS-based attendance made mandatory for Karnataka government staff",
@@ -9288,6 +9613,7 @@
       "summary": "Institutions & infrastructure; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Govt To Set Up AI, Robotics Centre of Excellence In Bengaluru To Boost MSMEs",
@@ -9313,6 +9639,7 @@
       "summary": "AI in education; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "\"Will give new form to education with AI\": Karnataka CM-designate DK Shivakumar",
@@ -9338,6 +9665,7 @@
       "summary": "Regulation & ethics; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Odisha govt to introduce AI-integrated exam system, own ranking framework",
@@ -9363,6 +9691,7 @@
       "summary": "Other; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Odisha begins new journey to build India's future semiconductor, AI & digital infra capital",
@@ -9388,6 +9717,7 @@
       "summary": "Institutions & infrastructure; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Hyderabad emerging as major AI-data centre hub with USD 10-20 billion investments in pipeline: Telangana Govt official",
@@ -9413,6 +9743,7 @@
       "summary": "Institutions & infrastructure; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Tamil Nadu plans Tamil LLMs, eyes AI hub tag",
@@ -9438,6 +9769,7 @@
       "summary": "AI in welfare; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Telangana plans AI-powered Unified Card to track welfare benefits across departments",
@@ -9463,6 +9795,7 @@
       "summary": "AI in governance; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "TVK govt in Tamil Nadu starts work for AI-led governance",
@@ -9488,6 +9821,7 @@
       "summary": "Policy & mission; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka planning sustainable data centre policy amid AI expansion, says KDEM CEO",
@@ -9513,6 +9847,7 @@
       "summary": "Skilling; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Telangana to roll out new AI programmes from 2026-27 academic year to improve skills of school students",
@@ -9538,6 +9873,7 @@
       "summary": "Other; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Odisha plans AI-enabled handloom hubs and textile parks in 3 districts",
@@ -9563,6 +9899,7 @@
       "summary": "Institutions & infrastructure; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "AI gets cabinet berth in Tamil Nadu govt, to enable integration of data in service delivery",
@@ -9588,6 +9925,7 @@
       "summary": "Institutions & infrastructure; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "After Kerala, Tamil Nadu also gets minister of AI, TVK assigns portfolio to R. Kumar",
@@ -9613,6 +9951,7 @@
       "summary": "Policy & mission; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "UP Data Centre Cluster to accelerate state's AI Mission: CM Yogi Adityanath",
@@ -9638,6 +9977,7 @@
       "summary": "Other; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Kerala Gets India's First AI Minister, Tamil Nadu May Be Next: What Will They Do?",
@@ -9663,6 +10003,7 @@
       "summary": "Budget & funding; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Tamil Nadu CM Vijay allocates 23 portfolios, creates dedicated AI ministry",
@@ -9690,6 +10031,7 @@
         "state_from_query"
       ],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Yogi Adityanath reviews plans to accelerate AI-driven data centre expansion",
@@ -9715,6 +10057,7 @@
       "summary": "Other; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "UP govt plans nearly ₹600 crore investment to strengthen AI ecosystem",
@@ -9740,6 +10083,7 @@
       "summary": "Institutions & infrastructure; stage unclear; reported by 3 outlets.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "TN sets up dedicated ministry for Artificial Intelligence",
@@ -9777,6 +10121,7 @@
       "summary": "Other; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "In a first, Karnataka to launch AI platform for smart document access",
@@ -9802,6 +10147,7 @@
       "summary": "Budget & funding; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Uttar Pradesh: Yogi govt pushes AI mission with ₹225 crore budget and AI city project",
@@ -9827,6 +10173,7 @@
       "summary": "AI in education; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Unsung Heroes: How a Mysuru government school teacher used AI and drones to bring tech revolution in Hinkal",
@@ -9854,6 +10201,7 @@
         "state_from_query"
       ],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "योगी सरकार की 'एआई फॉर ऑल' पहल से प्रदेश के युवाओं को मिलेगा भविष्य की तकनीक का ज्ञान",
@@ -9881,6 +10229,7 @@
         "state_from_query"
       ],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "योगी सरकार ने Free में AI सीखने का कर दिया बंदोबस्त, 3 घंटे के ऑनलाइन कोर्स के बाद मिलेगा सर्टिफिकेट",
@@ -9906,6 +10255,7 @@
       "summary": "Other; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Telangana to open minority degree colleges in 10 districts with AI focus",
@@ -9933,6 +10283,7 @@
         "state_from_query"
       ],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Supriya Sahu — 15 Indian Govt Leaders Leading AI-Backed Public Sector Transformation",
@@ -9960,6 +10311,7 @@
         "state_from_query"
       ],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "योगी सरकार का नया 'एक्सप्रेसवे मॉडल', स्विट्जरलैंड की तकनीक और AI के दम पर सड़कों की गुणवत्ता होगी वर्ल्ड क्लास",
@@ -9985,6 +10337,7 @@
       "summary": "Institutions & infrastructure; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka's Deputy Chief Minister D.K. Shivakumar forecast up to 50% job cuts due to AI at the Future of Work Summit while simultaneously announcing a 9,000-acre second airport and AI City in South Bengaluru. Two announcements in one breath, one that s",
@@ -10010,6 +10363,7 @@
       "summary": "Other; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "'AI disruption' sinks software project, Karnataka govt diverts allotted land for medical college",
@@ -10035,6 +10389,7 @@
       "summary": "Institutions & infrastructure; announced; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka Cabinet approves AI-Biotech Centre of Excellence in Bengaluru",
@@ -10060,6 +10415,7 @@
       "summary": "Policy & mission; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "UP Education Selection Commission enforces zero-tolerance policy with AI monitoring for exams",
@@ -10085,6 +10441,7 @@
       "summary": "Institutions & infrastructure; announced; reported by 2 outlets.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka approves AI Centre of Excellence at Electronics City in Bengaluru",
@@ -10116,6 +10473,7 @@
       "summary": "Partnership / MoU; announced; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "UP Police signs MoU for AI training",
@@ -10141,6 +10499,7 @@
       "summary": "Institutions & infrastructure; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Yogi inaugurates AI-based Centre of Excellence in Gorakhpur | Hindustan Times",
@@ -10166,6 +10525,7 @@
       "summary": "Institutions & infrastructure; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "CM Yogi Inaugurates First Centre of Excellence in Purvanchal at Gorakhpur with TCS, Focus on AI and Future Tech",
@@ -10191,6 +10551,7 @@
       "summary": "Institutions & infrastructure; announced; reported by 3 outlets.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Deakin University and Aikam (Telangana AI Innovation Hub) Sign Strategic MoU to Advance Applied AI, Skilling, Research and Innovation",
@@ -10228,6 +10589,7 @@
       "summary": "AI in health; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "AstraZeneca, Telangana govt to roll out AI-powered lung cancer screening in public hospitals",
@@ -10253,6 +10615,7 @@
       "summary": "Partnership / MoU; announced; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "AstraZeneca India signs MoU with Telangana govt to bring AI-powered lung cancer screening to public hospitals",
@@ -10278,6 +10641,7 @@
       "summary": "Partnership / MoU; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "AstraZeneca collaborates with Telangana health dept for AI lung screening",
@@ -10305,6 +10669,7 @@
         "state_from_query"
       ],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Govt is funding 12 AI orgs to develop indigenous models",
@@ -10330,6 +10695,7 @@
       "summary": "Other; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "AI-based monitoring to boost Karnataka govt's dialysis services",
@@ -10355,6 +10721,7 @@
       "summary": "Other; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "AI-based monitoring system to boost safety and quality in Karnataka government-run dialysis units",
@@ -10380,6 +10747,7 @@
       "summary": "Other; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Revanth Reddy says Telangana govt is considering taxing AI companies to support job loss",
@@ -10407,6 +10775,7 @@
         "state_from_query"
       ],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Revanth Reddy suggests 'people credits' tax on AI companies, draws industry concerns",
@@ -10432,6 +10801,7 @@
       "summary": "Partnership / MoU; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "AI Hype Meets Governance Reality: Puch AI's Credibility Concerns Derail Rs 25,000-crore MoU With UP Govt",
@@ -10457,6 +10827,7 @@
       "summary": "Partnership / MoU; announced; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Why Did UP Govt Cancel MoU with Puch AI?",
@@ -10482,6 +10853,7 @@
       "summary": "Partnership / MoU; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "UP govt pulls plug on ₹25,000 crore Puch AI pact after due diligence review",
@@ -10507,6 +10879,7 @@
       "summary": "Partnership / MoU; announced; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Uttar Pradesh terminates Puch AI MoU over financial credibility issues",
@@ -10534,6 +10907,7 @@
         "multi_state"
       ],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "UP govt scraps ₹25,000 crore MoU with Bengaluru-based Puch AI citing credibility concerns",
@@ -10561,6 +10935,7 @@
         "state_from_query"
       ],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "UP govt cancels ₹25,000 crore MoU with Puch AI over financial concerns",
@@ -10622,6 +10997,7 @@
       "summary": "Partnership / MoU; announced; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "UP govt cancels ₹25,000-crore MoU with Puch AI citing lack of net worth | India News",
@@ -10647,6 +11023,7 @@
       "summary": "Other; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "यूपी के सरकारी स्कूलों में अब AI की पढ़ाई, माध्यमिक विद्यायलों में 4 घंटे का स्पेशल कोर्स",
@@ -10672,6 +11049,7 @@
       "summary": "Partnership / MoU; announced; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "UP govt cancels ₹25,000 crore AI deal after red flags on startup's finances, track record",
@@ -10697,6 +11075,7 @@
       "summary": "Skilling; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "UP govt makes 'AI for All' course mandatory in all vocational training programmes",
@@ -10722,6 +11101,7 @@
       "summary": "Partnership / MoU; announced; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Yogi Adityanath's UP govt explains why it scrapped the ₹25,000 crore deal with 1-year-old startup Puch AI",
@@ -10747,6 +11127,7 @@
       "summary": "Partnership / MoU; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Why the UP government backtracked after announcing a Rs 25,000 crore MoU with AI startup",
@@ -10772,6 +11153,7 @@
       "summary": "Partnership / MoU; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "UP CM Yogi Adityanath clarifies ₹25,000-cr Puch AI MoU is 'preliminary' & 'non-binding'",
@@ -10797,6 +11179,7 @@
       "summary": "Partnership / MoU; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Yogi issues clarification after UP govt's Rs 25,000 crore MoU with AI startup comes under Oppn fire",
@@ -10822,6 +11205,7 @@
       "summary": "Partnership / MoU; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "After MoU with AI startup came under scrutiny, a clarification from UP CM",
@@ -10847,6 +11231,7 @@
       "summary": "Partnership / MoU; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "UP CM Yogi Adityanath backtracks on ₹25,000 cr MoU with Puch AI, says it is non-binding, 'preliminary' step",
@@ -10872,6 +11257,7 @@
       "summary": "Other; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "एक साल पुराने Puch AI को UP सरकार से मिली 25 हजार करोड़ रुपये की डील? मुख्यमंत्री ने दिया जवाब",
@@ -10897,6 +11283,7 @@
       "summary": "Partnership / MoU; announced; reported by 4 outlets.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Who is Siddharth Bhatia? Puch AI owner signs Rs 25,000 crore MoU with UP govt",
@@ -10940,6 +11327,7 @@
       "summary": "Institutions & infrastructure; announced; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "UP Govt Signs ₹25,000 Cr Deal with Puch AI to Build Statewide AI Infrastructure",
@@ -10965,6 +11353,7 @@
       "summary": "Partnership / MoU; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "UP govt clarifies non-binding nature of Puch AI MoU amid credibility concerns",
@@ -10990,6 +11379,7 @@
       "summary": "Partnership / MoU; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "'Quite exhausted': Puch_AI co-founder Siddharth Bhatia issues clarification on controversial MoU with UP g",
@@ -11017,6 +11407,7 @@
         "state_from_query"
       ],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "इस सरकारी अस्पताल में लगेगा AI-स्मार्ट बेड, मरीज की हालत बिगड़ने से 2 घंटे पहले डॉक्टर-नर्स के फोन पर बजा द",
@@ -11042,6 +11433,7 @@
       "summary": "Institutions & infrastructure; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Uttar Pradesh's first AI city? Yogi govt's big bet on Lucknow",
@@ -11067,6 +11459,7 @@
       "summary": "Policy & mission; announced; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Odisha unveils AI roadmap, to set up mission and labs across institutes",
@@ -11092,6 +11485,7 @@
       "summary": "Institutions & infrastructure; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Chandigarh University, Uttar Pradesh Launches Centre of Excellence in Smart Healthcare to strengthen UP State Vision in AI",
@@ -11117,6 +11511,7 @@
       "summary": "Other; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Vision-2047 will counter job loss due to AI 'tsunami', says Telangana CM Revanth",
@@ -11142,6 +11537,7 @@
       "summary": "AI in health; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "UP plans to use AI to transform healthcare, says deputy chief minister Brajesh Pathak",
@@ -11167,6 +11563,7 @@
       "summary": "Regulation & ethics; announced; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka Forms AI Committee For Ethical Use Of AI In Governance",
@@ -11192,6 +11589,7 @@
       "summary": "Regulation & ethics; announced; reported by 5 outlets.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka govt sets up committee on Responsible AI",
@@ -11241,6 +11639,7 @@
       "summary": "Policy & mission; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Focus on Startup Policy and AI Skilling in UP; Target to Train 1 Million Youth in AI",
@@ -11266,6 +11665,7 @@
       "summary": "AI in agriculture; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Millets, AI advice, and organic clusters—Karnataka's plan for agriculture sector reset",
@@ -11291,6 +11691,7 @@
       "summary": "Budget & funding; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka budget: Pressing AI accelerator to boost farming, education & more",
@@ -11316,6 +11717,7 @@
       "summary": "Budget & funding; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka to roll out AI-based Kaveri 3.0 registration system, GIS land stack under Budget 2026",
@@ -11341,6 +11743,7 @@
       "summary": "Budget & funding; announced; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka budget announces AI tutor for 1.2 million students | India News",
@@ -11366,6 +11769,7 @@
       "summary": "Budget & funding; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "In AI push, Karnataka budget proposes Bengaluru robotics, innovation zone at IISc",
@@ -11391,6 +11795,7 @@
       "summary": "Budget & funding; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Key takeaways from Karnataka Budget 2026-27: AI push, second Bengaluru airport, under-16 social media ban",
@@ -11416,6 +11821,7 @@
       "summary": "Budget & funding; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka CM Siddaramaiah rides the AI wagon in record-budget; reveals new initiatives",
@@ -11441,6 +11847,7 @@
       "summary": "Skilling; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Uttar Pradesh government to train 10 lakh youth in AI, digital tech to boost employment",
@@ -11466,6 +11873,7 @@
       "summary": "Skilling; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka adds AI, cyber security to Computer Literacy Test for govt staff",
@@ -11491,6 +11899,7 @@
       "summary": "Other; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Amid AI fears, Karnataka to fill 50k jobs in next fiscal",
@@ -11516,6 +11925,7 @@
       "summary": "Other; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Yogi Adityanath Inaugurates IBM's AI GovTech Innovation Centre in Lucknow",
@@ -11541,6 +11951,7 @@
       "summary": "AI in education; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "AI push: Only 21 per cent govt schools in Telangana have computers",
@@ -11568,6 +11979,7 @@
         "state_from_query"
       ],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "CM Revanth Reddy invited to speak at Harvard Kennedy School AI Symposium",
@@ -11605,6 +12017,7 @@
       "summary": "Other; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "\"India Is Poised To Leapfrog,\" Sarvam Founder Pratyush Kumar On AI Potential & Odisha Govt's Support",
@@ -11630,6 +12043,7 @@
       "summary": "Institutions & infrastructure; announced; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "TryfactaConnex Signs MoU with UP Govt for 1 GW AI Data Centre, Announces USD 7.7 Bn Investment",
@@ -11655,6 +12069,7 @@
       "summary": "Other; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Telangana govt prepared to meet challenges posed by rapid rise of AI: IT Minister",
@@ -11680,6 +12095,7 @@
       "summary": "Other; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Telangana banking on AI to open new career avenues, says minister Sridhar Babu",
@@ -11705,6 +12121,7 @@
       "summary": "Skilling; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "ई-कॉमर्स और स्टार्टअप के लिए यूपी बनेगा AI हब, 25 लाख युवाओं को प्रशिक्षण देगी योगी सरकार",
@@ -11732,6 +12149,7 @@
         "state_from_query"
       ],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "India must become leader in all layers of AI, set-up dedicated ministry, says Telagana CM Reddy",
@@ -11757,6 +12175,7 @@
       "summary": "Budget & funding; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "People, Infra And AI: Odisha's Big-Ticket Budget For 2026-27",
@@ -11784,6 +12203,7 @@
         "state_from_query"
       ],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "योगी सरकार का विज्ञान और आईटी क्षेत्र के लिए बड़ा रोडमैप, AI मिशन और डेटा सेंटर हब पर जोर",
@@ -11811,6 +12231,7 @@
         "state_from_query"
       ],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "IT Minister bats for AI innovation, stresses on guardrails too",
@@ -11836,6 +12257,7 @@
       "summary": "Other; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "\"Tamil Nadu population will be first population-scale enablement with AI in India....we see big opportunities in AI\": Minister TRB Rajaa",
@@ -11861,6 +12283,7 @@
       "summary": "Other; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "official",
+      "chk": null,
       "members": [
         {
           "t": "Odisha to Showcase 'AI-to-Impact' Readiness at India AI Impact Summit 2026 with Dedicated Pavilion",
@@ -11886,6 +12309,7 @@
       "summary": "Institutions & infrastructure; announced; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "AM group, Invest UP sign MoU to set up $25 billion AI data centre in Uttar Pradesh",
@@ -11913,6 +12337,7 @@
         "state_from_query"
       ],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Kalaburagi district administration signs MoU with The Hindu Group for AI-powered English Language Training under STEP programme",
@@ -11940,6 +12365,7 @@
         "state_from_query"
       ],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Govt Earmarks ₹13,340 Cr for Research, AI & Technical Education Reforms; Over 6,300 Institutions Covered U..",
@@ -11967,6 +12393,7 @@
         "state_from_query"
       ],
       "st": "official",
+      "chk": null,
       "members": [
         {
           "t": "योगी सरकार का एआई और रोबोटिक्स पर फोकस, 25 लाख युवाओं को मिलेगा प्रशिक्षण",
@@ -11998,6 +12425,7 @@
       "summary": "Partnership / MoU; announced; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "AIRAWAT signs pact for AI-driven urban services with Odisha government",
@@ -12023,6 +12451,7 @@
       "summary": "Other; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Vocallabs Named Among Top 5 AI Startups in Karnataka by State Government",
@@ -12050,6 +12479,7 @@
         "state_from_query"
       ],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Govt plans to set up AI centre of excellence at IIT-P",
@@ -12075,6 +12505,7 @@
       "summary": "Budget & funding; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Digi push: Govt allocates Rs 225cr for UP AI Mission",
@@ -12100,6 +12531,7 @@
       "summary": "Budget & funding; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "UP Budget 2026: AI और नई तकनीकों का साथ, शिक्षा, स्वास्थ्य और युवाओं के भविष्य पर फोकस",
@@ -12125,6 +12557,7 @@
       "summary": "Institutions & infrastructure; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "New Sovereign AI hub to create 5,000 high-skilled jobs in Odisha following Sarvam AI MoU",
@@ -12150,6 +12583,7 @@
       "summary": "Budget & funding; stage unclear; reported by 3 outlets.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "UP Budget 2026: योगी सरकार ने बुना 40 गीगावाट डेटा सेंटर क्षमता का विजन, बजट में AI और रोबोटिक्स पर बड़ा दांव",
@@ -12189,6 +12623,7 @@
         "multi_state"
       ],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Odisha govt signs MoU with IIT Kanpur to strengthen AI-driven urban governance",
@@ -12214,6 +12649,7 @@
       "summary": "AI in governance; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka to deploy Rs 67-crore AI tool to monitor social media, fight fake news",
@@ -12239,6 +12675,7 @@
       "summary": "Other; announced; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka Cabinet approves AI-driven Social Media Analytical Solution to check fake news",
@@ -12266,6 +12703,7 @@
         "state_from_query"
       ],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Cabinet clears AI-powered software to identify hate speech, misinformation and malicious campaigns",
@@ -12291,6 +12729,7 @@
       "summary": "Institutions & infrastructure; announced; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Telangana signs MoU with the UPC–Volt JV to build 100 MW AI data center",
@@ -12316,6 +12755,7 @@
       "summary": "Institutions & infrastructure; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "AI in Schools: Telangana Plans Labs for 1,000 High Schools",
@@ -12341,6 +12781,7 @@
       "summary": "AI in policing; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka rolls out AI-driven surveillance to strengthen prison security",
@@ -12368,6 +12809,7 @@
         "state_from_query"
       ],
       "st": "official",
+      "chk": null,
       "members": [
         {
           "t": "India AI Impact Summit Receives Phenomenal Global Response, India's AI Ecosystem Developing in a Systematic Manner: Union Minister Ashwini Vaishnaw",
@@ -12393,6 +12835,7 @@
       "summary": "Institutions & infrastructure; announced; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "DPIFS Solutions Signs Rs 3,800 Crore MoU with Government of Uttar Pradesh at Davos for AI-Enabled Smart Infrastructure",
@@ -12418,6 +12861,7 @@
       "summary": "AI in governance; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Telangana launches Aikam to scale AI deployment",
@@ -12445,6 +12889,7 @@
         "state_from_query"
       ],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "AI health software now mandates government licence and clinical trials",
@@ -12470,6 +12915,7 @@
       "summary": "AI in education; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Odisha government to set up AI classrooms in over 5,000 schools",
@@ -12495,6 +12941,7 @@
       "summary": "Other; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Odisha aims to become harbinger of AI tech: CM Majhi",
@@ -12520,6 +12967,7 @@
       "summary": "AI in governance; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Odisha govt to establish AI as platform for service delivery",
@@ -12547,6 +12995,7 @@
         "state_from_query"
       ],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "HSR Layout to host AI Centre of Excellence as IT/BT department gives nod",
@@ -12572,6 +13021,7 @@
       "summary": "Institutions & infrastructure; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Uttar Pradesh govt to scale up AI blueprint with network of 65 labs",
@@ -12597,6 +13047,7 @@
       "summary": "Institutions & infrastructure; announced; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "UP govt signs $25 bn MoU with AM green group for 1 GW AI data centre",
@@ -12622,6 +13073,7 @@
       "summary": "Institutions & infrastructure; announced; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka approves Rs 20 crore AI Centre of Excellence in Bengaluru",
@@ -12647,6 +13099,7 @@
       "summary": "Other; implemented; reported by 2 outlets.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Telangana launches its AI innovation entity 'Aikam' at Davos",
@@ -12684,6 +13137,7 @@
       "summary": "Institutions & infrastructure; announced; reported by 2 outlets.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka govt approves AI Centre of Excellence to boost digital transformation",
@@ -12715,6 +13169,7 @@
       "summary": "AI in governance; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka's AI-based attendance system now tracks 1.3 lakh government employees",
@@ -12740,6 +13195,7 @@
       "summary": "Institutions & infrastructure; announced; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "AM Group signs MoU with Uttar Pradesh to build $25 billion AI compute hub",
@@ -12765,6 +13221,7 @@
       "summary": "Skilling; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "UP govt steps up AI push with focus on future skills, governance and jobs",
@@ -12790,6 +13247,7 @@
       "summary": "Partnership / MoU; announced; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Telangana, Blaize signs MoU to boost AI, semiconductor and electronics growth in state at WEF 2026",
@@ -12815,6 +13273,7 @@
       "summary": "Institutions & infrastructure; announced; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "AM Group Signs MoU with UP Govt to Develop GW-Scale Green AI Compute Hub in Greater Noida",
@@ -12840,6 +13299,7 @@
       "summary": "Institutions & infrastructure; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka to set up AI Centre of Excellence for public sector innovation in Bengaluru",
@@ -12865,6 +13325,7 @@
       "summary": "Institutions & infrastructure; announced; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Uttar Pradesh inks MoU with AM Green for 1GW data centre, AI infra",
@@ -12890,6 +13351,7 @@
       "summary": "Institutions & infrastructure; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "WEF 2026: UP Minister Suresh Kumar Khanna hails MoU with AM Group to build AI hub in Greater Noida",
@@ -12915,6 +13377,7 @@
       "summary": "Institutions & infrastructure; announced; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "AM Group signs MoU with Uttar Pradesh at Davos for AI hub, $25 billion investment by 2030",
@@ -12940,6 +13403,7 @@
       "summary": "Institutions & infrastructure; announced; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "AM Group Signs Landmark MoU with Uttar Pradesh Government to set up GW scale AI Compute Hub enabling Democratization of AI from Electron Agents to Intelligent Tokens",
@@ -12965,6 +13429,7 @@
       "summary": "Other; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka launches Rs 150-crore ELEVATE NxT for AI, emerging tech startups; out-of-state firms must...",
@@ -12990,6 +13455,7 @@
       "summary": "Institutions & infrastructure; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "CM Revanth Reddy to pitch Telangana as global AI testing hub at Davos",
@@ -13015,6 +13481,7 @@
       "summary": "AI in education; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Keonics to launch Rs 19,000 AI-Enabled KEO PC for Karnataka govt schools",
@@ -13040,6 +13507,7 @@
       "summary": "Policy & mission; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Uttar Pradesh to become national leader in healthcare services; CM Yogi launches Rs 2,000 crore AI mission",
@@ -13065,6 +13533,7 @@
       "summary": "Institutions & infrastructure; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Tamil Nadu to Host India's First Sovereign AI Park in Partnership with Sarvam AI",
@@ -13090,6 +13559,7 @@
       "summary": "Institutions & infrastructure; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Sarvam AI and Tamil Nadu govt to establish sovereign AI park",
@@ -13115,6 +13585,7 @@
       "summary": "Institutions & infrastructure; announced; reported by 2 outlets.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Tamil Nadu, Sarvam AI ink MoU to set up India's first ₹10,000-crore Sovereign AI Park",
@@ -13146,6 +13617,7 @@
       "summary": "Institutions & infrastructure; proposed; reported by 3 outlets.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Tamil Nadu to set up India's first sovereign AI park for ₹10K crore",
@@ -13183,6 +13655,7 @@
       "summary": "Institutions & infrastructure; announced; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Tamil Nadu signs Rs 10,000-crore MoU to set up domestically governed AI infrastructure",
@@ -13208,6 +13681,7 @@
       "summary": "Institutions & infrastructure; stage unclear; reported by 3 outlets.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Tamil Nadu govt partners with Sarvam to launch Sovereign AI Park",
@@ -13245,6 +13719,7 @@
       "summary": "Institutions & infrastructure; announced; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Sarvam AI signs MoU with TN Govt to set up sovereign AI park with ₹10,000 cr investment",
@@ -13270,6 +13745,7 @@
       "summary": "Other; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Next big AI breakthrough will come from UP's tier-2, tier-3 cities, not Silicon Valley: Union Minister Prasa..",
@@ -13295,6 +13771,7 @@
       "summary": "Policy & mission; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "UP to invest ₹2,000 crore under AI Mission over three years: CM Yogi Adityanath",
@@ -13320,6 +13797,7 @@
       "summary": "AI in health; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "UP govt lays groundwork to become model state for AI-led healthcare",
@@ -13345,6 +13823,7 @@
       "summary": "Policy & mission; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "official",
+      "chk": null,
       "members": [
         {
           "t": "Exchange of MoU between Digital India Corporation (IndiaAI) and Uttar Pradesh Development Systems Corporation Limited (UPDESCO), Lucknow, to strengthen the AI ecosystem in Uttar Pradesh under the IndiaAI Mission",
@@ -13376,6 +13855,7 @@
       "summary": "AI in governance; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "योगी सरकार ने रखी भविष्य की स्वास्थ्य सेवाओं की मजबूत नींव, मेडिकल AI का 'मॉडल स्टेट' बनेगा उत्तर प्रदेश",
@@ -13401,6 +13881,7 @@
       "summary": "Other; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Telangana Minister Vivek asks Centre to harness AI power to curb illegal mining",
@@ -13426,6 +13907,7 @@
       "summary": "Policy & mission; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Hyderabad's Eon Space Labs to launch AI-powered imaging payload aboard ISRO's PSLV-C62 mission",
@@ -13453,6 +13935,7 @@
         "state_from_query"
       ],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Grok AI row: Govt says X reply inadequate, seeks details",
@@ -13478,6 +13961,7 @@
       "summary": "Other; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "India launches first government-run AI clinic at GIMS Greater Noida",
@@ -13505,6 +13989,7 @@
         "state_from_query"
       ],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "GIMS starts state's first govt AI clinic to treat critical illnesses",
@@ -13530,6 +14015,7 @@
       "summary": "Institutions & infrastructure; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "लखनऊ में बनने जा रही AI सिटी में क्या-क्या होगा? टेक पार्क और जॉब समेत योगी सरकार का खास प्लान जानिए",
@@ -13557,6 +14043,7 @@
         "state_from_query"
       ],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "'2025 will be remembered for innovation in technology, AI, data': CM Yogi hails state govt AI initiatives",
@@ -13588,6 +14075,7 @@
       "summary": "Skilling; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka Launches India's First AI-Powered Skills Intelligence Unit, Plans District-Level Workforce Revolution in 90 Days",
@@ -13613,6 +14101,7 @@
       "summary": "Other; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Sify Technologies CMD discusses AI-led digital transformation with UP CM",
@@ -13638,6 +14127,7 @@
       "summary": "Institutions & infrastructure; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "SGPGIMS pushes AI-led specialised healthcare overhaul; UP eyes India's first 'AI City'",
@@ -13663,6 +14153,7 @@
       "summary": "Institutions & infrastructure; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Sify CMD Raju Vegesna meets UP CM to discuss AI infrastructure development",
@@ -13688,6 +14179,7 @@
       "summary": "Other; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Tamil Nadu launches new CSR and AI-led land-use data platforms",
@@ -13715,6 +14207,7 @@
         "state_from_query"
       ],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Union Minister Nirmala Sitharaman launches AI project for students",
@@ -13740,6 +14233,7 @@
       "summary": "Partnership / MoU; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Odisha Government Partners with OpenAI to Boost AI Skills and Responsible Adoption",
@@ -13765,6 +14259,7 @@
       "summary": "AI in governance; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "CM Majhi asserts commitment to AI-led governance in Odisha",
@@ -13792,6 +14287,7 @@
         "state_from_query"
       ],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "IIT Madras launches capacity-building AI programme for government employees",
@@ -13817,6 +14313,7 @@
       "summary": "AI in revenue & welfare; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Odisha launches AI-driven reforms to curb illegal mining, plug revenue leakages",
@@ -13842,6 +14339,7 @@
       "summary": "AI in governance; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Odisha Government keen to use AI in governance for public benefit: Minister",
@@ -13867,6 +14365,7 @@
       "summary": "Policy & mission; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "official",
+      "chk": null,
       "members": [
         {
           "t": "IndiaAI Mission Convenes 'Democratising AI Resources Working Group' Meeting in Bhubaneswar at the Regional AI Impact Conference",
@@ -13892,6 +14391,7 @@
       "summary": "Other; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Odisha to host regional AI impact conference on Dec 19",
@@ -13917,6 +14417,7 @@
       "summary": "Partnership / MoU; announced; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "ELCOT inks MoU with Perplexity AI to train college students in Tamil Nadu",
@@ -13942,6 +14443,7 @@
       "summary": "Institutions & infrastructure; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "TCS plans to nearly double workforce in UP, Chandrasekaran meets Yogi to discuss 'AI City' in Lucknow",
@@ -13967,6 +14469,7 @@
       "summary": "Institutions & infrastructure; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Tata Group proposes 'AI City' in Lucknow after chairman N Chandrasekaran meets CM Yogi",
@@ -13992,6 +14495,7 @@
       "summary": "Institutions & infrastructure; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "CM Yogi Adityanath, Tata Sons chairman Chandrasekaran discuss AI City plan, investment avenues in UP",
@@ -14017,6 +14521,7 @@
       "summary": "AI in health; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Telangana to fight non-alcoholic fatty liver, boost health infra with AI",
@@ -14042,6 +14547,7 @@
       "summary": "Institutions & infrastructure; announced; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "SABTNL signs Rs 4,000-crore MoU with Telangana for AI and green data centre",
@@ -14067,6 +14573,7 @@
       "summary": "Policy & mission; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Telangana rolls out ambitious AI roadmap to emerge as global hub",
@@ -14094,6 +14601,7 @@
         "state_from_query"
       ],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "ParadigmIT and Pathsetter AI appoint Som Prakash Satsangi to the Board to accelerate AI-led transformation across Government and Enterprises",
@@ -14119,6 +14627,7 @@
       "summary": "AI in education; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Bengaluru: Now, AI-based attendance for School Education Department employees",
@@ -14144,6 +14653,7 @@
       "summary": "Institutions & infrastructure; announced; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Telangana govt signs pact with Deakin University to establish AI CoE",
@@ -14169,6 +14679,7 @@
       "summary": "AI in agriculture; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "AI tools used in paddy procurement to safeguard farmer's interest: Odisha Minister",
@@ -14196,6 +14707,7 @@
         "state_from_query"
       ],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "AI university to begin within two months: Minister Sridhar",
@@ -14221,6 +14733,7 @@
       "summary": "Skilling; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Microsoft launches AI literacy drive for govt school teachers in Hyderabad",
@@ -14246,6 +14759,7 @@
       "summary": "Policy & mission; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "US Begins Global AI Mission in Hyderabad: Consulate Official",
@@ -14271,6 +14785,7 @@
       "summary": "AI in agriculture; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka agriculture department plans AI platform to help farmers with advisories, information",
@@ -14296,6 +14811,7 @@
       "summary": "Other; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka launches India's most affordable AI PC; see details",
@@ -14321,6 +14837,7 @@
       "summary": "Skilling; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "KEO AI computer: 8 key things you should know about Karnataka govt's affordable PC for students",
@@ -14346,6 +14863,7 @@
       "summary": "Other; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka government bets big on AI with ₹400 crore push at tech summit",
@@ -14373,6 +14891,7 @@
         "state_from_query"
       ],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "'Yuva AI For All' Course Launched Which Will Help You Become an AI Expert and Provide a Free Government Certificate",
@@ -14398,6 +14917,7 @@
       "summary": "Other; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka to launch own affordable AI computer: IT Minister Priyank",
@@ -14423,6 +14943,7 @@
       "summary": "Other; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka govt launches AI-ready KEO computer priced at Rs 18,999",
@@ -14448,6 +14969,7 @@
       "summary": "Other; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka launches KEO, a home-grown AI-ready PC designed to make computing accessible",
@@ -14475,6 +14997,7 @@
         "state_from_query"
       ],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Government Launches KEO, An AI-Enabled PC Designed To Bring Computing To Every Home",
@@ -14500,6 +15023,7 @@
       "summary": "Other; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "How is Karnataka's Open-Source AI PC Revolutionizing Access?",
@@ -14525,6 +15049,7 @@
       "summary": "Other; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka launches AI-ready PC 'KEO' with built-in agent BUDDH",
@@ -14550,6 +15075,7 @@
       "summary": "Other; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka to launch AI-ready, low-cost personal computer 'KEO'",
@@ -14575,6 +15101,7 @@
       "summary": "Other; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka launches KEO, a low-cost AI-ready PC to bridge the digital divide",
@@ -14600,6 +15127,7 @@
       "summary": "AI in policing; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "UP to install AI-based smart surveillance at Kashi, Ayodhya and Gorakhpur temples; Real-time crowd monitoring planned",
@@ -14627,6 +15155,7 @@
         "state_from_query"
       ],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "AI integration in healthcare gets push from government of India",
@@ -14652,6 +15181,7 @@
       "summary": "Skilling; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Free AI Training by Tamil Nadu Government: Eligibility, Schedule & Registration Details",
@@ -14677,6 +15207,7 @@
       "summary": "Partnership / MoU; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Telangana Government Partners With U.S. Firm to Drive AI Security Research",
@@ -14702,6 +15233,7 @@
       "summary": "Other; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka to get AI-enabled complaint generation system soon",
@@ -14727,6 +15259,7 @@
       "summary": "Other; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Puri Stampede: Odisha Govt Says AI System Failed, Pins Blame on Seven Senior Cops",
@@ -14752,6 +15285,7 @@
       "summary": "Policy & mission; announced; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka cabinet approves Rs 518 crore start-up policy 2025-2030 to help create 25k AI, blockchain...",
@@ -14777,6 +15311,7 @@
       "summary": "Institutions & infrastructure; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Telangana sets up global AI hub to promote innovation, research",
@@ -14802,6 +15337,7 @@
       "summary": "Other; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka to introduce AI as part of reforms for district judiciary",
@@ -14827,6 +15363,7 @@
       "summary": "Institutions & infrastructure; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "official",
+      "chk": null,
       "members": [
         {
           "t": "Telangana Establishes Artificial Intelligence Innovation Hub To Boost AI Research And Development",
@@ -14852,6 +15389,7 @@
       "summary": "Other; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "AI adoption in India is 57% — and we lead it: IT Minister Kharge on Karnataka's next tech chapter",
@@ -14877,6 +15415,7 @@
       "summary": "Policy & mission; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka to set up AI-powered Skill Intelligence Unit; unveils Rs 4,432 crore policy to train 3 million...",
@@ -14902,6 +15441,7 @@
       "summary": "Other; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka preparing Kannada for AI era: Chief Minister Siddaramaiah",
@@ -14927,6 +15467,7 @@
       "summary": "Partnership / MoU; announced; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "CreamCollar EduTech signs MoU with TN Auto Skills to upskill engineers in AI, automotive tech",
@@ -14952,6 +15493,7 @@
       "summary": "AI in revenue & welfare; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "In a first, Karnataka to roll out AI-powered WhatsApp-based public grievance redressal mechanism",
@@ -14979,6 +15521,7 @@
         "state_from_query"
       ],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Stalin govt flayed over losing Google AI hub to AP",
@@ -15004,6 +15547,7 @@
       "summary": "Institutions & infrastructure; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka CM Siddaramaiah downplays Andhra minister's remark over Google AI Hub",
@@ -15029,6 +15573,7 @@
       "summary": "Institutions & infrastructure; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Tamil Nadu government to set up AI Centre of Excellence in Coimbatore under PPP model",
@@ -15054,6 +15599,7 @@
       "summary": "Institutions & infrastructure; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Proposed AI centre of excellence in Coimbatore may create 'tens of thousands of jobs,' minister says",
@@ -15079,6 +15625,7 @@
       "summary": "AI in education; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "AI-based facial recognition attendance for staff of govt., aided schools and PU colleges in Karnataka",
@@ -15104,6 +15651,7 @@
       "summary": "Institutions & infrastructure; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Union govt. should set up Centre of Excellence for AI in Tamil Nadu: IT Minister",
@@ -15131,6 +15679,7 @@
         "state_from_query"
       ],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "AI city vs agriculture: Farmers rally against government's 9,000-acre Bidadi township project",
@@ -15156,6 +15705,7 @@
       "summary": "Partnership / MoU; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Meta ties up with Odisha govt to launch WhatsApp chatbot 'Ama Sathi' for 120 citizen services",
@@ -15181,6 +15731,7 @@
       "summary": "AI in health; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka Health Minister Launches AI-Powered Health Tech Platform Docbrella in Bengaluru",
@@ -15206,6 +15757,7 @@
       "summary": "AI in health; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Tamil Nadu Pilots AI-Based Disease Diagnosis in Government Hospitals",
@@ -15231,6 +15783,7 @@
       "summary": "AI in health; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Tamil Nadu to pilot AI-powered disease diagnosis in government hospitals",
@@ -15256,6 +15809,7 @@
       "summary": "Skilling; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Tamil Nadu launches TN SPARK to train government school students in AI, coding and robotics",
@@ -15281,6 +15835,7 @@
       "summary": "Institutions & infrastructure; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Expert committee constituted for exploring the use of Artificial Intelligence in healthcare, says T.N. Health Minister Ma. Subramanian",
@@ -15306,6 +15861,7 @@
       "summary": "AI in education; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Tamil Nadu introduces pilot programme in AI, robotics, and digital tools for govt. schools",
@@ -15331,6 +15887,7 @@
       "summary": "AI in education; implemented; reported by 2 outlets.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "TN launches pilot AI, robotics programme in govt schools",
@@ -15362,6 +15919,7 @@
       "summary": "AI in education; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Tamil Nadu launches TN SPARK to teach AI, robotics in govt schools",
@@ -15387,6 +15945,7 @@
       "summary": "Skilling; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Govt School Students Now Being Trained In AI Apps, Robotics & Online Tools Under TN SPARK Initiative",
@@ -15412,6 +15971,7 @@
       "summary": "Skilling; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Tamil Nadu's TN SPARK Initiative: AI, Robotics & Coding in Govt Schools",
@@ -15437,6 +15997,7 @@
       "summary": "Skilling; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Odisha Govt authorises Depts to procure AI tools for smarter governance, skill up-gradation",
@@ -15462,6 +16023,7 @@
       "summary": "Other; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Odisha Govt Authorises Depts To Procure AI Tools For Strengthen Administrative Efficiency",
@@ -15487,6 +16049,7 @@
       "summary": "Institutions & infrastructure; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "लखनऊ और कानपुर में बनेंगी अत्याधुनिक AI सिटी, योगी सरकार का प्रदेश को ग्लोबल पावरहाउस बनाने का लक्ष्य",
@@ -15512,6 +16075,7 @@
       "summary": "AI in welfare; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Odisha uses AI, Awaas+ app to verify PMAY-G beneficiaries; 37.8 lakh applications under scrutiny",
@@ -15537,6 +16101,7 @@
       "summary": "Skilling; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "To boost AI skills in UP govt schools, IIT-Kanpur, SCERT starts training programme for teachers",
@@ -15562,6 +16127,7 @@
       "summary": "Institutions & infrastructure; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Telangana partners with Australia's Deakin University to advance AI solutions for real world challenges",
@@ -15589,6 +16155,7 @@
         "state_from_query"
       ],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Class 6-9 students in state govt schools to get a taste of coding, AI",
@@ -15614,6 +16181,7 @@
       "summary": "Other; proposed; reported by 2 outlets.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "TCS Selected by the Government of Odisha to Build Next-Gen, AI-enabled Integrated Financial Management System",
@@ -15645,6 +16213,7 @@
       "summary": "Skilling; announced; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "National Teachers Awards: Drones, robots and AI earn Mysuru teacher who built tech lounge in govt school",
@@ -15670,6 +16239,7 @@
       "summary": "Other; proposed; reported by 2 outlets.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka to establish AI-powered integrated city near Bengaluru",
@@ -15701,6 +16271,7 @@
       "summary": "Other; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Odisha Govt Invites Bids for AI-Powered Legal Petition Drafting System amid trust and safety risks.",
@@ -15726,6 +16297,7 @@
       "summary": "AI in governance; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Telangana introduces AI-powered facial recognition system for student attendance in Telangana govt junior",
@@ -15751,6 +16323,7 @@
       "summary": "Other; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "AI to play crucial role in ease of doing business in UP: Vijay Kiran Anand, CEO, Invest UP",
@@ -15776,6 +16349,7 @@
       "summary": "AI in welfare; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "UP govt to deploy AI for transparent and error-free welfare schemes: Minister Asim Arun",
@@ -15801,6 +16375,7 @@
       "summary": "Other; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Telangana to deliver AI services to one crore citizens: Sridhar Babu",
@@ -15828,6 +16403,7 @@
         "state_from_query"
       ],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Committed to delivering AI-powered citizen services to one crore people by 2027: Minister",
@@ -15853,6 +16429,7 @@
       "summary": "Institutions & infrastructure; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Telangana Govt To Set Up AI Innovation Hub; 50000 To Get Skill Training, 10000 Jobs In Three Years",
@@ -15878,6 +16455,7 @@
       "summary": "AI in governance; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "AI-based attendance monitoring system in Odisha government offices soon",
@@ -15905,6 +16483,7 @@
         "state_from_query"
       ],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Union Minister Jitin Prasada inaugurates India AI data lab in Pilibhit to rural upskilling",
@@ -15930,6 +16509,7 @@
       "summary": "Other; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "AI-driven road safety model in UP gets green light from Union govt",
@@ -15955,6 +16535,7 @@
       "summary": "Institutions & infrastructure; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "UP CM Yogi inaugurates India's first private AI-augmented multidisciplinary Chandigarh University campus in Unnao",
@@ -15980,6 +16561,7 @@
       "summary": "AI in governance; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Uttar Pradesh Assembly to Implement AI-Based Monitoring System for MLA Attendance and Participation",
@@ -16007,6 +16589,7 @@
         "state_from_query"
       ],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Union Minister Ashwini Vaishnaw urges KMES students to join AI Mission",
@@ -16032,6 +16615,7 @@
       "summary": "Skilling; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "यूपी के युवा बनेंगे AI एक्सपर्ट वो भी फ्री में, सरकार के इस प्रोग्राम में गूगल-अमेजन देंगे ट्रेनिंग - AI Pragya Training Program Youth of UP will become AI experts for free Google Amazon will provide training",
@@ -16057,6 +16641,7 @@
       "summary": "Institutions & infrastructure; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Telangana launches TGDex: State's own AI data hub; local models to drive innovation",
@@ -16082,6 +16667,7 @@
       "summary": "Partnership / MoU; announced; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "IIT-Kanpur's Airawat Foundation, IBM ink MoU to use AI for UP's air quality monitoring",
@@ -16107,6 +16693,7 @@
       "summary": "Institutions & infrastructure; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Telangana rolls out TGDeX, India's first state-led digital public infrastructure for AI",
@@ -16132,6 +16719,7 @@
       "summary": "Other; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Uttar Pradesh government cracks down on illegal mining using AI and drones",
@@ -16157,6 +16745,7 @@
       "summary": "Institutions & infrastructure; announced; reported by 2 outlets.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Telangana to launch India's first state-led digital public infrastructure for AI on July 2",
@@ -16188,6 +16777,7 @@
       "summary": "Other; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Telangana govt integrating AI into TG-iPASS industrial system to enhance transparency, speed of approval",
@@ -16213,6 +16803,7 @@
       "summary": "AI in education; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka govt. orders 'Mobile-based AI Driven Facial Recognition Attendance System' in all govt. and aided schools",
@@ -16238,6 +16829,7 @@
       "summary": "Other; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka govt. initiates study to assess impact of AI on workforce",
@@ -16263,6 +16855,7 @@
       "summary": "Policy & mission; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "The Karnataka government has launched a comprehensive 'AI Workforce Impact Study' to evaluate how Artificial Intelligence is transforming the state's job landscape. Ahead of its upcoming IT Policy 2025, the initiative is designed to inform strategic interventio",
@@ -16288,6 +16881,7 @@
       "summary": "AI in governance; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Staff attendance in government offices to be AI-monitored in Odisha",
@@ -16313,6 +16907,7 @@
       "summary": "AI in governance; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "From AI glasses to stair-climbing wheelchairs, PwDs to decide on devices issued by Tamil Nadu government",
@@ -16338,6 +16933,7 @@
       "summary": "AI in education; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "This government school in Telangana is using AI to catch 'em all",
@@ -16363,6 +16959,7 @@
       "summary": "Policy & mission; announced; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Odisha clears AI policy to bolster good governance; approves Rs 171 crore Joranda project",
@@ -16390,6 +16987,7 @@
         "state_from_query"
       ],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "State cabinet approves policy for implementing AI across different sectors",
@@ -16415,6 +17013,7 @@
       "summary": "Skilling; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "'AI Pragya' Initiative Equips Govt Officials with AI Skills, Cybersecurity Knowhow in UP",
@@ -16440,6 +17039,7 @@
       "summary": "AI in health; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Telangana to pioneer AI-based cancer screening in healthcare revamp",
@@ -16465,6 +17065,7 @@
       "summary": "Other; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "UP-AGREES and AI Pragya Programme",
@@ -16490,6 +17091,7 @@
       "summary": "Skilling; announced; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Uttar Pradesh Unveils 'AI Pragya' to Skill 10 Lakh Citizens in Advanced Technologies",
@@ -16515,6 +17117,7 @@
       "summary": "Skilling; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "AI Pragya Portal: यूपी सरकार का बड़ा कदम, सभी को मिलेगी ये स्पेशल ट्रेनिंग; वो भी बिल्कुल फ्री",
@@ -16542,6 +17145,7 @@
         "state_from_query"
       ],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Yogi govt set to launch 'AI Pragya' to empower 10 lakh citizens with cutting-edge tech skills",
@@ -16567,6 +17171,7 @@
       "summary": "AI in education; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "DT Next campus: AI to be integrated into TN govt schools' syllabus next academic year",
@@ -16592,6 +17197,7 @@
       "summary": "Institutions & infrastructure; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "State plans to set up govt-run cloud exchange hub to position Tamil Nadu at forefront of AI",
@@ -16617,6 +17223,7 @@
       "summary": "AI in education; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "AI Meets Education: UP Government and TAP Lead Change at Utsav 2025",
@@ -16642,6 +17249,7 @@
       "summary": "Institutions & infrastructure; announced; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "NTT signs MoU to set up $1.2B AI data centre cluster in Hyderabad",
@@ -16667,6 +17275,7 @@
       "summary": "Other; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Yogi govt gears up to make all 75 UP districts 'AI-skilled', setting new innovation benchmarks",
@@ -16692,6 +17301,7 @@
       "summary": "Other; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Telangana government transfers Smita Sabharwal IAS days after AI image row",
@@ -16717,6 +17327,7 @@
       "summary": "Partnership / MoU; announced; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "California-based global tech giant Workday has signed an MoU with Guidance Tamil Nadu to establish a Global Capability Center (GCC) in Chennai. The Rs. 220 crore investment will create up to 3,000 jobs, focusing on next-generation AI technologies. This f",
@@ -16742,6 +17353,7 @@
       "summary": "Skilling; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "UP News: प्रदेश वासियों को योगी सरकार की तरफ से तोहफा, 10 लाख लोगों को मिलेगा AI का प्रशिक्षण",
@@ -16767,6 +17379,7 @@
       "summary": "AI in transport; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "T.N. to introduce AI-powered driver monitoring system on buses",
@@ -16792,6 +17405,7 @@
       "summary": "Partnership / MoU; announced; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "NTT Data, Neysa Networks, and Telangana gov't sign MoU with to build AI DC cluster worth Rs 10,500 crores",
@@ -16817,6 +17431,7 @@
       "summary": "Institutions & infrastructure; announced; reported by 1 outlet.",
       "flags": [],
       "st": "official",
+      "chk": null,
       "members": [
         {
           "t": "Telangana govt signs MoU with Japanese company Neysa Networks to set up AI data centre cluster",
@@ -16842,6 +17457,7 @@
       "summary": "Institutions & infrastructure; announced; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "NTT DATA, Neysa ink MoU with Telangana govt to set up Rs 10,500 Cr AI data centre cluster",
@@ -16867,6 +17483,7 @@
       "summary": "Institutions & infrastructure; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "CM A Revanth Reddy's Japan visit has resulted in a ₹10,500 crore investment to establish a cutting-edge AI Data Centre Cluster in Hyderabad. A tripartite MoU was signed between the Government of Telangana, global IT leader NTT DATA, and Neysa Netwo",
@@ -16892,6 +17509,7 @@
       "summary": "AI in governance; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka to Use AI for Easy Access to Government Documents",
@@ -16917,6 +17535,7 @@
       "summary": "Institutions & infrastructure; implemented; reported by 2 outlets.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "T.N. CM Stalin inaugurates Sify's AI-ready data centre campus in Siruseri",
@@ -16948,6 +17567,7 @@
       "summary": "Skilling; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Odisha makes AI training mandatory for government officers",
@@ -16973,6 +17593,7 @@
       "summary": "Partnership / MoU; announced; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka govt, Bavaria sign MoU to boost ties in AI, biotech, more",
@@ -16998,6 +17619,7 @@
       "summary": "Other; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "official",
+      "chk": null,
       "members": [
         {
           "t": "Telangana launches 'AI Rising Grand Challenge' to resolve public sector issues",
@@ -17023,6 +17645,7 @@
       "summary": "Other; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Telangana Govt Approaches HC Against AI Content in Kancha Gachibowli Land Row",
@@ -17048,6 +17671,7 @@
       "summary": "Other; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Telangana government approaches HC for action against AI-generated content on UoH land issue",
@@ -17073,6 +17697,7 @@
       "summary": "Skilling; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Two lakh Artificial Intelligence (AI) engineers to be trained by Telangana govt: IT Minister",
@@ -17098,6 +17723,7 @@
       "summary": "Other; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Telangana government flags 'AI-generated fake content' over Kancha Gachibowli land controversy shared by Union Minister and celebrities",
@@ -17123,6 +17749,7 @@
       "summary": "AI in education; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Opinion: Disconnected Telangana govt schools in AI age",
@@ -17150,6 +17777,7 @@
         "multi_state"
       ],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "AI-based learning transforming govt. schools in Karnataka and Telangana",
@@ -17177,6 +17805,7 @@
         "state_from_query"
       ],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "AI learning tools helping slow learners catch up, improve attendance in govt schools",
@@ -17202,6 +17831,7 @@
       "summary": "Skilling; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Tamil Nadu to introduce AI, coding for classes 6-9 starting 2025-2026",
@@ -17229,6 +17859,7 @@
         "state_from_query"
       ],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Conscience, not AI, can curb truancy in govt",
@@ -17254,6 +17885,7 @@
       "summary": "AI in education; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "AI-based facial recognition tech for govt school attendance in Karnataka",
@@ -17279,6 +17911,7 @@
       "summary": "AI in governance; proposed; reported by 2 outlets.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Karnataka to introduce AI-powered selfie-based attendance system for government employees",
@@ -17310,6 +17943,7 @@
       "summary": "AI in education; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "AI-enabled facial recognition system to monitor student attendance in Karnataka govt schools",
@@ -17337,6 +17971,7 @@
         "state_from_query"
       ],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "LS Secretariat, MEITY sign MoU to launch 'Sansad Bhashini' for AI-powered multilingual parliamentary ops",
@@ -17364,6 +17999,7 @@
         "state_from_query"
       ],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "State to notify draft AI policy soon, says minister Mahaling",
@@ -17389,6 +18025,7 @@
       "summary": "AI in education; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Telangana education department introduces AI tools in government primary schools",
@@ -17414,6 +18051,7 @@
       "summary": "AI in education; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Teaching FLN through AI in Telangana government schools from today",
@@ -17439,6 +18077,7 @@
       "summary": "Skilling; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "AI Helps Govt School Students in Telangana",
@@ -17464,6 +18103,7 @@
       "summary": "Institutions & infrastructure; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Uttar Pradesh Chief Minister Yogi Adityanath inaugurated the Sify Data Centre Services in Greater Noida, marking a major step toward the state's digital transformation and AI-driven future. The CM also announced plans to establish an artificial intelligence dat",
@@ -17489,6 +18129,7 @@
       "summary": "Institutions & infrastructure; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "India's largest AI-Ready Data Center Campus in North India inaugurated by the Chief Minister of Uttar Pradesh",
@@ -17516,6 +18157,7 @@
         "state_from_query"
       ],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Government launches AI data, compute platforms; plans to build GPUs in 3-5 years",
@@ -17541,6 +18183,7 @@
       "summary": "AI in education; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "CM Siddaramaiah proposes 500 new Karnataka Public Schools, AI-based learning",
@@ -17566,6 +18209,7 @@
       "summary": "AI in policing; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Odisha govt to expand AI camera surveillance to Satkosia, Debrigarh sanctuaries",
@@ -17593,6 +18237,7 @@
         "state_from_query"
       ],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Nagapattinam govt. school gets AI-powered STEM innovation lab",
@@ -17618,6 +18263,7 @@
       "summary": "Partnership / MoU; implemented; reported by 2 outlets.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Microsoft inaugurates new campus in Hyderabad, inks pact with T'gana govt for AI push",
@@ -17649,6 +18295,7 @@
       "summary": "Partnership / MoU; implemented; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Microsoft opens new campus in Hyderabad, partners with Telangana government to impart AI training to 1.2 lakh people",
@@ -17676,6 +18323,7 @@
         "state_from_query"
       ],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Govt selects four premier institutes to lead AI Centers of Excellence",
@@ -17701,6 +18349,7 @@
       "summary": "Partnership / MoU; announced; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Google, Telangana ink MoU to develop, deploy AI solutions for various sectors",
@@ -17728,6 +18377,7 @@
         "state_from_query"
       ],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Budget 2025: Finance Minister Nirmala Sitharaman announces to establish Centre of excellence for AI",
@@ -17755,6 +18405,7 @@
         "state_from_query"
       ],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Educators welcome govt's focus on AI to create future ready talent",
@@ -17780,6 +18431,7 @@
       "summary": "AI in welfare; stage unclear; reported by 1 outlet.",
       "flags": [],
       "st": "other",
+      "chk": null,
       "members": [
         {
           "t": "Telangana govt to use AI to identify beneficiaries for Indiramma Illu",
@@ -17805,6 +18457,7 @@
       "summary": "Partnership / MoU; announced; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "CtrlS signs pact with Telangana govt for setting up Rs 10,000 Cr AI datacenter cluster",
@@ -17830,6 +18483,7 @@
       "summary": "Partnership / MoU; announced; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Telangana Govt and CtrlS Datacenters Sign MoU for AI Datacenter Cluster",
@@ -17855,6 +18509,7 @@
       "summary": "Institutions & infrastructure; announced; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Telangana government signs Rs 3,500 crore pact with ST Telemedia for AI-ready data centre in Hyderabad",
@@ -17880,6 +18535,7 @@
       "summary": "Other; proposed; reported by 1 outlet.",
       "flags": [],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "T.N. government will set up 2 million-sq.ft AI facility in Coimbatore under PPP mode: Stalin",
@@ -17907,6 +18563,7 @@
         "state_from_query"
       ],
       "st": "major_outlet",
+      "chk": null,
       "members": [
         {
           "t": "Microsoft partners govt to skill 500,000 Indian students and teachers in AI by 2026",
@@ -21278,6 +21935,45 @@
     "judiciary_not_state_executive": 2,
     "not_ai_specific": 8,
     "placeholder_no_ai_instrument": 1
+  },
+  "hand_check": {
+    "sample_size": 40,
+    "relevant": {
+      "k": 0,
+      "n": 0,
+      "lo": 0.0,
+      "hi": 0.0
+    },
+    "state": {
+      "k": 0,
+      "n": 0,
+      "lo": 0.0,
+      "hi": 0.0
+    },
+    "category": {
+      "k": 0,
+      "n": 0,
+      "lo": 0.0,
+      "hi": 0.0
+    },
+    "dropped_ok": {
+      "k": 0,
+      "n": 0,
+      "lo": 0.0,
+      "hi": 0.0
+    },
+    "pairs_split_ok": {
+      "k": 0,
+      "n": 0,
+      "lo": 0.0,
+      "hi": 0.0
+    },
+    "known_found": {
+      "k": 0,
+      "n": 0,
+      "lo": 0.0,
+      "hi": 0.0
+    }
   },
   "collect": {
     "collected_at": "2026-11-19T17:49:38+05:30",
