@@ -1,0 +1,43 @@
+name: Daily refresh
+
+on:
+  schedule:
+    - cron: "30 2 * * *"   # 08:00 IST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Tests
+        run: python -m pytest -q tests
+      - name: Run pipeline (collect, process, validate)
+        run: python pipeline/run.py
+      - name: Skip if collection came back empty
+        id: guard
+        run: |
+          items=$(python -c "import json;print(json.load(open('data/collect_log.json'))['items'])")
+          echo "items=$items" >> "$GITHUB_OUTPUT"
+      - name: Open a review pull request with the new data
+        if: steps.guard.outputs.items != '0'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: data/daily-refresh
+          title: "Daily data refresh"
+          commit-message: "Daily data refresh"
+          body: |
+            Automated run of `python pipeline/run.py`. Skim the new rows in `data/records.csv`
+            and `data/dedupe_report.txt`, add any corrections to `data/overrides.json`, then merge.
+          labels: data-review
+          add-paths: |
+            data
+            docs
