@@ -4,10 +4,10 @@
     "kept": 123,
     "states_with_instruments": 33,
     "levels": {
-      "AI policy adopted": 12,
-      "Other AI measures only": 8,
-      "AI policy drafted or announced": 13,
-      "Nothing found": 3
+      "AI policy in place": 12,
+      "AI projects, no policy yet": 8,
+      "Drafted or announced": 13,
+      "Nothing on record": 3
     },
     "dropped": {
       "union_level": 145,
