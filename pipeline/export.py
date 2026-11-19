@@ -77,16 +77,18 @@ def run() -> None:
             "id": e["id"], "date": e["date"], "state": e["state"], "code": e["state_code"], "title": e["title"],
             "category": e["category"], "stage": e["stage"], "confidence": e["confidence"],
             "confidence_note": e["confidence_note"], "n": e["num_sources"], "source": e["source_name"],
-            "url": e["url"], "summary": e["summary"], "flags": e["flags"],
+            "url": e["url"], "summary": e["summary"], "flags": e["flags"], "st": e["source_type"],
             "members": [{"t": m["title"], "s": m["source"], "u": m["url"], "d": m["date"]} for m in e["members"]],
         } for e in events],
         "instruments": [{
             "id": i["id"], "date": i["date"], "precision": i["date_precision"], "state": i["state"], "code": i["state_code"],
-            "title": i["title"], "type": i["type"], "status": i["status"], "group": i["status_group"],
-            "summary": i["summary"], "url": i["source_url"], "confidence": i["confidence"],
+            "title": i["title"], "type": i["type"], "status": i["status"], "group": i["status_group"], "aip": i["is_ai_policy"],
+            "summary": i["summary"], "url": i["source_url"], "confidence": i["confidence"], "st": i["source_type"],
             "confidence_note": i["confidence_note"], "timeline": i["timeline"],
         } for i in inst.get("instruments", [])],
         "instrument_provenance": inst.get("provenance", ""),
+        "instrument_drops": stats.get("instruments", {}).get("dropped", {}),
+        "collect": {k: v for k, v in (read_json(DATA / "collect_log.json", {}) or {}).items() if k != "slices"},
     }
     DOCS.mkdir(exist_ok=True)
     # GitHub Pages serves docs/ only, so the CSV downloads live there too.

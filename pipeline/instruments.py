@@ -26,10 +26,10 @@ STATUS_GROUP = {
 }
 # Ordinal levels for the tile map.
 LEVELS = {
-    3: "AI policy adopted",
-    2: "AI policy drafted or announced",
-    1: "Other AI measures only",
-    0: "Nothing found",
+    3: "AI policy in place",
+    2: "Drafted or announced",
+    1: "AI projects, no policy yet",
+    0: "Nothing on record",
 }
 PROVENANCE = "Research snapshot v2026.11.19 (data/instruments/source)"
 

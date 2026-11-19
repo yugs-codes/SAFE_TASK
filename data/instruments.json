@@ -1,10 +1,10 @@
 {
   "provenance": "Research snapshot v2026.11.19 (data/instruments/source)",
   "levels": {
-    "3": "AI policy adopted",
-    "2": "AI policy drafted or announced",
-    "1": "Other AI measures only",
-    "0": "Nothing found"
+    "3": "AI policy in place",
+    "2": "Drafted or announced",
+    "1": "AI projects, no policy yet",
+    "0": "Nothing on record"
   },
   "states": [
     {
@@ -16,7 +16,7 @@
         6
       ],
       "level": 3,
-      "level_label": "AI policy adopted",
+      "level_label": "AI policy in place",
       "headline_instrument": "Andhra Pradesh Robotics and Physical AI Policy 2026-36",
       "instruments": 6,
       "focus": false
@@ -30,7 +30,7 @@
         3
       ],
       "level": 1,
-      "level_label": "Other AI measures only",
+      "level_label": "AI projects, no policy yet",
       "headline_instrument": "Arunachal Pradesh AI Centre of Excellence at NIT Arunachal Pradesh (SCITeG-NIT MoU)",
       "instruments": 3,
       "focus": false
@@ -44,7 +44,7 @@
         4
       ],
       "level": 2,
-      "level_label": "AI policy drafted or announced",
+      "level_label": "Drafted or announced",
       "headline_instrument": "Assam AI-IT Policy 2025 (proposed)",
       "instruments": 3,
       "focus": false
@@ -58,7 +58,7 @@
         3
       ],
       "level": 3,
-      "level_label": "AI policy adopted",
+      "level_label": "AI policy in place",
       "headline_instrument": "Bihar Artificial Intelligence Policy 2026",
       "instruments": 2,
       "focus": false
@@ -72,7 +72,7 @@
         4
       ],
       "level": 3,
-      "level_label": "AI policy adopted",
+      "level_label": "AI policy in place",
       "headline_instrument": "Chhattisgarh AI Mission",
       "instruments": 3,
       "focus": false
@@ -86,7 +86,7 @@
         6
       ],
       "level": 3,
-      "level_label": "AI policy adopted",
+      "level_label": "AI policy in place",
       "headline_instrument": "Goa Artificial Intelligence Policy 2026 (2026-29)",
       "instruments": 2,
       "focus": false
@@ -100,7 +100,7 @@
         4
       ],
       "level": 3,
-      "level_label": "AI policy adopted",
+      "level_label": "AI policy in place",
       "headline_instrument": "Action Plan for Implementation of Artificial Intelligence 2025-2030",
       "instruments": 6,
       "focus": false
@@ -114,7 +114,7 @@
         2
       ],
       "level": 3,
-      "level_label": "AI policy adopted",
+      "level_label": "AI policy in place",
       "headline_instrument": "Haryana IT/ITeS, AI and Emerging Technologies Policy 2026",
       "instruments": 4,
       "focus": false
@@ -128,7 +128,7 @@
         1
       ],
       "level": 1,
-      "level_label": "Other AI measures only",
+      "level_label": "AI projects, no policy yet",
       "headline_instrument": "Himachal Pradesh State Innovation Policy",
       "instruments": 2,
       "focus": false
@@ -142,7 +142,7 @@
         4
       ],
       "level": 2,
-      "level_label": "AI policy drafted or announced",
+      "level_label": "Drafted or announced",
       "headline_instrument": "Jharkhand Artificial Intelligence Policy, 2026 (Draft)",
       "instruments": 2,
       "focus": false
@@ -156,7 +156,7 @@
         6
       ],
       "level": 2,
-      "level_label": "AI policy drafted or announced",
+      "level_label": "Drafted or announced",
       "headline_instrument": "Karnataka AI Policy, AI University and Class VI AI curriculum (announcement)",
       "instruments": 8,
       "focus": true
@@ -170,7 +170,7 @@
         7
       ],
       "level": 2,
-      "level_label": "AI policy drafted or announced",
+      "level_label": "Drafted or announced",
       "headline_instrument": "Kerala AI Mission (under IT Policy 2026)",
       "instruments": 8,
       "focus": false
@@ -184,7 +184,7 @@
         4
       ],
       "level": 2,
-      "level_label": "AI policy drafted or announced",
+      "level_label": "Drafted or announced",
       "headline_instrument": "Madhya Pradesh State AI Mission",
       "instruments": 3,
       "focus": false
@@ -198,7 +198,7 @@
         5
       ],
       "level": 3,
-      "level_label": "AI policy adopted",
+      "level_label": "AI policy in place",
       "headline_instrument": "Maharashtra Artificial Intelligence Policy 2026 and implementation committees",
       "instruments": 4,
       "focus": false
@@ -212,7 +212,7 @@
         5
       ],
       "level": 1,
-      "level_label": "Other AI measures only",
+      "level_label": "AI projects, no policy yet",
       "headline_instrument": "MoU between Digital India BHASHINI Division and Government of Manipur on multilingual AI",
       "instruments": 3,
       "focus": false
@@ -226,7 +226,7 @@
         5
       ],
       "level": 2,
-      "level_label": "AI policy drafted or announced",
+      "level_label": "Drafted or announced",
       "headline_instrument": "Meghalaya IT & ITeS Policy 2.0 (under drafting; AI and GCC focus)",
       "instruments": 3,
       "focus": false
@@ -240,7 +240,7 @@
         6
       ],
       "level": 1,
-      "level_label": "Other AI measures only",
+      "level_label": "AI projects, no policy yet",
       "headline_instrument": "Precautionary Guidelines regarding the use of AI Tools and Engagement with AI Service Providers by Government Departments",
       "instruments": 1,
       "focus": false
@@ -254,7 +254,7 @@
         4
       ],
       "level": 2,
-      "level_label": "AI policy drafted or announced",
+      "level_label": "Drafted or announced",
       "headline_instrument": "Nagaland AI readiness assessment and 24-month AI-in-governance roadmap (Nagaland Science Mission with AIMA)",
       "instruments": 2,
       "focus": false
@@ -268,7 +268,7 @@
         5
       ],
       "level": 3,
-      "level_label": "AI policy adopted",
+      "level_label": "AI policy in place",
       "headline_instrument": "Odisha Artificial Intelligence Policy-2025",
       "instruments": 7,
       "focus": true
@@ -282,7 +282,7 @@
         1
       ],
       "level": 1,
-      "level_label": "Other AI measures only",
+      "level_label": "AI projects, no policy yet",
       "headline_instrument": "Punjab plan to integrate AI across departments and develop Mohali as AI hub",
       "instruments": 1,
       "focus": false
@@ -296,7 +296,7 @@
         3
       ],
       "level": 3,
-      "level_label": "AI policy adopted",
+      "level_label": "AI policy in place",
       "headline_instrument": "Rajasthan Artificial Intelligence and Machine Learning (AI-ML) Policy 2026",
       "instruments": 3,
       "focus": false
@@ -310,7 +310,7 @@
         3
       ],
       "level": 2,
-      "level_label": "AI policy drafted or announced",
+      "level_label": "Drafted or announced",
       "headline_instrument": "Sikkim AI Policy 2025 (Draft) - A Framework for Responsible and Sustainable Digital Transformation",
       "instruments": 4,
       "focus": false
@@ -324,7 +324,7 @@
         7
       ],
       "level": 3,
-      "level_label": "AI policy adopted",
+      "level_label": "AI policy in place",
       "headline_instrument": "Tamil Nadu Artificial Intelligence Mission (TNAIM)",
       "instruments": 12,
       "focus": true
@@ -338,7 +338,7 @@
         5
       ],
       "level": 3,
-      "level_label": "AI policy adopted",
+      "level_label": "AI policy in place",
       "headline_instrument": "AI-Powered Telangana: Strategy Document and Implementation Roadmap",
       "instruments": 7,
       "focus": true
@@ -352,7 +352,7 @@
         6
       ],
       "level": 2,
-      "level_label": "AI policy drafted or announced",
+      "level_label": "Drafted or announced",
       "headline_instrument": "Tripura State AI Policy (announced; under preparation)",
       "instruments": 2,
       "focus": false
@@ -366,7 +366,7 @@
         3
       ],
       "level": 3,
-      "level_label": "AI policy adopted",
+      "level_label": "AI policy in place",
       "headline_instrument": "Uttar Pradesh Artificial Intelligence Mission (UP-AIM)",
       "instruments": 7,
       "focus": true
@@ -380,7 +380,7 @@
         2
       ],
       "level": 2,
-      "level_label": "AI policy drafted or announced",
+      "level_label": "Drafted or announced",
       "headline_instrument": "Uttarakhand AI Mission",
       "instruments": 1,
       "focus": false
@@ -394,7 +394,7 @@
         4
       ],
       "level": 2,
-      "level_label": "AI policy drafted or announced",
+      "level_label": "Drafted or announced",
       "headline_instrument": "West Bengal 'AI Impact Mission' and GCC policy (Budget 2026-27 announcement)",
       "instruments": 4,
       "focus": false
@@ -408,7 +408,7 @@
         7
       ],
       "level": 0,
-      "level_label": "Nothing found",
+      "level_label": "Nothing on record",
       "headline_instrument": "",
       "instruments": 0,
       "focus": false
@@ -422,7 +422,7 @@
         2
       ],
       "level": 1,
-      "level_label": "Other AI measures only",
+      "level_label": "AI projects, no policy yet",
       "headline_instrument": "Chandigarh hub for AI innovation and governance (planned)",
       "instruments": 1,
       "focus": false
@@ -436,7 +436,7 @@
         5
       ],
       "level": 1,
-      "level_label": "Other AI measures only",
+      "level_label": "AI projects, no policy yet",
       "headline_instrument": "IndiaAI Data Lab / AI Centre of Excellence, Government Polytechnic College, Daman",
       "instruments": 2,
       "focus": false
@@ -450,7 +450,7 @@
         3
       ],
       "level": 1,
-      "level_label": "Other AI measures only",
+      "level_label": "AI projects, no policy yet",
       "headline_instrument": "Delhi government AI and emerging-technology training programme for officials",
       "instruments": 3,
       "focus": false
@@ -464,7 +464,7 @@
         0
       ],
       "level": 2,
-      "level_label": "AI policy drafted or announced",
+      "level_label": "Drafted or announced",
       "headline_instrument": "Jammu & Kashmir Artificial Intelligence Mission (JK-AIM)",
       "instruments": 3,
       "focus": false
@@ -478,7 +478,7 @@
         0
       ],
       "level": 2,
-      "level_label": "AI policy drafted or announced",
+      "level_label": "Drafted or announced",
       "headline_instrument": "Ladakh AI Roadmap",
       "instruments": 1,
       "focus": false
@@ -492,7 +492,7 @@
         7
       ],
       "level": 0,
-      "level_label": "Nothing found",
+      "level_label": "Nothing on record",
       "headline_instrument": "",
       "instruments": 0,
       "focus": false
@@ -506,7 +506,7 @@
         7
       ],
       "level": 0,
-      "level_label": "Nothing found",
+      "level_label": "Nothing on record",
       "headline_instrument": "",
       "instruments": 0,
       "focus": false

@@ -63,6 +63,7 @@ Each stage reads the previous stage's file and writes its own, so every count in
 | dedupe | `pipeline/dedupe.py` | `data/deduped.jsonl`, `data/clusters.json`, `data/dedupe_report.txt`, `audit/dedupe_borderline.csv` | Clusters articles about the same announcement |
 | classify | `pipeline/classify.py` | `data/classified.jsonl`, `data/dropped/override.jsonl` | Category, stage, source type, confidence and its note; applies `data/overrides.json` |
 | instruments | `pipeline/instruments.py` | `data/instruments.json`, `data/instruments.csv`, `data/dropped/instruments.jsonl` | Filters the instrument snapshot to state-level AI instruments; derives each state's AI-policy status |
+| map | `pipeline/build_map.py` | `docs/india-map.js` | Projects the state boundaries (Lambert conformal conic, parallels 12°/32°N, meridian 82.5°E) into SVG paths, so the page needs no mapping library |
 | export | `pipeline/export.py` | `data/records.csv`, `data/funnel.json`, `docs/data.json`, `docs/data.js`, CSV copies in `docs/` | Deliverables |
 | validate | `pipeline/validate.py` | — | Fails the run on schema problems |
 
@@ -112,6 +113,8 @@ All articles in each cluster are in `data/clusters.json`.
 ### Data provenance
 
 `data/instruments/source/policies.json` is a research snapshot (v2026.11.19) of 279 Union and state instruments compiled from official documents and press reports, with AI research assistance, by _(credit the source here)_. This project uses it as-is and filters it: Union-level records (145), court instruments (2), a placeholder record (1) and AI-adjacent records with no AI content (8) are excluded, leaving 123 state/UT instruments. Its dates and links were not re-verified record by record here; a sample of 16 links resolved.
+
+State boundaries (`data/geo/india-states.topo.json`, 35 shapes) come from the same repository as the instrument snapshot. Lakshadweep is missing from that file and is drawn as a point. Boundaries are approximate and for illustration only.
 
 ## Audit
 

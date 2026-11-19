@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import sys
 
+import build_map
 import classify
 import collect
 import dedupe
@@ -26,6 +27,7 @@ STAGES = [
     ("dedupe", dedupe.run),
     ("classify", classify.run),
     ("instruments", instruments.run),
+    ("map", build_map.run),
     ("export", export.run),
 ]
 
