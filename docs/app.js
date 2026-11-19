@@ -4,7 +4,7 @@
   const M = window.INDIA_MAP;
   const $ = (s) => document.querySelector(s);
   if (!D || !M) {
-    $("#lead").textContent = "The data files are missing. Run python pipeline/run.py --offline to build them.";
+    $("#meta").textContent = "Data files missing. Run python pipeline/run.py --offline.";
     return;
   }
 
@@ -38,8 +38,6 @@
   const nf = new Intl.NumberFormat("en-IN");
   const N = (n) => nf.format(n);
   const plural = (n, one, many = `${one}s`) => `${N(n)} ${n === 1 ? one : many}`;
-  const WORDS = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten"];
-  const word = (n) => WORDS[n] || N(n);
   const count = (arr, key) => arr.reduce((m, x) => ((m[x[key]] = (m[x[key]] || 0) + 1), m), {});
   const STAGE = { proposed: "Proposed", announced: "Announced", implemented: "Implemented", unknown: "Unclear" };
   const CONF = { high: "High", medium: "Medium", low: "Low" };
@@ -50,23 +48,11 @@
     { code: "TN", month: "2026-05", label: "New CM, 10 May 2026" },
     { code: "KA", month: "2026-05", label: "CM resigned, 28 May 2026" },
   ];
-  // Plain label for tables, a human title and one line for the explainer cards, and a phrase for sentences.
-  const CAT = {
-    regulation_ethics: { title: "Rules of the road", what: "Guidelines, ethics codes and rules on things like deepfakes.", doing: "writing rules" },
-    budget_funding: { title: "Follow the money", what: "Budget lines and money set aside for AI. The clearest sign a state means it.", doing: "putting money down" },
-    policy_mission: { title: "The big plans", what: "AI policies, missions and roadmaps that set the direction.", doing: "drawing up big plans" },
-    institution: { title: "Bricks and mortar", what: "Centres of excellence, AI cities, labs and data centres.", doing: "building things" },
-    partnership_mou: { title: "Deals on the table", what: "MoUs and tie-ups with companies and universities. Easy to sign, harder to deliver.", doing: "signing deals" },
-    skilling: { title: "Back to school", what: "Training officials, students and citizens to use AI.", doing: "training people" },
-    governance_deployment: { title: "AI at work", what: "Government actually using AI: in hospitals, police stations, farms and offices.", doing: "putting AI to work" },
-    other: { title: "Everything else", what: "Speeches, summits and stories that don't fit one bucket.", doing: "other news" },
-  };
   const events = D.events;
   const insts = D.instruments;
   const focus = D.focus;
   const stateInfo = Object.fromEntries(D.states.map((s) => [s.code, s]));
   const levelColor = (l) => (l ? `var(--l${l})` : "var(--none)");
-  const stages = Object.fromEntries(D.funnel.stages.map((s) => [s.key, s.count]));
 
   // ---------- tooltip
   const tip = $("#tip");
@@ -90,9 +76,8 @@
   }
 
   // ---------- header
-  $("#lead").textContent = `Every state says it wants to lead on AI. We went through ${N(stages.raw)} news search results and ${N(insts.length)} government documents to see who is actually doing something about it.`;
-  $("#meta").textContent = `Updated ${fmtDate(D.last_updated.slice(0, 10))} · ${N(events.length)} news events in five states · ${N(insts.length)} policy documents across ${D.states.filter((s) => s.instruments).length} states and UTs`;
-  $("#footer-meta").textContent = `Dataset ${D.version}. News since ${fmtDate(D.start_date)}; policy documents from ${D.instrument_provenance}. Map boundaries are approximate and for illustration only.`;
+  $("#meta").textContent = `Updated ${fmtDate(D.last_updated.slice(0, 10))} · ${N(events.length)} news events · ${N(insts.length)} policy documents · ${D.states.filter((s) => s.instruments).length} states and UTs`;
+  $("#footer-meta").textContent = `Data ${D.version} · Map boundaries are approximate`;
 
   // ---------- the map
   const byCode = Object.fromEntries(M.states.map((s) => [s.code, s]));
@@ -201,11 +186,8 @@
 
     $("#map-legend").replaceChildren(
       ...[3, 2, 1, 0].map((l) => el("li", {}, el("span", { class: "swatch", style: { background: levelColor(l) } }), D.levels[l])),
-      el("li", {}, el("span", { class: "swatch", style: { boxShadow: "inset 0 0 0 2px var(--ink)" } }), "One of our five focus states"),
+      el("li", {}, el("span", { class: "swatch", style: { boxShadow: "inset 0 0 0 2px var(--ink)" } }), "Focus state"),
     );
-    const byLevel = count(D.states, "level");
-    const n3 = byLevel[3] || 0, n2 = byLevel[2] || 0, n1 = byLevel[1] || 0, n0 = byLevel[0] || 0;
-    $("#map-take").textContent = `${N(n3)} states and UTs have an AI policy in place. ${N(n2)} more have one drafted or announced, ${N(n1)} are running AI projects without a policy, and ${N(n0)} have nothing on record yet.`;
   }
 
   function rankedDocs(code) {
@@ -223,8 +205,7 @@
       const byLevel = count(D.states, "level");
       box.replaceChildren(
         el("p", { class: "over" }, "All of India"),
-        el("h3", {}, "Pick a state"),
-        el("p", { class: "headline" }, "Click any state or territory on the map, or use the list above it. The map zooms in and the details show up here."),
+        el("h3", {}, `${D.states.length} states and UTs`),
         el("table", { class: "levels" }, el("tbody", {}, ...[3, 2, 1, 0].map((l) =>
           el("tr", {}, el("td", {}, el("span", { class: "swatch", style: { background: levelColor(l), marginRight: "8px" } }), D.levels[l]), el("td", { class: "n" }, byLevel[l] || 0))))),
       );
@@ -241,24 +222,24 @@
     ];
     if (s.focus) stats.push([evs.length, "news events"]);
     box.replaceChildren(
-      el("p", { class: "over" }, s.focus ? `${kind} · one of our focus states` : kind),
+      el("p", { class: "over" }, s.focus ? `${kind} · focus state` : kind),
       el("h3", {}, s.name),
       el("div", { class: "stats" }, ...stats.map(([n, l]) => el("div", {}, el("b", {}, N(n)), el("span", {}, l)))),
       el("p", { class: "headline" }, el("span", { class: "swatch", style: { background: levelColor(s.level), marginRight: "8px" } }),
         s.level_label, s.headline_instrument ? `: ${s.headline_instrument}` : ""),
-      docs.length ? el("h4", {}, "What's on paper") : el("p", {}, "We found no AI policy document for this one."),
+      docs.length ? el("h4", {}, "Policy documents") : el("p", {}, "No AI policy documents found."),
       docs.length ? el("ul", {}, ...docs.slice(0, 5).map((d) => el("li", {},
         el("a", { href: d.url, target: "_blank", rel: "noopener" }, d.title),
         el("span", { class: "m" }, el("span", { class: `chip${d.group === "adopted" ? " ok" : ""}` }, GROUP[d.group] || d.status), `${fmtDate(d.date, d.precision)} · ${CONF[d.confidence]} confidence`)))) : null,
-      docs.length > 5 ? el("p", {}, el("button", { class: "linkbtn", onclick: () => go({ tab: "instruments", state: s.name }) }, `See all ${docs.length} documents`)) : null,
+      docs.length > 5 ? el("p", {}, el("button", { class: "linkbtn", onclick: () => go({ tab: "instruments", state: s.name }) }, `All ${docs.length} documents`)) : null,
       ...(s.focus && evs.length ? [
-        el("h4", {}, "Latest in the news"),
+        el("h4", {}, "Latest news"),
         el("ul", {}, ...evs.slice(0, 3).map((e) => el("li", {},
           el("a", { href: e.url, target: "_blank", rel: "noopener" }, e.title),
           el("span", { class: "m" }, `${fmtDate(e.date)} · ${e.source}`)))),
-        el("p", {}, el("button", { class: "linkbtn", onclick: () => go({ tab: "events", state: s.name }) }, `Read all ${evs.length} stories`)),
+        el("p", {}, el("button", { class: "linkbtn", onclick: () => go({ tab: "events", state: s.name }) }, `All ${evs.length} news events`)),
       ] : []),
-      el("button", { class: "back", onclick: () => select(null) }, "Back to the whole map"),
+      el("button", { class: "back", onclick: () => select(null) }, "Back to India"),
     );
   }
 
@@ -277,17 +258,9 @@
         el("div", { class: "num" }, N(evs.length)),
         el("div", { class: "unit" }, "news events"),
         el("div", { class: "line" }, el("span", { class: "swatch", style: { background: levelColor(s.level) } }), s.level_label),
-        el("div", { class: "line" }, cats.length ? `Busiest area: ${D.categories[cats[0][0]]}` : "No events yet"),
+        el("div", { class: "line" }, cats.length ? `Top: ${D.categories[cats[0][0]]}` : "No events yet"),
       );
     }));
-  }
-  function focusTake() {
-    const per = focus.map((f) => ({ ...f, n: events.filter((e) => e.code === f.code).length, level: (stateInfo[f.code] || {}).level }));
-    per.sort((a, b) => b.n - a.n);
-    const top = per[0], low = per[per.length - 1];
-    let txt = `${top.name} makes the most noise, with ${plural(top.n, "event")}. ${low.name} has the fewest (${N(low.n)})`;
-    txt += low.level === 3 ? `, yet it's one of the states with an AI policy actually in place.` : ".";
-    $("#focus-take").textContent = txt;
   }
 
   // ---------- matrix + category explainers
@@ -318,24 +291,17 @@
         el("td", { class: "total" }, grid[r].reduce((a, b) => a + b, 0)),
       ))),
     );
-    const totals = Object.entries(count(events, "category")).filter(([c]) => c !== "other").sort((a, b) => b[1] - a[1]);
-    const [topC, topN] = totals[0];
-    const [lowC, lowN] = totals[totals.length - 1];
-    const cap = (s) => s[0].toUpperCase() + s.slice(1);
-    $("#kinds-take").textContent = `${cap(CAT[topC].doing)} is the most common move, with ${plural(topN, "event")}. ${cap(CAT[lowC].doing)} is the rarest: ${N(lowN)} across all five states.`;
-
-    $("#cats").replaceChildren(...cats.map((c) => {
+    $("#cats").replaceChildren(...cats.filter((c) => c !== "other").map((c) => {
       const evs = events.filter((e) => e.category === c);
       const per = Object.entries(count(evs, "state")).sort((a, b) => b[1] - a[1]);
       const ex = evs.slice().sort((a, b) => b.n - a.n || (a.date < b.date ? 1 : -1))[0];
       return el("div", { class: "cat" },
-        el("p", { class: "over" }, `${D.categories[c]} · ${N(evs.length)}`),
-        el("h4", {}, CAT[c].title),
-        el("p", {}, CAT[c].what),
-        per.length ? el("p", { class: "lead-state" }, `Leading: ${per[0][0]}, with ${N(per[0][1])}`) : null,
-        ex ? el("p", { class: "ex" }, "For example: ", el("a", { href: ex.url, target: "_blank", rel: "noopener" }, ex.title),
-          el("span", { class: "m" }, ` (${ex.state}, ${fmtDate(ex.date)}${ex.n > 1 ? `, ${ex.n} outlets` : ""})`)) : null,
-        evs.length ? el("button", { class: "linkbtn", onclick: () => go({ tab: "events", category: c }) }, `See all ${N(evs.length)}`) : null,
+        el("p", { class: "over" }, `${N(evs.length)} events`),
+        el("h4", {}, D.categories[c]),
+        per.length ? el("p", { class: "lead-state" }, `Most: ${per[0][0]} (${N(per[0][1])})`) : null,
+        ex ? el("p", { class: "ex" }, el("a", { href: ex.url, target: "_blank", rel: "noopener" }, ex.title),
+          el("span", { class: "m" }, ` · ${ex.state}, ${fmtDate(ex.date)}`)) : null,
+        evs.length ? el("button", { class: "linkbtn", onclick: () => go({ tab: "events", category: c }) }, "View all") : null,
       );
     }));
   }
@@ -393,25 +359,13 @@
       if ((m - 1) % 3) return;
       ax.append(svg("text", { x: i * slot + slot / 2, y: 14, "text-anchor": "middle" }, m === 1 ? `${MON[0]} ${y}` : MON[m - 1]));
     });
-    box.replaceChildren(...rows, el("div", { class: "mrow axis-row" }, el("div", { class: "lab small" }, `Tallest bar: ${max}`), el("div", {}, ax), el("div")));
-
-    const totals = ms.map((_, i) => series.reduce((a, s) => a + s[i], 0));
-    const busiest = totals.indexOf(Math.max(...totals));
-    const [by, bm] = ms[busiest].split("-").map(Number);
-    const firstHalf = totals.slice(0, 12).reduce((a, b) => a + b, 0);
-    const rest = totals.slice(12).reduce((a, b) => a + b, 0);
-    const lead = rest > firstHalf
-      ? `Things picked up in 2026: ${N(rest)} events so far this year, against ${N(firstHalf)} in all of 2025.`
-      : `2026 has been quieter so far: ${N(rest)} events this year, against ${N(firstHalf)} in all of 2025.`;
-    $("#time-take").textContent = `${lead} The busiest month was ${MON[bm - 1]} ${by}, with ${N(totals[busiest])}.`;
+    box.replaceChildren(...rows, el("div", { class: "mrow axis-row" }, el("div", { class: "lab small" }, `Max ${max}/month`), el("div", {}, ax), el("div")));
   }
 
   // ---------- funnel
   function renderFunnel() {
     const st = D.funnel.stages;
     const top = st[0].count || 1;
-    $("#h-funnel").textContent = `From ${N(stages.raw)} search results to ${N(stages.events)} events`;
-    $("#funnel-take").textContent = `Roughly one search result in ${word(Math.round(stages.raw / Math.max(1, stages.events)))} became an event. The rest were repeats, company news, central-government stories, or had nothing to do with AI.`;
     $("#funnel").replaceChildren(...st.map((s, i) => el("div", {
       class: "frow",
       onpointermove: (e) => showTip(e, `${N(s.count)} ${s.label.toLowerCase()}`, ...focus.map((f) => `${f.name}: ${N(D.funnel.per_state[f.code][s.key])}`)),
@@ -421,9 +375,9 @@
       el("div", { class: "track" }, el("div", { class: "fill", style: { width: `${(s.count / top) * 100}%` } })),
       el("div", { class: "n" }, N(s.count), i ? el("div", { class: "pct" }, `${Math.round((s.count / (st[i - 1].count || 1)) * 100)}% kept`) : null),
     )));
-    const names = { no_ai_term: "no mention of AI", no_gov_term: "no sign of a state government", excluded: "company or market news", central_only: "central government only", out_of_scope_state: "about another state", out_of_window: "from before 2025", override: "removed by hand" };
+    const names = { no_ai_term: "no AI term", no_gov_term: "no state government", excluded: "company news", central_only: "central only", out_of_scope_state: "other state", out_of_window: "before 2025", override: "removed by hand" };
     const drops = Object.entries(D.funnel.dropped).sort((a, b) => b[1] - a[1]);
-    $("#drops").textContent = `Why the rest went: ${drops.map(([k, v]) => `${names[k] || k} (${N(v)})`).join(", ")}. The first three steps count stories by the state we searched for; the last two by the state in the headline.`;
+    $("#drops").textContent = `Dropped: ${drops.map(([k, v]) => `${names[k] || k} ${N(v)}`).join(" · ")}`;
   }
 
   // ---------- records table
@@ -462,10 +416,10 @@
   }
   const conf = (level, note) => el("span", { class: "conf", title: note }, el("span", { class: "dots", "aria-hidden": "true" }, DOTS[level]), " ", CONF[level]);
   const CHECK = {
-    ok: ["ok", "✓ Checked by hand", "A person read this one and agreed with how it was sorted."],
-    partly: ["warn", "Checked: label off", "A person confirmed it belongs here but found the state or category wrong."],
-    wrong: ["warn", "Flagged on review", "A person judged that this one shouldn't count."],
-    fixed: ["ok", "Fixed by hand", "A person corrected this record."],
+    ok: ["ok", "✓ Hand-checked", "Checked by a person: correct."],
+    partly: ["warn", "Hand-checked: label wrong", "Checked by a person: relevant, but state or category wrong."],
+    wrong: ["warn", "Hand-checked: not relevant", "Checked by a person: should not be included."],
+    fixed: ["ok", "Corrected by hand", "Corrected by a person."],
   };
   function badgeFor(chk) {
     if (!chk) return null;
@@ -528,57 +482,34 @@
     const H = D.hand_check || {};
     const pct = (x) => `${Math.round(x * 100)}%`;
     const tiles = [
-      ["relevant", "Belong here", "of the sampled events really are a state government acting on AI"],
-      ["state", "Right state", "have the correct state attached"],
-      ["category", "Right category", "landed in a sensible bucket"],
-      ["dropped_ok", "Rightly thrown out", "of the sampled rejects deserved to go"],
-      ["pairs_split_ok", "Near-twins kept apart", "of the close-but-separate pairs really are different events"],
-      ["known_found", "Known events found", "of the events we knew about turned up in the data"],
+      ["relevant", "Relevant"],
+      ["state", "Correct state"],
+      ["category", "Correct category"],
+      ["dropped_ok", "Correctly dropped"],
+      ["pairs_split_ok", "Correctly not merged"],
+      ["known_found", "Known events found"],
     ];
-    $("#checks").replaceChildren(...tiles.map(([key, title, line]) => {
+    $("#checks").replaceChildren(...tiles.map(([key, title]) => {
       const r = H[key] || { k: 0, n: 0 };
       if (!r.n) return el("div", { class: "check empty" }, el("p", { class: "over" }, title), el("div", { class: "big" }, "Not checked yet"));
       const p = r.k / r.n;
       return el("div", { class: "check" },
         el("p", { class: "over" }, title),
         el("div", { class: "big" }, pct(p)),
-        el("div", { class: "sub" }, `${N(r.k)} of ${N(r.n)} ${line}`),
+        el("div", { class: "sub" }, `${N(r.k)} of ${N(r.n)}`),
         el("div", { class: "bar", "aria-hidden": "true" }, el("i", { style: { left: pct(r.lo), width: pct(r.hi - r.lo) } }), el("b", { style: { left: `calc(${pct(p)} - 1px)` } })),
-        el("div", { class: "range" }, `Likely between ${pct(r.lo)} and ${pct(r.hi)}`));
+        el("div", { class: "range" }, `95% CI ${pct(r.lo)}–${pct(r.hi)}`));
     }));
-    const rel = H.relevant || { n: 0 };
-    const checked = events.filter((e) => e.chk).length;
-    $("#check-take").textContent = rel.n
-      ? `${Math.round((rel.k / rel.n) * 100)}% of the hand-checked sample really belonged here (${N(rel.k)} of ${N(rel.n)}). ${N(checked)} records now carry a person's check.`
-      : "The hand-check hasn't been done yet. Once it is, the results land here and on every record a person looked at.";
-  }
-
-  // ---------- method numbers
-  function bindMethod() {
-    const c = count(events, "confidence");
-    const drops = D.instrument_drops || {};
-    const vals = {
-      raw: N(stages.raw), unique: N(stages.unique_articles), relevant: N(stages.relevant), inscope: N(stages.in_scope),
-      events: N(stages.events), slices: N((D.collect && D.collect.requests) || 0), inst: N(insts.length),
-      drop_union: N(drops.union_level || 0), drop_court: N(drops.judiciary_not_state_executive || 0),
-      drop_notai: N(drops.not_ai_specific || 0), drop_ph: N(drops.placeholder_no_ai_instrument || 0),
-      sfq: N((D.funnel.flags || {}).state_from_query || 0), merges: N(D.funnel.merges || 0),
-      c_high: N(c.high || 0), c_medium: N(c.medium || 0), c_low: N(c.low || 0),
-      version: D.version, built: fmtDate(D.last_updated.slice(0, 10)),
-    };
-    document.querySelectorAll("[data-bind]").forEach((n) => { n.textContent = vals[n.dataset.bind] ?? ""; });
   }
 
   buildMap();
   renderPanel();
   renderCards();
-  focusTake();
   renderMatrix();
   renderMultiples();
   renderFunnel();
   renderChecks();
   renderTable();
-  bindMethod();
   let t;
   window.addEventListener("resize", () => { clearTimeout(t); t = setTimeout(renderMultiples, 150); });
 })();

@@ -4,100 +4,65 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>State AI Policy Tracker</title>
-<meta name="description" content="What are Indian states doing on AI? A map of every state's AI policy, and the news behind five of them.">
+<meta name="description" content="AI policy activity across Indian states.">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="page">
 
 <header class="masthead">
-  <p class="overline">India · AI policy tracker</p>
+  <p class="overline">India · State AI policy tracker</p>
   <h1>What are Indian states doing on AI?</h1>
-  <p class="lead" id="lead">Every state says it wants to lead on AI. We went through thousands of news stories and the policy documents themselves to see who is actually doing something.</p>
   <p class="meta" id="meta"></p>
-  <div class="rule">
-    <p><strong>The rule we used:</strong> a state government has to <em>do</em> something. Set a policy, spend money, open an institution, put AI to work, sign a deal or write a rule. Speeches don't count.</p>
-    <p><strong>One caution:</strong> more headlines doesn't mean more work. Some states simply get more press.</p>
-  </div>
   <nav class="jump" aria-label="Sections">
-    <a href="#map">The map</a><a href="#focus">Five states</a><a href="#kinds">What they're doing</a><a href="#time">Over time</a><a href="#funnel-section">How we filtered</a><a href="#checked">Did we get it right?</a><a href="#records">All records</a><a href="#method">How this works</a>
+    <a href="#map">Map</a><a href="#focus">Focus states</a><a href="#kinds">Categories</a><a href="#time">Over time</a><a href="#funnel-section">Filtering</a><a href="#checked">Hand checks</a><a href="#records">Records</a>
   </nav>
 </header>
 
 <section id="map" aria-labelledby="h-map">
   <div class="section-head">
     <h2 id="h-map">Who has an AI policy?</h2>
-    <p>All 36 states and union territories, shaded by how far their AI policy has got. Click one to zoom in.</p>
+    <p>Click a state to zoom in.</p>
   </div>
-  <p class="take" id="map-take"></p>
   <div class="atlas">
     <div class="map-col">
       <label class="jump-to">Go to <select id="jump" aria-label="Go to a state or union territory"></select></label>
       <svg id="india" role="img" aria-label="Map of India by AI policy status"></svg>
       <ul class="legend" id="map-legend"></ul>
-      <p class="small">Dots mark territories too small to click on the map. Boundaries are approximate.</p>
     </div>
     <aside class="panel" id="panel" aria-live="polite"></aside>
   </div>
 </section>
 
 <section id="focus" aria-labelledby="h-focus">
-  <div class="section-head">
-    <h2 id="h-focus">Five states, up close</h2>
-    <p>We followed the news for these five since January 2025. Pick one to read its stories.</p>
-  </div>
-  <p class="take" id="focus-take"></p>
+  <div class="section-head"><h2 id="h-focus">Focus states</h2><p>News events since January 2025.</p></div>
   <div class="cards" id="cards"></div>
 </section>
 
 <section id="kinds" aria-labelledby="h-kinds">
-  <div class="section-head">
-    <h2 id="h-kinds">What are they actually doing?</h2>
-    <p>Every story goes into one of eight buckets. Click a number to read the stories behind it.</p>
-  </div>
-  <p class="take" id="kinds-take"></p>
+  <div class="section-head"><h2 id="h-kinds">What are they doing?</h2></div>
   <div class="scroll-x"><table class="matrix" id="matrix"></table></div>
-  <div class="why">
-    <h3>Why sort them at all?</h3>
-    <p>"AI news" lumps a budget line together with a chatbot launch. Sorting shows whether a state is writing rules, spending money, building things or mostly signing MoUs. That's the difference between a plan and a press release.</p>
-  </div>
   <div class="cat-grid" id="cats"></div>
 </section>
 
 <section id="time" aria-labelledby="h-time">
-  <div class="section-head">
-    <h2 id="h-time">When did things pick up?</h2>
-    <p>Stories per month, on the same scale for every state. Dashed lines mark a new Chief Minister.</p>
-  </div>
-  <p class="take" id="time-take"></p>
+  <div class="section-head"><h2 id="h-time">Over time</h2><p>News events per month.</p></div>
   <div id="multiples" class="multiples"></div>
 </section>
 
 <section id="funnel-section" aria-labelledby="h-funnel">
-  <div class="section-head">
-    <h2 id="h-funnel">From a pile of search results to a list of events</h2>
-    <p>Most of what a news search returns is noise. Here's what survived each cut, and why the rest didn't.</p>
-  </div>
-  <p class="take" id="funnel-take"></p>
+  <div class="section-head"><h2 id="h-funnel">Filtering</h2></div>
   <div id="funnel" class="funnel"></div>
   <p class="small" id="drops"></p>
 </section>
 
 <section id="checked" aria-labelledby="h-checked">
-  <div class="section-head">
-    <h2 id="h-checked">Did we get it right?</h2>
-    <p>A machine sorted every story. Then a person read a random sample, one by one, and marked what it got wrong.</p>
-  </div>
-  <p class="take" id="check-take"></p>
+  <div class="section-head"><h2 id="h-checked">Hand checks</h2><p>Random sample, checked by a person.</p></div>
   <div class="checks" id="checks"></div>
-  <p class="small">The range under each figure is how far the true rate could plausibly be from what a sample this size shows (a 95% interval). Records a person checked carry a <span class="badge ok">✓ Checked by hand</span> badge below; use the filter to see only those.</p>
 </section>
 
 <section id="records" aria-labelledby="h-records">
-  <div class="section-head">
-    <h2 id="h-records">Read it yourself</h2>
-    <p>Every row links to its source. Filter it, search it, or <a href="records.csv" download>download the lot</a>.</p>
-  </div>
+  <div class="section-head"><h2 id="h-records">Records</h2></div>
   <div class="tabs" role="tablist">
     <button role="tab" id="tab-events" aria-selected="true">News events</button>
     <button role="tab" id="tab-inst" aria-selected="false">Policy documents</button>
@@ -108,83 +73,8 @@
   <button class="more" id="more" hidden>Show more</button>
 </section>
 
-<section id="method" aria-labelledby="h-method">
-  <div class="section-head"><h2 id="h-method">How this works</h2><p>The short version of the method. The README has the long one.</p></div>
-  <div class="method-layout">
-    <nav class="toc" aria-label="On this section">
-      <p class="over">On this section</p>
-      <a href="#m-counts">What counts</a><a href="#m-sources">Where the data comes from</a><a href="#m-steps">From a story to an event</a><a href="#m-states">Telling states apart</a><a href="#m-dupes">Spotting duplicates</a><a href="#m-labels">Categories and stages</a><a href="#m-sure">How sure are we?</a><a href="#m-dates">Dates</a><a href="#m-holes">What we can't see</a><a href="#m-fresh">Keeping it fresh</a><a href="#m-data">Get the data</a>
-    </nav>
-    <article class="method-body">
-      <h3 id="m-counts">What counts</h3>
-      <p>We count something when a <strong>state government body acts on AI</strong>. That means a department, a minister, the Chief Minister or cabinet, the state police, a state agency or PSU, a state-run hospital or university, or a district administration. "Acts" means one of six things: a policy, money, an institution, a deployment, an agreement or a rule.</p>
-      <div class="inout">
-        <div><p class="over">In</p><ul><li>A cabinet approving an AI policy</li><li>State police rolling out AI cameras</li><li>An MoU the state signs with a company</li><li>Money set aside for an AI mission</li><li>A state university starting an AI course</li></ul></div>
-        <div><p class="over">Out</p><ul><li>Company news that happens to be in a state</li><li>Central schemes with no state partner</li><li>Speeches and opinion pieces</li><li>A single deepfake crime case</li></ul></div>
-      </div>
-      <p>Three grey areas, and the call we made on each:</p>
-      <table class="plain">
-        <tr><th>Courts</th><td>Left out of the policy layer. A High Court's AI guidelines matter, but courts aren't the state government.</td></tr>
-        <tr><th>AI summits a state hosts</th><td>Kept when the state is the one acting. Most end up under "Everything else", since a summit on its own isn't a policy.</td></tr>
-        <tr><th>City corporations</th><td>Kept only when a state government body is named in the story.</td></tr>
-      </table>
-
-      <h3 id="m-sources">Where the data comes from</h3>
-      <p><strong>News.</strong> Google News RSS. We run six searches per state ("Karnataka AI policy", "Karnataka AI MoU" and so on) once for every quarter since January 2025, so each quarter gets its own limit of about 100 results. That came to <b data-bind="raw"></b> results from <b data-bind="slices"></b> searches. Google News is free, needs no key and reaches back to 2025. The free plans of NewsAPI and GNews only search the last 30 days, which rules them out.</p>
-      <p><strong>Policy documents.</strong> A research snapshot of AI policies, missions, guidelines and laws across India (the README says where it came from). We kept the <b data-bind="inst"></b> state and UT documents that are actually about AI, and set aside <b data-bind="drop_union"></b> central ones, <b data-bind="drop_court"></b> court orders, <b data-bind="drop_notai"></b> that weren't really about AI (data-centre and gig-work rules, mostly) and <b data-bind="drop_ph"></b> placeholder.</p>
-
-      <h3 id="m-steps">From a story to an event</h3>
-      <ol class="steps">
-        <li><strong>Collect</strong> <span class="n" data-bind="raw"></span> search results.</li>
-        <li><strong>Remove copies.</strong> The same article often turns up in several searches. <span class="n" data-bind="unique"></span> are left.</li>
-        <li><strong>Keep the relevant ones.</strong> The headline needs an AI word and a sign of a state government: a minister, a department, or a state named as the one acting ("Karnataka signs…"). <span class="n" data-bind="relevant"></span> pass.</li>
-        <li><strong>Pin down the state</strong> from the headline, not from the search that found it, and drop stories about other states or from before 2025. <span class="n" data-bind="inscope"></span> remain.</li>
-        <li><strong>Merge duplicates</strong> into events. <span class="n" data-bind="events"></span> events.</li>
-        <li><strong>Label</strong> each event with a category, a stage and a confidence level.</li>
-      </ol>
-
-      <h3 id="m-states">Telling states apart</h3>
-      <p>UP, U.P., Uttar-Pradesh, Uttarpradesh and उत्तर प्रदेश are one state here. Names are compared letter by letter, ignoring spaces and hyphens. Short forms like UP and TN only match in capitals, so "sets up" never turns into Uttar Pradesh. A state's name outweighs a city in it: in "Bengaluru firm signs AI MoU with Telangana govt", the state is Telangana. When no state is named at all, we use the state we searched for and flag the row (<b data-bind="sfq"></b> events).</p>
-
-      <h3 id="m-dupes">Spotting duplicates</h3>
-      <p>Ten outlets covering one announcement should count once. Two stories merge when they're about the same state, came out within three days of each other, and share most of their distinctive words. Two rules stop bad merges. Different companies never merge: a Microsoft deal and a Google deal are two events. And a reversal never merges with the original. Uttar Pradesh signing a ₹25,000 crore MoU with Puch AI and then cancelling it are two events here, not one.</p>
-      <p>That made <b data-bind="merges"></b> merges, each listed in <code>data/dedupe_report.txt</code>. It still misses some. Odisha's AI policy approval shows up twice, because the Times of India and New Indian Express headlines share too few words.</p>
-
-      <h3 id="m-labels">Categories and stages</h3>
-      <p>Category comes from keywords, and the first match wins, in the order of the buckets above. Stage comes from the first telling verb in the headline: "to set up" is proposed, "signs" or "approves" is announced, "launches" or "deploys" is implemented. When there's no such verb we say "Unclear" rather than guess.</p>
-
-      <h3 id="m-sure">How sure are we?</h3>
-      <table class="plain conf-table">
-        <tr><th><span class="dots">●●●</span> High</th><td>An official source, or three or more outlets.</td><td class="n" data-bind="c_high"></td></tr>
-        <tr><th><span class="dots">●●○</span> Medium</th><td>A major outlet, or two outlets.</td><td class="n" data-bind="c_medium"></td></tr>
-        <tr><th><span class="dots">●○○</span> Low</th><td>One outlet.</td><td class="n" data-bind="c_low"></td></tr>
-      </table>
-      <p>This measures how well a story is backed up, not whether it's true. Three papers running the same press release still count as three. Low-confidence rows stay on the page on purpose. Treat them as leads, not facts.</p>
-
-      <h3 id="m-dates">Dates</h3>
-      <p>A news date is the day the first story in the group was published, in Indian time. That's usually within a day or two of the event, but not always. Policy documents use the date they were notified or approved, and when only the month or year is known, that's all we show.</p>
-
-      <h3 id="m-holes">What we can't see</h3>
-      <ul>
-        <li>Only English headlines, plus one Hindi search for Uttar Pradesh. Plenty of state news is in Kannada, Telugu, Tamil or Odia, and we miss it. Odisha probably loses the most.</li>
-        <li>We read headlines, not articles. Paywalls and Google's redirect links make full text hard to get, so each label rests on one line of text.</li>
-        <li>Google returns about 100 results per search, and we don't know how it ranks them.</li>
-        <li>Hardly any official sources made it into the news layer, so "high confidence" mostly means three outlets ran it.</li>
-        <li>Stage is a guess from verbs. "Unclear" is common, and we'd rather say so.</li>
-        <li>Chief Ministers change. Two of our five states got a new one in 2026.</li>
-        <li>Run the searches tomorrow and you'll get a slightly different set. <code>data/raw.jsonl</code> is the snapshot behind everything here.</li>
-      </ul>
-
-      <h3 id="m-fresh">Keeping it fresh</h3>
-      <p>A daily job reruns the searches and opens a pull request, so a person reads the new rows before they go live. Mistakes a rule can't fix go into <code>data/overrides.json</code>, each with a written reason, and show up here as "Fixed by hand". A random sample is also checked by a person; see <a href="#checked">Did we get it right?</a> above, or <code>audit/results.md</code>.</p>
-
-      <h3 id="m-data">Get the data</h3>
-      <p><a href="records.csv" download>News events (CSV)</a> · <a href="instruments.csv" download>Policy documents (CSV)</a> · <a href="data.json">Everything (JSON)</a>. Dataset <b data-bind="version"></b>, built <b data-bind="built"></b>.</p>
-    </article>
-  </div>
-</section>
-
 <footer class="footer">
+  <p><a href="records.csv" download>News events (CSV)</a> · <a href="instruments.csv" download>Policy documents (CSV)</a> · <a href="data.json">All data (JSON)</a></p>
   <p id="footer-meta"></p>
 </footer>
 
