@@ -1,8 +1,8 @@
 {
-  "collected_at": "2026-11-19T17:49:38+05:30",
-  "requests": 241,
-  "live_requests": 240,
-  "items": 3434,
+  "collected_at": "2026-11-28T16:20:47+05:30",
+  "requests": 245,
+  "live_requests": 247,
+  "items": 7425,
   "slices": [
     {
       "state": "KA",
@@ -10,7 +10,7 @@
       "lang": "en",
       "after": "2025-01-01",
       "before": "2025-04-01",
-      "items": 10
+      "items": 48
     },
     {
       "state": "KA",
@@ -18,7 +18,7 @@
       "lang": "en",
       "after": "2025-04-01",
       "before": "2025-07-01",
-      "items": 10
+      "items": 47
     },
     {
       "state": "KA",
@@ -26,7 +26,7 @@
       "lang": "en",
       "after": "2025-07-01",
       "before": "2025-10-01",
-      "items": 10
+      "items": 50
     },
     {
       "state": "KA",
@@ -50,7 +50,7 @@
       "lang": "en",
       "after": "2026-04-01",
       "before": "2026-07-01",
-      "items": 10
+      "items": 49
     },
     {
       "state": "KA",
@@ -58,11 +58,139 @@
       "lang": "en",
       "after": "2026-07-01",
       "before": "2026-10-01",
-      "items": 28
+      "items": 52
     },
     {
       "state": "KA",
       "query": "\"Karnataka\" AI policy",
+      "lang": "en",
+      "after": "2026-10-01",
+      "before": "2027-01-01",
+      "items": 28
+    },
+    {
+      "state": "KA",
+      "query": "\"Karnataka\" artificial intelligence government",
+      "lang": "en",
+      "after": "2025-01-01",
+      "before": "2025-04-01",
+      "items": 10
+    },
+    {
+      "state": "KA",
+      "query": "\"Karnataka\" artificial intelligence government",
+      "lang": "en",
+      "after": "2025-04-01",
+      "before": "2025-07-01",
+      "items": 10
+    },
+    {
+      "state": "KA",
+      "query": "\"Karnataka\" artificial intelligence government",
+      "lang": "en",
+      "after": "2025-07-01",
+      "before": "2025-10-01",
+      "items": 48
+    },
+    {
+      "state": "KA",
+      "query": "\"Karnataka\" artificial intelligence government",
+      "lang": "en",
+      "after": "2025-10-01",
+      "before": "2026-01-01",
+      "items": 48
+    },
+    {
+      "state": "KA",
+      "query": "\"Karnataka\" artificial intelligence government",
+      "lang": "en",
+      "after": "2026-01-01",
+      "before": "2026-04-01",
+      "items": 48
+    },
+    {
+      "state": "KA",
+      "query": "\"Karnataka\" artificial intelligence government",
+      "lang": "en",
+      "after": "2026-04-01",
+      "before": "2026-07-01",
+      "items": 47
+    },
+    {
+      "state": "KA",
+      "query": "\"Karnataka\" artificial intelligence government",
+      "lang": "en",
+      "after": "2026-07-01",
+      "before": "2026-10-01",
+      "items": 46
+    },
+    {
+      "state": "KA",
+      "query": "\"Karnataka\" artificial intelligence government",
+      "lang": "en",
+      "after": "2026-10-01",
+      "before": "2027-01-01",
+      "items": 43
+    },
+    {
+      "state": "KA",
+      "query": "\"Karnataka\" AI MoU",
+      "lang": "en",
+      "after": "2025-01-01",
+      "before": "2025-04-01",
+      "items": 43
+    },
+    {
+      "state": "KA",
+      "query": "\"Karnataka\" AI MoU",
+      "lang": "en",
+      "after": "2025-04-01",
+      "before": "2025-07-01",
+      "items": 10
+    },
+    {
+      "state": "KA",
+      "query": "\"Karnataka\" AI MoU",
+      "lang": "en",
+      "after": "2025-07-01",
+      "before": "2025-10-01",
+      "items": 17
+    },
+    {
+      "state": "KA",
+      "query": "\"Karnataka\" AI MoU",
+      "lang": "en",
+      "after": "2025-10-01",
+      "before": "2026-01-01",
+      "items": 10
+    },
+    {
+      "state": "KA",
+      "query": "\"Karnataka\" AI MoU",
+      "lang": "en",
+      "after": "2026-01-01",
+      "before": "2026-04-01",
+      "items": 38
+    },
+    {
+      "state": "KA",
+      "query": "\"Karnataka\" AI MoU",
+      "lang": "en",
+      "after": "2026-04-01",
+      "before": "2026-07-01",
+      "items": 34
+    },
+    {
+      "state": "KA",
+      "query": "\"Karnataka\" AI MoU",
+      "lang": "en",
+      "after": "2026-07-01",
+      "before": "2026-10-01",
+      "items": 43
+    },
+    {
+      "state": "KA",
+      "query": "\"Karnataka\" AI MoU",
       "lang": "en",
       "after": "2026-10-01",
       "before": "2027-01-01",
@@ -70,7 +198,7 @@
     },
     {
       "state": "KA",
-      "query": "\"Karnataka\" artificial intelligence government",
+      "query": "\"Karnataka\" AI centre of excellence",
       "lang": "en",
       "after": "2025-01-01",
       "before": "2025-04-01",
@@ -78,15 +206,15 @@
     },
     {
       "state": "KA",
-      "query": "\"Karnataka\" artificial intelligence government",
+      "query": "\"Karnataka\" AI centre of excellence",
       "lang": "en",
       "after": "2025-04-01",
       "before": "2025-07-01",
-      "items": 10
+      "items": 17
     },
     {
       "state": "KA",
-      "query": "\"Karnataka\" artificial intelligence government",
+      "query": "\"Karnataka\" AI centre of excellence",
       "lang": "en",
       "after": "2025-07-01",
       "before": "2025-10-01",
@@ -94,195 +222,67 @@
     },
     {
       "state": "KA",
-      "query": "\"Karnataka\" artificial intelligence government",
+      "query": "\"Karnataka\" AI centre of excellence",
       "lang": "en",
       "after": "2025-10-01",
       "before": "2026-01-01",
-      "items": 19
+      "items": 10
     },
     {
       "state": "KA",
-      "query": "\"Karnataka\" artificial intelligence government",
+      "query": "\"Karnataka\" AI centre of excellence",
       "lang": "en",
       "after": "2026-01-01",
       "before": "2026-04-01",
-      "items": 16
+      "items": 49
     },
     {
       "state": "KA",
-      "query": "\"Karnataka\" artificial intelligence government",
+      "query": "\"Karnataka\" AI centre of excellence",
       "lang": "en",
       "after": "2026-04-01",
       "before": "2026-07-01",
-      "items": 14
+      "items": 49
     },
     {
       "state": "KA",
-      "query": "\"Karnataka\" artificial intelligence government",
+      "query": "\"Karnataka\" AI centre of excellence",
       "lang": "en",
       "after": "2026-07-01",
       "before": "2026-10-01",
-      "items": 45
+      "items": 10
     },
     {
       "state": "KA",
-      "query": "\"Karnataka\" artificial intelligence government",
+      "query": "\"Karnataka\" AI centre of excellence",
       "lang": "en",
       "after": "2026-10-01",
       "before": "2027-01-01",
-      "items": 40
+      "items": 65
     },
     {
       "state": "KA",
-      "query": "\"Karnataka\" AI MoU",
+      "query": "\"Karnataka\" govt AI",
       "lang": "en",
       "after": "2025-01-01",
       "before": "2025-04-01",
-      "items": 10
+      "items": 47
     },
     {
       "state": "KA",
-      "query": "\"Karnataka\" AI MoU",
+      "query": "\"Karnataka\" govt AI",
       "lang": "en",
       "after": "2025-04-01",
       "before": "2025-07-01",
-      "items": 10
+      "items": 46
     },
     {
       "state": "KA",
-      "query": "\"Karnataka\" AI MoU",
+      "query": "\"Karnataka\" govt AI",
       "lang": "en",
       "after": "2025-07-01",
       "before": "2025-10-01",
-      "items": 10
-    },
-    {
-      "state": "KA",
-      "query": "\"Karnataka\" AI MoU",
-      "lang": "en",
-      "after": "2025-10-01",
-      "before": "2026-01-01",
-      "items": 10
-    },
-    {
-      "state": "KA",
-      "query": "\"Karnataka\" AI MoU",
-      "lang": "en",
-      "after": "2026-01-01",
-      "before": "2026-04-01",
-      "items": 10
-    },
-    {
-      "state": "KA",
-      "query": "\"Karnataka\" AI MoU",
-      "lang": "en",
-      "after": "2026-04-01",
-      "before": "2026-07-01",
-      "items": 10
-    },
-    {
-      "state": "KA",
-      "query": "\"Karnataka\" AI MoU",
-      "lang": "en",
-      "after": "2026-07-01",
-      "before": "2026-10-01",
-      "items": 8
-    },
-    {
-      "state": "KA",
-      "query": "\"Karnataka\" AI MoU",
-      "lang": "en",
-      "after": "2026-10-01",
-      "before": "2027-01-01",
       "items": 50
-    },
-    {
-      "state": "KA",
-      "query": "\"Karnataka\" AI centre of excellence",
-      "lang": "en",
-      "after": "2025-01-01",
-      "before": "2025-04-01",
-      "items": 10
-    },
-    {
-      "state": "KA",
-      "query": "\"Karnataka\" AI centre of excellence",
-      "lang": "en",
-      "after": "2025-04-01",
-      "before": "2025-07-01",
-      "items": 8
-    },
-    {
-      "state": "KA",
-      "query": "\"Karnataka\" AI centre of excellence",
-      "lang": "en",
-      "after": "2025-07-01",
-      "before": "2025-10-01",
-      "items": 10
-    },
-    {
-      "state": "KA",
-      "query": "\"Karnataka\" AI centre of excellence",
-      "lang": "en",
-      "after": "2025-10-01",
-      "before": "2026-01-01",
-      "items": 10
-    },
-    {
-      "state": "KA",
-      "query": "\"Karnataka\" AI centre of excellence",
-      "lang": "en",
-      "after": "2026-01-01",
-      "before": "2026-04-01",
-      "items": 13
-    },
-    {
-      "state": "KA",
-      "query": "\"Karnataka\" AI centre of excellence",
-      "lang": "en",
-      "after": "2026-04-01",
-      "before": "2026-07-01",
-      "items": 12
-    },
-    {
-      "state": "KA",
-      "query": "\"Karnataka\" AI centre of excellence",
-      "lang": "en",
-      "after": "2026-07-01",
-      "before": "2026-10-01",
-      "items": 10
-    },
-    {
-      "state": "KA",
-      "query": "\"Karnataka\" AI centre of excellence",
-      "lang": "en",
-      "after": "2026-10-01",
-      "before": "2027-01-01",
-      "items": 14
-    },
-    {
-      "state": "KA",
-      "query": "\"Karnataka\" govt AI",
-      "lang": "en",
-      "after": "2025-01-01",
-      "before": "2025-04-01",
-      "items": 10
-    },
-    {
-      "state": "KA",
-      "query": "\"Karnataka\" govt AI",
-      "lang": "en",
-      "after": "2025-04-01",
-      "before": "2025-07-01",
-      "items": 10
-    },
-    {
-      "state": "KA",
-      "query": "\"Karnataka\" govt AI",
-      "lang": "en",
-      "after": "2025-07-01",
-      "before": "2025-10-01",
-      "items": 10
     },
     {
       "state": "KA",
@@ -298,7 +298,7 @@
       "lang": "en",
       "after": "2026-01-01",
       "before": "2026-04-01",
-      "items": 28
+      "items": 27
     },
     {
       "state": "KA",
@@ -306,15 +306,31 @@
       "lang": "en",
       "after": "2026-04-01",
       "before": "2026-07-01",
-      "items": 21
+      "items": 23
     },
     {
       "state": "KA",
       "query": "\"Karnataka\" govt AI",
       "lang": "en",
       "after": "2026-07-01",
+      "before": "2026-08-01",
+      "items": 57
+    },
+    {
+      "state": "KA",
+      "query": "\"Karnataka\" govt AI",
+      "lang": "en",
+      "after": "2026-08-01",
+      "before": "2026-09-01",
+      "items": 62
+    },
+    {
+      "state": "KA",
+      "query": "\"Karnataka\" govt AI",
+      "lang": "en",
+      "after": "2026-09-01",
       "before": "2026-10-01",
-      "items": 39
+      "items": 49
     },
     {
       "state": "KA",
@@ -322,121 +338,121 @@
       "lang": "en",
       "after": "2026-10-01",
       "before": "2027-01-01",
+      "items": 86
+    },
+    {
+      "state": "KA",
+      "query": "\"Karnataka\" AI mission",
+      "lang": "en",
+      "after": "2025-01-01",
+      "before": "2025-04-01",
+      "items": 7
+    },
+    {
+      "state": "KA",
+      "query": "\"Karnataka\" AI mission",
+      "lang": "en",
+      "after": "2025-04-01",
+      "before": "2025-07-01",
+      "items": 24
+    },
+    {
+      "state": "KA",
+      "query": "\"Karnataka\" AI mission",
+      "lang": "en",
+      "after": "2025-07-01",
+      "before": "2025-10-01",
+      "items": 44
+    },
+    {
+      "state": "KA",
+      "query": "\"Karnataka\" AI mission",
+      "lang": "en",
+      "after": "2025-10-01",
+      "before": "2026-01-01",
+      "items": 10
+    },
+    {
+      "state": "KA",
+      "query": "\"Karnataka\" AI mission",
+      "lang": "en",
+      "after": "2026-01-01",
+      "before": "2026-04-01",
+      "items": 47
+    },
+    {
+      "state": "KA",
+      "query": "\"Karnataka\" AI mission",
+      "lang": "en",
+      "after": "2026-04-01",
+      "before": "2026-07-01",
+      "items": 9
+    },
+    {
+      "state": "KA",
+      "query": "\"Karnataka\" AI mission",
+      "lang": "en",
+      "after": "2026-07-01",
+      "before": "2026-10-01",
+      "items": 10
+    },
+    {
+      "state": "KA",
+      "query": "\"Karnataka\" AI mission",
+      "lang": "en",
+      "after": "2026-10-01",
+      "before": "2027-01-01",
+      "items": 72
+    },
+    {
+      "state": "TG",
+      "query": "\"Telangana\" AI policy",
+      "lang": "en",
+      "after": "2025-01-01",
+      "before": "2025-04-01",
+      "items": 10
+    },
+    {
+      "state": "TG",
+      "query": "\"Telangana\" AI policy",
+      "lang": "en",
+      "after": "2025-04-01",
+      "before": "2025-07-01",
+      "items": 9
+    },
+    {
+      "state": "TG",
+      "query": "\"Telangana\" AI policy",
+      "lang": "en",
+      "after": "2025-07-01",
+      "before": "2025-10-01",
+      "items": 10
+    },
+    {
+      "state": "TG",
+      "query": "\"Telangana\" AI policy",
+      "lang": "en",
+      "after": "2025-10-01",
+      "before": "2026-01-01",
+      "items": 10
+    },
+    {
+      "state": "TG",
+      "query": "\"Telangana\" AI policy",
+      "lang": "en",
+      "after": "2026-01-01",
+      "before": "2026-04-01",
+      "items": 48
+    },
+    {
+      "state": "TG",
+      "query": "\"Telangana\" AI policy",
+      "lang": "en",
+      "after": "2026-04-01",
+      "before": "2026-07-01",
       "items": 46
     },
     {
-      "state": "KA",
-      "query": "\"Karnataka\" AI mission",
-      "lang": "en",
-      "after": "2025-01-01",
-      "before": "2025-04-01",
-      "items": 10
-    },
-    {
-      "state": "KA",
-      "query": "\"Karnataka\" AI mission",
-      "lang": "en",
-      "after": "2025-04-01",
-      "before": "2025-07-01",
-      "items": 9
-    },
-    {
-      "state": "KA",
-      "query": "\"Karnataka\" AI mission",
-      "lang": "en",
-      "after": "2025-07-01",
-      "before": "2025-10-01",
-      "items": 10
-    },
-    {
-      "state": "KA",
-      "query": "\"Karnataka\" AI mission",
-      "lang": "en",
-      "after": "2025-10-01",
-      "before": "2026-01-01",
-      "items": 10
-    },
-    {
-      "state": "KA",
-      "query": "\"Karnataka\" AI mission",
-      "lang": "en",
-      "after": "2026-01-01",
-      "before": "2026-04-01",
-      "items": 10
-    },
-    {
-      "state": "KA",
-      "query": "\"Karnataka\" AI mission",
-      "lang": "en",
-      "after": "2026-04-01",
-      "before": "2026-07-01",
-      "items": 9
-    },
-    {
-      "state": "KA",
-      "query": "\"Karnataka\" AI mission",
-      "lang": "en",
-      "after": "2026-07-01",
-      "before": "2026-10-01",
-      "items": 9
-    },
-    {
-      "state": "KA",
-      "query": "\"Karnataka\" AI mission",
-      "lang": "en",
-      "after": "2026-10-01",
-      "before": "2027-01-01",
-      "items": 30
-    },
-    {
-      "state": "TG",
-      "query": "\"Telangana\" AI policy",
-      "lang": "en",
-      "after": "2025-01-01",
-      "before": "2025-04-01",
-      "items": 10
-    },
-    {
-      "state": "TG",
-      "query": "\"Telangana\" AI policy",
-      "lang": "en",
-      "after": "2025-04-01",
-      "before": "2025-07-01",
-      "items": 9
-    },
-    {
-      "state": "TG",
-      "query": "\"Telangana\" AI policy",
-      "lang": "en",
-      "after": "2025-07-01",
-      "before": "2025-10-01",
-      "items": 10
-    },
-    {
-      "state": "TG",
-      "query": "\"Telangana\" AI policy",
-      "lang": "en",
-      "after": "2025-10-01",
-      "before": "2026-01-01",
-      "items": 10
-    },
-    {
-      "state": "TG",
-      "query": "\"Telangana\" AI policy",
-      "lang": "en",
-      "after": "2026-01-01",
-      "before": "2026-04-01",
-      "items": 10
-    },
-    {
-      "state": "TG",
-      "query": "\"Telangana\" AI policy",
-      "lang": "en",
-      "after": "2026-04-01",
-      "before": "2026-07-01",
-      "items": 9
-    },
-    {
       "state": "TG",
       "query": "\"Telangana\" AI policy",
       "lang": "en",
@@ -450,7 +466,7 @@
       "lang": "en",
       "after": "2026-10-01",
       "before": "2027-01-01",
-      "items": 30
+      "items": 74
     },
     {
       "state": "TG",
@@ -458,7 +474,7 @@
       "lang": "en",
       "after": "2025-01-01",
       "before": "2025-04-01",
-      "items": 12
+      "items": 46
     },
     {
       "state": "TG",
@@ -466,7 +482,7 @@
       "lang": "en",
       "after": "2025-04-01",
       "before": "2025-07-01",
-      "items": 12
+      "items": 10
     },
     {
       "state": "TG",
@@ -474,7 +490,7 @@
       "lang": "en",
       "after": "2025-07-01",
       "before": "2025-10-01",
-      "items": 10
+      "items": 48
     },
     {
       "state": "TG",
@@ -506,7 +522,7 @@
       "lang": "en",
       "after": "2026-07-01",
       "before": "2026-10-01",
-      "items": 17
+      "items": 48
     },
     {
       "state": "TG",
@@ -514,7 +530,7 @@
       "lang": "en",
       "after": "2026-10-01",
       "before": "2027-01-01",
-      "items": 28
+      "items": 64
     },
     {
       "state": "TG",
@@ -522,7 +538,7 @@
       "lang": "en",
       "after": "2025-01-01",
       "before": "2025-04-01",
-      "items": 10
+      "items": 9
     },
     {
       "state": "TG",
@@ -530,313 +546,313 @@
       "lang": "en",
       "after": "2025-04-01",
       "before": "2025-07-01",
-      "items": 10
-    },
-    {
-      "state": "TG",
-      "query": "\"Telangana\" AI MoU",
-      "lang": "en",
-      "after": "2025-07-01",
-      "before": "2025-10-01",
-      "items": 10
-    },
-    {
-      "state": "TG",
-      "query": "\"Telangana\" AI MoU",
-      "lang": "en",
-      "after": "2025-10-01",
-      "before": "2026-01-01",
-      "items": 10
-    },
-    {
-      "state": "TG",
-      "query": "\"Telangana\" AI MoU",
-      "lang": "en",
-      "after": "2026-01-01",
-      "before": "2026-04-01",
-      "items": 10
-    },
-    {
-      "state": "TG",
-      "query": "\"Telangana\" AI MoU",
-      "lang": "en",
-      "after": "2026-04-01",
-      "before": "2026-07-01",
-      "items": 9
-    },
-    {
-      "state": "TG",
-      "query": "\"Telangana\" AI MoU",
-      "lang": "en",
-      "after": "2026-07-01",
-      "before": "2026-10-01",
-      "items": 9
-    },
-    {
-      "state": "TG",
-      "query": "\"Telangana\" AI MoU",
-      "lang": "en",
-      "after": "2026-10-01",
-      "before": "2027-01-01",
-      "items": 10
-    },
-    {
-      "state": "TG",
-      "query": "\"Telangana\" AI centre of excellence",
-      "lang": "en",
-      "after": "2025-01-01",
-      "before": "2025-04-01",
-      "items": 8
-    },
-    {
-      "state": "TG",
-      "query": "\"Telangana\" AI centre of excellence",
-      "lang": "en",
-      "after": "2025-04-01",
-      "before": "2025-07-01",
-      "items": 10
-    },
-    {
-      "state": "TG",
-      "query": "\"Telangana\" AI centre of excellence",
-      "lang": "en",
-      "after": "2025-07-01",
-      "before": "2025-10-01",
-      "items": 10
-    },
-    {
-      "state": "TG",
-      "query": "\"Telangana\" AI centre of excellence",
-      "lang": "en",
-      "after": "2025-10-01",
-      "before": "2026-01-01",
-      "items": 9
-    },
-    {
-      "state": "TG",
-      "query": "\"Telangana\" AI centre of excellence",
-      "lang": "en",
-      "after": "2026-01-01",
-      "before": "2026-04-01",
-      "items": 10
-    },
-    {
-      "state": "TG",
-      "query": "\"Telangana\" AI centre of excellence",
-      "lang": "en",
-      "after": "2026-04-01",
-      "before": "2026-07-01",
-      "items": 9
-    },
-    {
-      "state": "TG",
-      "query": "\"Telangana\" AI centre of excellence",
-      "lang": "en",
-      "after": "2026-07-01",
-      "before": "2026-10-01",
-      "items": 10
-    },
-    {
-      "state": "TG",
-      "query": "\"Telangana\" AI centre of excellence",
-      "lang": "en",
-      "after": "2026-10-01",
-      "before": "2027-01-01",
-      "items": 18
-    },
-    {
-      "state": "TG",
-      "query": "\"Telangana\" govt AI",
-      "lang": "en",
-      "after": "2025-01-01",
-      "before": "2025-04-01",
-      "items": 25
-    },
-    {
-      "state": "TG",
-      "query": "\"Telangana\" govt AI",
-      "lang": "en",
-      "after": "2025-04-01",
-      "before": "2025-07-01",
-      "items": 24
-    },
-    {
-      "state": "TG",
-      "query": "\"Telangana\" govt AI",
-      "lang": "en",
-      "after": "2025-07-01",
-      "before": "2025-10-01",
-      "items": 19
-    },
-    {
-      "state": "TG",
-      "query": "\"Telangana\" govt AI",
-      "lang": "en",
-      "after": "2025-10-01",
-      "before": "2026-01-01",
-      "items": 22
-    },
-    {
-      "state": "TG",
-      "query": "\"Telangana\" govt AI",
-      "lang": "en",
-      "after": "2026-01-01",
-      "before": "2026-04-01",
-      "items": 19
-    },
-    {
-      "state": "TG",
-      "query": "\"Telangana\" govt AI",
-      "lang": "en",
-      "after": "2026-04-01",
-      "before": "2026-07-01",
-      "items": 22
-    },
-    {
-      "state": "TG",
-      "query": "\"Telangana\" govt AI",
-      "lang": "en",
-      "after": "2026-07-01",
-      "before": "2026-10-01",
-      "items": 30
-    },
-    {
-      "state": "TG",
-      "query": "\"Telangana\" govt AI",
-      "lang": "en",
-      "after": "2026-10-01",
-      "before": "2027-01-01",
-      "items": 29
-    },
-    {
-      "state": "TG",
-      "query": "\"Telangana\" AI mission",
-      "lang": "en",
-      "after": "2025-01-01",
-      "before": "2025-04-01",
-      "items": 10
-    },
-    {
-      "state": "TG",
-      "query": "\"Telangana\" AI mission",
-      "lang": "en",
-      "after": "2025-04-01",
-      "before": "2025-07-01",
-      "items": 10
-    },
-    {
-      "state": "TG",
-      "query": "\"Telangana\" AI mission",
-      "lang": "en",
-      "after": "2025-07-01",
-      "before": "2025-10-01",
-      "items": 10
-    },
-    {
-      "state": "TG",
-      "query": "\"Telangana\" AI mission",
-      "lang": "en",
-      "after": "2025-10-01",
-      "before": "2026-01-01",
-      "items": 10
-    },
-    {
-      "state": "TG",
-      "query": "\"Telangana\" AI mission",
-      "lang": "en",
-      "after": "2026-01-01",
-      "before": "2026-04-01",
-      "items": 8
-    },
-    {
-      "state": "TG",
-      "query": "\"Telangana\" AI mission",
-      "lang": "en",
-      "after": "2026-04-01",
-      "before": "2026-07-01",
-      "items": 8
-    },
-    {
-      "state": "TG",
-      "query": "\"Telangana\" AI mission",
-      "lang": "en",
-      "after": "2026-07-01",
-      "before": "2026-10-01",
-      "items": 10
-    },
-    {
-      "state": "TG",
-      "query": "\"Telangana\" AI mission",
-      "lang": "en",
-      "after": "2026-10-01",
-      "before": "2027-01-01",
-      "items": 17
-    },
-    {
-      "state": "TN",
-      "query": "\"Tamil Nadu\" AI policy",
-      "lang": "en",
-      "after": "2025-01-01",
-      "before": "2025-04-01",
-      "items": 10
-    },
-    {
-      "state": "TN",
-      "query": "\"Tamil Nadu\" AI policy",
-      "lang": "en",
-      "after": "2025-04-01",
-      "before": "2025-07-01",
-      "items": 9
-    },
-    {
-      "state": "TN",
-      "query": "\"Tamil Nadu\" AI policy",
-      "lang": "en",
-      "after": "2025-07-01",
-      "before": "2025-10-01",
-      "items": 10
-    },
-    {
-      "state": "TN",
-      "query": "\"Tamil Nadu\" AI policy",
-      "lang": "en",
-      "after": "2025-10-01",
-      "before": "2026-01-01",
-      "items": 10
-    },
-    {
-      "state": "TN",
-      "query": "\"Tamil Nadu\" AI policy",
-      "lang": "en",
-      "after": "2026-01-01",
-      "before": "2026-04-01",
-      "items": 9
-    },
-    {
-      "state": "TN",
-      "query": "\"Tamil Nadu\" AI policy",
-      "lang": "en",
-      "after": "2026-04-01",
-      "before": "2026-07-01",
-      "items": 10
-    },
-    {
-      "state": "TN",
-      "query": "\"Tamil Nadu\" AI policy",
-      "lang": "en",
-      "after": "2026-07-01",
-      "before": "2026-10-01",
-      "items": 14
-    },
-    {
-      "state": "TN",
-      "query": "\"Tamil Nadu\" AI policy",
-      "lang": "en",
-      "after": "2026-10-01",
-      "before": "2027-01-01",
       "items": 35
     },
     {
+      "state": "TG",
+      "query": "\"Telangana\" AI MoU",
+      "lang": "en",
+      "after": "2025-07-01",
+      "before": "2025-10-01",
+      "items": 10
+    },
+    {
+      "state": "TG",
+      "query": "\"Telangana\" AI MoU",
+      "lang": "en",
+      "after": "2025-10-01",
+      "before": "2026-01-01",
+      "items": 10
+    },
+    {
+      "state": "TG",
+      "query": "\"Telangana\" AI MoU",
+      "lang": "en",
+      "after": "2026-01-01",
+      "before": "2026-04-01",
+      "items": 40
+    },
+    {
+      "state": "TG",
+      "query": "\"Telangana\" AI MoU",
+      "lang": "en",
+      "after": "2026-04-01",
+      "before": "2026-07-01",
+      "items": 9
+    },
+    {
+      "state": "TG",
+      "query": "\"Telangana\" AI MoU",
+      "lang": "en",
+      "after": "2026-07-01",
+      "before": "2026-10-01",
+      "items": 46
+    },
+    {
+      "state": "TG",
+      "query": "\"Telangana\" AI MoU",
+      "lang": "en",
+      "after": "2026-10-01",
+      "before": "2027-01-01",
+      "items": 22
+    },
+    {
+      "state": "TG",
+      "query": "\"Telangana\" AI centre of excellence",
+      "lang": "en",
+      "after": "2025-01-01",
+      "before": "2025-04-01",
+      "items": 7
+    },
+    {
+      "state": "TG",
+      "query": "\"Telangana\" AI centre of excellence",
+      "lang": "en",
+      "after": "2025-04-01",
+      "before": "2025-07-01",
+      "items": 10
+    },
+    {
+      "state": "TG",
+      "query": "\"Telangana\" AI centre of excellence",
+      "lang": "en",
+      "after": "2025-07-01",
+      "before": "2025-10-01",
+      "items": 32
+    },
+    {
+      "state": "TG",
+      "query": "\"Telangana\" AI centre of excellence",
+      "lang": "en",
+      "after": "2025-10-01",
+      "before": "2026-01-01",
+      "items": 45
+    },
+    {
+      "state": "TG",
+      "query": "\"Telangana\" AI centre of excellence",
+      "lang": "en",
+      "after": "2026-01-01",
+      "before": "2026-04-01",
+      "items": 47
+    },
+    {
+      "state": "TG",
+      "query": "\"Telangana\" AI centre of excellence",
+      "lang": "en",
+      "after": "2026-04-01",
+      "before": "2026-07-01",
+      "items": 46
+    },
+    {
+      "state": "TG",
+      "query": "\"Telangana\" AI centre of excellence",
+      "lang": "en",
+      "after": "2026-07-01",
+      "before": "2026-10-01",
+      "items": 48
+    },
+    {
+      "state": "TG",
+      "query": "\"Telangana\" AI centre of excellence",
+      "lang": "en",
+      "after": "2026-10-01",
+      "before": "2027-01-01",
+      "items": 43
+    },
+    {
+      "state": "TG",
+      "query": "\"Telangana\" govt AI",
+      "lang": "en",
+      "after": "2025-01-01",
+      "before": "2025-04-01",
+      "items": 22
+    },
+    {
+      "state": "TG",
+      "query": "\"Telangana\" govt AI",
+      "lang": "en",
+      "after": "2025-04-01",
+      "before": "2025-07-01",
+      "items": 49
+    },
+    {
+      "state": "TG",
+      "query": "\"Telangana\" govt AI",
+      "lang": "en",
+      "after": "2025-07-01",
+      "before": "2025-10-01",
+      "items": 16
+    },
+    {
+      "state": "TG",
+      "query": "\"Telangana\" govt AI",
+      "lang": "en",
+      "after": "2025-10-01",
+      "before": "2026-01-01",
+      "items": 46
+    },
+    {
+      "state": "TG",
+      "query": "\"Telangana\" govt AI",
+      "lang": "en",
+      "after": "2026-01-01",
+      "before": "2026-04-01",
+      "items": 49
+    },
+    {
+      "state": "TG",
+      "query": "\"Telangana\" govt AI",
+      "lang": "en",
+      "after": "2026-04-01",
+      "before": "2026-07-01",
+      "items": 17
+    },
+    {
+      "state": "TG",
+      "query": "\"Telangana\" govt AI",
+      "lang": "en",
+      "after": "2026-07-01",
+      "before": "2026-10-01",
+      "items": 50
+    },
+    {
+      "state": "TG",
+      "query": "\"Telangana\" govt AI",
+      "lang": "en",
+      "after": "2026-10-01",
+      "before": "2027-01-01",
+      "items": 32
+    },
+    {
+      "state": "TG",
+      "query": "\"Telangana\" AI mission",
+      "lang": "en",
+      "after": "2025-01-01",
+      "before": "2025-04-01",
+      "items": 10
+    },
+    {
+      "state": "TG",
+      "query": "\"Telangana\" AI mission",
+      "lang": "en",
+      "after": "2025-04-01",
+      "before": "2025-07-01",
+      "items": 10
+    },
+    {
+      "state": "TG",
+      "query": "\"Telangana\" AI mission",
+      "lang": "en",
+      "after": "2025-07-01",
+      "before": "2025-10-01",
+      "items": 10
+    },
+    {
+      "state": "TG",
+      "query": "\"Telangana\" AI mission",
+      "lang": "en",
+      "after": "2025-10-01",
+      "before": "2026-01-01",
+      "items": 26
+    },
+    {
+      "state": "TG",
+      "query": "\"Telangana\" AI mission",
+      "lang": "en",
+      "after": "2026-01-01",
+      "before": "2026-04-01",
+      "items": 8
+    },
+    {
+      "state": "TG",
+      "query": "\"Telangana\" AI mission",
+      "lang": "en",
+      "after": "2026-04-01",
+      "before": "2026-07-01",
+      "items": 40
+    },
+    {
+      "state": "TG",
+      "query": "\"Telangana\" AI mission",
+      "lang": "en",
+      "after": "2026-07-01",
+      "before": "2026-10-01",
+      "items": 50
+    },
+    {
+      "state": "TG",
+      "query": "\"Telangana\" AI mission",
+      "lang": "en",
+      "after": "2026-10-01",
+      "before": "2027-01-01",
+      "items": 28
+    },
+    {
+      "state": "TN",
+      "query": "\"Tamil Nadu\" AI policy",
+      "lang": "en",
+      "after": "2025-01-01",
+      "before": "2025-04-01",
+      "items": 10
+    },
+    {
+      "state": "TN",
+      "query": "\"Tamil Nadu\" AI policy",
+      "lang": "en",
+      "after": "2025-04-01",
+      "before": "2025-07-01",
+      "items": 50
+    },
+    {
+      "state": "TN",
+      "query": "\"Tamil Nadu\" AI policy",
+      "lang": "en",
+      "after": "2025-07-01",
+      "before": "2025-10-01",
+      "items": 10
+    },
+    {
+      "state": "TN",
+      "query": "\"Tamil Nadu\" AI policy",
+      "lang": "en",
+      "after": "2025-10-01",
+      "before": "2026-01-01",
+      "items": 10
+    },
+    {
+      "state": "TN",
+      "query": "\"Tamil Nadu\" AI policy",
+      "lang": "en",
+      "after": "2026-01-01",
+      "before": "2026-04-01",
+      "items": 8
+    },
+    {
+      "state": "TN",
+      "query": "\"Tamil Nadu\" AI policy",
+      "lang": "en",
+      "after": "2026-04-01",
+      "before": "2026-07-01",
+      "items": 10
+    },
+    {
+      "state": "TN",
+      "query": "\"Tamil Nadu\" AI policy",
+      "lang": "en",
+      "after": "2026-07-01",
+      "before": "2026-10-01",
+      "items": 18
+    },
+    {
+      "state": "TN",
+      "query": "\"Tamil Nadu\" AI policy",
+      "lang": "en",
+      "after": "2026-10-01",
+      "before": "2027-01-01",
+      "items": 73
+    },
+    {
       "state": "TN",
       "query": "\"Tamil Nadu\" artificial intelligence government",
       "lang": "en",
@@ -850,7 +866,7 @@
       "lang": "en",
       "after": "2025-04-01",
       "before": "2025-07-01",
-      "items": 10
+      "items": 47
     },
     {
       "state": "TN",
@@ -858,7 +874,7 @@
       "lang": "en",
       "after": "2025-07-01",
       "before": "2025-10-01",
-      "items": 8
+      "items": 9
     },
     {
       "state": "TN",
@@ -866,7 +882,7 @@
       "lang": "en",
       "after": "2025-10-01",
       "before": "2026-01-01",
-      "items": 12
+      "items": 10
     },
     {
       "state": "TN",
@@ -874,7 +890,7 @@
       "lang": "en",
       "after": "2026-01-01",
       "before": "2026-04-01",
-      "items": 17
+      "items": 38
     },
     {
       "state": "TN",
@@ -882,7 +898,7 @@
       "lang": "en",
       "after": "2026-04-01",
       "before": "2026-07-01",
-      "items": 20
+      "items": 18
     },
     {
       "state": "TN",
@@ -898,7 +914,7 @@
       "lang": "en",
       "after": "2026-10-01",
       "before": "2027-01-01",
-      "items": 29
+      "items": 68
     },
     {
       "state": "TN",
@@ -906,7 +922,7 @@
       "lang": "en",
       "after": "2025-01-01",
       "before": "2025-04-01",
-      "items": 10
+      "items": 9
     },
     {
       "state": "TN",
@@ -914,7 +930,7 @@
       "lang": "en",
       "after": "2025-04-01",
       "before": "2025-07-01",
-      "items": 10
+      "items": 17
     },
     {
       "state": "TN",
@@ -922,7 +938,7 @@
       "lang": "en",
       "after": "2025-07-01",
       "before": "2025-10-01",
-      "items": 10
+      "items": 42
     },
     {
       "state": "TN",
@@ -930,7 +946,7 @@
       "lang": "en",
       "after": "2025-10-01",
       "before": "2026-01-01",
-      "items": 9
+      "items": 44
     },
     {
       "state": "TN",
@@ -938,7 +954,7 @@
       "lang": "en",
       "after": "2026-01-01",
       "before": "2026-04-01",
-      "items": 13
+      "items": 10
     },
     {
       "state": "TN",
@@ -946,7 +962,7 @@
       "lang": "en",
       "after": "2026-04-01",
       "before": "2026-07-01",
-      "items": 9
+      "items": 46
     },
     {
       "state": "TN",
@@ -954,273 +970,289 @@
       "lang": "en",
       "after": "2026-07-01",
       "before": "2026-10-01",
-      "items": 8
+      "items": 47
     },
     {
       "state": "TN",
       "query": "\"Tamil Nadu\" AI MoU",
+      "lang": "en",
+      "after": "2026-10-01",
+      "before": "2027-01-01",
+      "items": 33
+    },
+    {
+      "state": "TN",
+      "query": "\"Tamil Nadu\" AI centre of excellence",
+      "lang": "en",
+      "after": "2025-01-01",
+      "before": "2025-04-01",
+      "items": 28
+    },
+    {
+      "state": "TN",
+      "query": "\"Tamil Nadu\" AI centre of excellence",
+      "lang": "en",
+      "after": "2025-04-01",
+      "before": "2025-07-01",
+      "items": 17
+    },
+    {
+      "state": "TN",
+      "query": "\"Tamil Nadu\" AI centre of excellence",
+      "lang": "en",
+      "after": "2025-07-01",
+      "before": "2025-10-01",
+      "items": 10
+    },
+    {
+      "state": "TN",
+      "query": "\"Tamil Nadu\" AI centre of excellence",
+      "lang": "en",
+      "after": "2025-10-01",
+      "before": "2026-01-01",
+      "items": 10
+    },
+    {
+      "state": "TN",
+      "query": "\"Tamil Nadu\" AI centre of excellence",
+      "lang": "en",
+      "after": "2026-01-01",
+      "before": "2026-04-01",
+      "items": 50
+    },
+    {
+      "state": "TN",
+      "query": "\"Tamil Nadu\" AI centre of excellence",
+      "lang": "en",
+      "after": "2026-04-01",
+      "before": "2026-07-01",
+      "items": 49
+    },
+    {
+      "state": "TN",
+      "query": "\"Tamil Nadu\" AI centre of excellence",
+      "lang": "en",
+      "after": "2026-07-01",
+      "before": "2026-10-01",
+      "items": 17
+    },
+    {
+      "state": "TN",
+      "query": "\"Tamil Nadu\" AI centre of excellence",
+      "lang": "en",
+      "after": "2026-10-01",
+      "before": "2027-01-01",
+      "items": 71
+    },
+    {
+      "state": "TN",
+      "query": "\"Tamil Nadu\" govt AI",
+      "lang": "en",
+      "after": "2025-01-01",
+      "before": "2025-04-01",
+      "items": 47
+    },
+    {
+      "state": "TN",
+      "query": "\"Tamil Nadu\" govt AI",
+      "lang": "en",
+      "after": "2025-04-01",
+      "before": "2025-07-01",
+      "items": 10
+    },
+    {
+      "state": "TN",
+      "query": "\"Tamil Nadu\" govt AI",
+      "lang": "en",
+      "after": "2025-07-01",
+      "before": "2025-10-01",
+      "items": 9
+    },
+    {
+      "state": "TN",
+      "query": "\"Tamil Nadu\" govt AI",
+      "lang": "en",
+      "after": "2025-10-01",
+      "before": "2026-01-01",
+      "items": 10
+    },
+    {
+      "state": "TN",
+      "query": "\"Tamil Nadu\" govt AI",
+      "lang": "en",
+      "after": "2026-01-01",
+      "before": "2026-04-01",
+      "items": 10
+    },
+    {
+      "state": "TN",
+      "query": "\"Tamil Nadu\" govt AI",
+      "lang": "en",
+      "after": "2026-04-01",
+      "before": "2026-07-01",
+      "items": 51
+    },
+    {
+      "state": "TN",
+      "query": "\"Tamil Nadu\" govt AI",
+      "lang": "en",
+      "after": "2026-07-01",
+      "before": "2026-08-01",
+      "items": 9
+    },
+    {
+      "state": "TN",
+      "query": "\"Tamil Nadu\" govt AI",
+      "lang": "en",
+      "after": "2026-08-01",
+      "before": "2026-09-01",
+      "items": 71
+    },
+    {
+      "state": "TN",
+      "query": "\"Tamil Nadu\" govt AI",
+      "lang": "en",
+      "after": "2026-09-01",
+      "before": "2026-10-01",
+      "items": 57
+    },
+    {
+      "state": "TN",
+      "query": "\"Tamil Nadu\" govt AI",
+      "lang": "en",
+      "after": "2026-10-01",
+      "before": "2027-01-01",
+      "items": 33
+    },
+    {
+      "state": "TN",
+      "query": "\"Tamil Nadu\" AI mission",
+      "lang": "en",
+      "after": "2025-01-01",
+      "before": "2025-04-01",
+      "items": 40
+    },
+    {
+      "state": "TN",
+      "query": "\"Tamil Nadu\" AI mission",
+      "lang": "en",
+      "after": "2025-04-01",
+      "before": "2025-07-01",
+      "items": 10
+    },
+    {
+      "state": "TN",
+      "query": "\"Tamil Nadu\" AI mission",
+      "lang": "en",
+      "after": "2025-07-01",
+      "before": "2025-10-01",
+      "items": 9
+    },
+    {
+      "state": "TN",
+      "query": "\"Tamil Nadu\" AI mission",
+      "lang": "en",
+      "after": "2025-10-01",
+      "before": "2026-01-01",
+      "items": 49
+    },
+    {
+      "state": "TN",
+      "query": "\"Tamil Nadu\" AI mission",
+      "lang": "en",
+      "after": "2026-01-01",
+      "before": "2026-04-01",
+      "items": 44
+    },
+    {
+      "state": "TN",
+      "query": "\"Tamil Nadu\" AI mission",
+      "lang": "en",
+      "after": "2026-04-01",
+      "before": "2026-07-01",
+      "items": 9
+    },
+    {
+      "state": "TN",
+      "query": "\"Tamil Nadu\" AI mission",
+      "lang": "en",
+      "after": "2026-07-01",
+      "before": "2026-10-01",
+      "items": 50
+    },
+    {
+      "state": "TN",
+      "query": "\"Tamil Nadu\" AI mission",
+      "lang": "en",
+      "after": "2026-10-01",
+      "before": "2027-01-01",
+      "items": 73
+    },
+    {
+      "state": "UP",
+      "query": "\"Uttar Pradesh\" AI policy",
+      "lang": "en",
+      "after": "2025-01-01",
+      "before": "2025-04-01",
+      "items": 45
+    },
+    {
+      "state": "UP",
+      "query": "\"Uttar Pradesh\" AI policy",
+      "lang": "en",
+      "after": "2025-04-01",
+      "before": "2025-07-01",
+      "items": 9
+    },
+    {
+      "state": "UP",
+      "query": "\"Uttar Pradesh\" AI policy",
+      "lang": "en",
+      "after": "2025-07-01",
+      "before": "2025-10-01",
+      "items": 9
+    },
+    {
+      "state": "UP",
+      "query": "\"Uttar Pradesh\" AI policy",
+      "lang": "en",
+      "after": "2025-10-01",
+      "before": "2026-01-01",
+      "items": 49
+    },
+    {
+      "state": "UP",
+      "query": "\"Uttar Pradesh\" AI policy",
+      "lang": "en",
+      "after": "2026-01-01",
+      "before": "2026-04-01",
+      "items": 9
+    },
+    {
+      "state": "UP",
+      "query": "\"Uttar Pradesh\" AI policy",
+      "lang": "en",
+      "after": "2026-04-01",
+      "before": "2026-07-01",
+      "items": 9
+    },
+    {
+      "state": "UP",
+      "query": "\"Uttar Pradesh\" AI policy",
+      "lang": "en",
+      "after": "2026-07-01",
+      "before": "2026-10-01",
+      "items": 17
+    },
+    {
+      "state": "UP",
+      "query": "\"Uttar Pradesh\" AI policy",
       "lang": "en",
       "after": "2026-10-01",
       "before": "2027-01-01",
       "items": 32
     },
     {
-      "state": "TN",
-      "query": "\"Tamil Nadu\" AI centre of excellence",
-      "lang": "en",
-      "after": "2025-01-01",
-      "before": "2025-04-01",
-      "items": 10
-    },
-    {
-      "state": "TN",
-      "query": "\"Tamil Nadu\" AI centre of excellence",
-      "lang": "en",
-      "after": "2025-04-01",
-      "before": "2025-07-01",
-      "items": 10
-    },
-    {
-      "state": "TN",
-      "query": "\"Tamil Nadu\" AI centre of excellence",
-      "lang": "en",
-      "after": "2025-07-01",
-      "before": "2025-10-01",
-      "items": 10
-    },
-    {
-      "state": "TN",
-      "query": "\"Tamil Nadu\" AI centre of excellence",
-      "lang": "en",
-      "after": "2025-10-01",
-      "before": "2026-01-01",
-      "items": 10
-    },
-    {
-      "state": "TN",
-      "query": "\"Tamil Nadu\" AI centre of excellence",
-      "lang": "en",
-      "after": "2026-01-01",
-      "before": "2026-04-01",
-      "items": 10
-    },
-    {
-      "state": "TN",
-      "query": "\"Tamil Nadu\" AI centre of excellence",
-      "lang": "en",
-      "after": "2026-04-01",
-      "before": "2026-07-01",
-      "items": 10
-    },
-    {
-      "state": "TN",
-      "query": "\"Tamil Nadu\" AI centre of excellence",
-      "lang": "en",
-      "after": "2026-07-01",
-      "before": "2026-10-01",
-      "items": 19
-    },
-    {
-      "state": "TN",
-      "query": "\"Tamil Nadu\" AI centre of excellence",
-      "lang": "en",
-      "after": "2026-10-01",
-      "before": "2027-01-01",
-      "items": 27
-    },
-    {
-      "state": "TN",
-      "query": "\"Tamil Nadu\" govt AI",
-      "lang": "en",
-      "after": "2025-01-01",
-      "before": "2025-04-01",
-      "items": 10
-    },
-    {
-      "state": "TN",
-      "query": "\"Tamil Nadu\" govt AI",
-      "lang": "en",
-      "after": "2025-04-01",
-      "before": "2025-07-01",
-      "items": 10
-    },
-    {
-      "state": "TN",
-      "query": "\"Tamil Nadu\" govt AI",
-      "lang": "en",
-      "after": "2025-07-01",
-      "before": "2025-10-01",
-      "items": 8
-    },
-    {
-      "state": "TN",
-      "query": "\"Tamil Nadu\" govt AI",
-      "lang": "en",
-      "after": "2025-10-01",
-      "before": "2026-01-01",
-      "items": 10
-    },
-    {
-      "state": "TN",
-      "query": "\"Tamil Nadu\" govt AI",
-      "lang": "en",
-      "after": "2026-01-01",
-      "before": "2026-04-01",
-      "items": 10
-    },
-    {
-      "state": "TN",
-      "query": "\"Tamil Nadu\" govt AI",
-      "lang": "en",
-      "after": "2026-04-01",
-      "before": "2026-07-01",
-      "items": 10
-    },
-    {
-      "state": "TN",
-      "query": "\"Tamil Nadu\" govt AI",
-      "lang": "en",
-      "after": "2026-07-01",
-      "before": "2026-10-01",
-      "items": 35
-    },
-    {
-      "state": "TN",
-      "query": "\"Tamil Nadu\" govt AI",
-      "lang": "en",
-      "after": "2026-10-01",
-      "before": "2027-01-01",
-      "items": 31
-    },
-    {
-      "state": "TN",
-      "query": "\"Tamil Nadu\" AI mission",
-      "lang": "en",
-      "after": "2025-01-01",
-      "before": "2025-04-01",
-      "items": 10
-    },
-    {
-      "state": "TN",
-      "query": "\"Tamil Nadu\" AI mission",
-      "lang": "en",
-      "after": "2025-04-01",
-      "before": "2025-07-01",
-      "items": 10
-    },
-    {
-      "state": "TN",
-      "query": "\"Tamil Nadu\" AI mission",
-      "lang": "en",
-      "after": "2025-07-01",
-      "before": "2025-10-01",
-      "items": 10
-    },
-    {
-      "state": "TN",
-      "query": "\"Tamil Nadu\" AI mission",
-      "lang": "en",
-      "after": "2025-10-01",
-      "before": "2026-01-01",
-      "items": 8
-    },
-    {
-      "state": "TN",
-      "query": "\"Tamil Nadu\" AI mission",
-      "lang": "en",
-      "after": "2026-01-01",
-      "before": "2026-04-01",
-      "items": 9
-    },
-    {
-      "state": "TN",
-      "query": "\"Tamil Nadu\" AI mission",
-      "lang": "en",
-      "after": "2026-04-01",
-      "before": "2026-07-01",
-      "items": 9
-    },
-    {
-      "state": "TN",
-      "query": "\"Tamil Nadu\" AI mission",
-      "lang": "en",
-      "after": "2026-07-01",
-      "before": "2026-10-01",
-      "items": 10
-    },
-    {
-      "state": "TN",
-      "query": "\"Tamil Nadu\" AI mission",
-      "lang": "en",
-      "after": "2026-10-01",
-      "before": "2027-01-01",
-      "items": 25
-    },
-    {
-      "state": "UP",
-      "query": "\"Uttar Pradesh\" AI policy",
-      "lang": "en",
-      "after": "2025-01-01",
-      "before": "2025-04-01",
-      "items": 9
-    },
-    {
-      "state": "UP",
-      "query": "\"Uttar Pradesh\" AI policy",
-      "lang": "en",
-      "after": "2025-04-01",
-      "before": "2025-07-01",
-      "items": 8
-    },
-    {
-      "state": "UP",
-      "query": "\"Uttar Pradesh\" AI policy",
-      "lang": "en",
-      "after": "2025-07-01",
-      "before": "2025-10-01",
-      "items": 10
-    },
-    {
-      "state": "UP",
-      "query": "\"Uttar Pradesh\" AI policy",
-      "lang": "en",
-      "after": "2025-10-01",
-      "before": "2026-01-01",
-      "items": 9
-    },
-    {
-      "state": "UP",
-      "query": "\"Uttar Pradesh\" AI policy",
-      "lang": "en",
-      "after": "2026-01-01",
-      "before": "2026-04-01",
-      "items": 9
-    },
-    {
-      "state": "UP",
-      "query": "\"Uttar Pradesh\" AI policy",
-      "lang": "en",
-      "after": "2026-04-01",
-      "before": "2026-07-01",
-      "items": 9
-    },
-    {
-      "state": "UP",
-      "query": "\"Uttar Pradesh\" AI policy",
-      "lang": "en",
-      "after": "2026-07-01",
-      "before": "2026-10-01",
-      "items": 11
-    },
-    {
-      "state": "UP",
-      "query": "\"Uttar Pradesh\" AI policy",
-      "lang": "en",
-      "after": "2026-10-01",
-      "before": "2027-01-01",
-      "items": 32
-    },
-    {
       "state": "UP",
       "query": "\"Uttar Pradesh\" artificial intelligence government",
       "lang": "en",
@@ -1234,7 +1266,7 @@
       "lang": "en",
       "after": "2025-04-01",
       "before": "2025-07-01",
-      "items": 10
+      "items": 48
     },
     {
       "state": "UP",
@@ -1242,7 +1274,7 @@
       "lang": "en",
       "after": "2025-07-01",
       "before": "2025-10-01",
-      "items": 9
+      "items": 45
     },
     {
       "state": "UP",
@@ -1266,7 +1298,7 @@
       "lang": "en",
       "after": "2026-04-01",
       "before": "2026-07-01",
-      "items": 9
+      "items": 40
     },
     {
       "state": "UP",
@@ -1274,7 +1306,7 @@
       "lang": "en",
       "after": "2026-07-01",
       "before": "2026-10-01",
-      "items": 13
+      "items": 47
     },
     {
       "state": "UP",
@@ -1282,7 +1314,7 @@
       "lang": "en",
       "after": "2026-10-01",
       "before": "2027-01-01",
-      "items": 26
+      "items": 27
     },
     {
       "state": "UP",
@@ -1290,7 +1322,7 @@
       "lang": "en",
       "after": "2025-01-01",
       "before": "2025-04-01",
-      "items": 9
+      "items": 10
     },
     {
       "state": "UP",
@@ -1314,7 +1346,7 @@
       "lang": "en",
       "after": "2025-10-01",
       "before": "2026-01-01",
-      "items": 10
+      "items": 17
     },
     {
       "state": "UP",
@@ -1322,7 +1354,7 @@
       "lang": "en",
       "after": "2026-01-01",
       "before": "2026-04-01",
-      "items": 43
+      "items": 35
     },
     {
       "state": "UP",
@@ -1338,7 +1370,7 @@
       "lang": "en",
       "after": "2026-07-01",
       "before": "2026-10-01",
-      "items": 7
+      "items": 46
     },
     {
       "state": "UP",
@@ -1346,119 +1378,119 @@
       "lang": "en",
       "after": "2026-10-01",
       "before": "2027-01-01",
+      "items": 32
+    },
+    {
+      "state": "UP",
+      "query": "\"Uttar Pradesh\" AI centre of excellence",
+      "lang": "en",
+      "after": "2025-01-01",
+      "before": "2025-04-01",
+      "items": 9
+    },
+    {
+      "state": "UP",
+      "query": "\"Uttar Pradesh\" AI centre of excellence",
+      "lang": "en",
+      "after": "2025-04-01",
+      "before": "2025-07-01",
+      "items": 9
+    },
+    {
+      "state": "UP",
+      "query": "\"Uttar Pradesh\" AI centre of excellence",
+      "lang": "en",
+      "after": "2025-07-01",
+      "before": "2025-10-01",
+      "items": 9
+    },
+    {
+      "state": "UP",
+      "query": "\"Uttar Pradesh\" AI centre of excellence",
+      "lang": "en",
+      "after": "2025-10-01",
+      "before": "2026-01-01",
+      "items": 10
+    },
+    {
+      "state": "UP",
+      "query": "\"Uttar Pradesh\" AI centre of excellence",
+      "lang": "en",
+      "after": "2026-01-01",
+      "before": "2026-04-01",
+      "items": 10
+    },
+    {
+      "state": "UP",
+      "query": "\"Uttar Pradesh\" AI centre of excellence",
+      "lang": "en",
+      "after": "2026-04-01",
+      "before": "2026-07-01",
+      "items": 49
+    },
+    {
+      "state": "UP",
+      "query": "\"Uttar Pradesh\" AI centre of excellence",
+      "lang": "en",
+      "after": "2026-07-01",
+      "before": "2026-10-01",
+      "items": 9
+    },
+    {
+      "state": "UP",
+      "query": "\"Uttar Pradesh\" AI centre of excellence",
+      "lang": "en",
+      "after": "2026-10-01",
+      "before": "2027-01-01",
+      "items": 35
+    },
+    {
+      "state": "UP",
+      "query": "\"Uttar Pradesh\" govt AI",
+      "lang": "en",
+      "after": "2025-01-01",
+      "before": "2025-04-01",
+      "items": 8
+    },
+    {
+      "state": "UP",
+      "query": "\"Uttar Pradesh\" govt AI",
+      "lang": "en",
+      "after": "2025-04-01",
+      "before": "2025-07-01",
+      "items": 48
+    },
+    {
+      "state": "UP",
+      "query": "\"Uttar Pradesh\" govt AI",
+      "lang": "en",
+      "after": "2025-07-01",
+      "before": "2025-10-01",
+      "items": 47
+    },
+    {
+      "state": "UP",
+      "query": "\"Uttar Pradesh\" govt AI",
+      "lang": "en",
+      "after": "2025-10-01",
+      "before": "2026-01-01",
+      "items": 49
+    },
+    {
+      "state": "UP",
+      "query": "\"Uttar Pradesh\" govt AI",
+      "lang": "en",
+      "after": "2026-01-01",
+      "before": "2026-04-01",
       "items": 28
     },
     {
       "state": "UP",
-      "query": "\"Uttar Pradesh\" AI centre of excellence",
-      "lang": "en",
-      "after": "2025-01-01",
-      "before": "2025-04-01",
-      "items": 9
-    },
-    {
-      "state": "UP",
-      "query": "\"Uttar Pradesh\" AI centre of excellence",
-      "lang": "en",
-      "after": "2025-04-01",
-      "before": "2025-07-01",
-      "items": 9
-    },
-    {
-      "state": "UP",
-      "query": "\"Uttar Pradesh\" AI centre of excellence",
-      "lang": "en",
-      "after": "2025-07-01",
-      "before": "2025-10-01",
-      "items": 9
-    },
-    {
-      "state": "UP",
-      "query": "\"Uttar Pradesh\" AI centre of excellence",
-      "lang": "en",
-      "after": "2025-10-01",
-      "before": "2026-01-01",
-      "items": 10
-    },
-    {
-      "state": "UP",
-      "query": "\"Uttar Pradesh\" AI centre of excellence",
-      "lang": "en",
-      "after": "2026-01-01",
-      "before": "2026-04-01",
-      "items": 10
-    },
-    {
-      "state": "UP",
-      "query": "\"Uttar Pradesh\" AI centre of excellence",
-      "lang": "en",
-      "after": "2026-04-01",
-      "before": "2026-07-01",
-      "items": 10
-    },
-    {
-      "state": "UP",
-      "query": "\"Uttar Pradesh\" AI centre of excellence",
-      "lang": "en",
-      "after": "2026-07-01",
-      "before": "2026-10-01",
-      "items": 10
-    },
-    {
-      "state": "UP",
-      "query": "\"Uttar Pradesh\" AI centre of excellence",
-      "lang": "en",
-      "after": "2026-10-01",
-      "before": "2027-01-01",
-      "items": 33
-    },
-    {
-      "state": "UP",
-      "query": "\"Uttar Pradesh\" govt AI",
-      "lang": "en",
-      "after": "2025-01-01",
-      "before": "2025-04-01",
-      "items": 9
-    },
-    {
-      "state": "UP",
-      "query": "\"Uttar Pradesh\" govt AI",
-      "lang": "en",
-      "after": "2025-04-01",
-      "before": "2025-07-01",
-      "items": 9
-    },
-    {
-      "state": "UP",
-      "query": "\"Uttar Pradesh\" govt AI",
-      "lang": "en",
-      "after": "2025-07-01",
-      "before": "2025-10-01",
-      "items": 10
-    },
-    {
-      "state": "UP",
-      "query": "\"Uttar Pradesh\" govt AI",
-      "lang": "en",
-      "after": "2025-10-01",
-      "before": "2026-01-01",
-      "items": 9
-    },
-    {
-      "state": "UP",
-      "query": "\"Uttar Pradesh\" govt AI",
-      "lang": "en",
-      "after": "2026-01-01",
-      "before": "2026-04-01",
-      "items": 30
-    },
-    {
-      "state": "UP",
       "query": "\"Uttar Pradesh\" govt AI",
       "lang": "en",
       "after": "2026-04-01",
       "before": "2026-07-01",
-      "items": 9
+      "items": 38
     },
     {
       "state": "UP",
@@ -1466,7 +1498,7 @@
       "lang": "en",
       "after": "2026-07-01",
       "before": "2026-10-01",
-      "items": 10
+      "items": 14
     },
     {
       "state": "UP",
@@ -1474,81 +1506,81 @@
       "lang": "en",
       "after": "2026-10-01",
       "before": "2027-01-01",
+      "items": 26
+    },
+    {
+      "state": "UP",
+      "query": "\"Uttar Pradesh\" AI mission",
+      "lang": "en",
+      "after": "2025-01-01",
+      "before": "2025-04-01",
+      "items": 43
+    },
+    {
+      "state": "UP",
+      "query": "\"Uttar Pradesh\" AI mission",
+      "lang": "en",
+      "after": "2025-04-01",
+      "before": "2025-07-01",
+      "items": 10
+    },
+    {
+      "state": "UP",
+      "query": "\"Uttar Pradesh\" AI mission",
+      "lang": "en",
+      "after": "2025-07-01",
+      "before": "2025-10-01",
+      "items": 47
+    },
+    {
+      "state": "UP",
+      "query": "\"Uttar Pradesh\" AI mission",
+      "lang": "en",
+      "after": "2025-10-01",
+      "before": "2026-01-01",
+      "items": 48
+    },
+    {
+      "state": "UP",
+      "query": "\"Uttar Pradesh\" AI mission",
+      "lang": "en",
+      "after": "2026-01-01",
+      "before": "2026-04-01",
+      "items": 40
+    },
+    {
+      "state": "UP",
+      "query": "\"Uttar Pradesh\" AI mission",
+      "lang": "en",
+      "after": "2026-04-01",
+      "before": "2026-07-01",
+      "items": 45
+    },
+    {
+      "state": "UP",
+      "query": "\"Uttar Pradesh\" AI mission",
+      "lang": "en",
+      "after": "2026-07-01",
+      "before": "2026-10-01",
+      "items": 50
+    },
+    {
+      "state": "UP",
+      "query": "\"Uttar Pradesh\" AI mission",
+      "lang": "en",
+      "after": "2026-10-01",
+      "before": "2027-01-01",
+      "items": 31
+    },
+    {
+      "state": "OD",
+      "query": "\"Odisha\" AI policy",
+      "lang": "en",
+      "after": "2025-01-01",
+      "before": "2025-04-01",
       "items": 24
     },
     {
-      "state": "UP",
-      "query": "\"Uttar Pradesh\" AI mission",
-      "lang": "en",
-      "after": "2025-01-01",
-      "before": "2025-04-01",
-      "items": 9
-    },
-    {
-      "state": "UP",
-      "query": "\"Uttar Pradesh\" AI mission",
-      "lang": "en",
-      "after": "2025-04-01",
-      "before": "2025-07-01",
-      "items": 10
-    },
-    {
-      "state": "UP",
-      "query": "\"Uttar Pradesh\" AI mission",
-      "lang": "en",
-      "after": "2025-07-01",
-      "before": "2025-10-01",
-      "items": 10
-    },
-    {
-      "state": "UP",
-      "query": "\"Uttar Pradesh\" AI mission",
-      "lang": "en",
-      "after": "2025-10-01",
-      "before": "2026-01-01",
-      "items": 9
-    },
-    {
-      "state": "UP",
-      "query": "\"Uttar Pradesh\" AI mission",
-      "lang": "en",
-      "after": "2026-01-01",
-      "before": "2026-04-01",
-      "items": 20
-    },
-    {
-      "state": "UP",
-      "query": "\"Uttar Pradesh\" AI mission",
-      "lang": "en",
-      "after": "2026-04-01",
-      "before": "2026-07-01",
-      "items": 11
-    },
-    {
-      "state": "UP",
-      "query": "\"Uttar Pradesh\" AI mission",
-      "lang": "en",
-      "after": "2026-07-01",
-      "before": "2026-10-01",
-      "items": 8
-    },
-    {
-      "state": "UP",
-      "query": "\"Uttar Pradesh\" AI mission",
-      "lang": "en",
-      "after": "2026-10-01",
-      "before": "2027-01-01",
-      "items": 25
-    },
-    {
-      "state": "OD",
-      "query": "\"Odisha\" AI policy",
-      "lang": "en",
-      "after": "2025-01-01",
-      "before": "2025-04-01",
-      "items": 9
-    },
-    {
       "state": "OD",
       "query": "\"Odisha\" AI policy",
       "lang": "en",
@@ -1562,7 +1594,7 @@
       "lang": "en",
       "after": "2025-07-01",
       "before": "2025-10-01",
-      "items": 10
+      "items": 49
     },
     {
       "state": "OD",
@@ -1570,7 +1602,7 @@
       "lang": "en",
       "after": "2025-10-01",
       "before": "2026-01-01",
-      "items": 10
+      "items": 47
     },
     {
       "state": "OD",
@@ -1578,287 +1610,287 @@
       "lang": "en",
       "after": "2026-01-01",
       "before": "2026-04-01",
-      "items": 10
-    },
-    {
-      "state": "OD",
-      "query": "\"Odisha\" AI policy",
-      "lang": "en",
-      "after": "2026-04-01",
-      "before": "2026-07-01",
-      "items": 9
-    },
-    {
-      "state": "OD",
-      "query": "\"Odisha\" AI policy",
-      "lang": "en",
-      "after": "2026-07-01",
-      "before": "2026-10-01",
-      "items": 9
-    },
-    {
-      "state": "OD",
-      "query": "\"Odisha\" AI policy",
-      "lang": "en",
-      "after": "2026-10-01",
-      "before": "2027-01-01",
-      "items": 34
-    },
-    {
-      "state": "OD",
-      "query": "\"Odisha\" artificial intelligence government",
-      "lang": "en",
-      "after": "2025-01-01",
-      "before": "2025-04-01",
-      "items": 8
-    },
-    {
-      "state": "OD",
-      "query": "\"Odisha\" artificial intelligence government",
-      "lang": "en",
-      "after": "2025-04-01",
-      "before": "2025-07-01",
-      "items": 10
-    },
-    {
-      "state": "OD",
-      "query": "\"Odisha\" artificial intelligence government",
-      "lang": "en",
-      "after": "2025-07-01",
-      "before": "2025-10-01",
-      "items": 9
-    },
-    {
-      "state": "OD",
-      "query": "\"Odisha\" artificial intelligence government",
-      "lang": "en",
-      "after": "2025-10-01",
-      "before": "2026-01-01",
-      "items": 10
-    },
-    {
-      "state": "OD",
-      "query": "\"Odisha\" artificial intelligence government",
-      "lang": "en",
-      "after": "2026-01-01",
-      "before": "2026-04-01",
-      "items": 13
-    },
-    {
-      "state": "OD",
-      "query": "\"Odisha\" artificial intelligence government",
-      "lang": "en",
-      "after": "2026-04-01",
-      "before": "2026-07-01",
-      "items": 7
-    },
-    {
-      "state": "OD",
-      "query": "\"Odisha\" artificial intelligence government",
-      "lang": "en",
-      "after": "2026-07-01",
-      "before": "2026-10-01",
-      "items": 33
-    },
-    {
-      "state": "OD",
-      "query": "\"Odisha\" artificial intelligence government",
-      "lang": "en",
-      "after": "2026-10-01",
-      "before": "2027-01-01",
-      "items": 26
-    },
-    {
-      "state": "OD",
-      "query": "\"Odisha\" AI MoU",
-      "lang": "en",
-      "after": "2025-01-01",
-      "before": "2025-04-01",
-      "items": 9
-    },
-    {
-      "state": "OD",
-      "query": "\"Odisha\" AI MoU",
-      "lang": "en",
-      "after": "2025-04-01",
-      "before": "2025-07-01",
-      "items": 10
-    },
-    {
-      "state": "OD",
-      "query": "\"Odisha\" AI MoU",
-      "lang": "en",
-      "after": "2025-07-01",
-      "before": "2025-10-01",
-      "items": 10
-    },
-    {
-      "state": "OD",
-      "query": "\"Odisha\" AI MoU",
-      "lang": "en",
-      "after": "2025-10-01",
-      "before": "2026-01-01",
-      "items": 10
-    },
-    {
-      "state": "OD",
-      "query": "\"Odisha\" AI MoU",
-      "lang": "en",
-      "after": "2026-01-01",
-      "before": "2026-04-01",
-      "items": 10
-    },
-    {
-      "state": "OD",
-      "query": "\"Odisha\" AI MoU",
-      "lang": "en",
-      "after": "2026-04-01",
-      "before": "2026-07-01",
-      "items": 10
-    },
-    {
-      "state": "OD",
-      "query": "\"Odisha\" AI MoU",
-      "lang": "en",
-      "after": "2026-07-01",
-      "before": "2026-10-01",
-      "items": 16
-    },
-    {
-      "state": "OD",
-      "query": "\"Odisha\" AI MoU",
-      "lang": "en",
-      "after": "2026-10-01",
-      "before": "2027-01-01",
-      "items": 54
-    },
-    {
-      "state": "OD",
-      "query": "\"Odisha\" AI centre of excellence",
-      "lang": "en",
-      "after": "2025-01-01",
-      "before": "2025-04-01",
-      "items": 10
-    },
-    {
-      "state": "OD",
-      "query": "\"Odisha\" AI centre of excellence",
-      "lang": "en",
-      "after": "2025-04-01",
-      "before": "2025-07-01",
-      "items": 10
-    },
-    {
-      "state": "OD",
-      "query": "\"Odisha\" AI centre of excellence",
-      "lang": "en",
-      "after": "2025-07-01",
-      "before": "2025-10-01",
-      "items": 10
-    },
-    {
-      "state": "OD",
-      "query": "\"Odisha\" AI centre of excellence",
-      "lang": "en",
-      "after": "2025-10-01",
-      "before": "2026-01-01",
-      "items": 10
-    },
-    {
-      "state": "OD",
-      "query": "\"Odisha\" AI centre of excellence",
-      "lang": "en",
-      "after": "2026-01-01",
-      "before": "2026-04-01",
-      "items": 10
-    },
-    {
-      "state": "OD",
-      "query": "\"Odisha\" AI centre of excellence",
-      "lang": "en",
-      "after": "2026-04-01",
-      "before": "2026-07-01",
-      "items": 9
-    },
-    {
-      "state": "OD",
-      "query": "\"Odisha\" AI centre of excellence",
-      "lang": "en",
-      "after": "2026-07-01",
-      "before": "2026-10-01",
-      "items": 9
-    },
-    {
-      "state": "OD",
-      "query": "\"Odisha\" AI centre of excellence",
-      "lang": "en",
-      "after": "2026-10-01",
-      "before": "2027-01-01",
-      "items": 26
-    },
-    {
-      "state": "OD",
-      "query": "\"Odisha\" govt AI",
-      "lang": "en",
-      "after": "2025-01-01",
-      "before": "2025-04-01",
-      "items": 8
-    },
-    {
-      "state": "OD",
-      "query": "\"Odisha\" govt AI",
-      "lang": "en",
-      "after": "2025-04-01",
-      "before": "2025-07-01",
-      "items": 9
-    },
-    {
-      "state": "OD",
-      "query": "\"Odisha\" govt AI",
-      "lang": "en",
-      "after": "2025-07-01",
-      "before": "2025-10-01",
-      "items": 11
-    },
-    {
-      "state": "OD",
-      "query": "\"Odisha\" govt AI",
-      "lang": "en",
-      "after": "2025-10-01",
-      "before": "2026-01-01",
-      "items": 10
-    },
-    {
-      "state": "OD",
-      "query": "\"Odisha\" govt AI",
-      "lang": "en",
-      "after": "2026-01-01",
-      "before": "2026-04-01",
-      "items": 16
-    },
-    {
-      "state": "OD",
-      "query": "\"Odisha\" govt AI",
-      "lang": "en",
-      "after": "2026-04-01",
-      "before": "2026-07-01",
-      "items": 11
-    },
-    {
-      "state": "OD",
-      "query": "\"Odisha\" govt AI",
-      "lang": "en",
-      "after": "2026-07-01",
-      "before": "2026-10-01",
       "items": 45
     },
     {
       "state": "OD",
+      "query": "\"Odisha\" AI policy",
+      "lang": "en",
+      "after": "2026-04-01",
+      "before": "2026-07-01",
+      "items": 9
+    },
+    {
+      "state": "OD",
+      "query": "\"Odisha\" AI policy",
+      "lang": "en",
+      "after": "2026-07-01",
+      "before": "2026-10-01",
+      "items": 49
+    },
+    {
+      "state": "OD",
+      "query": "\"Odisha\" AI policy",
+      "lang": "en",
+      "after": "2026-10-01",
+      "before": "2027-01-01",
+      "items": 31
+    },
+    {
+      "state": "OD",
+      "query": "\"Odisha\" artificial intelligence government",
+      "lang": "en",
+      "after": "2025-01-01",
+      "before": "2025-04-01",
+      "items": 8
+    },
+    {
+      "state": "OD",
+      "query": "\"Odisha\" artificial intelligence government",
+      "lang": "en",
+      "after": "2025-04-01",
+      "before": "2025-07-01",
+      "items": 10
+    },
+    {
+      "state": "OD",
+      "query": "\"Odisha\" artificial intelligence government",
+      "lang": "en",
+      "after": "2025-07-01",
+      "before": "2025-10-01",
+      "items": 43
+    },
+    {
+      "state": "OD",
+      "query": "\"Odisha\" artificial intelligence government",
+      "lang": "en",
+      "after": "2025-10-01",
+      "before": "2026-01-01",
+      "items": 10
+    },
+    {
+      "state": "OD",
+      "query": "\"Odisha\" artificial intelligence government",
+      "lang": "en",
+      "after": "2026-01-01",
+      "before": "2026-04-01",
+      "items": 41
+    },
+    {
+      "state": "OD",
+      "query": "\"Odisha\" artificial intelligence government",
+      "lang": "en",
+      "after": "2026-04-01",
+      "before": "2026-07-01",
+      "items": 42
+    },
+    {
+      "state": "OD",
+      "query": "\"Odisha\" artificial intelligence government",
+      "lang": "en",
+      "after": "2026-07-01",
+      "before": "2026-10-01",
+      "items": 48
+    },
+    {
+      "state": "OD",
+      "query": "\"Odisha\" artificial intelligence government",
+      "lang": "en",
+      "after": "2026-10-01",
+      "before": "2027-01-01",
+      "items": 66
+    },
+    {
+      "state": "OD",
+      "query": "\"Odisha\" AI MoU",
+      "lang": "en",
+      "after": "2025-01-01",
+      "before": "2025-04-01",
+      "items": 9
+    },
+    {
+      "state": "OD",
+      "query": "\"Odisha\" AI MoU",
+      "lang": "en",
+      "after": "2025-04-01",
+      "before": "2025-07-01",
+      "items": 12
+    },
+    {
+      "state": "OD",
+      "query": "\"Odisha\" AI MoU",
+      "lang": "en",
+      "after": "2025-07-01",
+      "before": "2025-10-01",
+      "items": 25
+    },
+    {
+      "state": "OD",
+      "query": "\"Odisha\" AI MoU",
+      "lang": "en",
+      "after": "2025-10-01",
+      "before": "2026-01-01",
+      "items": 30
+    },
+    {
+      "state": "OD",
+      "query": "\"Odisha\" AI MoU",
+      "lang": "en",
+      "after": "2026-01-01",
+      "before": "2026-04-01",
+      "items": 9
+    },
+    {
+      "state": "OD",
+      "query": "\"Odisha\" AI MoU",
+      "lang": "en",
+      "after": "2026-04-01",
+      "before": "2026-07-01",
+      "items": 10
+    },
+    {
+      "state": "OD",
+      "query": "\"Odisha\" AI MoU",
+      "lang": "en",
+      "after": "2026-07-01",
+      "before": "2026-10-01",
+      "items": 43
+    },
+    {
+      "state": "OD",
+      "query": "\"Odisha\" AI MoU",
+      "lang": "en",
+      "after": "2026-10-01",
+      "before": "2027-01-01",
+      "items": 40
+    },
+    {
+      "state": "OD",
+      "query": "\"Odisha\" AI centre of excellence",
+      "lang": "en",
+      "after": "2025-01-01",
+      "before": "2025-04-01",
+      "items": 11
+    },
+    {
+      "state": "OD",
+      "query": "\"Odisha\" AI centre of excellence",
+      "lang": "en",
+      "after": "2025-04-01",
+      "before": "2025-07-01",
+      "items": 17
+    },
+    {
+      "state": "OD",
+      "query": "\"Odisha\" AI centre of excellence",
+      "lang": "en",
+      "after": "2025-07-01",
+      "before": "2025-10-01",
+      "items": 14
+    },
+    {
+      "state": "OD",
+      "query": "\"Odisha\" AI centre of excellence",
+      "lang": "en",
+      "after": "2025-10-01",
+      "before": "2026-01-01",
+      "items": 10
+    },
+    {
+      "state": "OD",
+      "query": "\"Odisha\" AI centre of excellence",
+      "lang": "en",
+      "after": "2026-01-01",
+      "before": "2026-04-01",
+      "items": 47
+    },
+    {
+      "state": "OD",
+      "query": "\"Odisha\" AI centre of excellence",
+      "lang": "en",
+      "after": "2026-04-01",
+      "before": "2026-07-01",
+      "items": 10
+    },
+    {
+      "state": "OD",
+      "query": "\"Odisha\" AI centre of excellence",
+      "lang": "en",
+      "after": "2026-07-01",
+      "before": "2026-10-01",
+      "items": 39
+    },
+    {
+      "state": "OD",
+      "query": "\"Odisha\" AI centre of excellence",
+      "lang": "en",
+      "after": "2026-10-01",
+      "before": "2027-01-01",
+      "items": 58
+    },
+    {
+      "state": "OD",
+      "query": "\"Odisha\" govt AI",
+      "lang": "en",
+      "after": "2025-01-01",
+      "before": "2025-04-01",
+      "items": 47
+    },
+    {
+      "state": "OD",
+      "query": "\"Odisha\" govt AI",
+      "lang": "en",
+      "after": "2025-04-01",
+      "before": "2025-07-01",
+      "items": 46
+    },
+    {
+      "state": "OD",
+      "query": "\"Odisha\" govt AI",
+      "lang": "en",
+      "after": "2025-07-01",
+      "before": "2025-10-01",
+      "items": 49
+    },
+    {
+      "state": "OD",
+      "query": "\"Odisha\" govt AI",
+      "lang": "en",
+      "after": "2025-10-01",
+      "before": "2026-01-01",
+      "items": 46
+    },
+    {
+      "state": "OD",
+      "query": "\"Odisha\" govt AI",
+      "lang": "en",
+      "after": "2026-01-01",
+      "before": "2026-04-01",
+      "items": 11
+    },
+    {
+      "state": "OD",
+      "query": "\"Odisha\" govt AI",
+      "lang": "en",
+      "after": "2026-04-01",
+      "before": "2026-07-01",
+      "items": 41
+    },
+    {
+      "state": "OD",
+      "query": "\"Odisha\" govt AI",
+      "lang": "en",
+      "after": "2026-07-01",
+      "before": "2026-10-01",
+      "items": 47
+    },
+    {
+      "state": "OD",
       "query": "\"Odisha\" govt AI",
       "lang": "en",
       "after": "2026-10-01",
       "before": "2027-01-01",
-      "items": 25
+      "items": 71
     },
     {
       "state": "OD",
@@ -1866,7 +1898,7 @@
       "lang": "en",
       "after": "2025-01-01",
       "before": "2025-04-01",
-      "items": 10
+      "items": 21
     },
     {
       "state": "OD",
@@ -1890,7 +1922,7 @@
       "lang": "en",
       "after": "2025-10-01",
       "before": "2026-01-01",
-      "items": 10
+      "items": 36
     },
     {
       "state": "OD",
@@ -1898,7 +1930,7 @@
       "lang": "en",
       "after": "2026-01-01",
       "before": "2026-04-01",
-      "items": 8
+      "items": 45
     },
     {
       "state": "OD",
@@ -1922,7 +1954,7 @@
       "lang": "en",
       "after": "2026-10-01",
       "before": "2027-01-01",
-      "items": 20
+      "items": 24
     },
     {
       "state": "UP",

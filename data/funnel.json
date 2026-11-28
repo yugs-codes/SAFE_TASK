@@ -3,81 +3,81 @@
     {
       "key": "raw",
       "label": "Collected",
-      "count": 3434
+      "count": 7425
     },
     {
       "key": "unique_articles",
       "label": "Unique articles",
-      "count": 2361
+      "count": 5307
     },
     {
       "key": "relevant",
       "label": "Relevant",
-      "count": 818
+      "count": 1097
     },
     {
       "key": "in_scope",
       "label": "In scope",
-      "count": 772
+      "count": 1015
     },
     {
       "key": "events",
       "label": "Events",
-      "count": 657
+      "count": 863
     }
   ],
   "per_state": {
     "KA": {
-      "raw": 772,
-      "unique_articles": 555,
-      "relevant": 244,
-      "in_scope": 240,
-      "events": 187
+      "raw": 1733,
+      "unique_articles": 1311,
+      "relevant": 367,
+      "in_scope": 343,
+      "events": 271
     },
     "TG": {
-      "raw": 650,
-      "unique_articles": 449,
-      "relevant": 139,
-      "in_scope": 130,
-      "events": 117
+      "raw": 1393,
+      "unique_articles": 1047,
+      "relevant": 196,
+      "in_scope": 180,
+      "events": 161
     },
     "TN": {
-      "raw": 674,
-      "unique_articles": 487,
-      "relevant": 163,
-      "in_scope": 133,
-      "events": 121
+      "raw": 1519,
+      "unique_articles": 1131,
+      "relevant": 200,
+      "in_scope": 165,
+      "events": 152
     },
     "UP": {
-      "raw": 677,
-      "unique_articles": 432,
-      "relevant": 178,
-      "in_scope": 177,
-      "events": 155
+      "raw": 1342,
+      "unique_articles": 856,
+      "relevant": 216,
+      "in_scope": 211,
+      "events": 181
     },
     "OD": {
-      "raw": 661,
-      "unique_articles": 438,
-      "relevant": 94,
-      "in_scope": 92,
-      "events": 77
+      "raw": 1438,
+      "unique_articles": 962,
+      "relevant": 118,
+      "in_scope": 116,
+      "events": 98
     }
   },
   "dropped": {
-    "no_ai_term": 853,
-    "no_gov_term": 667,
-    "excluded": 1,
-    "central_only": 22,
-    "out_of_scope_state": 46
+    "no_gov_term": 1252,
+    "no_ai_term": 2920,
+    "central_only": 34,
+    "excluded": 4,
+    "out_of_scope_state": 82
   },
   "note": "Raw, unique and relevant are counted by the state whose query found the article; in scope and events by the state named in the headline.",
-  "merges": 115,
-  "largest_cluster": 14,
+  "merges": 152,
+  "largest_cluster": 17,
   "flags": {
-    "state_from_query": 84,
+    "state_from_query": 163,
     "multi_state": 4
   },
   "missing_dates": 0,
-  "last_updated": "2026-11-19T18:19+05:30",
-  "version": "v2026.11.19"
+  "last_updated": "2026-11-28T16:20+05:30",
+  "version": "v2026.11.28"
 }

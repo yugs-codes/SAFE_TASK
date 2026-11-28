@@ -17,98 +17,98 @@
     }
   },
   "filter": {
-    "raw": 3434,
+    "raw": 7425,
     "raw_by_query_state": {
-      "KA": 772,
-      "TG": 650,
-      "TN": 674,
-      "UP": 677,
-      "OD": 661
+      "KA": 1733,
+      "TG": 1393,
+      "TN": 1519,
+      "UP": 1342,
+      "OD": 1438
     },
-    "unique_articles": 2361,
+    "unique_articles": 5307,
     "unique_by_query_state": {
-      "KA": 555,
-      "TG": 449,
-      "TN": 487,
-      "UP": 432,
-      "OD": 438
+      "KA": 1311,
+      "TG": 1047,
+      "TN": 1131,
+      "UP": 856,
+      "OD": 962
     },
-    "relevant": 818,
+    "relevant": 1097,
     "relevant_by_query_state": {
-      "KA": 244,
-      "TG": 139,
-      "TN": 163,
-      "UP": 178,
-      "OD": 94
+      "KA": 367,
+      "TG": 196,
+      "TN": 200,
+      "UP": 216,
+      "OD": 118
     },
     "dropped": {
-      "no_ai_term": 853,
-      "no_gov_term": 667,
-      "excluded": 1,
-      "central_only": 22
+      "no_gov_term": 1252,
+      "no_ai_term": 2920,
+      "central_only": 34,
+      "excluded": 4
     }
   },
   "normalize": {
-    "in_scope": 772,
+    "in_scope": 1015,
     "in_scope_by_state": {
-      "KA": 240,
-      "TN": 133,
-      "UP": 177,
-      "TG": 130,
-      "OD": 92
+      "KA": 343,
+      "UP": 211,
+      "TN": 165,
+      "TG": 180,
+      "OD": 116
     },
     "flags": {
-      "state_from_query": 84,
+      "state_from_query": 163,
       "multi_state": 4
     },
     "missing_dates": 0,
     "dropped": {
-      "out_of_scope_state": 46
+      "out_of_scope_state": 82
     }
   },
   "dedupe": {
-    "articles": 772,
-    "events": 657,
+    "articles": 1015,
+    "events": 863,
     "events_by_state": {
-      "OD": 77,
-      "UP": 155,
-      "KA": 187,
-      "TN": 121,
-      "TG": 117
+      "OD": 98,
+      "UP": 181,
+      "KA": 271,
+      "TG": 161,
+      "TN": 152
     },
-    "merges": 115,
-    "borderline_pairs": 287,
-    "largest_cluster": 14
+    "merges": 152,
+    "borderline_pairs": 396,
+    "largest_cluster": 17
   },
   "classify": {
-    "events": 657,
+    "events": 863,
     "events_by_state": {
-      "OD": 77,
-      "UP": 155,
-      "KA": 187,
-      "TN": 121,
-      "TG": 117
+      "OD": 98,
+      "UP": 181,
+      "KA": 271,
+      "TG": 161,
+      "TN": 152
     },
     "category": {
-      "institution": 149,
-      "other": 150,
-      "partnership_mou": 80,
-      "governance_deployment": 109,
-      "skilling": 72,
-      "policy_mission": 56,
-      "regulation_ethics": 11,
-      "budget_funding": 30
+      "other": 236,
+      "governance_deployment": 151,
+      "skilling": 93,
+      "policy_mission": 70,
+      "institution": 164,
+      "partnership_mou": 78,
+      "regulation_ethics": 20,
+      "budget_funding": 51
     },
     "stage": {
-      "implemented": 91,
-      "unknown": 255,
-      "announced": 140,
-      "proposed": 171
+      "proposed": 222,
+      "unknown": 371,
+      "implemented": 120,
+      "announced": 150
     },
     "confidence": {
-      "low": 207,
-      "medium": 423,
-      "high": 27
+      "medium": 544,
+      "low": 280,
+      "high": 39
     },
     "overrides_applied": 0,
     "dropped": {}
